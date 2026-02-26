@@ -152,6 +152,14 @@ class BerduClient:
             return payload
         return {}
 
+    def get_product_variations(self, user_id: str, product_id: str) -> list[dict[str, Any]]:
+        payload = self.request("/product/variations", params={"user_id": user_id, "product_id": product_id})
+        if isinstance(payload, list):
+            return [item for item in payload if isinstance(item, dict)]
+        if isinstance(payload, dict):
+            return extract_list(payload, ("list", "variations", "data", "items"))
+        return []
+
 
 def product_id_from(product: dict[str, Any]) -> str:
     for key in ("id", "product_id", "productId"):
@@ -200,6 +208,108 @@ def build_product_link(website_name: str, product_id: str, detail: dict[str, Any
     return f"{base}/product/{product_id}"
 
 
+def extract_product_image(detail: dict[str, Any], variation_defs: list[dict[str, Any]]) -> str | None:
+    images = detail.get("images")
+    if isinstance(images, list):
+        for image in images:
+            if isinstance(image, str) and image.strip():
+                return image.strip()
+    if isinstance(images, str) and images.strip():
+        return images.strip()
+
+    # Fallback to first variation option image when product image is missing.
+    for var in variation_defs:
+        if not isinstance(var, dict):
+            continue
+        options = var.get("options")
+        if not isinstance(options, list):
+            continue
+        for opt in options:
+            if not isinstance(opt, dict):
+                continue
+            image = opt.get("image")
+            if isinstance(image, str) and image.strip():
+                return image.strip()
+    return None
+
+
+def build_variation_lookup(
+    variation_defs: list[dict[str, Any]],
+) -> dict[str, dict[str, Any]]:
+    lookup: dict[str, dict[str, Any]] = {}
+    for var in variation_defs:
+        if not isinstance(var, dict):
+            continue
+        var_id = str(var.get("id", "")).strip()
+        if not var_id:
+            continue
+        var_name = str(var.get("name", "")).strip() or f"var_{var_id}"
+        options_map: dict[str, str] = {}
+        options = var.get("options")
+        if isinstance(options, list):
+            for option in options:
+                if not isinstance(option, dict):
+                    continue
+                option_id = str(option.get("id", "")).strip()
+                if not option_id:
+                    continue
+                option_name = str(option.get("name", "")).strip() or option_id
+                options_map[option_id] = option_name
+        lookup[var_id] = {"name": var_name, "options": options_map}
+    return lookup
+
+
+def resolve_variations(
+    raw_variations: Any,
+    lookup: dict[str, dict[str, Any]],
+) -> list[dict[str, str]]:
+    pairs: list[tuple[str, str]] = []
+
+    if isinstance(raw_variations, dict):
+        for key, value in raw_variations.items():
+            key_text = str(key).strip()
+            value_text = str(value).strip()
+            if key_text and value_text:
+                pairs.append((key_text, value_text))
+    elif isinstance(raw_variations, list):
+        for item in raw_variations:
+            if not isinstance(item, dict):
+                continue
+            var_id = str(item.get("id") or item.get("variation_id") or "").strip()
+            option_id = str(item.get("option_id") or item.get("value") or item.get("id_value") or "").strip()
+            if var_id and option_id:
+                pairs.append((var_id, option_id))
+
+    pairs.sort(key=lambda pair: pair[0])
+
+    resolved: list[dict[str, str]] = []
+    for var_id, option_id in pairs:
+        var_info = lookup.get(var_id, {})
+        var_name = str(var_info.get("name", "")).strip() or f"var_{var_id}"
+        option_name = str(var_info.get("options", {}).get(option_id, "")).strip() or option_id
+        resolved.append(
+            {
+                "variation_id": var_id,
+                "name": var_name,
+                "option_id": option_id,
+                "value": option_name,
+            }
+        )
+
+    return resolved
+
+
+def variation_text_from_resolved(variations: list[dict[str, str]]) -> str:
+    if not variations:
+        return ""
+    parts = []
+    for item in variations:
+        value = str(item.get("value", "")).strip()
+        if value:
+            parts.append(f"{{{value}}}")
+    return "".join(parts)
+
+
 def variation_label(value: Any) -> str:
     if isinstance(value, list):
         parts: list[str] = []
@@ -233,14 +343,18 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
             continue
 
         detail = client.get_product_detail(user_id=user_id, product_id=p_id)
+        variation_defs = client.get_product_variations(user_id=user_id, product_id=p_id)
+        variation_lookup = build_variation_lookup(variation_defs)
         product_slug = detail.get("slug") if isinstance(detail.get("slug"), str) else None
         product_link = build_product_link(website_name, p_id, detail)
+        product_image = extract_product_image(detail, variation_defs)
 
         stocks = client.get_product_stocks(user_id=user_id, product_id=p_id)
         normalized_stocks: list[dict[str, Any]] = []
         total_per_product = 0.0
 
         for row in stocks:
+            resolved_variations = resolve_variations(row.get("variations"), variation_lookup)
             stock_number = parse_number(row.get("stock"))
             if stock_number is not None:
                 total_per_product += float(stock_number)
@@ -250,7 +364,7 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
                 "sku": row.get("sku"),
                 "stock": stock_number,
                 "warehouse_id": row.get("warehouse_id"),
-                "variations": row.get("variations"),
+                "variations": resolved_variations,
             }
             normalized_stocks.append(stock_record)
 
@@ -262,8 +376,10 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
                     "sku": stock_record["sku"],
                     "stock": stock_record["stock"],
                     "warehouse_id": stock_record["warehouse_id"],
-                    "variation_text": variation_label(stock_record["variations"]),
+                    "variation_text": variation_text_from_resolved(resolved_variations)
+                    or variation_label(stock_record["variations"]),
                     "product_link": product_link,
+                    "product_image": product_image,
                 }
             )
 
@@ -275,6 +391,7 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
                 "product_name": p_name,
                 "product_slug": product_slug,
                 "product_link": product_link,
+                "product_image": product_image,
                 "stock_count": len(normalized_stocks),
                 "total_stock": total_per_product,
                 "stocks": normalized_stocks,

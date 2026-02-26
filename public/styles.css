@@ -143,8 +143,33 @@ button {
   padding: 0.75rem 0.85rem;
 }
 
+.product-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin-bottom: 0.52rem;
+}
+
+.product-thumb {
+  width: 46px;
+  height: 46px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  background: #fff;
+  flex-shrink: 0;
+}
+
+.product-thumb.placeholder {
+  display: grid;
+  place-items: center;
+  font-size: 0.65rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+
 .product-card h3 {
-  margin: 0 0 0.52rem;
+  margin: 0;
   font-size: 1rem;
   line-height: 1.35;
 }

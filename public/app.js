@@ -78,6 +78,9 @@ function formatVariationInline(variations, variationText, sku) {
 
   const cleanVariationText = String(variationText || "").trim();
   if (cleanVariationText) {
+    if (cleanVariationText.startsWith("{")) {
+      return cleanVariationText;
+    }
     return cleanVariationText
       .split(",")
       .map((part) => part.trim())
@@ -123,6 +126,7 @@ function normalizeProducts(payload) {
           product_id: productId,
           product_name: productName,
           product_link: productLink,
+          product_image: product.product_image || "",
           lines,
         };
       });
@@ -140,6 +144,7 @@ function normalizeProducts(payload) {
             product_id: row.product_id || "",
             product_name: row.product_name || "Tanpa Nama",
             product_link: row.product_link || fallbackLink,
+            product_image: row.product_image || "",
             lines: [],
           });
         }
@@ -177,7 +182,16 @@ function renderProducts(items) {
         .join("");
 
       return `<article class="product-card">
-        <h3>${escapeHtml(product.product_name)}</h3>
+        <div class="product-head">
+          ${
+            product.product_image
+              ? `<img class="product-thumb" src="${escapeHtml(product.product_image)}" alt="${escapeHtml(
+                  product.product_name,
+                )}" loading="lazy" />`
+              : '<div class="product-thumb placeholder">IMG</div>'
+          }
+          <h3>${escapeHtml(product.product_name)}</h3>
+        </div>
         <div class="stock-lines">${linesHtml}</div>
       </article>`;
     })
