@@ -9,6 +9,7 @@ import hashlib
 import hmac
 import json
 import os
+import re
 import sys
 import time
 from dataclasses import dataclass
@@ -327,11 +328,75 @@ def variation_label(value: Any) -> str:
     return ""
 
 
+def resolve_category(detail: dict[str, Any]) -> tuple[str | None, str | None]:
+    category_id: str | None = None
+    category_name: str | None = None
+
+    raw_id = detail.get("category_id") or detail.get("categoryId")
+    if raw_id is not None:
+        text = str(raw_id).strip()
+        if text:
+            category_id = text
+
+    raw_name = detail.get("category_name") or detail.get("categoryName")
+    if isinstance(raw_name, str) and raw_name.strip():
+        category_name = raw_name.strip()
+
+    raw_category = detail.get("category")
+    if isinstance(raw_category, dict):
+        if category_id is None:
+            nested_id = raw_category.get("id") or raw_category.get("category_id")
+            if nested_id is not None and str(nested_id).strip():
+                category_id = str(nested_id).strip()
+        if category_name is None:
+            nested_name = raw_category.get("name") or raw_category.get("title")
+            if isinstance(nested_name, str) and nested_name.strip():
+                category_name = nested_name.strip()
+    elif category_name is None and isinstance(raw_category, str) and raw_category.strip():
+        category_name = raw_category.strip()
+
+    return category_id, category_name
+
+
+def fetch_category_name_from_product_page(
+    product_link: str,
+    category_id: str,
+    timeout_seconds: int,
+) -> str | None:
+    if not product_link or not category_id:
+        return None
+
+    try:
+        response = requests.get(product_link, timeout=timeout_seconds)
+    except requests.RequestException:
+        return None
+
+    if response.status_code >= 400:
+        return None
+
+    html = response.text
+    escaped_id = re.escape(category_id)
+    patterns = [
+        rf'\\"category\\":\{{\\"name\\":\\"(?P<name>[^"\\]+)\\"\s*,\s*\\"id\\":\\"{escaped_id}\\"',
+        rf'\\"category\\":\{{\\"id\\":\\"{escaped_id}\\"\s*,\s*\\"name\\":\\"(?P<name>[^"\\]+)\\"',
+        rf'"category":\{{"name":"(?P<name>[^"]+)"\s*,\s*"id":"{escaped_id}"',
+        rf'"category":\{{"id":"{escaped_id}"\s*,\s*"name":"(?P<name>[^"]+)"',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, html)
+        if match:
+            name = str(match.group("name")).strip()
+            if name:
+                return name
+    return None
+
+
 def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict[str, Any]:
     products = client.iter_product_list(user_id)
     normalized_products: list[dict[str, Any]] = []
     item_rows: list[dict[str, Any]] = []
     stock_total = 0.0
+    category_name_cache: dict[str, str] = {}
 
     for product in products:
         p_id = product_id_from(product)
@@ -348,6 +413,18 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
         product_slug = detail.get("slug") if isinstance(detail.get("slug"), str) else None
         product_link = build_product_link(website_name, p_id, detail)
         product_image = extract_product_image(detail, variation_defs)
+        category_id, category_name = resolve_category(detail)
+        if category_name is None and category_id:
+            category_name = category_name_cache.get(category_id)
+            if category_name is None:
+                fetched_name = fetch_category_name_from_product_page(
+                    product_link=product_link,
+                    category_id=category_id,
+                    timeout_seconds=client.timeout_seconds,
+                )
+                if fetched_name:
+                    category_name_cache[category_id] = fetched_name
+                    category_name = fetched_name
 
         stocks = client.get_product_stocks(user_id=user_id, product_id=p_id)
         normalized_stocks: list[dict[str, Any]] = []
@@ -380,6 +457,8 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
                     or variation_label(stock_record["variations"]),
                     "product_link": product_link,
                     "product_image": product_image,
+                    "category_id": category_id,
+                    "category_name": category_name,
                 }
             )
 
@@ -392,6 +471,8 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
                 "product_slug": product_slug,
                 "product_link": product_link,
                 "product_image": product_image,
+                "category_id": category_id,
+                "category_name": category_name,
                 "stock_count": len(normalized_stocks),
                 "total_stock": total_per_product,
                 "stocks": normalized_stocks,

@@ -62,38 +62,44 @@ function buildProductLink(baseWebsite, productId, productSlug) {
 
 function formatVariationInline(variations, variationText, sku) {
   if (Array.isArray(variations) && variations.length > 0) {
-    return variations
+    const values = variations
       .map((item) => {
         if (item && typeof item === "object") {
           const raw = item.value || item.option || item.name || item.key || "";
           const text = String(raw || "").trim();
-          return text ? `{${text}}` : "";
+          return text || "";
         }
         const text = String(item || "").trim();
-        return text ? `{${text}}` : "";
+        return text || "";
       })
-      .filter(Boolean)
-      .join("");
+      .filter(Boolean);
+    if (values.length > 0) {
+      return values.join(" / ");
+    }
   }
 
   const cleanVariationText = String(variationText || "").trim();
   if (cleanVariationText) {
-    if (cleanVariationText.startsWith("{")) {
-      return cleanVariationText;
+    if (cleanVariationText.includes("{") && cleanVariationText.includes("}")) {
+      const matches = [...cleanVariationText.matchAll(/\{([^}]*)\}/g)]
+        .map((match) => String(match[1] || "").trim())
+        .filter(Boolean);
+      if (matches.length > 0) {
+        return matches.join(" / ");
+      }
     }
     return cleanVariationText
       .split(",")
       .map((part) => part.trim())
       .filter(Boolean)
-      .map((part) => `{${part}}`)
-      .join("");
+      .join(" / ");
   }
 
   if (String(sku || "").trim()) {
-    return `{SKU:${String(sku).trim()}}`;
+    return `SKU: ${String(sku).trim()}`;
   }
 
-  return "{Tanpa Variasi}";
+  return "Tanpa Variasi";
 }
 
 function normalizeProducts(payload) {
@@ -127,6 +133,8 @@ function normalizeProducts(payload) {
           product_name: productName,
           product_link: productLink,
           product_image: product.product_image || "",
+          category_id: product.category_id || "",
+          category_name: product.category_name || "",
           lines,
         };
       });
@@ -145,6 +153,8 @@ function normalizeProducts(payload) {
             product_name: row.product_name || "Tanpa Nama",
             product_link: row.product_link || fallbackLink,
             product_image: row.product_image || "",
+            category_id: row.category_id || "",
+            category_name: row.category_name || "",
             lines: [],
           });
         }
@@ -162,14 +172,38 @@ function normalizeProducts(payload) {
   return [];
 }
 
+function getCategoryLabel(product) {
+  const name = String(product.category_name || "").trim();
+  if (name) {
+    return name;
+  }
+  const id = String(product.category_id || "").trim();
+  if (id) {
+    return `Kategori ${id}`;
+  }
+  return "Tanpa Kategori";
+}
+
 function renderProducts(items) {
   if (!items.length) {
     productList.innerHTML = '<p class="empty">Data tidak ditemukan.</p>';
     return;
   }
 
-  productList.innerHTML = items
-    .map((product) => {
+  const grouped = new Map();
+  items.forEach((product) => {
+    const label = getCategoryLabel(product);
+    if (!grouped.has(label)) {
+      grouped.set(label, []);
+    }
+    grouped.get(label).push(product);
+  });
+
+  const sectionHtml = Array.from(grouped.entries())
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([categoryLabel, groupItems]) => {
+      const cardsHtml = groupItems
+        .map((product) => {
       const linesHtml = product.lines
         .map((line) => {
           const linkHtml = line.link
@@ -194,8 +228,16 @@ function renderProducts(items) {
         </div>
         <div class="stock-lines">${linesHtml}</div>
       </article>`;
+        })
+        .join("");
+      return `<section class="category-section">
+        <h2 class="category-title">${escapeHtml(categoryLabel)}</h2>
+        <div class="category-products">${cardsHtml}</div>
+      </section>`;
     })
     .join("");
+
+  productList.innerHTML = sectionHtml;
 }
 
 function updateSummary(items) {
@@ -219,6 +261,9 @@ function applyFilter({ syncUrl = true } = {}) {
   if (q) {
     filtered = products.filter((product) => {
       if ((product.product_name || "").toLowerCase().includes(q)) {
+        return true;
+      }
+      if (getCategoryLabel(product).toLowerCase().includes(q)) {
         return true;
       }
       return product.lines.some((line) => {
