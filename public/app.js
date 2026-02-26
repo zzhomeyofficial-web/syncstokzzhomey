@@ -53,6 +53,40 @@ function formatNumber(value) {
   return value.toLocaleString("id-ID");
 }
 
+function pad2(value) {
+  return String(value).padStart(2, "0");
+}
+
+function toWibPseudoDate(date) {
+  const utcMs = date.getTime() + date.getTimezoneOffset() * 60_000;
+  return new Date(utcMs + 7 * 60 * 60 * 1000);
+}
+
+function formatWibHHMM(date) {
+  const wibDate = toWibPseudoDate(date);
+  return `${pad2(wibDate.getUTCHours())}:${pad2(wibDate.getUTCMinutes())}`;
+}
+
+function getNextScheduleWibHHMM(nowDate = new Date()) {
+  const wibNow = toWibPseudoDate(nowDate);
+  const hour = wibNow.getUTCHours();
+  const minute = wibNow.getUTCMinutes();
+  let nextHour = 8;
+
+  if (hour < 8) {
+    nextHour = 8;
+  } else if (hour > 21 || (hour === 21 && minute > 0)) {
+    nextHour = 8;
+  } else {
+    nextHour = hour + 1;
+    if (nextHour > 21) {
+      nextHour = 8;
+    }
+  }
+
+  return `${pad2(nextHour)}:00`;
+}
+
 function isReadyProductName(name) {
   return String(name || "").trimStart().toLowerCase().startsWith("[ready]");
 }
@@ -273,7 +307,9 @@ async function loadData() {
     products = normalizeProducts(payload);
 
     if (payload.generated_at) {
-      generatedAt.textContent = new Date(payload.generated_at).toLocaleString("id-ID");
+      const lastUpdate = formatWibHHMM(new Date(payload.generated_at));
+      const nextUpdate = getNextScheduleWibHHMM(new Date());
+      generatedAt.textContent = `${lastUpdate} | Selanjutnya ${nextUpdate}`;
     } else {
       generatedAt.textContent = "-";
     }
