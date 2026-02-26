@@ -194,6 +194,17 @@ button {
   line-height: 1.35;
 }
 
+.product-head-text {
+  min-width: 0;
+}
+
+.product-meta {
+  margin: 0.16rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
 .stock-lines {
   display: grid;
   gap: 0.32rem;

@@ -167,6 +167,10 @@ function renderProducts(items) {
 
   productList.innerHTML = items
     .map((product) => {
+      const productTotalStock = product.lines.reduce(
+        (sum, line) => sum + (typeof line.stock === "number" ? line.stock : 0),
+        0,
+      );
       const linesHtml = product.lines
         .map((line) => {
           const linkHtml = line.link
@@ -187,7 +191,10 @@ function renderProducts(items) {
                 )}" loading="lazy" />`
               : '<div class="product-thumb placeholder">IMG</div>'
           }
-          <h3>${escapeHtml(product.product_name)}</h3>
+          <div class="product-head-text">
+            <h3>${escapeHtml(product.product_name)}</h3>
+            <p class="product-meta">Total stok: ${formatNumber(productTotalStock)}</p>
+          </div>
         </div>
         <div class="stock-lines">${linesHtml}</div>
       </article>`;
