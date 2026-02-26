@@ -9,6 +9,10 @@ const refreshBtn = document.getElementById("refreshBtn");
 
 let rows = [];
 
+function isReadyProductName(name) {
+  return String(name || "").trimStart().toLowerCase().startsWith("[ready]");
+}
+
 function getInitialQuery() {
   const params = new URLSearchParams(window.location.search);
   return (params.get("q") || params.get("search") || params.get("keyword") || "").trim();
@@ -84,7 +88,7 @@ function applyFilter({ syncUrl = true } = {}) {
 
 function normalizeRows(payload) {
   if (Array.isArray(payload.items)) {
-    return payload.items;
+    return payload.items.filter((row) => isReadyProductName(row.product_name));
   }
 
   if (!Array.isArray(payload.products)) {
@@ -95,6 +99,9 @@ function normalizeRows(payload) {
   payload.products.forEach((product) => {
     const productId = product.product_id || product.id || "";
     const productName = product.product_name || product.name || "Tanpa Nama";
+    if (!isReadyProductName(productName)) {
+      return;
+    }
     const stocks = Array.isArray(product.stocks) ? product.stocks : [];
     stocks.forEach((stock) => {
       normalized.push({
@@ -120,9 +127,12 @@ async function loadData() {
     const payload = await response.json();
 
     rows = normalizeRows(payload);
-    totalProducts.textContent = formatNumber(payload?.totals?.products ?? 0);
-    totalRows.textContent = formatNumber(payload?.totals?.stock_rows ?? rows.length);
-    totalQty.textContent = formatNumber(payload?.totals?.stock_amount ?? 0);
+    const uniqueProducts = new Set(rows.map((row) => row.product_id || row.product_name || ""));
+    const stockAmount = rows.reduce((sum, row) => sum + (typeof row.stock === "number" ? row.stock : 0), 0);
+
+    totalProducts.textContent = formatNumber(uniqueProducts.size);
+    totalRows.textContent = formatNumber(rows.length);
+    totalQty.textContent = formatNumber(stockAmount);
 
     if (payload.generated_at) {
       generatedAt.textContent = new Date(payload.generated_at).toLocaleString("id-ID");
