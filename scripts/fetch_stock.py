@@ -163,6 +163,10 @@ def product_name_from(product: dict[str, Any]) -> str:
     return "Tanpa Nama"
 
 
+def is_ready_product_name(name: str) -> bool:
+    return name.lstrip().lower().startswith("[ready]")
+
+
 def variation_label(value: Any) -> str:
     if isinstance(value, list):
         parts: list[str] = []
@@ -192,6 +196,9 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
             continue
 
         p_name = product_name_from(product)
+        if not is_ready_product_name(p_name):
+            continue
+
         stocks = client.get_product_stocks(user_id=user_id, product_id=p_id)
         normalized_stocks: list[dict[str, Any]] = []
         total_per_product = 0.0
