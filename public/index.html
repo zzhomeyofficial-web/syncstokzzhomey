@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZZHomey Stock Monitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">ZZHOMEY LIVE STOCK</p>
+        <h1>Dashboard stok dari API Berdu</h1>
+        <p id="statusText" class="status">Memuat data...</p>
+      </section>
+
+      <section class="summary">
+        <article>
+          <p>Produk</p>
+          <h2 id="totalProducts">0</h2>
+        </article>
+        <article>
+          <p>Baris Stok</p>
+          <h2 id="totalRows">0</h2>
+        </article>
+        <article>
+          <p>Total Qty</p>
+          <h2 id="totalQty">0</h2>
+        </article>
+        <article>
+          <p>Update Terakhir</p>
+          <h2 id="generatedAt">-</h2>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <input id="searchInput" type="text" placeholder="Cari produk / SKU..." />
+          <button id="refreshBtn" type="button">Refresh</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Produk</th>
+                <th>SKU</th>
+                <th>Variasi</th>
+                <th>Warehouse</th>
+                <th class="num">Stok</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

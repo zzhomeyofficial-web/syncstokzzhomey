@@ -1,0 +1,46 @@
+name: Update Stock JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-stock:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Generate stock JSON
+        env:
+          BERDU_API_BASE_URL: ${{ secrets.BERDU_API_BASE_URL }}
+          BERDU_APP_ID: ${{ secrets.BERDU_APP_ID }}
+          BERDU_APP_SECRET: ${{ secrets.BERDU_APP_SECRET }}
+          BERDU_USER_ID: ${{ secrets.BERDU_USER_ID }}
+          WEBSITE_NAME: zzhomey.com
+          OUTPUT_JSON_PATH: public/data/stock.json
+        run: python scripts/fetch_stock.py
+
+      - name: Commit and push when changed
+        run: |
+          if git diff --quiet -- public/data/stock.json; then
+            echo "No stock changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/stock.json
+          git commit -m "chore: update stock data"
+          git push
