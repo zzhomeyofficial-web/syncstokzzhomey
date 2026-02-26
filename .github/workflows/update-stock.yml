@@ -3,7 +3,8 @@ name: Update Stock JSON
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    # Every hour from 08:00 to 21:00 WIB (UTC+7) == 01:00 to 14:00 UTC.
+    - cron: "0 1-14 * * *"
 
 permissions:
   contents: write
