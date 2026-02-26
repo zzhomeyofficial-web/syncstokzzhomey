@@ -127,33 +127,58 @@ button {
   overflow: auto;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
+.list-wrap {
+  padding: 0.85rem 0.9rem 0.9rem;
 }
 
-th,
-td {
-  text-align: left;
-  padding: 0.74rem 0.9rem;
-  border-bottom: 1px solid var(--line);
+.product-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.product-card {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 14px;
+  padding: 0.75rem 0.85rem;
+}
+
+.product-card h3 {
+  margin: 0 0 0.52rem;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.stock-lines {
+  display: grid;
+  gap: 0.32rem;
+}
+
+.stock-line {
+  margin: 0;
   font-size: 0.92rem;
+  color: var(--ink);
+  line-height: 1.45;
+  word-break: break-word;
 }
 
-th {
-  color: var(--muted);
+.stock-value {
+  font-weight: 700;
+}
+
+.product-link {
+  color: #006cc9;
+  text-decoration: none;
   font-weight: 600;
-  position: sticky;
-  top: 0;
-  background: rgba(255, 255, 255, 0.95);
 }
 
-.num {
-  text-align: right;
+.product-link:hover {
+  text-decoration: underline;
 }
 
-tr:hover td {
-  background: rgba(31, 159, 157, 0.06);
+.product-link.disabled {
+  color: var(--muted);
+  pointer-events: none;
 }
 
 .empty {

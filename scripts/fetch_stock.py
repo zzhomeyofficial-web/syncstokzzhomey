@@ -146,6 +146,12 @@ class BerduClient:
             return [payload]
         return []
 
+    def get_product_detail(self, user_id: str, product_id: str) -> dict[str, Any]:
+        payload = self.request("/product/detail", params={"user_id": user_id, "product_id": product_id})
+        if isinstance(payload, dict):
+            return payload
+        return {}
+
 
 def product_id_from(product: dict[str, Any]) -> str:
     for key in ("id", "product_id", "productId"):
@@ -165,6 +171,33 @@ def product_name_from(product: dict[str, Any]) -> str:
 
 def is_ready_product_name(name: str) -> bool:
     return name.lstrip().lower().startswith("[ready]")
+
+
+def website_base_url(website_name: str) -> str:
+    text = website_name.strip().rstrip("/")
+    if text.startswith("http://") or text.startswith("https://"):
+        return text
+    return f"https://{text}"
+
+
+def build_product_link(website_name: str, product_id: str, detail: dict[str, Any]) -> str:
+    base = website_base_url(website_name)
+
+    for key in ("url", "link", "permalink", "product_url", "web_url"):
+        value = detail.get(key)
+        if isinstance(value, str) and value.strip():
+            candidate = value.strip()
+            if candidate.startswith("http://") or candidate.startswith("https://"):
+                return candidate
+            if candidate.startswith("/"):
+                return f"{base}{candidate}"
+            return f"{base}/{candidate.lstrip('/')}"
+
+    slug = detail.get("slug")
+    if isinstance(slug, str) and slug.strip():
+        return f"{base}/product/{slug.strip()}"
+
+    return f"{base}/product/{product_id}"
 
 
 def variation_label(value: Any) -> str:
@@ -199,6 +232,10 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
         if not is_ready_product_name(p_name):
             continue
 
+        detail = client.get_product_detail(user_id=user_id, product_id=p_id)
+        product_slug = detail.get("slug") if isinstance(detail.get("slug"), str) else None
+        product_link = build_product_link(website_name, p_id, detail)
+
         stocks = client.get_product_stocks(user_id=user_id, product_id=p_id)
         normalized_stocks: list[dict[str, Any]] = []
         total_per_product = 0.0
@@ -226,6 +263,7 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
                     "stock": stock_record["stock"],
                     "warehouse_id": stock_record["warehouse_id"],
                     "variation_text": variation_label(stock_record["variations"]),
+                    "product_link": product_link,
                 }
             )
 
@@ -235,6 +273,8 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
             {
                 "product_id": p_id,
                 "product_name": p_name,
+                "product_slug": product_slug,
+                "product_link": product_link,
                 "stock_count": len(normalized_stocks),
                 "total_stock": total_per_product,
                 "stocks": normalized_stocks,

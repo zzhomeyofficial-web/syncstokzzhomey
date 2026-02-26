@@ -3,11 +3,12 @@ const totalProducts = document.getElementById("totalProducts");
 const totalRows = document.getElementById("totalRows");
 const totalQty = document.getElementById("totalQty");
 const generatedAt = document.getElementById("generatedAt");
-const tableBody = document.getElementById("tableBody");
+const productList = document.getElementById("productList");
 const searchInput = document.getElementById("searchInput");
 const refreshBtn = document.getElementById("refreshBtn");
 
-let rows = [];
+let products = [];
+let sourceWebsite = "zzhomey.com";
 
 function isReadyProductName(name) {
   return String(name || "").trimStart().toLowerCase().startsWith("[ready]");
@@ -44,77 +45,181 @@ function formatNumber(value) {
   return value.toLocaleString("id-ID");
 }
 
-function renderTable(filteredRows) {
-  if (!filteredRows.length) {
-    tableBody.innerHTML = '<tr><td class="empty" colspan="5">Data tidak ditemukan.</td></tr>';
+function buildProductLink(baseWebsite, productId, productSlug) {
+  let base = String(baseWebsite || "").trim();
+  if (!base) {
+    base = "zzhomey.com";
+  }
+  if (!base.startsWith("http://") && !base.startsWith("https://")) {
+    base = `https://${base}`;
+  }
+  base = base.replace(/\/+$/, "");
+  if (productSlug) {
+    return `${base}/product/${productSlug}`;
+  }
+  return `${base}/product/${productId || ""}`;
+}
+
+function formatVariationInline(variations, variationText, sku) {
+  if (Array.isArray(variations) && variations.length > 0) {
+    return variations
+      .map((item) => {
+        if (item && typeof item === "object") {
+          const raw = item.value || item.option || item.name || item.key || "";
+          const text = String(raw || "").trim();
+          return text ? `{${text}}` : "";
+        }
+        const text = String(item || "").trim();
+        return text ? `{${text}}` : "";
+      })
+      .filter(Boolean)
+      .join("");
+  }
+
+  const cleanVariationText = String(variationText || "").trim();
+  if (cleanVariationText) {
+    return cleanVariationText
+      .split(",")
+      .map((part) => part.trim())
+      .filter(Boolean)
+      .map((part) => `{${part}}`)
+      .join("");
+  }
+
+  if (String(sku || "").trim()) {
+    return `{SKU:${String(sku).trim()}}`;
+  }
+
+  return "{Tanpa Variasi}";
+}
+
+function normalizeProducts(payload) {
+  sourceWebsite = payload?.source?.website || "zzhomey.com";
+
+  if (Array.isArray(payload.products)) {
+    return payload.products
+      .filter((product) => isReadyProductName(product.product_name || product.name))
+      .map((product) => {
+        const productId = product.product_id || product.id || "";
+        const productName = product.product_name || product.name || "Tanpa Nama";
+        const productSlug = product.product_slug || product.slug || "";
+        const productLink =
+          product.product_link || buildProductLink(sourceWebsite, productId, productSlug);
+        const stocks = Array.isArray(product.stocks) ? product.stocks : [];
+        const lines = stocks.map((stock) => {
+          const variationInline = formatVariationInline(
+            stock.variations,
+            stock.variation_text,
+            stock.sku,
+          );
+          return {
+            variation_inline: variationInline,
+            stock: stock.stock,
+            sku: stock.sku,
+            link: productLink,
+          };
+        });
+        return {
+          product_id: productId,
+          product_name: productName,
+          product_link: productLink,
+          lines,
+        };
+      });
+  }
+
+  if (Array.isArray(payload.items)) {
+    const grouped = new Map();
+    payload.items
+      .filter((row) => isReadyProductName(row.product_name))
+      .forEach((row) => {
+        const key = row.product_id || row.product_name || "";
+        if (!grouped.has(key)) {
+          const fallbackLink = buildProductLink(sourceWebsite, row.product_id, "");
+          grouped.set(key, {
+            product_id: row.product_id || "",
+            product_name: row.product_name || "Tanpa Nama",
+            product_link: row.product_link || fallbackLink,
+            lines: [],
+          });
+        }
+        const bucket = grouped.get(key);
+        bucket.lines.push({
+          variation_inline: formatVariationInline([], row.variation_text, row.sku),
+          stock: row.stock,
+          sku: row.sku,
+          link: row.product_link || bucket.product_link,
+        });
+      });
+    return Array.from(grouped.values());
+  }
+
+  return [];
+}
+
+function renderProducts(items) {
+  if (!items.length) {
+    productList.innerHTML = '<p class="empty">Data tidak ditemukan.</p>';
     return;
   }
 
-  tableBody.innerHTML = filteredRows
-    .map(
-      (row) => `
-      <tr>
-        <td>${escapeHtml(row.product_name || "-")}</td>
-        <td>${escapeHtml(row.sku || "-")}</td>
-        <td>${escapeHtml(row.variation_text || "-")}</td>
-        <td>${escapeHtml(row.warehouse_id || "-")}</td>
-        <td class="num">${formatNumber(row.stock)}</td>
-      </tr>
-    `,
-    )
+  productList.innerHTML = items
+    .map((product) => {
+      const linesHtml = product.lines
+        .map((line) => {
+          const linkHtml = line.link
+            ? `<a class="product-link" href="${escapeHtml(line.link)}" target="_blank" rel="noopener noreferrer">Link Produk</a>`
+            : "<span class=\"product-link disabled\">Link Produk</span>";
+          return `<p class="stock-line"><span class="variation">${escapeHtml(
+            line.variation_inline,
+          )}</span>=<span class="stock-value">${formatNumber(line.stock)}</span> | ${linkHtml}</p>`;
+        })
+        .join("");
+
+      return `<article class="product-card">
+        <h3>${escapeHtml(product.product_name)}</h3>
+        <div class="stock-lines">${linesHtml}</div>
+      </article>`;
+    })
     .join("");
+}
+
+function updateSummary(items) {
+  const rowCount = items.reduce((sum, item) => sum + item.lines.length, 0);
+  const qty = items.reduce(
+    (sum, item) =>
+      sum +
+      item.lines.reduce((inner, line) => inner + (typeof line.stock === "number" ? line.stock : 0), 0),
+    0,
+  );
+  totalProducts.textContent = formatNumber(items.length);
+  totalRows.textContent = formatNumber(rowCount);
+  totalQty.textContent = formatNumber(qty);
 }
 
 function applyFilter({ syncUrl = true } = {}) {
   const rawQuery = searchInput.value.trim();
   const q = rawQuery.toLowerCase();
-  if (!q) {
-    renderTable(rows);
-    if (syncUrl) {
-      syncUrlQuery("");
-    }
-    return;
+  let filtered = products;
+
+  if (q) {
+    filtered = products.filter((product) => {
+      if ((product.product_name || "").toLowerCase().includes(q)) {
+        return true;
+      }
+      return product.lines.some((line) => {
+        const haystack = `${line.variation_inline || ""} ${line.sku || ""} ${line.stock ?? ""}`.toLowerCase();
+        return haystack.includes(q);
+      });
+    });
   }
 
-  const filtered = rows.filter((row) => {
-    const haystack = `${row.product_name || ""} ${row.sku || ""} ${row.variation_text || ""}`.toLowerCase();
-    return haystack.includes(q);
-  });
-  renderTable(filtered);
+  renderProducts(filtered);
+  updateSummary(filtered);
+
   if (syncUrl) {
     syncUrlQuery(rawQuery);
   }
-}
-
-function normalizeRows(payload) {
-  if (Array.isArray(payload.items)) {
-    return payload.items.filter((row) => isReadyProductName(row.product_name));
-  }
-
-  if (!Array.isArray(payload.products)) {
-    return [];
-  }
-
-  const normalized = [];
-  payload.products.forEach((product) => {
-    const productId = product.product_id || product.id || "";
-    const productName = product.product_name || product.name || "Tanpa Nama";
-    if (!isReadyProductName(productName)) {
-      return;
-    }
-    const stocks = Array.isArray(product.stocks) ? product.stocks : [];
-    stocks.forEach((stock) => {
-      normalized.push({
-        product_id: productId,
-        product_name: productName,
-        sku: stock.sku,
-        stock: stock.stock,
-        warehouse_id: stock.warehouse_id,
-        variation_text: Array.isArray(stock.variations) ? JSON.stringify(stock.variations) : "",
-      });
-    });
-  });
-  return normalized;
 }
 
 async function loadData() {
@@ -126,13 +231,7 @@ async function loadData() {
     }
     const payload = await response.json();
 
-    rows = normalizeRows(payload);
-    const uniqueProducts = new Set(rows.map((row) => row.product_id || row.product_name || ""));
-    const stockAmount = rows.reduce((sum, row) => sum + (typeof row.stock === "number" ? row.stock : 0), 0);
-
-    totalProducts.textContent = formatNumber(uniqueProducts.size);
-    totalRows.textContent = formatNumber(rows.length);
-    totalQty.textContent = formatNumber(stockAmount);
+    products = normalizeProducts(payload);
 
     if (payload.generated_at) {
       generatedAt.textContent = new Date(payload.generated_at).toLocaleString("id-ID");
@@ -144,7 +243,10 @@ async function loadData() {
     applyFilter({ syncUrl: false });
   } catch (error) {
     statusText.textContent = `Gagal memuat: ${error.message}`;
-    tableBody.innerHTML = '<tr><td class="empty" colspan="5">JSON belum tersedia.</td></tr>';
+    productList.innerHTML = '<p class="empty">JSON belum tersedia.</p>';
+    totalProducts.textContent = "0";
+    totalRows.textContent = "0";
+    totalQty.textContent = "0";
   }
 }
 
