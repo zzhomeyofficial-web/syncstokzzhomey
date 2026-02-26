@@ -89,6 +89,19 @@ h1 {
   font-weight: 700;
 }
 
+.update-time {
+  margin: 0.16rem 0 0;
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.next-update {
+  margin: 0.1rem 0 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
 .panel {
   overflow: hidden;
 }

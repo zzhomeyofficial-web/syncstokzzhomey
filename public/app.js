@@ -1,8 +1,10 @@
-const statusText = document.getElementById("statusText");
+﻿const statusText = document.getElementById("statusText");
 const totalProducts = document.getElementById("totalProducts");
 const totalRows = document.getElementById("totalRows");
 const totalQty = document.getElementById("totalQty");
-const generatedAt = document.getElementById("generatedAt");
+const generatedDate = document.getElementById("generatedDate");
+const generatedTime = document.getElementById("generatedTime");
+const nextUpdateText = document.getElementById("nextUpdate");
 const categoryTabs = document.getElementById("categoryTabs");
 const productList = document.getElementById("productList");
 const searchInput = document.getElementById("searchInput");
@@ -65,6 +67,14 @@ function toWibPseudoDate(date) {
 function formatWibHHMM(date) {
   const wibDate = toWibPseudoDate(date);
   return `${pad2(wibDate.getUTCHours())}:${pad2(wibDate.getUTCMinutes())}`;
+}
+
+function formatWibDDMMYYYY(date) {
+  const wibDate = toWibPseudoDate(date);
+  const day = pad2(wibDate.getUTCDate());
+  const month = pad2(wibDate.getUTCMonth() + 1);
+  const year = wibDate.getUTCFullYear();
+  return `${day}-${month}-${year}`;
 }
 
 function getNextScheduleWibHHMM(nowDate = new Date()) {
@@ -307,11 +317,17 @@ async function loadData() {
     products = normalizeProducts(payload);
 
     if (payload.generated_at) {
-      const lastUpdate = formatWibHHMM(new Date(payload.generated_at));
+      const generatedDateObj = new Date(payload.generated_at);
+      const lastDate = formatWibDDMMYYYY(generatedDateObj);
+      const lastUpdate = formatWibHHMM(generatedDateObj);
       const nextUpdate = getNextScheduleWibHHMM(new Date());
-      generatedAt.textContent = `${lastUpdate} | Selanjutnya ${nextUpdate}`;
+      generatedDate.textContent = lastDate;
+      generatedTime.textContent = lastUpdate;
+      nextUpdateText.textContent = `update selanjutnya ${nextUpdate}`;
     } else {
-      generatedAt.textContent = "-";
+      generatedDate.textContent = "-";
+      generatedTime.textContent = "-";
+      nextUpdateText.textContent = "update selanjutnya -";
     }
 
     statusText.textContent = `Sumber: ${payload?.source?.website || "zzhomey.com"}`;
@@ -322,6 +338,9 @@ async function loadData() {
     totalProducts.textContent = "0";
     totalRows.textContent = "0";
     totalQty.textContent = "0";
+    generatedDate.textContent = "-";
+    generatedTime.textContent = "-";
+    nextUpdateText.textContent = "update selanjutnya -";
   }
 }
 
@@ -347,3 +366,4 @@ if (initialCategory) {
 }
 
 loadData();
+
