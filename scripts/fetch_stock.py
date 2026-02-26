@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import hashlib
 import hmac
 import json
@@ -182,6 +183,96 @@ def is_ready_product_name(name: str) -> bool:
     return name.lstrip().lower().startswith("[ready]")
 
 
+def normalize_tag_texts(raw_tags: Any) -> list[str]:
+    tags: list[str] = []
+    if isinstance(raw_tags, list):
+        for item in raw_tags:
+            if isinstance(item, str):
+                text = item.strip().lower()
+                if text:
+                    tags.append(text)
+            elif isinstance(item, dict):
+                for key in ("name", "tag", "value", "id"):
+                    value = item.get(key)
+                    if isinstance(value, str) and value.strip():
+                        tags.append(value.strip().lower())
+    elif isinstance(raw_tags, str):
+        text = raw_tags.strip().lower()
+        if text:
+            tags.append(text)
+    return tags
+
+
+def is_hidden_from_list_item(product: dict[str, Any]) -> bool:
+    for key in ("hidden", "is_hidden", "isHidden", "hide", "isHide"):
+        if product.get(key) is True:
+            return True
+
+    hidden_terms = {
+        "hide",
+        "hidden",
+        "draft",
+        "private",
+        "archive",
+        "archived",
+        "inactive",
+        "nonaktif",
+    }
+    tag_texts = normalize_tag_texts(product.get("tags"))
+    if any(tag in hidden_terms for tag in tag_texts):
+        return True
+
+    status_candidates = [
+        product.get("status"),
+        product.get("publish_status"),
+        product.get("visibility"),
+        product.get("state"),
+    ]
+    for raw in status_candidates:
+        if isinstance(raw, str) and raw.strip().lower() in hidden_terms:
+            return True
+
+    return False
+
+
+def is_hidden_from_detail(detail: dict[str, Any]) -> bool:
+    for key in ("hidden", "is_hidden", "isHidden", "hide", "isHide"):
+        if detail.get(key) is True:
+            return True
+
+    if detail.get("published") is False or detail.get("isPublished") is False:
+        return True
+
+    hidden_terms = {
+        "hide",
+        "hidden",
+        "draft",
+        "private",
+        "archive",
+        "archived",
+        "inactive",
+        "nonaktif",
+        "deleted",
+        "unpublished",
+    }
+    status_candidates = [
+        detail.get("status"),
+        detail.get("publish_status"),
+        detail.get("visibility"),
+        detail.get("state"),
+        detail.get("type"),
+    ]
+    for raw in status_candidates:
+        if isinstance(raw, str) and raw.strip().lower() in hidden_terms:
+            return True
+
+    tag_texts = normalize_tag_texts(detail.get("tags"))
+    if any(tag in hidden_terms for tag in tag_texts):
+        return True
+
+    return False
+
+
 def website_base_url(website_name: str) -> str:
     text = website_name.strip().rstrip("/")
     if text.startswith("http://") or text.startswith("https://"):
@@ -307,8 +398,8 @@ def variation_text_from_resolved(variations: list[dict[str, str]]) -> str:
     for item in variations:
         value = str(item.get("value", "")).strip()
         if value:
-            parts.append(f"{{{value}}}")
-    return "".join(parts)
+            parts.append(value)
+    return " / ".join(parts)
 
 
 def variation_label(value: Any) -> str:
@@ -324,7 +415,7 @@ def variation_label(value: Any) -> str:
             elif isinstance(item, str):
                 if item.strip():
                     parts.append(item.strip())
-        return ", ".join(parts)
+        return " / ".join(parts)
     return ""
 
 
@@ -391,93 +482,146 @@ def fetch_category_name_from_product_page(
     return None
 
 
+def build_product_snapshot(
+    client: BerduClient,
+    user_id: str,
+    website_name: str,
+    product: dict[str, Any],
+) -> dict[str, Any] | None:
+    p_id = product_id_from(product)
+    if not p_id:
+        return None
+
+    p_name = product_name_from(product)
+    if not is_ready_product_name(p_name):
+        return None
+    if is_hidden_from_list_item(product):
+        return None
+
+    detail = client.get_product_detail(user_id=user_id, product_id=p_id)
+    if is_hidden_from_detail(detail):
+        return None
+
+    variation_defs = client.get_product_variations(user_id=user_id, product_id=p_id)
+    variation_lookup = build_variation_lookup(variation_defs)
+    product_slug = detail.get("slug") if isinstance(detail.get("slug"), str) else None
+    product_link = build_product_link(website_name, p_id, detail)
+    product_image = extract_product_image(detail, variation_defs)
+    category_id, category_name = resolve_category(detail)
+
+    stocks = client.get_product_stocks(user_id=user_id, product_id=p_id)
+    normalized_stocks: list[dict[str, Any]] = []
+    total_per_product = 0.0
+
+    for row in stocks:
+        resolved_variations = resolve_variations(row.get("variations"), variation_lookup)
+        variation_text = variation_text_from_resolved(resolved_variations) or variation_label(
+            resolved_variations
+        )
+        stock_number = parse_number(row.get("stock"))
+        if stock_number is not None:
+            total_per_product += float(stock_number)
+
+        stock_record = {
+            "stock_id": row.get("id") or row.get("stock_id"),
+            "sku": row.get("sku"),
+            "stock": stock_number,
+            "warehouse_id": row.get("warehouse_id"),
+            "variation_text": variation_text,
+        }
+        normalized_stocks.append(stock_record)
+
+    return {
+        "product_id": p_id,
+        "product_name": p_name,
+        "product_slug": product_slug,
+        "product_link": product_link,
+        "product_image": product_image,
+        "category_id": category_id,
+        "category_name": category_name,
+        "stock_count": len(normalized_stocks),
+        "total_stock": total_per_product,
+        "stocks": normalized_stocks,
+    }
+
+
 def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict[str, Any]:
     products = client.iter_product_list(user_id)
-    normalized_products: list[dict[str, Any]] = []
-    item_rows: list[dict[str, Any]] = []
-    stock_total = 0.0
+    candidate_products = [
+        product
+        for product in products
+        if is_ready_product_name(product_name_from(product)) and not is_hidden_from_list_item(product)
+    ]
+
+    max_workers_raw = optional_env("BERDU_MAX_WORKERS", "6")
+    try:
+        max_workers = max(1, int(max_workers_raw))
+    except ValueError:
+        max_workers = 6
+
+    snapshots: list[dict[str, Any]] = []
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {
+            executor.submit(build_product_snapshot, client, user_id, website_name, product): product
+            for product in candidate_products
+        }
+        for future in as_completed(futures):
+            product = futures[future]
+            p_id = product_id_from(product)
+            try:
+                result = future.result()
+            except Exception as exc:  # noqa: BLE001
+                print(f"[warn] skip product {p_id}: {exc}", file=sys.stderr)
+                continue
+            if result:
+                snapshots.append(result)
+
+    # Fetch category names once per category_id (lighter than per-product page fetch).
+    category_link_map: dict[str, str] = {}
+    for product in snapshots:
+        category_id = product.get("category_id")
+        category_name = product.get("category_name")
+        product_link = product.get("product_link")
+        if (
+            isinstance(category_id, str)
+            and category_id
+            and not category_name
+            and isinstance(product_link, str)
+            and product_link
+            and category_id not in category_link_map
+        ):
+            category_link_map[category_id] = product_link
+
     category_name_cache: dict[str, str] = {}
-
-    for product in products:
-        p_id = product_id_from(product)
-        if not p_id:
-            continue
-
-        p_name = product_name_from(product)
-        if not is_ready_product_name(p_name):
-            continue
-
-        detail = client.get_product_detail(user_id=user_id, product_id=p_id)
-        variation_defs = client.get_product_variations(user_id=user_id, product_id=p_id)
-        variation_lookup = build_variation_lookup(variation_defs)
-        product_slug = detail.get("slug") if isinstance(detail.get("slug"), str) else None
-        product_link = build_product_link(website_name, p_id, detail)
-        product_image = extract_product_image(detail, variation_defs)
-        category_id, category_name = resolve_category(detail)
-        if category_name is None and category_id:
-            category_name = category_name_cache.get(category_id)
-            if category_name is None:
-                fetched_name = fetch_category_name_from_product_page(
-                    product_link=product_link,
-                    category_id=category_id,
-                    timeout_seconds=client.timeout_seconds,
-                )
-                if fetched_name:
-                    category_name_cache[category_id] = fetched_name
-                    category_name = fetched_name
-
-        stocks = client.get_product_stocks(user_id=user_id, product_id=p_id)
-        normalized_stocks: list[dict[str, Any]] = []
-        total_per_product = 0.0
-
-        for row in stocks:
-            resolved_variations = resolve_variations(row.get("variations"), variation_lookup)
-            stock_number = parse_number(row.get("stock"))
-            if stock_number is not None:
-                total_per_product += float(stock_number)
-
-            stock_record = {
-                "stock_id": row.get("id") or row.get("stock_id"),
-                "sku": row.get("sku"),
-                "stock": stock_number,
-                "warehouse_id": row.get("warehouse_id"),
-                "variations": resolved_variations,
-            }
-            normalized_stocks.append(stock_record)
-
-            item_rows.append(
-                {
-                    "product_id": p_id,
-                    "product_name": p_name,
-                    "stock_id": stock_record["stock_id"],
-                    "sku": stock_record["sku"],
-                    "stock": stock_record["stock"],
-                    "warehouse_id": stock_record["warehouse_id"],
-                    "variation_text": variation_text_from_resolved(resolved_variations)
-                    or variation_label(stock_record["variations"]),
-                    "product_link": product_link,
-                    "product_image": product_image,
-                    "category_id": category_id,
-                    "category_name": category_name,
-                }
-            )
-
-        stock_total += total_per_product
-
-        normalized_products.append(
-            {
-                "product_id": p_id,
-                "product_name": p_name,
-                "product_slug": product_slug,
-                "product_link": product_link,
-                "product_image": product_image,
-                "category_id": category_id,
-                "category_name": category_name,
-                "stock_count": len(normalized_stocks),
-                "total_stock": total_per_product,
-                "stocks": normalized_stocks,
-            }
+    for category_id, product_link in category_link_map.items():
+        name = fetch_category_name_from_product_page(
+            product_link=product_link,
+            category_id=category_id,
+            timeout_seconds=client.timeout_seconds,
         )
+        if name:
+            category_name_cache[category_id] = name
+
+    for product in snapshots:
+        category_id = product.get("category_id")
+        if (
+            isinstance(category_id, str)
+            and category_id
+            and not product.get("category_name")
+            and category_id in category_name_cache
+        ):
+            product["category_name"] = category_name_cache[category_id]
+
+    snapshots.sort(
+        key=lambda p: (
+            str(p.get("category_name") or ""),
+            str(p.get("category_id") or ""),
+            str(p.get("product_name") or ""),
+        )
+    )
+
+    stock_rows = sum(int(p.get("stock_count") or 0) for p in snapshots)
+    stock_total = float(sum(float(p.get("total_stock") or 0) for p in snapshots))
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -487,12 +631,11 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
             "reference": "https://dev.berdu.id/docs/reference",
         },
         "totals": {
-            "products": len(normalized_products),
-            "stock_rows": len(item_rows),
+            "products": len(snapshots),
+            "stock_rows": stock_rows,
             "stock_amount": stock_total,
         },
-        "products": normalized_products,
-        "items": item_rows,
+        "products": snapshots,
     }
 
 

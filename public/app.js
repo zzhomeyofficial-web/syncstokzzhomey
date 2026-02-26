@@ -3,28 +3,36 @@ const totalProducts = document.getElementById("totalProducts");
 const totalRows = document.getElementById("totalRows");
 const totalQty = document.getElementById("totalQty");
 const generatedAt = document.getElementById("generatedAt");
+const categoryTabs = document.getElementById("categoryTabs");
 const productList = document.getElementById("productList");
 const searchInput = document.getElementById("searchInput");
 const refreshBtn = document.getElementById("refreshBtn");
 
 let products = [];
+let selectedCategory = "__all__";
 let sourceWebsite = "zzhomey.com";
-
-function isReadyProductName(name) {
-  return String(name || "").trimStart().toLowerCase().startsWith("[ready]");
-}
 
 function getInitialQuery() {
   const params = new URLSearchParams(window.location.search);
   return (params.get("q") || params.get("search") || params.get("keyword") || "").trim();
 }
 
-function syncUrlQuery(q) {
+function getInitialCategory() {
+  const params = new URLSearchParams(window.location.search);
+  return (params.get("cat") || "").trim();
+}
+
+function syncUrlState({ q, cat }) {
   const url = new URL(window.location.href);
   if (q) {
     url.searchParams.set("q", q);
   } else {
     url.searchParams.delete("q");
+  }
+  if (cat && cat !== "__all__") {
+    url.searchParams.set("cat", cat);
+  } else {
+    url.searchParams.delete("cat");
   }
   window.history.replaceState({}, "", url.toString());
 }
@@ -45,6 +53,10 @@ function formatNumber(value) {
   return value.toLocaleString("id-ID");
 }
 
+function isReadyProductName(name) {
+  return String(name || "").trimStart().toLowerCase().startsWith("[ready]");
+}
+
 function buildProductLink(baseWebsite, productId, productSlug) {
   let base = String(baseWebsite || "").trim();
   if (!base) {
@@ -60,116 +72,29 @@ function buildProductLink(baseWebsite, productId, productSlug) {
   return `${base}/product/${productId || ""}`;
 }
 
-function formatVariationInline(variations, variationText, sku) {
-  if (Array.isArray(variations) && variations.length > 0) {
-    const values = variations
-      .map((item) => {
-        if (item && typeof item === "object") {
-          const raw = item.value || item.option || item.name || item.key || "";
-          const text = String(raw || "").trim();
-          return text || "";
-        }
-        const text = String(item || "").trim();
-        return text || "";
-      })
-      .filter(Boolean);
-    if (values.length > 0) {
-      return values.join(" / ");
-    }
-  }
-
-  const cleanVariationText = String(variationText || "").trim();
-  if (cleanVariationText) {
-    if (cleanVariationText.includes("{") && cleanVariationText.includes("}")) {
-      const matches = [...cleanVariationText.matchAll(/\{([^}]*)\}/g)]
-        .map((match) => String(match[1] || "").trim())
+function normalizeVariationText(variationText, sku) {
+  const raw = String(variationText || "").trim();
+  if (raw) {
+    if (raw.includes("{") && raw.includes("}")) {
+      const values = [...raw.matchAll(/\{([^}]*)\}/g)]
+        .map((m) => String(m[1] || "").trim())
         .filter(Boolean);
-      if (matches.length > 0) {
-        return matches.join(" / ");
+      if (values.length > 0) {
+        return values.join(" / ");
       }
     }
-    return cleanVariationText
+    return raw
+      .replaceAll("{", "")
+      .replaceAll("}", "")
       .split(",")
       .map((part) => part.trim())
       .filter(Boolean)
       .join(" / ");
   }
-
   if (String(sku || "").trim()) {
     return `SKU: ${String(sku).trim()}`;
   }
-
   return "Tanpa Variasi";
-}
-
-function normalizeProducts(payload) {
-  sourceWebsite = payload?.source?.website || "zzhomey.com";
-
-  if (Array.isArray(payload.products)) {
-    return payload.products
-      .filter((product) => isReadyProductName(product.product_name || product.name))
-      .map((product) => {
-        const productId = product.product_id || product.id || "";
-        const productName = product.product_name || product.name || "Tanpa Nama";
-        const productSlug = product.product_slug || product.slug || "";
-        const productLink =
-          product.product_link || buildProductLink(sourceWebsite, productId, productSlug);
-        const stocks = Array.isArray(product.stocks) ? product.stocks : [];
-        const lines = stocks.map((stock) => {
-          const variationInline = formatVariationInline(
-            stock.variations,
-            stock.variation_text,
-            stock.sku,
-          );
-          return {
-            variation_inline: variationInline,
-            stock: stock.stock,
-            sku: stock.sku,
-            link: productLink,
-          };
-        });
-        return {
-          product_id: productId,
-          product_name: productName,
-          product_link: productLink,
-          product_image: product.product_image || "",
-          category_id: product.category_id || "",
-          category_name: product.category_name || "",
-          lines,
-        };
-      });
-  }
-
-  if (Array.isArray(payload.items)) {
-    const grouped = new Map();
-    payload.items
-      .filter((row) => isReadyProductName(row.product_name))
-      .forEach((row) => {
-        const key = row.product_id || row.product_name || "";
-        if (!grouped.has(key)) {
-          const fallbackLink = buildProductLink(sourceWebsite, row.product_id, "");
-          grouped.set(key, {
-            product_id: row.product_id || "",
-            product_name: row.product_name || "Tanpa Nama",
-            product_link: row.product_link || fallbackLink,
-            product_image: row.product_image || "",
-            category_id: row.category_id || "",
-            category_name: row.category_name || "",
-            lines: [],
-          });
-        }
-        const bucket = grouped.get(key);
-        bucket.lines.push({
-          variation_inline: formatVariationInline([], row.variation_text, row.sku),
-          stock: row.stock,
-          sku: row.sku,
-          link: row.product_link || bucket.product_link,
-        });
-      });
-    return Array.from(grouped.values());
-  }
-
-  return [];
 }
 
 function getCategoryLabel(product) {
@@ -184,26 +109,64 @@ function getCategoryLabel(product) {
   return "Tanpa Kategori";
 }
 
+function normalizeProducts(payload) {
+  sourceWebsite = payload?.source?.website || "zzhomey.com";
+  if (!Array.isArray(payload.products)) {
+    return [];
+  }
+
+  return payload.products
+    .filter((product) => isReadyProductName(product.product_name || product.name))
+    .map((product) => {
+      const productId = product.product_id || product.id || "";
+      const productName = product.product_name || product.name || "Tanpa Nama";
+      const productSlug = product.product_slug || product.slug || "";
+      const productLink =
+        product.product_link || buildProductLink(sourceWebsite, productId, productSlug);
+      const stocks = Array.isArray(product.stocks) ? product.stocks : [];
+      const lines = stocks.map((stock) => ({
+        variation_inline: normalizeVariationText(stock.variation_text, stock.sku),
+        stock: stock.stock,
+        sku: stock.sku,
+        link: productLink,
+      }));
+
+      return {
+        product_id: productId,
+        product_name: productName,
+        product_link: productLink,
+        product_image: product.product_image || "",
+        category_id: product.category_id || "",
+        category_name: product.category_name || "",
+        lines,
+      };
+    });
+}
+
+function renderCategoryTabs(categories) {
+  const tabs = [{ key: "__all__", label: "Semua" }, ...categories];
+  if (!tabs.some((tab) => tab.key === selectedCategory)) {
+    selectedCategory = "__all__";
+  }
+
+  categoryTabs.innerHTML = tabs
+    .map((tab) => {
+      const active = tab.key === selectedCategory ? " active" : "";
+      return `<button class="category-tab${active}" type="button" data-category="${escapeHtml(
+        tab.key,
+      )}">${escapeHtml(tab.label)}</button>`;
+    })
+    .join("");
+}
+
 function renderProducts(items) {
   if (!items.length) {
     productList.innerHTML = '<p class="empty">Data tidak ditemukan.</p>';
     return;
   }
 
-  const grouped = new Map();
-  items.forEach((product) => {
-    const label = getCategoryLabel(product);
-    if (!grouped.has(label)) {
-      grouped.set(label, []);
-    }
-    grouped.get(label).push(product);
-  });
-
-  const sectionHtml = Array.from(grouped.entries())
-    .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(([categoryLabel, groupItems]) => {
-      const cardsHtml = groupItems
-        .map((product) => {
+  productList.innerHTML = items
+    .map((product) => {
       const linesHtml = product.lines
         .map((line) => {
           const linkHtml = line.link
@@ -211,7 +174,7 @@ function renderProducts(items) {
             : "<span class=\"product-link disabled\">Link Produk</span>";
           return `<p class="stock-line"><span class="variation">${escapeHtml(
             line.variation_inline,
-          )}</span>=<span class="stock-value">${formatNumber(line.stock)}</span> | ${linkHtml}</p>`;
+          )}</span> = <span class="stock-value">${formatNumber(line.stock)}</span> | ${linkHtml}</p>`;
         })
         .join("");
 
@@ -228,16 +191,8 @@ function renderProducts(items) {
         </div>
         <div class="stock-lines">${linesHtml}</div>
       </article>`;
-        })
-        .join("");
-      return `<section class="category-section">
-        <h2 class="category-title">${escapeHtml(categoryLabel)}</h2>
-        <div class="category-products">${cardsHtml}</div>
-      </section>`;
     })
     .join("");
-
-  productList.innerHTML = sectionHtml;
 }
 
 function updateSummary(items) {
@@ -256,8 +211,8 @@ function updateSummary(items) {
 function applyFilter({ syncUrl = true } = {}) {
   const rawQuery = searchInput.value.trim();
   const q = rawQuery.toLowerCase();
-  let filtered = products;
 
+  let filtered = products;
   if (q) {
     filtered = products.filter((product) => {
       if ((product.product_name || "").toLowerCase().includes(q)) {
@@ -273,11 +228,29 @@ function applyFilter({ syncUrl = true } = {}) {
     });
   }
 
-  renderProducts(filtered);
-  updateSummary(filtered);
+  const categoryMap = new Map();
+  filtered.forEach((product) => {
+    const key = getCategoryLabel(product);
+    if (!categoryMap.has(key)) {
+      categoryMap.set(key, key);
+    }
+  });
+  const categories = Array.from(categoryMap.keys())
+    .sort((a, b) => a.localeCompare(b))
+    .map((label) => ({ key: label, label }));
+
+  renderCategoryTabs(categories);
+
+  const visible =
+    selectedCategory === "__all__"
+      ? filtered
+      : filtered.filter((product) => getCategoryLabel(product) === selectedCategory);
+
+  renderProducts(visible);
+  updateSummary(visible);
 
   if (syncUrl) {
-    syncUrlQuery(rawQuery);
+    syncUrlState({ q: rawQuery, cat: selectedCategory });
   }
 }
 
@@ -311,10 +284,23 @@ async function loadData() {
 
 searchInput.addEventListener("input", () => applyFilter({ syncUrl: true }));
 refreshBtn.addEventListener("click", loadData);
+categoryTabs.addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-category]");
+  if (!button) {
+    return;
+  }
+  selectedCategory = button.dataset.category || "__all__";
+  applyFilter({ syncUrl: true });
+});
 
 const initialQuery = getInitialQuery();
 if (initialQuery) {
   searchInput.value = initialQuery;
+}
+
+const initialCategory = getInitialCategory();
+if (initialCategory) {
+  selectedCategory = initialCategory;
 }
 
 loadData();
