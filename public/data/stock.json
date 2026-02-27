@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-02-26T19:25:24.837200+00:00",
+  "generated_at": "2026-02-27T05:46:44.306978+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
     "reference": "https://dev.berdu.id/docs/reference"
   },
   "totals": {
-    "products": 81,
-    "stock_rows": 886,
-    "stock_amount": 17021.0
+    "products": 83,
+    "stock_rows": 967,
+    "stock_amount": 17471.0
   },
   "products": [
     {
@@ -326,6 +326,599 @@
           "stock": 34,
           "warehouse_id": null,
           "variation_text": "Abu Tua"
+        }
+      ]
+    },
+    {
+      "product_id": "P-Z1GLGLG",
+      "product_name": "[READY] ARVINO KAOS Dad New",
+      "product_slug": "ready-roselia-dress-56607-75033-30109-13659-61602-56517",
+      "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-75033-30109-13659-61602-56517",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CBU1JpF003y7RLU6CBUPZNgCgtNyg2UTA2xBz7DCNaoTw.jpg",
+      "category_id": "M-1754450203186",
+      "category_name": "Atasan",
+      "stock_count": 36,
+      "total_stock": 105.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MSwxOjEsMjoy",
+          "sku": "ARVN1",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BLACK / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjoz",
+          "sku": "ARVN2",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BLACK / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjo0",
+          "sku": "ARVN3",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BLACK / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjo1",
+          "sku": "ARVN4",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BLACK / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjoy",
+          "sku": "ARVN5",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / WHITE / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjoz",
+          "sku": "ARVN6",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / WHITE / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjo0",
+          "sku": "ARVN7",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / WHITE / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjo1",
+          "sku": "ARVN8",
+          "stock": 10,
+          "warehouse_id": null,
+          "variation_text": "DAD / WHITE / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjoy",
+          "sku": "ARVN9",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / VELVET MORNING / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjoz",
+          "sku": "ARVN10",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / VELVET MORNING / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjo0",
+          "sku": "ARVN11",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / VELVET MORNING / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjo1",
+          "sku": "ARVN12",
+          "stock": 9,
+          "warehouse_id": null,
+          "variation_text": "DAD / VELVET MORNING / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQsMjoy",
+          "sku": "ARVN13",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / OIL GREEN / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQsMjoz",
+          "sku": "ARVN14",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / OIL GREEN / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQsMjo0",
+          "sku": "ARVN15",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / OIL GREEN / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQsMjo1",
+          "sku": "ARVN16",
+          "stock": 26,
+          "warehouse_id": null,
+          "variation_text": "DAD / OIL GREEN / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjUsMjoy",
+          "sku": "ARVN17",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BIRU ITB / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjUsMjoz",
+          "sku": "ARVN16",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BIRU ITB / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjUsMjo0",
+          "sku": "ARVN18",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BIRU ITB / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjUsMjo1",
+          "sku": "ARVN19",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "DAD / BIRU ITB / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjYsMjoy",
+          "sku": "ARVN21",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / TANDORI SPACE / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjYsMjoz",
+          "sku": "ARVN22",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / TANDORI SPACE / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjYsMjo0",
+          "sku": "ARVN23",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / TANDORI SPACE / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjYsMjo1",
+          "sku": "ARVN24",
+          "stock": 10,
+          "warehouse_id": null,
+          "variation_text": "DAD / TANDORI SPACE / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjcsMjoy",
+          "sku": "ARVN25",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BAKED APPLE / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjcsMjoz",
+          "sku": "ARVN26",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BAKED APPLE / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjcsMjo0",
+          "sku": "ARVN27",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BAKED APPLE / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjcsMjo1",
+          "sku": "ARVN28",
+          "stock": 17,
+          "warehouse_id": null,
+          "variation_text": "DAD / BAKED APPLE / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjgsMjoy",
+          "sku": "ARVN29",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / WILD GINGER / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjgsMjoz",
+          "sku": "ARVN30",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / WILD GINGER / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjgsMjo0",
+          "sku": "ARVN31",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / WILD GINGER / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjgsMjo1",
+          "sku": "ARVN32",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "DAD / WILD GINGER / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjksMjoy",
+          "sku": "ARVN33",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BLUE STONE / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjksMjoz",
+          "sku": "ARVN34",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BLUE STONE / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjksMjo0",
+          "sku": "ARVN35",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "DAD / BLUE STONE / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjksMjo1",
+          "sku": "ARVN36",
+          "stock": 29,
+          "warehouse_id": null,
+          "variation_text": "DAD / BLUE STONE / XXL"
+        }
+      ]
+    },
+    {
+      "product_id": "P-1BEr7L",
+      "product_name": "[READY] ARVINO KAOS Kids New",
+      "product_slug": "ready-roselia-dress-56607-75033-30109-13659-61602-56517-69732",
+      "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-75033-30109-13659-61602-56517-69732",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CBa1TKS63NuML32CBUPl0VukS9Oj5Ti5BcdUL0f4A.jpg",
+      "category_id": "M-1754450203186",
+      "category_name": "Atasan",
+      "stock_count": 45,
+      "total_stock": 398.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MiwxOjEsMjox",
+          "sku": "ARVN37",
+          "stock": 23,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjoy",
+          "sku": "ARVN38",
+          "stock": 10,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjoz",
+          "sku": "ARVN39",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjo0",
+          "sku": "ARVN40",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjo1",
+          "sku": "ARVN40",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjox",
+          "sku": "ARVN42",
+          "stock": 25,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjoy",
+          "sku": "ARVN43",
+          "stock": 24,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjoz",
+          "sku": "ARVN44",
+          "stock": 23,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjo0",
+          "sku": "ARVN45",
+          "stock": 12,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjo1",
+          "sku": "ARVN46",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjox",
+          "sku": "ARVN47",
+          "stock": 11,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjoy",
+          "sku": "ARVN48",
+          "stock": 12,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjoz",
+          "sku": "ARVN49",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjo0",
+          "sku": "ARVN50",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjo1",
+          "sku": "ARVN51",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjox",
+          "sku": "ARVN52",
+          "stock": 11,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjoy",
+          "sku": "ARVN53",
+          "stock": 9,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjoz",
+          "sku": "ARVN54",
+          "stock": 3,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjo0",
+          "sku": "ARVN55",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjo1",
+          "sku": "ARVN56",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjox",
+          "sku": "ARVN57",
+          "stock": 10,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjoy",
+          "sku": "ARVN58",
+          "stock": 7,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjoz",
+          "sku": "ARVN59",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjo0",
+          "sku": "ARVN60",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjo1",
+          "sku": "ARVN61",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjox",
+          "sku": "ARVN62",
+          "stock": 22,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjoy",
+          "sku": "ARVN63",
+          "stock": 21,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjoz",
+          "sku": "ARVN64",
+          "stock": 13,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjo0",
+          "sku": "ARVN65",
+          "stock": 12,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjo1",
+          "sku": "ARVN66",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjox",
+          "sku": "ARVN67",
+          "stock": 12,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjoy",
+          "sku": "ARVN68",
+          "stock": 12,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjoz",
+          "sku": "ARVN69",
+          "stock": 13,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjo0",
+          "sku": "ARVN70",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjo1",
+          "sku": "ARVN71",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjox",
+          "sku": "ARVN72",
+          "stock": 19,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjoy",
+          "sku": "ARVN73",
+          "stock": 22,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjoz",
+          "sku": "ARVN74",
+          "stock": 12,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjo0",
+          "sku": "ARVN75",
+          "stock": 9,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjo1",
+          "sku": "ARVN76",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjox",
+          "sku": "ARVN77",
+          "stock": 19,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjoy",
+          "sku": "ARVN78",
+          "stock": 15,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjoz",
+          "sku": "ARVN79",
+          "stock": 14,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjo0",
+          "sku": "ARVN80",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjo1",
+          "sku": "ARVN81",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / XXL"
         }
       ]
     },
@@ -922,7 +1515,7 @@
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 30,
-      "total_stock": 364.0,
+      "total_stock": 361.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjEsMjox",
@@ -941,7 +1534,7 @@
         {
           "stock_id": "LzA6MSwxOjIsMjox",
           "sku": "DNNS19",
-          "stock": 22,
+          "stock": 21,
           "warehouse_id": null,
           "variation_text": "ROCELA / Abu Sedang / M Standar"
         },
@@ -1046,7 +1639,7 @@
         {
           "stock_id": "LzA6MywxOjEsMjoy",
           "sku": "DNNS6",
-          "stock": 18,
+          "stock": 17,
           "warehouse_id": null,
           "variation_text": "SHORT PANT / Black / XL Jumbo"
         },
@@ -1060,7 +1653,7 @@
         {
           "stock_id": "LzA6MywxOjIsMjoy",
           "sku": "DNNS10",
-          "stock": 20,
+          "stock": 19,
           "warehouse_id": null,
           "variation_text": "SHORT PANT / Abu Sedang / XL Jumbo"
         },
@@ -1575,7 +2168,7 @@
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 10,
-      "total_stock": 373.0,
+      "total_stock": 368.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -1608,21 +2201,21 @@
         {
           "stock_id": "LzA6MywxOjE",
           "sku": null,
-          "stock": 39,
+          "stock": 38,
           "warehouse_id": null,
           "variation_text": "Kode C / L"
         },
         {
           "stock_id": "LzA6MywxOjI",
           "sku": null,
-          "stock": 37,
+          "stock": 36,
           "warehouse_id": null,
           "variation_text": "Kode C / XXL"
         },
         {
           "stock_id": "LzA6NCwxOjE",
           "sku": null,
-          "stock": 40,
+          "stock": 37,
           "warehouse_id": null,
           "variation_text": "Kode D / L"
         },
@@ -3120,7 +3713,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 9,
-      "total_stock": 26.0,
+      "total_stock": 25.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3139,7 +3732,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "YMNA3",
-          "stock": 8,
+          "stock": 7,
           "warehouse_id": null,
           "variation_text": "Ungu Pasta"
         },
@@ -3281,7 +3874,7 @@
       "product_name": "[READY] AZURE BAG New",
       "product_slug": "ready-azure-bag-28985-66631-16499",
       "product_link": "https://zzhomey.com/product/ready-azure-bag-28985-66631-16499",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LiYm9pmtmcvTsZ6LiYnt8jh2bjfNy3Tz6cgBvp6j1Oow.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LiYm9pmtmcvTsZ6LiYnt8jh2bjfNy3Tz6cgBvp6j1Oow.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
@@ -3333,19 +3926,19 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 672.0,
+      "total_stock": 668.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "BNPC1",
-          "stock": 155,
+          "stock": 153,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "BNPC2",
-          "stock": 36,
+          "stock": 34,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -3395,7 +3988,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 120.0,
+      "total_stock": 119.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3421,7 +4014,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "CHMR4",
-          "stock": 15,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "Burgundy Brown"
         }
@@ -3711,7 +4304,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 413.0,
+      "total_stock": 412.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3730,7 +4323,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "LXPC3",
-          "stock": 68,
+          "stock": 67,
           "warehouse_id": null,
           "variation_text": "Moss"
         },
@@ -3766,7 +4359,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 683.0,
+      "total_stock": 682.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3785,7 +4378,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "LNVA3",
-          "stock": 94,
+          "stock": 93,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -3814,7 +4407,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 4343.0,
+      "total_stock": 4342.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3861,7 +4454,7 @@
         {
           "stock_id": "LzA6Nw",
           "sku": "LYTA4",
-          "stock": 716,
+          "stock": 715,
           "warehouse_id": null,
           "variation_text": "Peach"
         }
@@ -3931,12 +4524,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 326.0,
+      "total_stock": 292.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MRRA4",
-          "stock": 102,
+          "stock": 87,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -3950,21 +4543,21 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "MRRA2",
-          "stock": 117,
+          "stock": 112,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "MRRA3",
-          "stock": 53,
+          "stock": 48,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "MRRA1",
-          "stock": 54,
+          "stock": 45,
           "warehouse_id": null,
           "variation_text": "Soil"
         }
@@ -4013,7 +4606,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 200.0,
+      "total_stock": 199.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4025,7 +4618,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": null,
-          "stock": 74,
+          "stock": 73,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -4146,7 +4739,7 @@
       "product_name": "[READY] SEOYA POUCH New",
       "product_slug": "ready-seoya-pouch-71038-3608-80199",
       "product_link": "https://zzhomey.com/product/ready-seoya-pouch-71038-3608-80199",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LCYtYCBFBNlcLHILC63vvKpxZEGDouSSOnLWEmmGNbbg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LCYtYCBFBNlcLHILC63vvKpxZEGDouSSOnLWEmmGNbbg.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
@@ -5786,7 +6379,7 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 20,
-      "total_stock": 130.0,
+      "total_stock": 129.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -5812,7 +6405,7 @@
         {
           "stock_id": "LzA6MSwxOjQ",
           "sku": null,
-          "stock": 10,
+          "stock": 9,
           "warehouse_id": null,
           "variation_text": "White / XL"
         },
