@@ -322,8 +322,8 @@ async function loadData() {
       const lastUpdate = formatWibHHMM(generatedDateObj);
       const nextUpdate = getNextScheduleWibHHMM(new Date());
       generatedDate.textContent = lastDate;
-      generatedTime.textContent = lastUpdate;
-      nextUpdateText.textContent = `update selanjutnya ${nextUpdate}`;
+      generatedTime.textContent = `${lastUpdate} WIB`;
+      nextUpdateText.textContent = `update selanjutnya ${nextUpdate} WIB`;
     } else {
       generatedDate.textContent = "-";
       generatedTime.textContent = "-";
