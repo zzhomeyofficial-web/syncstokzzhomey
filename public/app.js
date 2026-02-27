@@ -59,28 +59,49 @@ function pad2(value) {
   return String(value).padStart(2, "0");
 }
 
-function toWibPseudoDate(date) {
-  const utcMs = date.getTime() + date.getTimezoneOffset() * 60_000;
-  return new Date(utcMs + 7 * 60 * 60 * 1000);
+const WIB_TIMEZONE = "Asia/Jakarta";
+const WIB_PARTS_FORMATTER = new Intl.DateTimeFormat("en-GB", {
+  timeZone: WIB_TIMEZONE,
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+  hourCycle: "h23",
+});
+
+function getWibParts(date) {
+  const parts = WIB_PARTS_FORMATTER.formatToParts(date);
+  const values = {};
+  parts.forEach((part) => {
+    if (part.type !== "literal") {
+      values[part.type] = part.value;
+    }
+  });
+  return {
+    day: values.day || "00",
+    month: values.month || "00",
+    year: values.year || "0000",
+    hour: values.hour || "00",
+    minute: values.minute || "00",
+  };
 }
 
 function formatWibHHMM(date) {
-  const wibDate = toWibPseudoDate(date);
-  return `${pad2(wibDate.getUTCHours())}:${pad2(wibDate.getUTCMinutes())}`;
+  const parts = getWibParts(date);
+  return `${parts.hour}:${parts.minute}`;
 }
 
 function formatWibDDMMYYYY(date) {
-  const wibDate = toWibPseudoDate(date);
-  const day = pad2(wibDate.getUTCDate());
-  const month = pad2(wibDate.getUTCMonth() + 1);
-  const year = wibDate.getUTCFullYear();
-  return `${day}-${month}-${year}`;
+  const parts = getWibParts(date);
+  return `${parts.day}-${parts.month}-${parts.year}`;
 }
 
 function getNextScheduleWibHHMM(nowDate = new Date()) {
-  const wibNow = toWibPseudoDate(nowDate);
-  const hour = wibNow.getUTCHours();
-  const minute = wibNow.getUTCMinutes();
+  const wibNow = getWibParts(nowDate);
+  const hour = Number(wibNow.hour);
+  const minute = Number(wibNow.minute);
   let nextHour = 8;
 
   if (hour < 8) {
