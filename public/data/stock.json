@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T03:12:45.839608+00:00",
+  "generated_at": "2026-02-28T04:59:27.683694+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 83,
     "stock_rows": 967,
-    "stock_amount": 17309.0
+    "stock_amount": 17285.0
   },
   "products": [
     {
@@ -150,7 +150,7 @@
       "product_name": "[READY] CHERYL BROOCH New",
       "product_slug": "ready-stock-cheryl-brooch-93034-60555-36470-89061-77957-89616-42502-95017",
       "product_link": "https://zzhomey.com/product/ready-stock-cheryl-brooch-93034-60555-36470-89061-77957-89616-42502-95017",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C4n5ZU1BlcDLfSgC4oXSazVFBxzvFjRf28zoa44bziw.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/C4n5ZU1BlcDLfSgC4oXSazVFBxzvFjRf28zoa44bziw.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
@@ -266,7 +266,7 @@
       "product_name": "[READY] JAMILA BROOCH NEW",
       "product_slug": "ready-jamila-brooch-8643-94498-48684-90575-73802",
       "product_link": "https://zzhomey.com/product/ready-jamila-brooch-8643-94498-48684-90575-73802",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CdjfpgOQ2EZoCgPCdjLcKeEpompJaRFKoUpVO97FGFg.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/CdjfpgOQ2EZoCgPCdjLcKeEpompJaRFKoUpVO97FGFg.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
@@ -927,7 +927,7 @@
       "product_name": "[READY] CELINE HOMEDRESS",
       "product_slug": "ready-roselia-dress-56607-55320",
       "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-55320",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CDxpwxrgCbxwsXLCDnH9ZAMTPMfhgnQBGoIm80AlyNKg.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/CDxpwxrgCbxwsXLCDnH9ZAMTPMfhgnQBGoIm80AlyNKg.jpg",
       "category_id": "M-1754450203186",
       "category_name": "Atasan",
       "stock_count": 6,
@@ -1515,7 +1515,7 @@
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 30,
-      "total_stock": 357.0,
+      "total_stock": 355.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjEsMjox",
@@ -1590,7 +1590,7 @@
         {
           "stock_id": "LzA6MiwxOjIsMjox",
           "sku": "DNNS29",
-          "stock": 25,
+          "stock": 24,
           "warehouse_id": null,
           "variation_text": "INNER KULOT / Abu Sedang / M Standar"
         },
@@ -1604,7 +1604,7 @@
         {
           "stock_id": "LzA6MiwxOjMsMjox",
           "sku": "DNNS27",
-          "stock": 18,
+          "stock": 17,
           "warehouse_id": null,
           "variation_text": "INNER KULOT / Crock Cery / M Standar"
         },
@@ -2168,7 +2168,7 @@
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 10,
-      "total_stock": 357.0,
+      "total_stock": 355.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -2215,7 +2215,7 @@
         {
           "stock_id": "LzA6NCwxOjE",
           "sku": null,
-          "stock": 36,
+          "stock": 35,
           "warehouse_id": null,
           "variation_text": "Kode D / L"
         },
@@ -2229,7 +2229,7 @@
         {
           "stock_id": "LzA6NSwxOjE",
           "sku": null,
-          "stock": 41,
+          "stock": 40,
           "warehouse_id": null,
           "variation_text": "Kode E / L"
         },
@@ -4524,12 +4524,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 222.0,
+      "total_stock": 203.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MRRA4",
-          "stock": 62,
+          "stock": 58,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -4543,21 +4543,21 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "MRRA2",
-          "stock": 105,
+          "stock": 103,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "MRRA3",
-          "stock": 26,
+          "stock": 18,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "MRRA1",
-          "stock": 29,
+          "stock": 24,
           "warehouse_id": null,
           "variation_text": "Soil"
         }
@@ -4606,7 +4606,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 197.0,
+      "total_stock": 196.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4625,7 +4625,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 64,
+          "stock": 63,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -5634,7 +5634,7 @@
       "product_name": "[READY] BANDO AKSESORIS 17an",
       "product_slug": "ready-sayla-kaos-kaki-emboss-47306-40089-4979-95237-74627-99152",
       "product_link": "https://zzhomey.com/product/ready-sayla-kaos-kaki-emboss-47306-40089-4979-95237-74627-99152",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C61qiK30hleKNfNRC61GD8rg8EQiNUBTau0Ops7ClCpzQ.jpg",
+      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/C61qiK30hleKNfNRC61GD8rg8EQiNUBTau0Ops7ClCpzQ.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 2,
@@ -5758,7 +5758,7 @@
       "product_name": "[READY] BRIANA SKIRT",
       "product_slug": "briana-skirt-cullote-91722",
       "product_link": "https://zzhomey.com/product/briana-skirt-cullote-91722",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/hc66cEy0Co34cskVhcaLjPXMCYaJxKdS5aDWeQ1dmRQ.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/hc66cEy0Co34cskVhcaLjPXMCYaJxKdS5aDWeQ1dmRQ.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 12,
@@ -6265,7 +6265,7 @@
       "product_name": "[READY] IKAT KEPALA AKSESORIS 17an",
       "product_slug": "ready-sayla-kaos-kaki-emboss-47306-40089-4979-95237-21306-84246-94333",
       "product_link": "https://zzhomey.com/product/ready-sayla-kaos-kaki-emboss-47306-40089-4979-95237-21306-84246-94333",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C61qMsc0eC4yf48C61Gps14GoAMStSl2OKXnA8z7ooQ.jpg",
+      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/C61qMsc0eC4yf48C61Gps14GoAMStSl2OKXnA8z7ooQ.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 3,
@@ -7008,7 +7008,7 @@
       "product_name": "[READY] SAQIB SARKOCI",
       "product_slug": "pre-order-saqib-sarkoci-77500",
       "product_link": "https://zzhomey.com/product/pre-order-saqib-sarkoci-77500",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CF7IFDEaj9RoseXCF7j4dJvNoiW0B1SJe0ZPftFGhrzw.jpg",
+      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CF7IFDEaj9RoseXCF7j4dJvNoiW0B1SJe0ZPftFGhrzw.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 15,
