@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T10:30:08.609911+00:00",
+  "generated_at": "2026-02-28T11:25:28.847515+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 83,
     "stock_rows": 967,
-    "stock_amount": 17202.0
+    "stock_amount": 17197.0
   },
   "products": [
     {
@@ -90,7 +90,7 @@
       "product_name": "[READY] AVA GOLD BROOCH new",
       "product_slug": "ready-bella-silver-brooch-25183-80697-37653-67693-12575-62998-48374",
       "product_link": "https://zzhomey.com/product/ready-bella-silver-brooch-25183-80697-37653-67693-12575-62998-48374",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CyFhvq5fWhjE0TjCyFsExJilUMz1qFREObPMHwrSuvgg.jpg",
+      "product_image": "https://bdsgp.my.id/img/_/bw5d48ohbw5h0svjb8_3/CyFhvq5fWhjE0TjCyFsExJilUMz1qFREObPMHwrSuvgg.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
@@ -1851,7 +1851,7 @@
       "product_name": "[READY] KHUNAISA DRESS",
       "product_slug": "pre-order-khunaisa-dress-37784",
       "product_link": "https://zzhomey.com/product/pre-order-khunaisa-dress-37784",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CGdOy7IJ9dz8fHNCGdQlhhzXYLKsDfQ5mt56SuwIpp5w.jpg",
+      "product_image": "https://bdsgp.my.id/img/_/bw5d48ohbw5h0svjb8_3/CGdOy7IJ9dz8fHNCGdQlhhzXYLKsDfQ5mt56SuwIpp5w.jpg",
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 25,
@@ -4128,7 +4128,7 @@
       "product_name": "[READY] ENZI TAS SOLUTIF New",
       "product_slug": "ready-gwena-slingbag-82527-13615-5242-40940-26802-79042-72296",
       "product_link": "https://zzhomey.com/product/ready-gwena-slingbag-82527-13615-5242-40940-26802-79042-72296",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/ClCzroCEuW9RswwClLR8qkQPPbJ9mNSAS4q6jFCtWtQ.jpg",
+      "product_image": "https://bdsgp.my.id/img/_/bw5d48ohbw5h0svjb8_3/ClCzroCEuW9RswwClLR8qkQPPbJ9mNSAS4q6jFCtWtQ.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
@@ -4524,12 +4524,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 154.0,
+      "total_stock": 149.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MRRA4",
-          "stock": 38,
+          "stock": 34,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -4557,7 +4557,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "MRRA1",
-          "stock": 13,
+          "stock": 12,
           "warehouse_id": null,
           "variation_text": "Soil"
         }
@@ -4643,7 +4643,7 @@
       "product_name": "[READY] SEINA SAFECARD New",
       "product_slug": "ready-seina-safecard-73018-82318-85498",
       "product_link": "https://zzhomey.com/product/ready-seina-safecard-73018-82318-85498",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LL5S9ud54QEIC19LL5au6rmASkFrqBT8afBKUuXIA6g.jpg",
+      "product_image": "https://bdsgp.my.id/img/_/bw5d48ohbw5h0svjb8_3/LL5S9ud54QEIC19LL5au6rmASkFrqBT8afBKUuXIA6g.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
@@ -5661,7 +5661,7 @@
       "product_name": "[READY] BRIANA CULLOTE",
       "product_slug": "briana-skirt-cullote-91722-70078",
       "product_link": "https://zzhomey.com/product/briana-skirt-cullote-91722-70078",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/C0ZVSesFvkU40BkC0Zy2Ys4pwWrIc6SfmQj6MUSI5A8A.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C0ZVSesFvkU40BkC0Zy2Ys4pwWrIc6SfmQj6MUSI5A8A.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 12,
@@ -6168,7 +6168,7 @@
       "product_name": "[READY] HANIN HIJAB New",
       "product_slug": "ready-hanin-hijab-4331-57292-98322",
       "product_link": "https://zzhomey.com/product/ready-hanin-hijab-4331-57292-98322",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L8Wzl8u0CcHNd0EmL83CyFnoa64PsllTLyyZ3iHHanRvw.jpg",
+      "product_image": "https://bdsgp.my.id/img/_/bw5d48ohbw5h0svjb8_3/L8Wzl8u0CcHNd0EmL83CyFnoa64PsllTLyyZ3iHHanRvw.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 12,
@@ -6528,7 +6528,7 @@
       "product_name": "[READY] LIETA Hijab Zamakids New",
       "product_slug": "ready-lili-lieta-hijab-zamakids-35238-13076-29665-67740-57034-78866-62235",
       "product_link": "https://zzhomey.com/product/ready-lili-lieta-hijab-zamakids-35238-13076-29665-67740-57034-78866-62235",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CTKMJZKibzR1EQCTKeR3MGe1dhwxReep2WY7VBJ62A.jpg",
+      "product_image": "https://bdsgp.my.id/img/_/bw5d48ohbw5h0svjb8_3/CTKMJZKibzR1EQCTKeR3MGe1dhwxReep2WY7VBJ62A.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 21,
@@ -7460,7 +7460,7 @@
       "product_name": "[READY] SYAAMIL KOKO New",
       "product_slug": "ready-syaamil-koko-96796-51704-23444",
       "product_link": "https://zzhomey.com/product/ready-syaamil-koko-96796-51704-23444",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Lf1KkLrYkvnqh84Lf1SQ5kw5XhsGqSBq2miVEgSoiw.jpg",
+      "product_image": "https://bdsgp.my.id/img/_/bw5d48ohbw5h0svjb8_3/Lf1KkLrYkvnqh84Lf1SQ5kw5XhsGqSBq2miVEgSoiw.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 36,
