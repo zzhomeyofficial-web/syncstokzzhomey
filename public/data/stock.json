@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-01T03:44:13.572649+00:00",
+  "generated_at": "2026-03-01T05:20:35.448252+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 83,
     "stock_rows": 967,
-    "stock_amount": 17130.0
+    "stock_amount": 17125.0
   },
   "products": [
     {
@@ -3878,7 +3878,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 19.0,
+      "total_stock": 17.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3897,7 +3897,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "AZRB2",
-          "stock": 12,
+          "stock": 11,
           "warehouse_id": null,
           "variation_text": "Nutella"
         },
@@ -3911,7 +3911,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "AZRB5",
-          "stock": 7,
+          "stock": 6,
           "warehouse_id": null,
           "variation_text": "Mocca"
         }
@@ -4524,12 +4524,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 108.0,
+      "total_stock": 105.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MRRA4",
-          "stock": 15,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -4557,7 +4557,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "MRRA1",
-          "stock": 5,
+          "stock": 3,
           "warehouse_id": null,
           "variation_text": "Soil"
         }
