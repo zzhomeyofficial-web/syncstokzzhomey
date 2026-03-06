@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T05:13:26.901520+00:00",
+  "generated_at": "2026-03-06T06:59:24.195909+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 87,
     "stock_rows": 1068,
-    "stock_amount": 18059.0
+    "stock_amount": 18047.0
   },
   "products": [
     {
@@ -5472,40 +5472,40 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 415.0,
+      "total_stock": 407.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": null,
-          "stock": 90,
+          "stock": 88,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": null,
-          "stock": 98,
+          "stock": 97,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 91,
+          "stock": 90,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
         {
           "stock_id": "LzA6NA",
           "sku": null,
-          "stock": 63,
+          "stock": 62,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": null,
-          "stock": 73,
+          "stock": 70,
           "warehouse_id": null,
           "variation_text": "Soil"
         }
@@ -5657,7 +5657,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 636.0,
+      "total_stock": 635.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5697,7 +5697,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "BNPC5",
-          "stock": 108,
+          "stock": 107,
           "warehouse_id": null,
           "variation_text": "Ijo Botol"
         },
@@ -5719,7 +5719,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 114.0,
+      "total_stock": 113.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5731,7 +5731,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "CHMR2",
-          "stock": 39,
+          "stock": 38,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -5863,12 +5863,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 321.0,
+      "total_stock": 320.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ENZS1",
-          "stock": 44,
+          "stock": 43,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -7138,7 +7138,7 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 20,
-      "total_stock": 129.0,
+      "total_stock": 128.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -7206,7 +7206,7 @@
         {
           "stock_id": "LzA6MiwxOjU",
           "sku": null,
-          "stock": 7,
+          "stock": 6,
           "warehouse_id": null,
           "variation_text": "Navy / XXL"
         },
