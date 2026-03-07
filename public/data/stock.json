@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T08:38:52.395891+00:00",
+  "generated_at": "2026-03-07T09:35:37.794144+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 88,
     "stock_rows": 1073,
-    "stock_amount": 18093.0
+    "stock_amount": 18092.0
   },
   "products": [
     {
@@ -270,12 +270,12 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
-      "total_stock": 117.0,
+      "total_stock": 116.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "HYFA1",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Black"
         },
