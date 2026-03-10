@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T03:29:10.319254+00:00",
+  "generated_at": "2026-03-10T05:13:50.794378+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 88,
     "stock_rows": 1073,
-    "stock_amount": 17769.0
+    "stock_amount": 17755.0
   },
   "products": [
     {
@@ -218,7 +218,7 @@
       "product_name": "[READY] FLO RING New",
       "product_slug": "ready-alida-pin-3-15-65194-99585-89106-70504-33961-32833",
       "product_link": "https://zzhomey.com/product/ready-alida-pin-3-15-65194-99585-89106-70504-33961-32833",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CvXv0dkKiVuNfMeCvXNoC7sPo0ASpERruSAJtbZCXTA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CvXv0dkKiVuNfMeCvXNoC7sPo0ASpERruSAJtbZCXTA.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
@@ -805,7 +805,7 @@
       "product_name": "[READY] DEA CELAMIS JOGGER",
       "product_slug": "pre-order-dea-deva-derin-82287-44148-39598-24836-86231-88494-65824",
       "product_link": "https://zzhomey.com/product/pre-order-dea-deva-derin-82287-44148-39598-24836-86231-88494-65824",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CIYeGbltBFo1i1pCI6LNI7qEoEmYkMRJe457F3gzPmsw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CIYeGbltBFo1i1pCI6LNI7qEoEmYkMRJe457F3gzPmsw.jpg",
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 18,
@@ -3168,7 +3168,7 @@
       "product_name": "[READY] LONA & ZORA KNITWEAR",
       "product_slug": "pre-order-lona-zora-knitwear-49913-11205-66391-9284",
       "product_link": "https://zzhomey.com/product/pre-order-lona-zora-knitwear-49913-11205-66391-9284",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/COrVUIkwKt1kfBFCOB0QvAarwVy2AjSGaSU0A1PEavPQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/COrVUIkwKt1kfBFCOB0QvAarwVy2AjSGaSU0A1PEavPQ.jpg",
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 16,
@@ -3533,7 +3533,7 @@
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 10,
-      "total_stock": 295.0,
+      "total_stock": 294.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -3545,7 +3545,7 @@
         {
           "stock_id": "LzA6MSwxOjI",
           "sku": null,
-          "stock": 15,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "Kode A / XXL"
         },
@@ -3694,7 +3694,7 @@
       "product_name": "[READY] ADZILA BERGO TALI NON PED",
       "product_slug": "pre-order-adzila-bergo-55952-49555-12937",
       "product_link": "https://zzhomey.com/product/pre-order-adzila-bergo-55952-49555-12937",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/C3bOuRh08PUIgLIaC3bOq4ELHwvipglTbaKWP59pJ3r0A.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C3bOuRh08PUIgLIaC3bOq4ELHwvipglTbaKWP59pJ3r0A.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
@@ -4890,7 +4890,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
-      "total_stock": 384.0,
+      "total_stock": 382.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4909,7 +4909,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 30,
+          "stock": 29,
           "warehouse_id": null,
           "variation_text": "Kopi"
         },
@@ -4930,7 +4930,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": null,
-          "stock": 21,
+          "stock": 20,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -5472,12 +5472,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 288.0,
+      "total_stock": 285.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": null,
-          "stock": 62,
+          "stock": 60,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -5498,7 +5498,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": null,
-          "stock": 27,
+          "stock": 26,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
@@ -5719,7 +5719,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 114.0,
+      "total_stock": 113.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5745,7 +5745,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "CHMR4",
-          "stock": 13,
+          "stock": 12,
           "warehouse_id": null,
           "variation_text": "Burgundy Brown"
         }
@@ -5804,7 +5804,7 @@
       "product_name": "[READY] ELORA POUCH",
       "product_slug": "ready-elora-pouch-4047-37331",
       "product_link": "https://zzhomey.com/product/ready-elora-pouch-4047-37331",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/C4eMZthzNJkLsZHC4e1XpBerkdJQbMSaa8UCANEQrF6A.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C4eMZthzNJkLsZHC4e1XpBerkdJQbMSaa8UCANEQrF6A.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
@@ -5863,12 +5863,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 320.0,
+      "total_stock": 319.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ENZS1",
-          "stock": 43,
+          "stock": 42,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -5911,12 +5911,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 563.0,
+      "total_stock": 562.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 149,
+          "stock": 148,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -6035,7 +6035,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 395.0,
+      "total_stock": 393.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6075,7 +6075,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "LXPC6",
-          "stock": 27,
+          "stock": 25,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -6255,7 +6255,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 84.0,
+      "total_stock": 83.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6267,7 +6267,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "MRRA5",
-          "stock": 84,
+          "stock": 83,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
@@ -6415,7 +6415,7 @@
       "product_name": "[READY] SELINA PHONEBAG New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CwtNdXP00YX6mH8ZCwtnAzhKMqF6H6ShamW5rwZfZA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CwtNdXP00YX6mH8ZCwtnAzhKMqF6H6ShamW5rwZfZA.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
@@ -8271,7 +8271,7 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 36,
-      "total_stock": 79.0,
+      "total_stock": 77.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -8304,7 +8304,7 @@
         {
           "stock_id": "LzA6MSwxOjU",
           "sku": null,
-          "stock": 4,
+          "stock": 3,
           "warehouse_id": null,
           "variation_text": "Navy / Size 2"
         },
@@ -8437,7 +8437,7 @@
         {
           "stock_id": "LzA6NCwxOjY",
           "sku": null,
-          "stock": 3,
+          "stock": 2,
           "warehouse_id": null,
           "variation_text": "Emerald / Size 3"
         },
