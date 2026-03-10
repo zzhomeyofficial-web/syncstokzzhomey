@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T05:13:50.794378+00:00",
+  "generated_at": "2026-03-10T06:59:05.320123+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 88,
     "stock_rows": 1073,
-    "stock_amount": 17755.0
+    "stock_amount": 17747.0
   },
   "products": [
     {
@@ -4765,7 +4765,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 263.0,
+      "total_stock": 262.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4840,7 +4840,7 @@
         {
           "stock_id": "LzA6MTE",
           "sku": null,
-          "stock": 15,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
@@ -5472,7 +5472,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 285.0,
+      "total_stock": 284.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5498,7 +5498,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": null,
-          "stock": 26,
+          "stock": 25,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
@@ -6255,7 +6255,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 83.0,
+      "total_stock": 81.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6267,7 +6267,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "MRRA5",
-          "stock": 83,
+          "stock": 81,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
@@ -6337,7 +6337,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 170.0,
+      "total_stock": 169.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6363,7 +6363,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": null,
-          "stock": 29,
+          "stock": 28,
           "warehouse_id": null,
           "variation_text": "Brown"
         }
@@ -7186,7 +7186,7 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 20,
-      "total_stock": 127.0,
+      "total_stock": 126.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -7240,7 +7240,7 @@
         {
           "stock_id": "LzA6MiwxOjM",
           "sku": null,
-          "stock": 19,
+          "stock": 18,
           "warehouse_id": null,
           "variation_text": "Navy / L"
         },
@@ -8006,7 +8006,7 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 36,
-      "total_stock": 69.0,
+      "total_stock": 68.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -8067,7 +8067,7 @@
         {
           "stock_id": "LzA6MiwxOjM",
           "sku": null,
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / XL"
         },
@@ -8271,7 +8271,7 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 36,
-      "total_stock": 77.0,
+      "total_stock": 76.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -8479,7 +8479,7 @@
         {
           "stock_id": "LzA6NSwxOjY",
           "sku": null,
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Caramel / Size 3"
         },
