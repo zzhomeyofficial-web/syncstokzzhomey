@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T13:14:10.829576+00:00",
+  "generated_at": "2026-03-10T14:56:24.137367+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 88,
     "stock_rows": 1073,
-    "stock_amount": 17701.0
+    "stock_amount": 17695.0
   },
   "products": [
     {
@@ -74,12 +74,12 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
-      "total_stock": 245.0,
+      "total_stock": 244.0,
       "stocks": [
         {
           "stock_id": "Lw",
           "sku": null,
-          "stock": 245,
+          "stock": 244,
           "warehouse_id": null,
           "variation_text": ""
         }
@@ -318,12 +318,12 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
-      "total_stock": 108.0,
+      "total_stock": 107.0,
       "stocks": [
         {
           "stock_id": "Lw",
           "sku": "JMLB1",
-          "stock": 108,
+          "stock": 107,
           "warehouse_id": null,
           "variation_text": ""
         }
@@ -1644,7 +1644,7 @@
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 8,
-      "total_stock": 48.0,
+      "total_stock": 47.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -1663,7 +1663,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "SRKT3",
-          "stock": 9,
+          "stock": 8,
           "warehouse_id": null,
           "variation_text": "Silver Grey"
         },
@@ -5472,7 +5472,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 283.0,
+      "total_stock": 281.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5491,14 +5491,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 68,
+          "stock": 67,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
         {
           "stock_id": "LzA6NA",
           "sku": null,
-          "stock": 25,
+          "stock": 24,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
@@ -6090,7 +6090,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 676.0,
+      "total_stock": 675.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6109,7 +6109,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "LNVA3",
-          "stock": 93,
+          "stock": 92,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
