@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-10T14:56:24.137367+00:00",
+  "generated_at": "2026-03-11T03:28:47.341633+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
     "reference": "https://dev.berdu.id/docs/reference"
   },
   "totals": {
-    "products": 88,
-    "stock_rows": 1073,
-    "stock_amount": 17695.0
+    "products": 96,
+    "stock_rows": 1237,
+    "stock_amount": 18663.0
   },
   "products": [
     {
@@ -154,12 +154,12 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
-      "total_stock": 230.0,
+      "total_stock": 225.0,
       "stocks": [
         {
           "stock_id": "Lw",
           "sku": "NHDB1",
-          "stock": 230,
+          "stock": 225,
           "warehouse_id": null,
           "variation_text": ""
         }
@@ -270,33 +270,33 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
-      "total_stock": 110.0,
+      "total_stock": 96.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "HYFA1",
-          "stock": 22,
+          "stock": 17,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "HYFA5",
-          "stock": 16,
+          "stock": 13,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "HYFA3",
-          "stock": 21,
+          "stock": 20,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "HYFA2",
-          "stock": 34,
+          "stock": 29,
           "warehouse_id": null,
           "variation_text": "Milo"
         },
@@ -379,12 +379,12 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
-      "total_stock": 219.0,
+      "total_stock": 214.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": null,
-          "stock": 128,
+          "stock": 124,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -405,7 +405,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": null,
-          "stock": 59,
+          "stock": 58,
           "warehouse_id": null,
           "variation_text": "Abu Muda"
         },
@@ -4078,7 +4078,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
-      "total_stock": 47.0,
+      "total_stock": 45.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4090,14 +4090,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": null,
-          "stock": 5,
+          "stock": 4,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 23,
+          "stock": 22,
           "warehouse_id": null,
           "variation_text": "Khaki"
         },
@@ -4765,7 +4765,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 262.0,
+      "total_stock": 260.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4819,7 +4819,7 @@
         {
           "stock_id": "LzA6OA",
           "sku": null,
-          "stock": 21,
+          "stock": 19,
           "warehouse_id": null,
           "variation_text": "Abu Muda"
         },
@@ -5472,12 +5472,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 281.0,
+      "total_stock": 271.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": null,
-          "stock": 60,
+          "stock": 58,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -5491,21 +5491,21 @@
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 67,
+          "stock": 64,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
         {
           "stock_id": "LzA6NA",
           "sku": null,
-          "stock": 24,
+          "stock": 22,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": null,
-          "stock": 44,
+          "stock": 41,
           "warehouse_id": null,
           "variation_text": "Soil"
         }
@@ -5520,7 +5520,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 84.0,
+      "total_stock": 83.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5532,7 +5532,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "ARKB2",
-          "stock": 14,
+          "stock": 13,
           "warehouse_id": null,
           "variation_text": "Burgundy Brown"
         },
@@ -5657,7 +5657,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 615.0,
+      "total_stock": 733.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5669,7 +5669,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "BNPC2",
-          "stock": 0,
+          "stock": 120,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -5683,14 +5683,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "BNPC3",
-          "stock": 102,
+          "stock": 101,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "BNPC6",
-          "stock": 89,
+          "stock": 88,
           "warehouse_id": null,
           "variation_text": "Cream"
         },
@@ -5911,19 +5911,19 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 544.0,
+      "total_stock": 902.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 145,
+          "stock": 138,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "FURP2",
-          "stock": 112,
+          "stock": 119,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -5937,14 +5937,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "FURP4",
-          "stock": 72,
+          "stock": 132,
           "warehouse_id": null,
           "variation_text": "Lilac"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "FURP5",
-          "stock": 104,
+          "stock": 222,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
@@ -5958,14 +5958,14 @@
         {
           "stock_id": "LzA6Nw",
           "sku": "FURP8",
-          "stock": 11,
+          "stock": 73,
           "warehouse_id": null,
           "variation_text": "Moss"
         },
         {
           "stock_id": "LzA6OA",
           "sku": "FURP6",
-          "stock": 12,
+          "stock": 130,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -6035,7 +6035,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 393.0,
+      "total_stock": 392.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6075,7 +6075,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "LXPC6",
-          "stock": 25,
+          "stock": 24,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -6138,7 +6138,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 4318.0,
+      "total_stock": 4317.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6178,7 +6178,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "LYTA8",
-          "stock": 721,
+          "stock": 720,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
@@ -6255,7 +6255,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 81.0,
+      "total_stock": 261.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6281,7 +6281,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "MRRA3",
-          "stock": 0,
+          "stock": 180,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -6537,6 +6537,145 @@
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Burgundy Brown"
+        }
+      ]
+    },
+    {
+      "product_id": "P-Z2w8Tpk",
+      "product_name": "[READY] ALICE TUNIC BY ZAMAKIDS NEW",
+      "product_slug": "pre-order-alice-elsie-by-zamakids-25850-50417-64091",
+      "product_link": "https://zzhomey.com/product/pre-order-alice-elsie-by-zamakids-25850-50417-64091",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CWSHmGnWkZGiLKbCWSK5msuEaUuajUReCigeLTgKFRg.jpg",
+      "category_id": "M-1699929662907",
+      "category_name": "ZAMA KIDS",
+      "stock_count": 18,
+      "total_stock": 4.0,
+      "stocks": [
+        {
+          "stock_id": "LzE6MSwyOjE",
+          "sku": "ALST1",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / S"
+        },
+        {
+          "stock_id": "LzE6MSwyOjI",
+          "sku": "ALST2",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / M"
+        },
+        {
+          "stock_id": "LzE6MSwyOjM",
+          "sku": "ALST3",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / L"
+        },
+        {
+          "stock_id": "LzE6MiwyOjE",
+          "sku": "ALST4",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Orchid / S"
+        },
+        {
+          "stock_id": "LzE6MiwyOjI",
+          "sku": "ALST5",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "Orchid / M"
+        },
+        {
+          "stock_id": "LzE6MiwyOjM",
+          "sku": "ALST6",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Orchid / L"
+        },
+        {
+          "stock_id": "LzE6MywyOjE",
+          "sku": "ALST7",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Broken White / S"
+        },
+        {
+          "stock_id": "LzE6MywyOjI",
+          "sku": "ALST8",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Broken White / M"
+        },
+        {
+          "stock_id": "LzE6MywyOjM",
+          "sku": "ALST9",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Broken White / L"
+        },
+        {
+          "stock_id": "LzE6NCwyOjE",
+          "sku": "ALST10",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dusty Pink / S"
+        },
+        {
+          "stock_id": "LzE6NCwyOjI",
+          "sku": "ALST11",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dusty Pink / M"
+        },
+        {
+          "stock_id": "LzE6NCwyOjM",
+          "sku": "ALST12",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dusty Pink / L"
+        },
+        {
+          "stock_id": "LzE6NSwyOjE",
+          "sku": "ALST13",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Green Sage / S"
+        },
+        {
+          "stock_id": "LzE6NSwyOjI",
+          "sku": "ALST14",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "Green Sage / M"
+        },
+        {
+          "stock_id": "LzE6NSwyOjM",
+          "sku": "ALST15",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Green Sage / L"
+        },
+        {
+          "stock_id": "LzE6NiwyOjE",
+          "sku": "ALST16",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / S"
+        },
+        {
+          "stock_id": "LzE6NiwyOjI",
+          "sku": "ALST17",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / M"
+        },
+        {
+          "stock_id": "LzE6NiwyOjM",
+          "sku": "ALST18",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / L"
         }
       ]
     },
@@ -6847,6 +6986,612 @@
       ]
     },
     {
+      "product_id": "P-1CFCkb",
+      "product_name": "[READY] AMORA CELAMIS JOGGER",
+      "product_slug": "pre-order-amora-celamis-kids-by-zamakids-92181",
+      "product_link": "https://zzhomey.com/product/pre-order-amora-celamis-kids-by-zamakids-92181",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CfXIC2uuLWoQCbXCfXeWrL9ZjJpH55SsqnTEQ1xg0kHw.jpg",
+      "category_id": "M-1699929662907",
+      "category_name": "ZAMA KIDS",
+      "stock_count": 18,
+      "total_stock": 1.0,
+      "stocks": [
+        {
+          "stock_id": "LzE6MSwyOjE",
+          "sku": "AMRS37",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / XL"
+        },
+        {
+          "stock_id": "LzE6MSwyOjI",
+          "sku": "AMRS38",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / XXL"
+        },
+        {
+          "stock_id": "LzE6MSwyOjM",
+          "sku": "AMRS39",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / XXXL"
+        },
+        {
+          "stock_id": "LzE6MiwyOjE",
+          "sku": "AMRS40",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Army / XL"
+        },
+        {
+          "stock_id": "LzE6MiwyOjI",
+          "sku": "AMRS41",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Army / XXL"
+        },
+        {
+          "stock_id": "LzE6MiwyOjM",
+          "sku": "AMRS42",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Army / XXXL"
+        },
+        {
+          "stock_id": "LzE6MywyOjE",
+          "sku": "AMRS43",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Navy / XL"
+        },
+        {
+          "stock_id": "LzE6MywyOjI",
+          "sku": "AMRS44",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Navy / XXL"
+        },
+        {
+          "stock_id": "LzE6MywyOjM",
+          "sku": "AMRS45",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Navy / XXXL"
+        },
+        {
+          "stock_id": "LzE6NCwyOjE",
+          "sku": "AMRS46",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Brown / XL"
+        },
+        {
+          "stock_id": "LzE6NCwyOjI",
+          "sku": "AMRS47",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Brown / XXL"
+        },
+        {
+          "stock_id": "LzE6NCwyOjM",
+          "sku": "AMRS48",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Brown / XXXL"
+        },
+        {
+          "stock_id": "LzE6NSwyOjE",
+          "sku": "AMRS49",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dark Grey / XL"
+        },
+        {
+          "stock_id": "LzE6NSwyOjI",
+          "sku": "AMRS50",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dark Grey / XXL"
+        },
+        {
+          "stock_id": "LzE6NSwyOjM",
+          "sku": "AMRS51",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dark Grey / XXXL"
+        },
+        {
+          "stock_id": "LzE6NiwyOjE",
+          "sku": "AMRS52",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / XL"
+        },
+        {
+          "stock_id": "LzE6NiwyOjI",
+          "sku": "AMRS53",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / XXL"
+        },
+        {
+          "stock_id": "LzE6NiwyOjM",
+          "sku": "AMRS54",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / XXXL"
+        }
+      ]
+    },
+    {
+      "product_id": "P-Hyezq",
+      "product_name": "[READY] AMORA CELAMIS LOSE",
+      "product_slug": "pre-order-amora-celamis-kids-by-zamakids-92181-14065",
+      "product_link": "https://zzhomey.com/product/pre-order-amora-celamis-kids-by-zamakids-92181-14065",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/ChnxFYzPau1CCffChojRc4c0kgxKjdQ4iqBjrx4ZQZw.jpg",
+      "category_id": "M-1699929662907",
+      "category_name": "ZAMA KIDS",
+      "stock_count": 18,
+      "total_stock": 0.0,
+      "stocks": [
+        {
+          "stock_id": "LzE6MSwyOjE",
+          "sku": "AMRS19",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / XL"
+        },
+        {
+          "stock_id": "LzE6MSwyOjI",
+          "sku": "AMRS20",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / XXL"
+        },
+        {
+          "stock_id": "LzE6MSwyOjM",
+          "sku": "AMRS21",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / XXXL"
+        },
+        {
+          "stock_id": "LzE6MiwyOjE",
+          "sku": "AMRS22",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Army / XL"
+        },
+        {
+          "stock_id": "LzE6MiwyOjI",
+          "sku": "AMRS23",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Army / XXL"
+        },
+        {
+          "stock_id": "LzE6MiwyOjM",
+          "sku": "AMRS24",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Army / XXXL"
+        },
+        {
+          "stock_id": "LzE6MywyOjE",
+          "sku": "AMRS25",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Navy / XL"
+        },
+        {
+          "stock_id": "LzE6MywyOjI",
+          "sku": "AMRS26",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Navy / XXL"
+        },
+        {
+          "stock_id": "LzE6MywyOjM",
+          "sku": "AMRS27",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Navy / XXXL"
+        },
+        {
+          "stock_id": "LzE6NCwyOjE",
+          "sku": "AMRS28",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Brown / XL"
+        },
+        {
+          "stock_id": "LzE6NCwyOjI",
+          "sku": "AMRS29",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Brown / XXL"
+        },
+        {
+          "stock_id": "LzE6NCwyOjM",
+          "sku": "AMRS30",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Brown / XXXL"
+        },
+        {
+          "stock_id": "LzE6NSwyOjE",
+          "sku": "AMRS31",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dark Grey / XL"
+        },
+        {
+          "stock_id": "LzE6NSwyOjI",
+          "sku": "AMRS32",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dark Grey / XXL"
+        },
+        {
+          "stock_id": "LzE6NSwyOjM",
+          "sku": "AMRS33",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dark Grey / XXXL"
+        },
+        {
+          "stock_id": "LzE6NiwyOjE",
+          "sku": "AMRS34",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / XL"
+        },
+        {
+          "stock_id": "LzE6NiwyOjI",
+          "sku": "AMRS35",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / XXL"
+        },
+        {
+          "stock_id": "LzE6NiwyOjM",
+          "sku": "AMRS36",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / XXXL"
+        }
+      ]
+    },
+    {
+      "product_id": "P-1BEr7L",
+      "product_name": "[READY] ARVINO KAOS Kids New",
+      "product_slug": "ready-roselia-dress-56607-75033-30109-13659-61602-56517-69732",
+      "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-75033-30109-13659-61602-56517-69732",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CBa1TKS63NuML32CBUPl0VukS9Oj5Ti5BcdUL0f4A.jpg",
+      "category_id": "M-1699929662907",
+      "category_name": "ZAMA KIDS",
+      "stock_count": 45,
+      "total_stock": 270.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MiwxOjEsMjox",
+          "sku": "ARVN37",
+          "stock": 23,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjoy",
+          "sku": "ARVN38",
+          "stock": 5,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjoz",
+          "sku": "ARVN39",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjo0",
+          "sku": "ARVN40",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjo1",
+          "sku": "ARVN40",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLACK / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjox",
+          "sku": "ARVN42",
+          "stock": 23,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjoy",
+          "sku": "ARVN43",
+          "stock": 21,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjoz",
+          "sku": "ARVN44",
+          "stock": 20,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjo0",
+          "sku": "ARVN45",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjo1",
+          "sku": "ARVN46",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WHITE / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjox",
+          "sku": "ARVN47",
+          "stock": 9,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjoy",
+          "sku": "ARVN48",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjoz",
+          "sku": "ARVN49",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjo0",
+          "sku": "ARVN50",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjo1",
+          "sku": "ARVN51",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / VELVET MORNING / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjox",
+          "sku": "ARVN52",
+          "stock": 9,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjoy",
+          "sku": "ARVN53",
+          "stock": 4,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjoz",
+          "sku": "ARVN54",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjo0",
+          "sku": "ARVN55",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjo1",
+          "sku": "ARVN56",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / OIL GREEN / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjox",
+          "sku": "ARVN57",
+          "stock": 9,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjoy",
+          "sku": "ARVN58",
+          "stock": 3,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjoz",
+          "sku": "ARVN59",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjo0",
+          "sku": "ARVN60",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjo1",
+          "sku": "ARVN61",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BIRU ITB / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjox",
+          "sku": "ARVN62",
+          "stock": 20,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjoy",
+          "sku": "ARVN63",
+          "stock": 17,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjoz",
+          "sku": "ARVN64",
+          "stock": 7,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjo0",
+          "sku": "ARVN65",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjo1",
+          "sku": "ARVN66",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / TANDORI SPACE / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjox",
+          "sku": "ARVN67",
+          "stock": 11,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjoy",
+          "sku": "ARVN68",
+          "stock": 4,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjoz",
+          "sku": "ARVN69",
+          "stock": 6,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjo0",
+          "sku": "ARVN70",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjcsMjo1",
+          "sku": "ARVN71",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BAKED APPLE / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjox",
+          "sku": "ARVN72",
+          "stock": 18,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjoy",
+          "sku": "ARVN73",
+          "stock": 21,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjoz",
+          "sku": "ARVN74",
+          "stock": 7,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjo0",
+          "sku": "ARVN75",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjgsMjo1",
+          "sku": "ARVN76",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / WILD GINGER / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjox",
+          "sku": "ARVN77",
+          "stock": 16,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjoy",
+          "sku": "ARVN78",
+          "stock": 14,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjoz",
+          "sku": "ARVN79",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjo0",
+          "sku": "ARVN80",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjksMjo1",
+          "sku": "ARVN81",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "KIDS / BLUE STONE / XXL"
+        }
+      ]
+    },
+    {
       "product_id": "P-Z1nzWsi",
       "product_name": "[READY] AZHAR SIRWAL",
       "product_slug": "pre-order-azhar-sirwal-4519",
@@ -6967,6 +7712,513 @@
           "stock": 36,
           "warehouse_id": null,
           "variation_text": "Kode B : Pompom + Bendera"
+        }
+      ]
+    },
+    {
+      "product_id": "P-Z1u3TRI",
+      "product_name": "[READY] BRIANA CULLOTE",
+      "product_slug": "briana-skirt-cullote-91722-70078",
+      "product_link": "https://zzhomey.com/product/briana-skirt-cullote-91722-70078",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C0ZVSesFvkU40BkC0Zy2Ys4pwWrIc6SfmQj6MUSI5A8A.jpg",
+      "category_id": "M-1699929662907",
+      "category_name": "ZAMA KIDS",
+      "stock_count": 12,
+      "total_stock": 38.0,
+      "stocks": [
+        {
+          "stock_id": "LzE6MSwyOjE",
+          "sku": "BRNS13",
+          "stock": 9,
+          "warehouse_id": null,
+          "variation_text": "BLACK / S"
+        },
+        {
+          "stock_id": "LzE6MSwyOjI",
+          "sku": "BRNS14",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "BLACK / M"
+        },
+        {
+          "stock_id": "LzE6MSwyOjM",
+          "sku": "BRNS15",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "BLACK / L"
+        },
+        {
+          "stock_id": "LzE6MiwyOjE",
+          "sku": "BRNS16",
+          "stock": 22,
+          "warehouse_id": null,
+          "variation_text": "NAVY / S"
+        },
+        {
+          "stock_id": "LzE6MiwyOjI",
+          "sku": "BRNS17",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "NAVY / M"
+        },
+        {
+          "stock_id": "LzE6MiwyOjM",
+          "sku": "BRNS18",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "NAVY / L"
+        },
+        {
+          "stock_id": "LzE6MywyOjE",
+          "sku": "BRNS19",
+          "stock": 7,
+          "warehouse_id": null,
+          "variation_text": "CHOCO / S"
+        },
+        {
+          "stock_id": "LzE6MywyOjI",
+          "sku": "BRNS20",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "CHOCO / M"
+        },
+        {
+          "stock_id": "LzE6MywyOjM",
+          "sku": "BRNS21",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "CHOCO / L"
+        },
+        {
+          "stock_id": "LzE6NCwyOjE",
+          "sku": "BRNS22",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GREY / S"
+        },
+        {
+          "stock_id": "LzE6NCwyOjI",
+          "sku": "BRNS23",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GREY / M"
+        },
+        {
+          "stock_id": "LzE6NCwyOjM",
+          "sku": "BRNS24",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GREY / L"
+        }
+      ]
+    },
+    {
+      "product_id": "P-8peeU",
+      "product_name": "[READY] BRIANA SKIRT",
+      "product_slug": "briana-skirt-cullote-91722",
+      "product_link": "https://zzhomey.com/product/briana-skirt-cullote-91722",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/hc66cEy0Co34cskVhcaLjPXMCYaJxKdS5aDWeQ1dmRQ.jpg",
+      "category_id": "M-1699929662907",
+      "category_name": "ZAMA KIDS",
+      "stock_count": 12,
+      "total_stock": 22.0,
+      "stocks": [
+        {
+          "stock_id": "LzE6MSwyOjE",
+          "sku": "BRNS1",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "BLACK / S"
+        },
+        {
+          "stock_id": "LzE6MSwyOjI",
+          "sku": "BRNS2",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "BLACK / M"
+        },
+        {
+          "stock_id": "LzE6MSwyOjM",
+          "sku": "BRNS3",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "BLACK / L"
+        },
+        {
+          "stock_id": "LzE6MiwyOjE",
+          "sku": "BRNS4",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "NAVY / S"
+        },
+        {
+          "stock_id": "LzE6MiwyOjI",
+          "sku": "BRNS5",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "NAVY / M"
+        },
+        {
+          "stock_id": "LzE6MiwyOjM",
+          "sku": "BRNS6",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "NAVY / L"
+        },
+        {
+          "stock_id": "LzE6MywyOjE",
+          "sku": "BRNS7",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "CHOCO / S"
+        },
+        {
+          "stock_id": "LzE6MywyOjI",
+          "sku": "BRNS8",
+          "stock": 10,
+          "warehouse_id": null,
+          "variation_text": "CHOCO / M"
+        },
+        {
+          "stock_id": "LzE6MywyOjM",
+          "sku": "BRNS9",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "CHOCO / L"
+        },
+        {
+          "stock_id": "LzE6NCwyOjE",
+          "sku": "BRNS10",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GREY / S"
+        },
+        {
+          "stock_id": "LzE6NCwyOjI",
+          "sku": "BRNS11",
+          "stock": 12,
+          "warehouse_id": null,
+          "variation_text": "GREY / M"
+        },
+        {
+          "stock_id": "LzE6NCwyOjM",
+          "sku": "BRNS12",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GREY / L"
+        }
+      ]
+    },
+    {
+      "product_id": "P-jVkKV",
+      "product_name": "[READY] DAISY GAMIS & TUNIC",
+      "product_slug": "pre-order-daisy-gamis-tunic-20075",
+      "product_link": "https://zzhomey.com/product/pre-order-daisy-gamis-tunic-20075",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CujVs2irFq1QHHkCujGZV0Jt59WbSxTLGrDw6H84t79g.jpg",
+      "category_id": "M-1699929662907",
+      "category_name": "ZAMA KIDS",
+      "stock_count": 23,
+      "total_stock": 1.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MSwxOjEsMjox",
+          "sku": "DSGT5",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Black / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjoy",
+          "sku": "DSGT6",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Black / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjoz",
+          "sku": "DSGT7",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Black / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjo0",
+          "sku": "DSGT8",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Black / XXXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjox",
+          "sku": "DSGT1",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Dusty Pink / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjoy",
+          "sku": "DSGT2",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Dusty Pink / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjoz",
+          "sku": "DSGT3",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Dusty Pink / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjo0",
+          "sku": "DSGT4",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Dusty Pink / XXXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjox",
+          "sku": "DSGT9",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Broken White / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjoy",
+          "sku": "DSGT10",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Broken White / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjoz",
+          "sku": "DSGT11",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Broken White / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjo0",
+          "sku": "DSGT12",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "GAMIS / Broken White / XXXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjox",
+          "sku": "DSGT17",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Black / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjoy",
+          "sku": "DSGT18",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Black / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjoz",
+          "sku": "DSGT19",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Black / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjox",
+          "sku": "DSGT13",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Dusty Pink / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjoy",
+          "sku": "DSGT14",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Dusty Pink / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjoz",
+          "sku": "DSGT15",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Dusty Pink / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjo0",
+          "sku": "DSGT16",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Dusty Pink / XXXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjox",
+          "sku": "DSGT21",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Broken White / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjoy",
+          "sku": "DSGT22",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Broken White / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjoz",
+          "sku": "DSGT23",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Broken White / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjo0",
+          "sku": "DSGT24",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TUNIC / Broken White / XXXL"
+        }
+      ]
+    },
+    {
+      "product_id": "P-pdQ8j",
+      "product_name": "[READY] ELSIE TUNIC BY ZAMAKIDS NEW",
+      "product_slug": "pre-order-alice-elsie-by-zamakids-25850-51548-91113-93799",
+      "product_link": "https://zzhomey.com/product/pre-order-alice-elsie-by-zamakids-25850-51548-91113-93799",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CWSiZREx8BlKsL7CWSKJmcQmBgVlETRduQKS2Jq7tDA.jpg",
+      "category_id": "M-1699929662907",
+      "category_name": "ZAMA KIDS",
+      "stock_count": 18,
+      "total_stock": 17.0,
+      "stocks": [
+        {
+          "stock_id": "LzE6MSwyOjE",
+          "sku": "ALST19",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / S"
+        },
+        {
+          "stock_id": "LzE6MSwyOjI",
+          "sku": "ALST20",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / M"
+        },
+        {
+          "stock_id": "LzE6MSwyOjM",
+          "sku": "ALST21",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Black / L"
+        },
+        {
+          "stock_id": "LzE6MiwyOjE",
+          "sku": "ALST22",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Orchid / S"
+        },
+        {
+          "stock_id": "LzE6MiwyOjI",
+          "sku": "ALST23",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Orchid / M"
+        },
+        {
+          "stock_id": "LzE6MiwyOjM",
+          "sku": "ALST24",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Orchid / L"
+        },
+        {
+          "stock_id": "LzE6MywyOjE",
+          "sku": "ALST25",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Broken White / S"
+        },
+        {
+          "stock_id": "LzE6MywyOjI",
+          "sku": "ALST26",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Broken White / M"
+        },
+        {
+          "stock_id": "LzE6MywyOjM",
+          "sku": "ALST27",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Broken White / L"
+        },
+        {
+          "stock_id": "LzE6NCwyOjE",
+          "sku": "ALST28",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dusty Pink / S"
+        },
+        {
+          "stock_id": "LzE6NCwyOjI",
+          "sku": "ALST29",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dusty Pink / M"
+        },
+        {
+          "stock_id": "LzE6NCwyOjM",
+          "sku": "ALST30",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Dusty Pink / L"
+        },
+        {
+          "stock_id": "LzE6NSwyOjE",
+          "sku": "ALST31",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Green Sage / S"
+        },
+        {
+          "stock_id": "LzE6NSwyOjI",
+          "sku": "ALST32",
+          "stock": 17,
+          "warehouse_id": null,
+          "variation_text": "Green Sage / M"
+        },
+        {
+          "stock_id": "LzE6NSwyOjM",
+          "sku": "ALST33",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Green Sage / L"
+        },
+        {
+          "stock_id": "LzE6NiwyOjE",
+          "sku": "ALST34",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / S"
+        },
+        {
+          "stock_id": "LzE6NiwyOjI",
+          "sku": "ALST35",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / M"
+        },
+        {
+          "stock_id": "LzE6NiwyOjM",
+          "sku": "ALST36",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Maroon / L"
         }
       ]
     },
@@ -7106,7 +8358,7 @@
       "product_name": "[READY] JASMIN WHITE SERIES New",
       "product_slug": "ready-jasmin-white-series-10016-69971-29928-63488-42847",
       "product_link": "https://zzhomey.com/product/ready-jasmin-white-series-10016-69971-29928-63488-42847",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Ckk74zGlBJePhJNCkktjItB4X6EM4DQSettIby9ayiQ.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/Ckk74zGlBJePhJNCkktjItB4X6EM4DQSettIby9ayiQ.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 9,
