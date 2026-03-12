@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T03:35:09.072871+00:00",
+  "generated_at": "2026-03-12T05:18:43.296958+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 95,
     "stock_rows": 1222,
-    "stock_amount": 18493.0
+    "stock_amount": 18490.0
   },
   "products": [
     {
@@ -4765,7 +4765,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 248.0,
+      "total_stock": 247.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4868,7 +4868,7 @@
         {
           "stock_id": "LzA6MTU",
           "sku": null,
-          "stock": 17,
+          "stock": 16,
           "warehouse_id": null,
           "variation_text": "Tanah"
         },
@@ -5048,6 +5048,145 @@
       ]
     },
     {
+      "product_id": "P-Z1UA35G",
+      "product_name": "[READY] SCARF ZZHOMEY",
+      "product_slug": "bazarz-scarf-zzhomey",
+      "product_link": "https://zzhomey.com/product/bazarz-scarf-zzhomey",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Cx0od9qQ7sQ0CACCx0J4nfcrx7vmz4QgmLbXjuSmOpwg.jpg",
+      "category_id": "M-1698639318748",
+      "category_name": "Jilbab",
+      "stock_count": 18,
+      "total_stock": 7.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MQ",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR01 130"
+        },
+        {
+          "stock_id": "LzA6Mg",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR03 140"
+        },
+        {
+          "stock_id": "LzA6Mw",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR04 130"
+        },
+        {
+          "stock_id": "LzA6NA",
+          "sku": null,
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Aira AR05 115"
+        },
+        {
+          "stock_id": "LzA6NQ",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR05 120"
+        },
+        {
+          "stock_id": "LzA6Ng",
+          "sku": null,
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "Aira AR06 115"
+        },
+        {
+          "stock_id": "LzA6Nw",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR06 130"
+        },
+        {
+          "stock_id": "LzA6OA",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL4 120"
+        },
+        {
+          "stock_id": "LzA6OQ",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL5 120"
+        },
+        {
+          "stock_id": "LzA6MTA",
+          "sku": null,
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL5 140"
+        },
+        {
+          "stock_id": "LzA6MTE",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Emmelaya EM2 115"
+        },
+        {
+          "stock_id": "LzA6MTI",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Fiore F9 110"
+        },
+        {
+          "stock_id": "LzA6MTM",
+          "sku": null,
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Fiore F9 90"
+        },
+        {
+          "stock_id": "LzA6MTQ",
+          "sku": null,
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Ruhama RH03 120"
+        },
+        {
+          "stock_id": "LzA6MTU",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL4 140"
+        },
+        {
+          "stock_id": "LzA6MTY",
+          "sku": null,
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL1 140"
+        },
+        {
+          "stock_id": "LzA6MTc",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL2 140"
+        },
+        {
+          "stock_id": "LzA6MTg",
+          "sku": null,
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Ayara AY3 140"
+        }
+      ]
+    },
+    {
       "product_id": "P-ZHFICk",
       "product_name": "[READY] SCARF ZZHOMEY",
       "product_slug": "bazarz-scarf-zzhomey-26959",
@@ -5190,145 +5329,6 @@
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Luga LG02 140"
-        }
-      ]
-    },
-    {
-      "product_id": "P-Z1UA35G",
-      "product_name": "[READY] SCARF ZZHOMEY",
-      "product_slug": "bazarz-scarf-zzhomey",
-      "product_link": "https://zzhomey.com/product/bazarz-scarf-zzhomey",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Cx0od9qQ7sQ0CACCx0J4nfcrx7vmz4QgmLbXjuSmOpwg.jpg",
-      "category_id": "M-1698639318748",
-      "category_name": "Jilbab",
-      "stock_count": 18,
-      "total_stock": 7.0,
-      "stocks": [
-        {
-          "stock_id": "LzA6MQ",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR01 130"
-        },
-        {
-          "stock_id": "LzA6Mg",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR03 140"
-        },
-        {
-          "stock_id": "LzA6Mw",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR04 130"
-        },
-        {
-          "stock_id": "LzA6NA",
-          "sku": null,
-          "stock": 1,
-          "warehouse_id": null,
-          "variation_text": "Aira AR05 115"
-        },
-        {
-          "stock_id": "LzA6NQ",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR05 120"
-        },
-        {
-          "stock_id": "LzA6Ng",
-          "sku": null,
-          "stock": 2,
-          "warehouse_id": null,
-          "variation_text": "Aira AR06 115"
-        },
-        {
-          "stock_id": "LzA6Nw",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR06 130"
-        },
-        {
-          "stock_id": "LzA6OA",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL4 120"
-        },
-        {
-          "stock_id": "LzA6OQ",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL5 120"
-        },
-        {
-          "stock_id": "LzA6MTA",
-          "sku": null,
-          "stock": 1,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL5 140"
-        },
-        {
-          "stock_id": "LzA6MTE",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Emmelaya EM2 115"
-        },
-        {
-          "stock_id": "LzA6MTI",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Fiore F9 110"
-        },
-        {
-          "stock_id": "LzA6MTM",
-          "sku": null,
-          "stock": 1,
-          "warehouse_id": null,
-          "variation_text": "Fiore F9 90"
-        },
-        {
-          "stock_id": "LzA6MTQ",
-          "sku": null,
-          "stock": 1,
-          "warehouse_id": null,
-          "variation_text": "Ruhama RH03 120"
-        },
-        {
-          "stock_id": "LzA6MTU",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL4 140"
-        },
-        {
-          "stock_id": "LzA6MTY",
-          "sku": null,
-          "stock": 1,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL1 140"
-        },
-        {
-          "stock_id": "LzA6MTc",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL2 140"
-        },
-        {
-          "stock_id": "LzA6MTg",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Ayara AY3 140"
         }
       ]
     },
@@ -5932,7 +5932,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 866.0,
+      "total_stock": 865.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5979,7 +5979,7 @@
         {
           "stock_id": "LzA6Nw",
           "sku": "FURP8",
-          "stock": 70,
+          "stock": 69,
           "warehouse_id": null,
           "variation_text": "Moss"
         },
@@ -6536,12 +6536,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 3,
-      "total_stock": 14.0,
+      "total_stock": 13.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SFYA1",
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_text": "Black"
         },
