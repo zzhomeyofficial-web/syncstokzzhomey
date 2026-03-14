@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-03-14T03:30:02.133323+00:00",
+  "generated_at": "2026-03-14T05:14:29.428455+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
     "reference": "https://dev.berdu.id/docs/reference"
   },
   "totals": {
-    "products": 98,
-    "stock_rows": 1240,
-    "stock_amount": 19895.0
+    "products": 97,
+    "stock_rows": 1222,
+    "stock_amount": 19882.0
   },
   "products": [
     {
@@ -3602,7 +3602,7 @@
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 10,
-      "total_stock": 290.0,
+      "total_stock": 288.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -3614,7 +3614,7 @@
         {
           "stock_id": "LzA6MSwxOjI",
           "sku": null,
-          "stock": 14,
+          "stock": 13,
           "warehouse_id": null,
           "variation_text": "Kode A / XXL"
         },
@@ -3628,7 +3628,7 @@
         {
           "stock_id": "LzA6MiwxOjI",
           "sku": null,
-          "stock": 27,
+          "stock": 26,
           "warehouse_id": null,
           "variation_text": "Kode B / XXL"
         },
@@ -4882,7 +4882,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 244.0,
+      "total_stock": 243.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4985,7 +4985,7 @@
         {
           "stock_id": "LzA6MTU",
           "sku": null,
-          "stock": 16,
+          "stock": 15,
           "warehouse_id": null,
           "variation_text": "Tanah"
         },
@@ -6118,7 +6118,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 489.0,
+      "total_stock": 488.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6144,7 +6144,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "DYSB5",
-          "stock": 160,
+          "stock": 159,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -6441,7 +6441,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 208.0,
+      "total_stock": 207.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6467,7 +6467,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "MRRA3",
-          "stock": 143,
+          "stock": 142,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -6660,33 +6660,33 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 216.0,
+      "total_stock": 208.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SYPC1",
-          "stock": 77,
+          "stock": 75,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "SYPC2",
-          "stock": 26,
+          "stock": 24,
           "warehouse_id": null,
           "variation_text": "Burgundy Brown"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "SYPC3",
-          "stock": 88,
+          "stock": 86,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "SYPC4",
-          "stock": 25,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         }
@@ -7168,145 +7168,6 @@
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Wasabi / XXXL"
-        }
-      ]
-    },
-    {
-      "product_id": "P-Hyezq",
-      "product_name": "[READY] AMORA CELAMIS LOSE",
-      "product_slug": "pre-order-amora-celamis-kids-by-zamakids-92181-14065",
-      "product_link": "https://zzhomey.com/product/pre-order-amora-celamis-kids-by-zamakids-92181-14065",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/ChnxFYzPau1CCffChojRc4c0kgxKjdQ4iqBjrx4ZQZw.jpg",
-      "category_id": "M-1699929662907",
-      "category_name": "ZAMA KIDS",
-      "stock_count": 18,
-      "total_stock": 0.0,
-      "stocks": [
-        {
-          "stock_id": "LzE6MSwyOjE",
-          "sku": "AMRS19",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Black / XL"
-        },
-        {
-          "stock_id": "LzE6MSwyOjI",
-          "sku": "AMRS20",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Black / XXL"
-        },
-        {
-          "stock_id": "LzE6MSwyOjM",
-          "sku": "AMRS21",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Black / XXXL"
-        },
-        {
-          "stock_id": "LzE6MiwyOjE",
-          "sku": "AMRS22",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Army / XL"
-        },
-        {
-          "stock_id": "LzE6MiwyOjI",
-          "sku": "AMRS23",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Army / XXL"
-        },
-        {
-          "stock_id": "LzE6MiwyOjM",
-          "sku": "AMRS24",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Army / XXXL"
-        },
-        {
-          "stock_id": "LzE6MywyOjE",
-          "sku": "AMRS25",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Navy / XL"
-        },
-        {
-          "stock_id": "LzE6MywyOjI",
-          "sku": "AMRS26",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Navy / XXL"
-        },
-        {
-          "stock_id": "LzE6MywyOjM",
-          "sku": "AMRS27",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Navy / XXXL"
-        },
-        {
-          "stock_id": "LzE6NCwyOjE",
-          "sku": "AMRS28",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Brown / XL"
-        },
-        {
-          "stock_id": "LzE6NCwyOjI",
-          "sku": "AMRS29",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Brown / XXL"
-        },
-        {
-          "stock_id": "LzE6NCwyOjM",
-          "sku": "AMRS30",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Brown / XXXL"
-        },
-        {
-          "stock_id": "LzE6NSwyOjE",
-          "sku": "AMRS31",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Dark Grey / XL"
-        },
-        {
-          "stock_id": "LzE6NSwyOjI",
-          "sku": "AMRS32",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Dark Grey / XXL"
-        },
-        {
-          "stock_id": "LzE6NSwyOjM",
-          "sku": "AMRS33",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Dark Grey / XXXL"
-        },
-        {
-          "stock_id": "LzE6NiwyOjE",
-          "sku": "AMRS34",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Maroon / XL"
-        },
-        {
-          "stock_id": "LzE6NiwyOjI",
-          "sku": "AMRS35",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Maroon / XXL"
-        },
-        {
-          "stock_id": "LzE6NiwyOjM",
-          "sku": "AMRS36",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Maroon / XXXL"
         }
       ]
     },
