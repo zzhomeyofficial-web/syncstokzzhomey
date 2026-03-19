@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T03:43:09.982513+00:00",
+  "generated_at": "2026-03-19T05:26:04.718289+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 95,
     "stock_rows": 1195,
-    "stock_amount": 19460.0
+    "stock_amount": 19447.0
   },
   "products": [
     {
@@ -5532,54 +5532,54 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 688.0,
+      "total_stock": 679.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "BNPC1",
-          "stock": 119,
+          "stock": 117,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "BNPC2",
-          "stock": 108,
+          "stock": 106,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "BNPC4",
-          "stock": 102,
+          "stock": 101,
           "warehouse_id": null,
           "variation_text": "Salem"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "BNPC3",
-          "stock": 97,
+          "stock": 96,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "BNPC6",
-          "stock": 83,
+          "stock": 82,
           "warehouse_id": null,
           "variation_text": "Cream"
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "BNPC5",
-          "stock": 102,
+          "stock": 101,
           "warehouse_id": null,
           "variation_text": "Ijo Botol"
         },
         {
           "stock_id": "LzA6Nw",
           "sku": "BNPC",
-          "stock": 77,
+          "stock": 76,
           "warehouse_id": null,
           "variation_text": "Abu Asap"
         }
@@ -5834,19 +5834,19 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 743.0,
+      "total_stock": 739.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 90,
+          "stock": 87,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "FURP2",
-          "stock": 48,
+          "stock": 47,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
