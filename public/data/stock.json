@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T05:26:07.201382+00:00",
+  "generated_at": "2026-03-25T07:10:19.443414+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 46,
     "stock_rows": 630,
-    "stock_amount": 8588.0
+    "stock_amount": 8587.0
   },
   "products": [
     {
@@ -3577,7 +3577,7 @@
       "product_name": "[READY] AZURE BAG",
       "product_slug": "ready-azure-bag",
       "product_link": "https://zzhomey.com/product/ready-azure-bag",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LiYm9pmtmcvTsZ6LiYnt8jh2bjfNy3Tz6cgBvp6j1Oow.jpg",
+      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/LiYm9pmtmcvTsZ6LiYnt8jh2bjfNy3Tz6cgBvp6j1Oow.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
@@ -3972,12 +3972,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 145.0,
+      "total_stock": 144.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": null,
-          "stock": 17,
+          "stock": 16,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
