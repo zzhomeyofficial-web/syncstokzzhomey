@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T05:45:29.217257+00:00",
+  "generated_at": "2026-03-27T07:17:09.911606+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 37,
     "stock_rows": 560,
-    "stock_amount": 7518.0
+    "stock_amount": 7517.0
   },
   "products": [
     {
@@ -174,7 +174,7 @@
       "product_name": "[READY] KOKO HARRIS",
       "product_slug": "ready-roselia-dress-56607-3096-52563-57162-41624-51977-97380-4503",
       "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-3096-52563-57162-41624-51977-97380-4503",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CQFneb0FyXi6fJSCQw1qaRb7k3BKqT5uKK5sdsnEdQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CQFneb0FyXi6fJSCQw1qaRb7k3BKqT5uKK5sdsnEdQ.jpg",
       "category_id": "M-1754450203186",
       "category_name": "Atasan",
       "stock_count": 36,
@@ -660,7 +660,7 @@
       "product_name": "[READY] VALMA LOOSE PANT",
       "product_slug": "pre-order-valma-loose-pant-66907-96186-42755-5336-83254",
       "product_link": "https://zzhomey.com/product/pre-order-valma-loose-pant-66907-96186-42755-5336-83254",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/hGqqeGG1fCoBhhUhGqaaVS6KpogL9vQbGiD5R47vLw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/hGqqeGG1fCoBhhUhGqaaVS6KpogL9vQbGiD5R47vLw.jpg",
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 20,
@@ -813,7 +813,7 @@
       "product_name": "[READY] BAZAR 🔥 ADZILA BERGO TALI NON PED",
       "product_slug": "pre-order-adzila-bergo-55952-49555-12937-92683",
       "product_link": "https://zzhomey.com/product/pre-order-adzila-bergo-55952-49555-12937-92683",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LjnrDJiLsBvGLSkLjnbk8z5ahnQwBaS8a0QuHgTNa2yw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LjnrDJiLsBvGLSkLjnbk8z5ahnQwBaS8a0QuHgTNa2yw.jpg",
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 12,
@@ -1122,7 +1122,7 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 12,
-      "total_stock": 785.0,
+      "total_stock": 784.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -1197,7 +1197,7 @@
         {
           "stock_id": "LzA6MTE",
           "sku": "NAZL32",
-          "stock": 49,
+          "stock": 48,
           "warehouse_id": null,
           "variation_text": "MILO"
         },
@@ -2783,7 +2783,7 @@
       "product_name": "[READY] ROJWA HIJAB VOL 2 New",
       "product_slug": "ready-rojwa-hijab-vol-2-13573-79374-73970",
       "product_link": "https://zzhomey.com/product/ready-rojwa-hijab-vol-2-13573-79374-73970",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LKeV9BucqtopsaCL780qCOggI52cHTa2PemiQOpxbdg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LKeV9BucqtopsaCL780qCOggI52cHTa2PemiQOpxbdg.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
