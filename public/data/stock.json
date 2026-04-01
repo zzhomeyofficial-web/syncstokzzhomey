@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T04:14:56.554435+00:00",
+  "generated_at": "2026-04-01T06:28:06.676225+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 96,
     "stock_rows": 1224,
-    "stock_amount": 19040.0
+    "stock_amount": 18996.0
   },
   "products": [
     {
@@ -1975,7 +1975,7 @@
       "product_name": "[READY] SORA SKIRT New",
       "product_slug": "ready-sora-skirt-79776-37682-93521",
       "product_link": "https://zzhomey.com/product/ready-sora-skirt-79776-37682-93521",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/LHUUfqYBs45OgLLHbtbvOBg2rwceTnyD4Ui30QUxLQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LHUUfqYBs45OgLLHbtbvOBg2rwceTnyD4Ui30QUxLQ.jpg",
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 8,
@@ -4870,7 +4870,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 214.0,
+      "total_stock": 212.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4917,7 +4917,7 @@
         {
           "stock_id": "LzA6Nw",
           "sku": null,
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -4980,7 +4980,7 @@
         {
           "stock_id": "LzA6MTY",
           "sku": null,
-          "stock": 9,
+          "stock": 8,
           "warehouse_id": null,
           "variation_text": "Truffle"
         }
@@ -4991,7 +4991,7 @@
       "product_name": "[READY] ROJWA HIJAB VOL 2 New",
       "product_slug": "ready-rojwa-hijab-vol-2-13573-79374-73970",
       "product_link": "https://zzhomey.com/product/ready-rojwa-hijab-vol-2-13573-79374-73970",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/LKeV9BucqtopsaCL780qCOggI52cHTa2PemiQOpxbdg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LKeV9BucqtopsaCL780qCOggI52cHTa2PemiQOpxbdg.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
@@ -5982,12 +5982,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 1210.0,
+      "total_stock": 1209.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ERPC1",
-          "stock": 160,
+          "stock": 159,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -6085,7 +6085,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 596.0,
+      "total_stock": 594.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6111,14 +6111,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "FURP4",
-          "stock": 128,
+          "stock": 127,
           "warehouse_id": null,
           "variation_text": "Lilac"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "FURP5",
-          "stock": 180,
+          "stock": 179,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
@@ -6154,40 +6154,40 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 439.0,
+      "total_stock": 412.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "DYSB2",
-          "stock": 60,
+          "stock": 55,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "DYSB4",
-          "stock": 30,
+          "stock": 25,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "DYSB3",
-          "stock": 161,
+          "stock": 154,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "DYSB5",
-          "stock": 138,
+          "stock": 133,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "DYSB1",
-          "stock": 50,
+          "stock": 45,
           "warehouse_id": null,
           "variation_text": "Pink"
         }
@@ -6257,7 +6257,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 363.0,
+      "total_stock": 362.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6290,7 +6290,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LXPC5",
-          "stock": 59,
+          "stock": 58,
           "warehouse_id": null,
           "variation_text": "Coksu"
         },
@@ -6477,7 +6477,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 169.0,
+      "total_stock": 158.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6489,7 +6489,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "MRRA5",
-          "stock": 49,
+          "stock": 43,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
@@ -6503,7 +6503,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "MRRA3",
-          "stock": 120,
+          "stock": 115,
           "warehouse_id": null,
           "variation_text": "Black"
         },
