@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T05:44:56.760748+00:00",
+  "generated_at": "2026-04-03T07:18:38.486041+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 104,
     "stock_rows": 1276,
-    "stock_amount": 20810.0
+    "stock_amount": 20799.0
   },
   "products": [
     {
@@ -1095,7 +1095,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 6,
-      "total_stock": 112.0,
+      "total_stock": 111.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1135,7 +1135,7 @@
         {
           "stock_id": "LzE6Ng",
           "sku": "EMDK6",
-          "stock": 17,
+          "stock": 16,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -1184,7 +1184,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 13,
-      "total_stock": 603.0,
+      "total_stock": 602.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1238,7 +1238,7 @@
         {
           "stock_id": "LzE6OA",
           "sku": "LYPC10",
-          "stock": 81,
+          "stock": 80,
           "warehouse_id": null,
           "variation_text": "Purple"
         },
@@ -1322,7 +1322,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 12,
-      "total_stock": 497.0,
+      "total_stock": 496.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1383,7 +1383,7 @@
         {
           "stock_id": "LzE6OQ",
           "sku": "YRPO12",
-          "stock": 67,
+          "stock": 66,
           "warehouse_id": null,
           "variation_text": "Purple"
         },
@@ -4336,7 +4336,7 @@
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 10,
-      "total_stock": 278.0,
+      "total_stock": 274.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -4348,7 +4348,7 @@
         {
           "stock_id": "LzA6MSwxOjI",
           "sku": null,
-          "stock": 12,
+          "stock": 11,
           "warehouse_id": null,
           "variation_text": "Kode A / XXL"
         },
@@ -4362,7 +4362,7 @@
         {
           "stock_id": "LzA6MiwxOjI",
           "sku": null,
-          "stock": 25,
+          "stock": 24,
           "warehouse_id": null,
           "variation_text": "Kode B / XXL"
         },
@@ -4376,7 +4376,7 @@
         {
           "stock_id": "LzA6MywxOjI",
           "sku": null,
-          "stock": 32,
+          "stock": 31,
           "warehouse_id": null,
           "variation_text": "Kode C / XXL"
         },
@@ -4390,7 +4390,7 @@
         {
           "stock_id": "LzA6NCwxOjI",
           "sku": null,
-          "stock": 18,
+          "stock": 17,
           "warehouse_id": null,
           "variation_text": "Kode D / XXL"
         },
@@ -4929,19 +4929,19 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
-      "total_stock": 568.0,
+      "total_stock": 566.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": null,
-          "stock": 98,
+          "stock": 97,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": null,
-          "stock": 101,
+          "stock": 100,
           "warehouse_id": null,
           "variation_text": "Kopi"
         },
@@ -6066,7 +6066,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 215.0,
+      "total_stock": 213.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6085,7 +6085,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 58,
+          "stock": 57,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -6099,7 +6099,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": null,
-          "stock": 30,
+          "stock": 29,
           "warehouse_id": null,
           "variation_text": "Soil"
         }
