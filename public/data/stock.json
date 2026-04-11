@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-10T14:54:59.569417+00:00",
+  "generated_at": "2026-04-11T03:40:50.206885+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
     "reference": "https://dev.berdu.id/docs/reference"
   },
   "totals": {
-    "products": 113,
-    "stock_rows": 1369,
-    "stock_amount": 21711.0
+    "products": 119,
+    "stock_rows": 1459,
+    "stock_amount": 21848.0
   },
   "products": [
     {
@@ -90,7 +90,7 @@
       "product_name": "[READY] AVA GOLD BROOCH new",
       "product_slug": "ready-bella-silver-brooch-25183-80697-37653-67693-12575-62998-48374",
       "product_link": "https://zzhomey.com/product/ready-bella-silver-brooch-25183-80697-37653-67693-12575-62998-48374",
-      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/CyFhvq5fWhjE0TjCyFsExJilUMz1qFREObPMHwrSuvgg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CyFhvq5fWhjE0TjCyFsExJilUMz1qFREObPMHwrSuvgg.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
@@ -154,12 +154,12 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
-      "total_stock": 210.0,
+      "total_stock": 209.0,
       "stocks": [
         {
           "stock_id": "Lw",
           "sku": "NHDB1",
-          "stock": 210,
+          "stock": 209,
           "warehouse_id": null,
           "variation_text": ""
         }
@@ -222,7 +222,7 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
-      "total_stock": 6.0,
+      "total_stock": 5.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -255,7 +255,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "FLNG5",
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_text": "KODE E"
         }
@@ -318,12 +318,12 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
-      "total_stock": 125.0,
+      "total_stock": 122.0,
       "stocks": [
         {
           "stock_id": "Lw",
           "sku": "JMLB1",
-          "stock": 125,
+          "stock": 122,
           "warehouse_id": null,
           "variation_text": ""
         }
@@ -1073,6 +1073,439 @@
       ]
     },
     {
+      "product_id": "P-YxYYy",
+      "product_name": "[READY] TANIA & THALIA BLOUSE",
+      "product_slug": "ready-roselia-dress-56607-3096-52563-57162-41624-58253-69124",
+      "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-3096-52563-57162-41624-58253-69124",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C17bQ0TVtSsofCAC1I07pyjJo0CyrRI2I0tbtCro38A.jpg",
+      "category_id": "M-1754450203186",
+      "category_name": "Atasan",
+      "stock_count": 60,
+      "total_stock": 57.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MSwxOjEsMjox",
+          "sku": "TNLB1",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Terakota / S"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjoy",
+          "sku": "TNLB2",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Terakota / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjoz",
+          "sku": "TNLB3",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Terakota / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjo0",
+          "sku": "TNLB4",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Terakota / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjEsMjo1",
+          "sku": "TNLB5",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Terakota / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjox",
+          "sku": "TNLB6",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Smoke Grey / S"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjoy",
+          "sku": "TNLB7",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Smoke Grey / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjoz",
+          "sku": "TNLB8",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Smoke Grey / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjo0",
+          "sku": "TNLB9",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Smoke Grey / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjIsMjo1",
+          "sku": "TNLB10",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Smoke Grey / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjox",
+          "sku": "TNLB11",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Dove / S"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjoy",
+          "sku": "TNLB12",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Dove / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjoz",
+          "sku": "TNLB13",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Dove / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjo0",
+          "sku": "TNLB14",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Dove / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjMsMjo1",
+          "sku": "TNLB15",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Dove / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQsMjox",
+          "sku": "TNLB16",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Coksu / S"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQsMjoy",
+          "sku": "TNLB17",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Coksu / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQsMjoz",
+          "sku": "TNLB18",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Coksu / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQsMjo0",
+          "sku": "TNLB19",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Coksu / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQsMjo1",
+          "sku": "TNLB20",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Coksu / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjUsMjox",
+          "sku": "TNLB21",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Puce / S"
+        },
+        {
+          "stock_id": "LzA6MSwxOjUsMjoy",
+          "sku": "TNLB22",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Puce / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjUsMjoz",
+          "sku": "TNLB23",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Puce / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjUsMjo0",
+          "sku": "TNLB24",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Puce / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjUsMjo1",
+          "sku": "TNLB25",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Puce / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjYsMjox",
+          "sku": "TNLB26",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Olive / S"
+        },
+        {
+          "stock_id": "LzA6MSwxOjYsMjoy",
+          "sku": "TNLB27",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Olive / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjYsMjoz",
+          "sku": "TNLB28",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Olive / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjYsMjo0",
+          "sku": "TNLB29",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Olive / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjYsMjo1",
+          "sku": "TNLB30",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "TANIA / Olive / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjox",
+          "sku": "TNLB31",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Terakota / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjoy",
+          "sku": "TNLB32",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Terakota / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjoz",
+          "sku": "TNLB33",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Terakota / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjo0",
+          "sku": "TNLB34",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Terakota / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjEsMjo1",
+          "sku": "TNLB35",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Terakota / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjox",
+          "sku": "TNLB36",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Smoke Grey / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjoy",
+          "sku": "TNLB37",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Smoke Grey / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjoz",
+          "sku": "TNLB38",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Smoke Grey / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjo0",
+          "sku": "TNLB39",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Smoke Grey / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjIsMjo1",
+          "sku": "TNLB40",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Smoke Grey / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjox",
+          "sku": "TNLB41",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Dove / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjoy",
+          "sku": "TNLB42",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Dove / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjoz",
+          "sku": "TNLB43",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Dove / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjo0",
+          "sku": "TNLB44",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Dove / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjMsMjo1",
+          "sku": "TNLB45",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Dove / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjox",
+          "sku": "TNLB46",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Coksu / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjoy",
+          "sku": "TNLB47",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Coksu / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjoz",
+          "sku": "TNLB48",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Coksu / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjo0",
+          "sku": "TNLB49",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Coksu / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQsMjo1",
+          "sku": "TNLB50",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Coksu / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjox",
+          "sku": "TNLB51",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Puce / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjoy",
+          "sku": "TNLB52",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Puce / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjoz",
+          "sku": "TNLB53",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Puce / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjo0",
+          "sku": "TNLB54",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Puce / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjUsMjo1",
+          "sku": "TNLB55",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Puce / XXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjox",
+          "sku": "TNLB56",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Olive / S"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjoy",
+          "sku": "TNLB57",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Olive / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjoz",
+          "sku": "TNLB58",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Olive / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjo0",
+          "sku": "TNLB59",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Olive / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjYsMjo1",
+          "sku": "TNLB60",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "THALIA / Olive / XXL"
+        }
+      ]
+    },
+    {
       "product_id": "P-lQxRN",
       "product_name": "[READY] ELVA Pouch By BERLIN Bag",
       "product_slug": "berlin-elva-pouch-by-berlin-bag",
@@ -1204,7 +1637,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 13,
-      "total_stock": 740.0,
+      "total_stock": 735.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1244,7 +1677,7 @@
         {
           "stock_id": "LzE6Ng",
           "sku": "LYPC1",
-          "stock": 67,
+          "stock": 62,
           "warehouse_id": null,
           "variation_text": "Cokelat Muda"
         },
@@ -2249,7 +2682,7 @@
       "product_name": "[READY] KALUNA KULOT CRINGKLE",
       "product_slug": "pre-order-valma-loose-pant-66907-96186-42755-5336-75461",
       "product_link": "https://zzhomey.com/product/pre-order-valma-loose-pant-66907-96186-42755-5336-75461",
-      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/Cnq7S4mctV2Bh6OCnqT8Eu8DUQ9XHkSP2DfZcmfC75Tg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Cnq7S4mctV2Bh6OCnqT8Eu8DUQ9XHkSP2DfZcmfC75Tg.jpg",
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 7,
@@ -2398,7 +2831,7 @@
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 8,
-      "total_stock": 41.0,
+      "total_stock": 40.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -2417,7 +2850,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "SRKT3",
-          "stock": 8,
+          "stock": 7,
           "warehouse_id": null,
           "variation_text": "Silver Grey"
         },
@@ -5046,12 +5479,12 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
-      "total_stock": 554.0,
+      "total_stock": 552.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": null,
-          "stock": 97,
+          "stock": 95,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -5191,7 +5624,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 155.0,
+      "total_stock": 154.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5210,7 +5643,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "NCSQ3",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Oat Milk"
         },
@@ -5552,7 +5985,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 182.0,
+      "total_stock": 181.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5627,7 +6060,7 @@
         {
           "stock_id": "LzA6MTE",
           "sku": null,
-          "stock": 8,
+          "stock": 7,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
@@ -5677,7 +6110,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
-      "total_stock": 360.0,
+      "total_stock": 359.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5717,7 +6150,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": null,
-          "stock": 18,
+          "stock": 17,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -6321,12 +6754,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 125.0,
+      "total_stock": 120.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": null,
-          "stock": 24,
+          "stock": 22,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -6354,7 +6787,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": null,
-          "stock": 6,
+          "stock": 3,
           "warehouse_id": null,
           "variation_text": "Soil"
         }
@@ -6506,7 +6939,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 570.0,
+      "total_stock": 569.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6532,7 +6965,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "BNPC3",
-          "stock": 95,
+          "stock": 94,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
@@ -6609,7 +7042,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 136.0,
+      "total_stock": 135.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6628,7 +7061,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 21,
+          "stock": 20,
           "warehouse_id": null,
           "variation_text": "Choco"
         },
@@ -6739,12 +7172,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 1237.0,
+      "total_stock": 1236.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ERPC1",
-          "stock": 172,
+          "stock": 171,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -6834,6 +7267,61 @@
       ]
     },
     {
+      "product_id": "P-ZE0wQu",
+      "product_name": "[READY] FELISE SLINGBAG New",
+      "product_slug": "ready-stock-felise-slingbag-28297-42534",
+      "product_link": "https://zzhomey.com/product/ready-stock-felise-slingbag-28297-42534",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C4YKgpDRXsFYhsxC4YoaXw722YsDA2RRCpBrR1VRcoA.jpg",
+      "category_id": "M-1698639319157",
+      "category_name": "Tas Dompet",
+      "stock_count": 6,
+      "total_stock": 21.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MQ",
+          "sku": "FELS3",
+          "stock": 3,
+          "warehouse_id": null,
+          "variation_text": "BLACK"
+        },
+        {
+          "stock_id": "LzA6Mg",
+          "sku": "FELS6",
+          "stock": 7,
+          "warehouse_id": null,
+          "variation_text": "PINK"
+        },
+        {
+          "stock_id": "LzA6Mw",
+          "sku": "FELS2",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "PURPLE"
+        },
+        {
+          "stock_id": "LzA6NA",
+          "sku": "FELS1",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "MILO"
+        },
+        {
+          "stock_id": "LzA6NQ",
+          "sku": "FELS5",
+          "stock": 5,
+          "warehouse_id": null,
+          "variation_text": "MOCCA"
+        },
+        {
+          "stock_id": "LzA6Ng",
+          "sku": "FELS4",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "MINT"
+        }
+      ]
+    },
+    {
       "product_id": "P-Z2bOLha",
       "product_name": "[READY] FURY POUCH NEW",
       "product_slug": "fury-pouch-new-97774-1188-76735-13461",
@@ -6842,7 +7330,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 556.0,
+      "total_stock": 546.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6854,7 +7342,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "FURP2",
-          "stock": 76,
+          "stock": 69,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -6896,7 +7384,7 @@
         {
           "stock_id": "LzA6OA",
           "sku": "FURP6",
-          "stock": 98,
+          "stock": 95,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -6945,7 +7433,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 323.0,
+      "total_stock": 322.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6964,7 +7452,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "DYSB3",
-          "stock": 136,
+          "stock": 135,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -7323,26 +7811,26 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 458.0,
+      "total_stock": 452.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MRRA4",
-          "stock": 157,
+          "stock": 153,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "MRRA5",
-          "stock": 8,
+          "stock": 7,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "MRRA2",
-          "stock": 54,
+          "stock": 53,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
@@ -7397,6 +7885,40 @@
       ]
     },
     {
+      "product_id": "P-Z1mUEwT",
+      "product_name": "[READY] NAOMI BAG New",
+      "product_slug": "ready-naomi-bag-32646-47485-45442",
+      "product_link": "https://zzhomey.com/product/ready-naomi-bag-32646-47485-45442",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L03FB0nSP8A50m6L04ybn7lcjyb9puSuKpaf96J1uHBw.jpg",
+      "category_id": "M-1698639319157",
+      "category_name": "Tas Dompet",
+      "stock_count": 3,
+      "total_stock": 3.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MQ",
+          "sku": "NMSG3",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Smoke"
+        },
+        {
+          "stock_id": "LzA6Mg",
+          "sku": "NMSG1",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Black"
+        },
+        {
+          "stock_id": "LzA6Mw",
+          "sku": "NMSG2",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Latte"
+        }
+      ]
+    },
+    {
       "product_id": "P-ZKCvO6",
       "product_name": "[READY] QUILA BAG NEW",
       "product_slug": "pre-order-quila-bag-34154-41791-71460-90811-57416",
@@ -7405,7 +7927,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 127.0,
+      "total_stock": 126.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7424,7 +7946,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 44,
+          "stock": 43,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -7434,6 +7956,61 @@
           "stock": 20,
           "warehouse_id": null,
           "variation_text": "Brown"
+        }
+      ]
+    },
+    {
+      "product_id": "P-Z1zRdCY",
+      "product_name": "[READY] RUVI SLINGBAG New",
+      "product_slug": "ready-stock-ruvi-slingbag-79500-68969",
+      "product_link": "https://zzhomey.com/product/ready-stock-ruvi-slingbag-79500-68969",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C4eMV3iHUTNrCZbC4e1rfTso1ZMIJaQU6UVyRZN1dlQ.jpg",
+      "category_id": "M-1698639319157",
+      "category_name": "Tas Dompet",
+      "stock_count": 6,
+      "total_stock": 27.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MQ",
+          "sku": "RUVB1",
+          "stock": 4,
+          "warehouse_id": null,
+          "variation_text": "BLACK"
+        },
+        {
+          "stock_id": "LzA6Mg",
+          "sku": "RUVB5",
+          "stock": 6,
+          "warehouse_id": null,
+          "variation_text": "PINK"
+        },
+        {
+          "stock_id": "LzA6Mw",
+          "sku": "RUVB4",
+          "stock": 4,
+          "warehouse_id": null,
+          "variation_text": "PURPLE"
+        },
+        {
+          "stock_id": "LzA6NA",
+          "sku": "RUVB2",
+          "stock": 4,
+          "warehouse_id": null,
+          "variation_text": "MINT"
+        },
+        {
+          "stock_id": "LzA6NQ",
+          "sku": "RUVB6",
+          "stock": 7,
+          "warehouse_id": null,
+          "variation_text": "MILO"
+        },
+        {
+          "stock_id": "LzA6Ng",
+          "sku": "RUVB3",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "MOCCA"
         }
       ]
     },
@@ -7483,7 +8060,7 @@
       "product_name": "[READY] SELINA PHONEBAG New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541",
-      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/CwtNdXP00YX6mH8ZCwtnAzhKMqF6H6ShamW5rwZfZA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CwtNdXP00YX6mH8ZCwtnAzhKMqF6H6ShamW5rwZfZA.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
@@ -7613,7 +8190,7 @@
       "product_name": "[READY] SYAIRA SLINGBAG New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541-68281-22600-11570-47524-1697",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541-68281-22600-11570-47524-1697",
-      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/Cx66Ysce74y7hkSCxaEIf4sQiDO765TqiLrDxDHMxN6A.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Cx66Ysce74y7hkSCxaEIf4sQiDO765TqiLrDxDHMxN6A.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
@@ -7680,6 +8257,61 @@
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Cream"
+        }
+      ]
+    },
+    {
+      "product_id": "P-Z1CF83e",
+      "product_name": "[READY] VALIN SLINGBAG New",
+      "product_slug": "ready-valin-slingbag-97764-2140",
+      "product_link": "https://zzhomey.com/product/ready-valin-slingbag-97764-2140",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CkJk2qI4BOaKf0tCkYKWkjfyaGY9LjTqmPKqtwAElesw.jpg",
+      "category_id": "M-1698639319157",
+      "category_name": "Tas Dompet",
+      "stock_count": 6,
+      "total_stock": 7.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MQ",
+          "sku": "VNBG1",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Black"
+        },
+        {
+          "stock_id": "LzA6Mg",
+          "sku": "VNBG3",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Mocca"
+        },
+        {
+          "stock_id": "LzA6Mw",
+          "sku": "VNBG6",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Milo"
+        },
+        {
+          "stock_id": "LzA6NA",
+          "sku": "VNBG5",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "Pink"
+        },
+        {
+          "stock_id": "LzA6NQ",
+          "sku": "VNBG4",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Purple"
+        },
+        {
+          "stock_id": "LzA6Ng",
+          "sku": "VNBG2",
+          "stock": 2,
+          "warehouse_id": null,
+          "variation_text": "Mint"
         }
       ]
     },
@@ -8272,7 +8904,7 @@
       "product_name": "[READY] AMORA CELAMIS LOSE",
       "product_slug": "pre-order-amora-celamis-kids-by-zamakids-92181-14065",
       "product_link": "https://zzhomey.com/product/pre-order-amora-celamis-kids-by-zamakids-92181-14065",
-      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/ChnxFYzPau1CCffChojRc4c0kgxKjdQ4iqBjrx4ZQZw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/ChnxFYzPau1CCffChojRc4c0kgxKjdQ4iqBjrx4ZQZw.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 18,
@@ -9571,6 +10203,82 @@
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "White / L"
+        }
+      ]
+    },
+    {
+      "product_id": "P-1cKbGL",
+      "product_name": "[READY] JASMIN WHITE SERIES New",
+      "product_slug": "ready-jasmin-white-series-10016-69971-29928-63488-42847",
+      "product_link": "https://zzhomey.com/product/ready-jasmin-white-series-10016-69971-29928-63488-42847",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Ckk74zGlBJePhJNCkktjItB4X6EM4DQSettIby9ayiQ.jpg",
+      "category_id": "M-1699929662907",
+      "category_name": "ZAMA KIDS",
+      "stock_count": 9,
+      "total_stock": 64.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MSwxOjE",
+          "sku": "JSMN1",
+          "stock": 9,
+          "warehouse_id": null,
+          "variation_text": "SET GAMIS / M"
+        },
+        {
+          "stock_id": "LzA6MSwxOjI",
+          "sku": "JSMN2",
+          "stock": 7,
+          "warehouse_id": null,
+          "variation_text": "SET GAMIS / L"
+        },
+        {
+          "stock_id": "LzA6MSwxOjM",
+          "sku": "JSMN3",
+          "stock": 23,
+          "warehouse_id": null,
+          "variation_text": "SET GAMIS / XL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjQ",
+          "sku": "JSMN4",
+          "stock": 5,
+          "warehouse_id": null,
+          "variation_text": "SET GAMIS / XXL"
+        },
+        {
+          "stock_id": "LzA6MSwxOjU",
+          "sku": "JSMN5",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "SET GAMIS / XXXL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjE",
+          "sku": "JSMN6",
+          "stock": 5,
+          "warehouse_id": null,
+          "variation_text": "ONESET CELANA / M"
+        },
+        {
+          "stock_id": "LzA6MiwxOjI",
+          "sku": "JSMN7",
+          "stock": 4,
+          "warehouse_id": null,
+          "variation_text": "ONESET CELANA / L"
+        },
+        {
+          "stock_id": "LzA6MiwxOjM",
+          "sku": "JSMN8",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "ONESET CELANA / XL"
+        },
+        {
+          "stock_id": "LzA6MiwxOjQ",
+          "sku": "JSMN9",
+          "stock": 9,
+          "warehouse_id": null,
+          "variation_text": "ONESET CELANA / XXL"
         }
       ]
     },
