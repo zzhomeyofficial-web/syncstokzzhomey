@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-11T07:08:22.705251+00:00",
+  "generated_at": "2026-04-11T08:53:58.431824+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
     "reference": "https://dev.berdu.id/docs/reference"
   },
   "totals": {
-    "products": 119,
-    "stock_rows": 1459,
-    "stock_amount": 21832.0
+    "products": 118,
+    "stock_rows": 1454,
+    "stock_amount": 21695.0
   },
   "products": [
     {
@@ -24,14 +24,14 @@
       "stocks": [
         {
           "stock_id": "LzA6MQ",
-          "sku": null,
+          "sku": "ALNB1",
           "stock": 20,
           "warehouse_id": null,
           "variation_text": "Gold"
         },
         {
           "stock_id": "LzA6Mg",
-          "sku": null,
+          "sku": "ALNB3",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Silver"
@@ -1637,7 +1637,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 13,
-      "total_stock": 735.0,
+      "total_stock": 734.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1698,7 +1698,7 @@
         {
           "stock_id": "LzE6OQ",
           "sku": "LYPC9",
-          "stock": 48,
+          "stock": 47,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
@@ -1741,7 +1741,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 39.0,
+      "total_stock": 38.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1760,7 +1760,7 @@
         {
           "stock_id": "LzE6Mw",
           "sku": "RNPC2",
-          "stock": 22,
+          "stock": 21,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         }
@@ -2896,7 +2896,7 @@
       "product_name": "[READY] VALMA LOOSE PANT",
       "product_slug": "pre-order-valma-loose-pant-66907-96186-42755-5336-83254",
       "product_link": "https://zzhomey.com/product/pre-order-valma-loose-pant-66907-96186-42755-5336-83254",
-      "product_image": "https://img.bdjkt.com/img/_/bw5d48ohbw5h0svjb8_3/hGqqeGG1fCoBhhUhGqaaVS6KpogL9vQbGiD5R47vLw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/hGqqeGG1fCoBhhUhGqaaVS6KpogL9vQbGiD5R47vLw.jpg",
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 20,
@@ -4847,7 +4847,7 @@
       "product_name": "[READY] ADZILA BERGO PED",
       "product_slug": "pre-order-adzila-bergo-55952-37685",
       "product_link": "https://zzhomey.com/product/pre-order-adzila-bergo-55952-37685",
-      "product_image": "https://img.bdjkt.com/img/_/bw5d48ohbw5h0svjb8_3/C3UgtRh9GokAiTSC3bOZoWc5yDZw0iRMuxIsmcJVKTDg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C3UgtRh9GokAiTSC3bOZoWc5yDZw0iRMuxIsmcJVKTDg.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 4,
@@ -5479,7 +5479,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
-      "total_stock": 552.0,
+      "total_stock": 550.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5491,14 +5491,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": null,
-          "stock": 99,
+          "stock": 98,
           "warehouse_id": null,
           "variation_text": "Kopi"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 101,
+          "stock": 100,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
@@ -5624,7 +5624,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 154.0,
+      "total_stock": 153.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5650,7 +5650,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "NCSQ4",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Khaky"
         },
@@ -5721,7 +5721,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 787.0,
+      "total_stock": 786.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5796,7 +5796,7 @@
         {
           "stock_id": "LzA6MTE",
           "sku": "NAZL32",
-          "stock": 49,
+          "stock": 48,
           "warehouse_id": null,
           "variation_text": "MILO"
         },
@@ -6746,54 +6746,6 @@
       ]
     },
     {
-      "product_id": "P-p3eTs",
-      "product_name": "[READY] AMILA TOTEBAG",
-      "product_slug": "ready-amila-totebag",
-      "product_link": "https://zzhomey.com/product/ready-amila-totebag",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LOSVZUvdiae3KBLOSNiS79qFlNpjyTYeD5Elc691Prw.jpg",
-      "category_id": "M-1698639319157",
-      "category_name": "Tas Dompet",
-      "stock_count": 5,
-      "total_stock": 121.0,
-      "stocks": [
-        {
-          "stock_id": "LzA6MQ",
-          "sku": null,
-          "stock": 22,
-          "warehouse_id": null,
-          "variation_text": "Black"
-        },
-        {
-          "stock_id": "LzA6Mg",
-          "sku": null,
-          "stock": 69,
-          "warehouse_id": null,
-          "variation_text": "Dark Grey"
-        },
-        {
-          "stock_id": "LzA6Mw",
-          "sku": null,
-          "stock": 26,
-          "warehouse_id": null,
-          "variation_text": "Brown"
-        },
-        {
-          "stock_id": "LzA6NA",
-          "sku": null,
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Coffe"
-        },
-        {
-          "stock_id": "LzA6NQ",
-          "sku": null,
-          "stock": 4,
-          "warehouse_id": null,
-          "variation_text": "Soil"
-        }
-      ]
-    },
-    {
       "product_id": "P-2wjUkq",
       "product_name": "[READY] AURIKA SHOULDERBAG New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541-68281-20669-13637-6761-41140-61913-32034-72261-58066-62389-82175-16769-89509-45828-12385-67514",
@@ -6939,7 +6891,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 569.0,
+      "total_stock": 568.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6951,7 +6903,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "BNPC2",
-          "stock": 72,
+          "stock": 71,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -7330,19 +7282,19 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 545.0,
+      "total_stock": 539.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 62,
+          "stock": 61,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "FURP2",
-          "stock": 69,
+          "stock": 67,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -7356,7 +7308,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "FURP4",
-          "stock": 117,
+          "stock": 116,
           "warehouse_id": null,
           "variation_text": "Lilac"
         },
@@ -7377,14 +7329,14 @@
         {
           "stock_id": "LzA6Nw",
           "sku": "FURP8",
-          "stock": 49,
+          "stock": 48,
           "warehouse_id": null,
           "variation_text": "Moss"
         },
         {
           "stock_id": "LzA6OA",
           "sku": "FURP6",
-          "stock": 95,
+          "stock": 94,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -7811,7 +7763,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 451.0,
+      "total_stock": 450.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7823,7 +7775,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "MRRA5",
-          "stock": 7,
+          "stock": 6,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
@@ -7859,12 +7811,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 3,
-      "total_stock": 297.0,
+      "total_stock": 296.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MISC1",
-          "stock": 223,
+          "stock": 222,
           "warehouse_id": null,
           "variation_text": "PURPLE"
         },
@@ -8235,7 +8187,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 3,
-      "total_stock": 4.0,
+      "total_stock": 3.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8254,7 +8206,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "TNAG3",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cream"
         }
