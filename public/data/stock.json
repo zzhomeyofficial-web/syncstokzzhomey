@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T11:59:15.128755+00:00",
+  "generated_at": "2026-04-15T13:59:51.078852+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 117,
     "stock_rows": 1454,
-    "stock_amount": 20964.0
+    "stock_amount": 20954.0
   },
   "products": [
     {
@@ -1514,12 +1514,12 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 538.0,
+      "total_stock": 537.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "EVPC1",
-          "stock": 197,
+          "stock": 196,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -1934,12 +1934,12 @@
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 7,
-      "total_stock": 4.0,
+      "total_stock": 3.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ARSK1",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -5479,7 +5479,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
-      "total_stock": 538.0,
+      "total_stock": 537.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5491,7 +5491,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "LRAB3",
-          "stock": 95,
+          "stock": 94,
           "warehouse_id": null,
           "variation_text": "Kopi"
         },
@@ -6561,7 +6561,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 9,
-      "total_stock": 19.0,
+      "total_stock": 18.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6615,7 +6615,7 @@
         {
           "stock_id": "LzA6OA",
           "sku": "SHDS8",
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_text": "Matcha"
         },
@@ -6953,12 +6953,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 79.0,
+      "total_stock": 78.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "CHRM1",
-          "stock": 8,
+          "stock": 7,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         },
@@ -6994,7 +6994,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 17.0,
+      "total_stock": 16.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7020,7 +7020,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "CRRY4",
-          "stock": 13,
+          "stock": 12,
           "warehouse_id": null,
           "variation_text": "Burgundy"
         },
@@ -7399,7 +7399,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 290.0,
+      "total_stock": 289.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7418,7 +7418,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "DYSB3",
-          "stock": 127,
+          "stock": 126,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -7777,7 +7777,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 135.0,
+      "total_stock": 133.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7803,7 +7803,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "MRRA3",
-          "stock": 135,
+          "stock": 133,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -7859,12 +7859,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 192.0,
+      "total_stock": 191.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NMSG1",
-          "stock": 86,
+          "stock": 85,
           "warehouse_id": null,
           "variation_text": "Black"
         },
