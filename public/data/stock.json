@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T04:11:27.728757+00:00",
+  "generated_at": "2026-04-15T06:57:20.834725+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 117,
     "stock_rows": 1454,
-    "stock_amount": 21334.0
+    "stock_amount": 21088.0
   },
   "products": [
     {
@@ -1548,7 +1548,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 6,
-      "total_stock": 105.0,
+      "total_stock": 104.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1581,7 +1581,7 @@
         {
           "stock_id": "LzE6NQ",
           "sku": "EMDK5",
-          "stock": 15,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
@@ -1775,7 +1775,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 12,
-      "total_stock": 522.0,
+      "total_stock": 521.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1836,7 +1836,7 @@
         {
           "stock_id": "LzE6OQ",
           "sku": "YRPO12",
-          "stock": 54,
+          "stock": 53,
           "warehouse_id": null,
           "variation_text": "Purple"
         },
@@ -2718,21 +2718,21 @@
         },
         {
           "stock_id": "LzA6MiwxOjQsMjoy",
-          "sku": null,
+          "sku": "KLNA2",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "BLACK / XL / SATUAN"
         },
         {
           "stock_id": "LzA6MywxOjIsMjoy",
-          "sku": null,
+          "sku": "KLNA5",
           "stock": 9,
           "warehouse_id": null,
           "variation_text": "MOCCA / M / SATUAN"
         },
         {
           "stock_id": "LzA6MywxOjQsMjoy",
-          "sku": null,
+          "sku": "KLNA6",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "MOCCA / XL / SATUAN"
@@ -4175,175 +4175,175 @@
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
-          "sku": null,
+          "sku": "KHNS1",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Burgundy / S"
         },
         {
           "stock_id": "LzA6MSwxOjI",
-          "sku": null,
+          "sku": "KHNS2",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Burgundy / M"
         },
         {
           "stock_id": "LzA6MSwxOjM",
-          "sku": null,
+          "sku": "KHNS3",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Burgundy / L"
         },
         {
           "stock_id": "LzA6MSwxOjQ",
-          "sku": null,
+          "sku": "KHNS4",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Burgundy / XL"
         },
         {
           "stock_id": "LzA6MSwxOjU",
-          "sku": null,
+          "sku": "KHNS5",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Burgundy / XXL"
         },
         {
           "stock_id": "LzA6MiwxOjE",
-          "sku": null,
+          "sku": "KHNS6",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Black / S"
         },
         {
           "stock_id": "LzA6MiwxOjI",
-          "sku": null,
+          "sku": "KHNS7",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black / M"
         },
         {
           "stock_id": "LzA6MiwxOjM",
-          "sku": null,
+          "sku": "KHNS8",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black / L"
         },
         {
           "stock_id": "LzA6MiwxOjQ",
-          "sku": null,
+          "sku": "KHNS9",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Black / XL"
         },
         {
           "stock_id": "LzA6MiwxOjU",
-          "sku": null,
+          "sku": "KHNS10",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black / XXL"
         },
         {
           "stock_id": "LzA6MywxOjE",
-          "sku": null,
+          "sku": "KHNS11",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Dusty Blue / S"
         },
         {
           "stock_id": "LzA6MywxOjI",
-          "sku": null,
+          "sku": "KHNS12",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Dusty Blue / M"
         },
         {
           "stock_id": "LzA6MywxOjM",
-          "sku": null,
+          "sku": "KHNS13",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Dusty Blue / L"
         },
         {
           "stock_id": "LzA6MywxOjQ",
-          "sku": null,
+          "sku": "KHNS14",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Dusty Blue / XL"
         },
         {
           "stock_id": "LzA6MywxOjU",
-          "sku": null,
+          "sku": "KHNS15",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Dusty Blue / XXL"
         },
         {
           "stock_id": "LzA6NCwxOjE",
-          "sku": null,
+          "sku": "KHNS16",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Ash Purple / S"
         },
         {
           "stock_id": "LzA6NCwxOjI",
-          "sku": null,
+          "sku": "KHNS17",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Ash Purple / M"
         },
         {
           "stock_id": "LzA6NCwxOjM",
-          "sku": null,
+          "sku": "KHNS18",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Ash Purple / L"
         },
         {
           "stock_id": "LzA6NCwxOjQ",
-          "sku": null,
+          "sku": "KHNS19",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Ash Purple / XL"
         },
         {
           "stock_id": "LzA6NCwxOjU",
-          "sku": null,
+          "sku": "KHNS20",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Ash Purple / XXL"
         },
         {
           "stock_id": "LzA6NSwxOjE",
-          "sku": null,
+          "sku": "KHNS21",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Sage / S"
         },
         {
           "stock_id": "LzA6NSwxOjI",
-          "sku": null,
+          "sku": "KHNS22",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Sage / M"
         },
         {
           "stock_id": "LzA6NSwxOjM",
-          "sku": null,
+          "sku": "KHNS23",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Sage / L"
         },
         {
           "stock_id": "LzA6NSwxOjQ",
-          "sku": null,
+          "sku": "KHNS24",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Sage / XL"
         },
         {
           "stock_id": "LzA6NSwxOjU",
-          "sku": null,
+          "sku": "KHNS25",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Sage / XXL"
@@ -4475,7 +4475,7 @@
         },
         {
           "stock_id": "LzA6MiwxOjEsMjoz",
-          "sku": null,
+          "sku": "LZKR17",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "ZORA / Black / L"
@@ -4731,70 +4731,70 @@
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
-          "sku": null,
+          "sku": "RMLA1",
           "stock": 40,
           "warehouse_id": null,
           "variation_text": "Kode A / L"
         },
         {
           "stock_id": "LzA6MSwxOjI",
-          "sku": null,
+          "sku": "RMLA2",
           "stock": 9,
           "warehouse_id": null,
           "variation_text": "Kode A / XXL"
         },
         {
           "stock_id": "LzA6MiwxOjE",
-          "sku": null,
+          "sku": "RMLA3",
           "stock": 38,
           "warehouse_id": null,
           "variation_text": "Kode B / L"
         },
         {
           "stock_id": "LzA6MiwxOjI",
-          "sku": null,
+          "sku": "RMLA4",
           "stock": 20,
           "warehouse_id": null,
           "variation_text": "Kode B / XXL"
         },
         {
           "stock_id": "LzA6MywxOjE",
-          "sku": null,
+          "sku": "RMLA5",
           "stock": 22,
           "warehouse_id": null,
           "variation_text": "Kode C / L"
         },
         {
           "stock_id": "LzA6MywxOjI",
-          "sku": null,
+          "sku": "RMLA6",
           "stock": 27,
           "warehouse_id": null,
           "variation_text": "Kode C / XXL"
         },
         {
           "stock_id": "LzA6NCwxOjE",
-          "sku": null,
+          "sku": "RMLA7",
           "stock": 19,
           "warehouse_id": null,
           "variation_text": "Kode D / L"
         },
         {
           "stock_id": "LzA6NCwxOjI",
-          "sku": null,
+          "sku": "RMLA8",
           "stock": 15,
           "warehouse_id": null,
           "variation_text": "Kode D / XXL"
         },
         {
           "stock_id": "LzA6NSwxOjE",
-          "sku": null,
+          "sku": "RMLA9",
           "stock": 34,
           "warehouse_id": null,
           "variation_text": "Kode E / L"
         },
         {
           "stock_id": "LzA6NSwxOjI",
-          "sku": null,
+          "sku": "RMLA10",
           "stock": 19,
           "warehouse_id": null,
           "variation_text": "Kode E / XXL"
@@ -4892,7 +4892,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 328.0,
+      "total_stock": 327.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -4946,7 +4946,7 @@
         {
           "stock_id": "LzE6OA",
           "sku": "AZDLB20",
-          "stock": 15,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "LAVENDER"
         },
@@ -4989,7 +4989,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 16.0,
+      "total_stock": 15.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -5036,7 +5036,7 @@
         {
           "stock_id": "LzA6NCwxOjE",
           "sku": "ASYH1",
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_text": "BLACK / Standar L"
         },
@@ -5252,7 +5252,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 6,
-      "total_stock": 62.0,
+      "total_stock": 61.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5292,7 +5292,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "HWRA6",
-          "stock": 16,
+          "stock": 15,
           "warehouse_id": null,
           "variation_text": "Navy"
         }
@@ -5311,63 +5311,63 @@
       "stocks": [
         {
           "stock_id": "LzA6MQ",
-          "sku": null,
+          "sku": "HYYN1",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Sage"
         },
         {
           "stock_id": "LzA6Mg",
-          "sku": null,
+          "sku": "HYYN2",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6Mw",
-          "sku": null,
+          "sku": "HYYN3",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
         {
           "stock_id": "LzA6NA",
-          "sku": null,
+          "sku": "HYYN4",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "White"
         },
         {
           "stock_id": "LzA6NQ",
-          "sku": null,
+          "sku": "HYYN5",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
         {
           "stock_id": "LzA6Ng",
-          "sku": null,
+          "sku": "HYYN6",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Milo"
         },
         {
           "stock_id": "LzA6Nw",
-          "sku": null,
+          "sku": "HYYN7",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Broken White"
         },
         {
           "stock_id": "LzA6OA",
-          "sku": null,
+          "sku": "HYYN8",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Chocomilk"
         },
         {
           "stock_id": "LzA6OQ",
-          "sku": null,
+          "sku": "HYYN9",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black"
@@ -5435,35 +5435,35 @@
       "stocks": [
         {
           "stock_id": "LzA6MQ",
-          "sku": null,
+          "sku": "KHRA3",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
-          "sku": null,
+          "sku": "KHRA1",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
         {
           "stock_id": "LzA6Mw",
-          "sku": null,
+          "sku": "KHRA4",
           "stock": 17,
           "warehouse_id": null,
           "variation_text": "Khaki"
         },
         {
           "stock_id": "LzA6NA",
-          "sku": null,
+          "sku": "KHRA5",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6NQ",
-          "sku": null,
+          "sku": "KHRA2",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Coklat Pasta"
@@ -5483,35 +5483,35 @@
       "stocks": [
         {
           "stock_id": "LzA6MQ",
-          "sku": null,
+          "sku": "LRAB2",
           "stock": 93,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
-          "sku": null,
+          "sku": "LRAB3",
           "stock": 95,
           "warehouse_id": null,
           "variation_text": "Kopi"
         },
         {
           "stock_id": "LzA6Mw",
-          "sku": null,
+          "sku": "LRAB4",
           "stock": 98,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6NA",
-          "sku": null,
+          "sku": "LRAB1",
           "stock": 121,
           "warehouse_id": null,
           "variation_text": "Abu Tua"
         },
         {
           "stock_id": "LzA6NQ",
-          "sku": null,
+          "sku": "LRAB5",
           "stock": 134,
           "warehouse_id": null,
           "variation_text": "Navy"
@@ -6110,95 +6110,95 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
-      "total_stock": 359.0,
+      "total_stock": 358.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
-          "sku": null,
+          "sku": "RJWA7",
           "stock": 30,
           "warehouse_id": null,
           "variation_text": "Tanah"
         },
         {
           "stock_id": "LzA6Mg",
-          "sku": null,
+          "sku": "RJWA2",
           "stock": 7,
           "warehouse_id": null,
           "variation_text": "Smoke Grey / Dark Grey"
         },
         {
           "stock_id": "LzA6Mw",
-          "sku": null,
+          "sku": "RWHJ2",
           "stock": 28,
           "warehouse_id": null,
           "variation_text": "Kopi"
         },
         {
           "stock_id": "LzA6NA",
-          "sku": null,
+          "sku": "RWHJ1",
           "stock": 36,
           "warehouse_id": null,
           "variation_text": "Army"
         },
         {
           "stock_id": "LzA6NQ",
-          "sku": null,
+          "sku": "RWHJ4",
           "stock": 31,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6Ng",
-          "sku": null,
-          "stock": 17,
+          "sku": "RJWA1",
+          "stock": 16,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Nw",
-          "sku": null,
+          "sku": "RWHJ5",
           "stock": 24,
           "warehouse_id": null,
           "variation_text": "Plum"
         },
         {
           "stock_id": "LzA6OA",
-          "sku": null,
+          "sku": "RJWA4",
           "stock": 25,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
         {
           "stock_id": "LzA6OQ",
-          "sku": null,
+          "sku": "RWHJ6",
           "stock": 33,
           "warehouse_id": null,
           "variation_text": "Salem"
         },
         {
           "stock_id": "LzA6MTA",
-          "sku": null,
+          "sku": "RJWA3",
           "stock": 28,
           "warehouse_id": null,
           "variation_text": "Dove"
         },
         {
           "stock_id": "LzA6MTE",
-          "sku": null,
+          "sku": "RJWA6",
           "stock": 37,
           "warehouse_id": null,
           "variation_text": "Taupe"
         },
         {
           "stock_id": "LzA6MTI",
-          "sku": null,
+          "sku": "RWHJ3",
           "stock": 26,
           "warehouse_id": null,
           "variation_text": "Ivory"
         },
         {
           "stock_id": "LzA6MTM",
-          "sku": null,
+          "sku": "RJWA5",
           "stock": 37,
           "warehouse_id": null,
           "variation_text": "Khaky"
@@ -6561,7 +6561,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 9,
-      "total_stock": 20.0,
+      "total_stock": 19.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6622,7 +6622,7 @@
         {
           "stock_id": "LzA6OQ",
           "sku": "SHDS9",
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_text": "Broken White"
         }
@@ -6994,12 +6994,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 173.0,
+      "total_stock": 53.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "CRRY1",
-          "stock": 31,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -7013,21 +7013,21 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "CRRY3",
-          "stock": 46,
+          "stock": 12,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "CRRY4",
-          "stock": 51,
+          "stock": 25,
           "warehouse_id": null,
           "variation_text": "Burgundy"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "CRRY5",
-          "stock": 45,
+          "stock": 16,
           "warehouse_id": null,
           "variation_text": "Coffe"
         }
@@ -7042,40 +7042,40 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 126.0,
+      "total_stock": 110.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "CEBG1",
-          "stock": 17,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "CEBG4",
-          "stock": 26,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "CEBG2",
-          "stock": 20,
+          "stock": 17,
           "warehouse_id": null,
           "variation_text": "Choco"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "CEBG3",
-          "stock": 34,
+          "stock": 31,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "CEBG5",
-          "stock": 29,
+          "stock": 25,
           "warehouse_id": null,
           "variation_text": "Ivory"
         }
@@ -7330,12 +7330,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 341.0,
+      "total_stock": 339.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 16,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -7399,12 +7399,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 295.0,
+      "total_stock": 290.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "DYSB2",
-          "stock": 20,
+          "stock": 19,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -7418,21 +7418,21 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "DYSB3",
-          "stock": 129,
+          "stock": 127,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "DYSB5",
-          "stock": 117,
+          "stock": 116,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "DYSB1",
-          "stock": 29,
+          "stock": 28,
           "warehouse_id": null,
           "variation_text": "Pink"
         }
@@ -7777,12 +7777,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 207.0,
+      "total_stock": 149.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MRRA4",
-          "stock": 33,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -7803,7 +7803,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "MRRA3",
-          "stock": 174,
+          "stock": 149,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -7859,33 +7859,33 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 248.0,
+      "total_stock": 213.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NMSG1",
-          "stock": 99,
+          "stock": 92,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "NMSG6",
-          "stock": 28,
+          "stock": 21,
           "warehouse_id": null,
           "variation_text": "Ivory"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "NMSG4",
-          "stock": 65,
+          "stock": 59,
           "warehouse_id": null,
           "variation_text": "Tan"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "NMSG5",
-          "stock": 56,
+          "stock": 41,
           "warehouse_id": null,
           "variation_text": "Misty Mauve"
         }
@@ -7900,32 +7900,32 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 124.0,
+      "total_stock": 123.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
-          "sku": null,
-          "stock": 10,
+          "sku": "QLAB1",
+          "stock": 9,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6Mg",
-          "sku": null,
+          "sku": "QLAB2",
           "stock": 51,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mw",
-          "sku": null,
+          "sku": "QLAB3",
           "stock": 43,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
         {
           "stock_id": "LzA6NA",
-          "sku": null,
+          "sku": "QLAB4",
           "stock": 20,
           "warehouse_id": null,
           "variation_text": "Brown"
@@ -8037,7 +8037,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 92.0,
+      "total_stock": 90.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8056,14 +8056,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "SLNA3",
-          "stock": 33,
+          "stock": 32,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "SLNA4",
-          "stock": 19,
+          "stock": 18,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -10234,140 +10234,140 @@
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
-          "sku": null,
+          "sku": "KYFQ1",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "White / S"
         },
         {
           "stock_id": "LzA6MSwxOjI",
-          "sku": null,
+          "sku": "KYFQ2",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "White / M"
         },
         {
           "stock_id": "LzA6MSwxOjM",
-          "sku": null,
+          "sku": "KYFQ3",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "White / L"
         },
         {
           "stock_id": "LzA6MSwxOjQ",
-          "sku": null,
+          "sku": "KYFQ4",
           "stock": 9,
           "warehouse_id": null,
           "variation_text": "White / XL"
         },
         {
           "stock_id": "LzA6MSwxOjU",
-          "sku": null,
+          "sku": "KYFQ5",
           "stock": 7,
           "warehouse_id": null,
           "variation_text": "White / XXL"
         },
         {
           "stock_id": "LzA6MiwxOjE",
-          "sku": null,
+          "sku": "KYFQ6",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Navy / S"
         },
         {
           "stock_id": "LzA6MiwxOjI",
-          "sku": null,
+          "sku": "KYFQ7",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Navy / M"
         },
         {
           "stock_id": "LzA6MiwxOjM",
-          "sku": null,
+          "sku": "KYFQ8",
           "stock": 17,
           "warehouse_id": null,
           "variation_text": "Navy / L"
         },
         {
           "stock_id": "LzA6MiwxOjQ",
-          "sku": null,
+          "sku": "KYFQ9",
           "stock": 10,
           "warehouse_id": null,
           "variation_text": "Navy / XL"
         },
         {
           "stock_id": "LzA6MiwxOjU",
-          "sku": null,
+          "sku": "KYFQ10",
           "stock": 6,
           "warehouse_id": null,
           "variation_text": "Navy / XXL"
         },
         {
           "stock_id": "LzA6NCwxOjE",
-          "sku": null,
+          "sku": "KYFQ16",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Black / S"
         },
         {
           "stock_id": "LzA6NCwxOjI",
-          "sku": null,
+          "sku": "KYFQ17",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black / M"
         },
         {
           "stock_id": "LzA6NCwxOjM",
-          "sku": null,
+          "sku": "KYFQ18",
           "stock": 12,
           "warehouse_id": null,
           "variation_text": "Black / L"
         },
         {
           "stock_id": "LzA6NCwxOjQ",
-          "sku": null,
+          "sku": "KYFQ19",
           "stock": 18,
           "warehouse_id": null,
           "variation_text": "Black / XL"
         },
         {
           "stock_id": "LzA6NCwxOjU",
-          "sku": null,
+          "sku": "KYFQ20",
           "stock": 14,
           "warehouse_id": null,
           "variation_text": "Black / XXL"
         },
         {
           "stock_id": "LzA6MywxOjE",
-          "sku": null,
+          "sku": "KYFQ11",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Mocca / S"
         },
         {
           "stock_id": "LzA6MywxOjI",
-          "sku": null,
+          "sku": "KYFQ12",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Mocca / M"
         },
         {
           "stock_id": "LzA6MywxOjM",
-          "sku": null,
+          "sku": "KYFQ13",
           "stock": 11,
           "warehouse_id": null,
           "variation_text": "Mocca / L"
         },
         {
           "stock_id": "LzA6MywxOjQ",
-          "sku": null,
+          "sku": "KYFQ14",
           "stock": 12,
           "warehouse_id": null,
           "variation_text": "Mocca / XL"
         },
         {
           "stock_id": "LzA6MywxOjU",
-          "sku": null,
+          "sku": "KYFQ15",
           "stock": 11,
           "warehouse_id": null,
           "variation_text": "Mocca / XXL"
@@ -10867,105 +10867,105 @@
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
-          "sku": null,
+          "sku": "SAQB1",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Navy / S"
         },
         {
           "stock_id": "LzA6MSwxOjI",
-          "sku": null,
+          "sku": "SAQB2",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Navy / M"
         },
         {
           "stock_id": "LzA6MSwxOjM",
-          "sku": null,
+          "sku": "SAQB3",
           "stock": 19,
           "warehouse_id": null,
           "variation_text": "Navy / L"
         },
         {
           "stock_id": "LzA6MSwxOjQ",
-          "sku": null,
+          "sku": "SAQB4",
           "stock": 22,
           "warehouse_id": null,
           "variation_text": "Navy / XL"
         },
         {
           "stock_id": "LzA6MSwxOjU",
-          "sku": null,
+          "sku": "SAQB5",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Navy / XXL"
         },
         {
           "stock_id": "LzA6MiwxOjE",
-          "sku": null,
+          "sku": "SAQB6",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Mocca / S"
         },
         {
           "stock_id": "LzA6MiwxOjI",
-          "sku": null,
+          "sku": "SAQB7",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Mocca / M"
         },
         {
           "stock_id": "LzA6MiwxOjM",
-          "sku": null,
+          "sku": "SAQB8",
           "stock": 14,
           "warehouse_id": null,
           "variation_text": "Mocca / L"
         },
         {
           "stock_id": "LzA6MiwxOjQ",
-          "sku": null,
+          "sku": "SAQB9",
           "stock": 25,
           "warehouse_id": null,
           "variation_text": "Mocca / XL"
         },
         {
           "stock_id": "LzA6MiwxOjU",
-          "sku": null,
+          "sku": "SAQB10",
           "stock": 11,
           "warehouse_id": null,
           "variation_text": "Mocca / XXL"
         },
         {
           "stock_id": "LzA6MywxOjE",
-          "sku": null,
+          "sku": "SAQB11",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Black / S"
         },
         {
           "stock_id": "LzA6MywxOjI",
-          "sku": null,
+          "sku": "SAQB12",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black / M"
         },
         {
           "stock_id": "LzA6MywxOjM",
-          "sku": null,
+          "sku": "SAQB13",
           "stock": 18,
           "warehouse_id": null,
           "variation_text": "Black / L"
         },
         {
           "stock_id": "LzA6MywxOjQ",
-          "sku": null,
+          "sku": "SAQB14",
           "stock": 22,
           "warehouse_id": null,
           "variation_text": "Black / XL"
         },
         {
           "stock_id": "LzA6MywxOjU",
-          "sku": null,
+          "sku": "SAQB15",
           "stock": 12,
           "warehouse_id": null,
           "variation_text": "Black / XXL"
@@ -11054,252 +11054,252 @@
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
-          "sku": null,
+          "sku": "SDQA1",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Navy / M"
         },
         {
           "stock_id": "LzA6MSwxOjI",
-          "sku": null,
+          "sku": "SDQA2",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Navy / L"
         },
         {
           "stock_id": "LzA6MSwxOjM",
-          "sku": null,
+          "sku": "SDQA3",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Navy / XL"
         },
         {
           "stock_id": "LzA6MSwxOjQ",
-          "sku": null,
+          "sku": "SDQA4",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Navy / Size 1"
         },
         {
           "stock_id": "LzA6MSwxOjU",
-          "sku": null,
+          "sku": "SDQA5",
           "stock": 5,
           "warehouse_id": null,
           "variation_text": "Navy / Size 2"
         },
         {
           "stock_id": "LzA6MSwxOjY",
-          "sku": null,
+          "sku": "SDQA6",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Navy / Size 3"
         },
         {
           "stock_id": "LzA6MiwxOjE",
-          "sku": null,
+          "sku": "SDQA7",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / M"
         },
         {
           "stock_id": "LzA6MiwxOjI",
-          "sku": null,
+          "sku": "SDQA8",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / L"
         },
         {
           "stock_id": "LzA6MiwxOjM",
-          "sku": null,
+          "sku": "SDQA9",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / XL"
         },
         {
           "stock_id": "LzA6MiwxOjQ",
-          "sku": null,
+          "sku": "SDQA10",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / Size 1"
         },
         {
           "stock_id": "LzA6MiwxOjU",
-          "sku": null,
+          "sku": "SDQA11",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / Size 2"
         },
         {
           "stock_id": "LzA6MiwxOjY",
-          "sku": null,
+          "sku": "SDQA12",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Crock Cery / Size 3"
         },
         {
           "stock_id": "LzA6MywxOjE",
-          "sku": null,
+          "sku": "SDQA13",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Sage / M"
         },
         {
           "stock_id": "LzA6MywxOjI",
-          "sku": null,
+          "sku": "SDQA14",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Sage / L"
         },
         {
           "stock_id": "LzA6MywxOjM",
-          "sku": null,
+          "sku": "SDQA15",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Sage / XL"
         },
         {
           "stock_id": "LzA6MywxOjQ",
-          "sku": null,
+          "sku": "SDQA16",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Sage / Size 1"
         },
         {
           "stock_id": "LzA6MywxOjU",
-          "sku": null,
+          "sku": "SDQA17",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Sage / Size 2"
         },
         {
           "stock_id": "LzA6MywxOjY",
-          "sku": null,
+          "sku": "SDQA18",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Sage / Size 3"
         },
         {
           "stock_id": "LzA6NCwxOjE",
-          "sku": null,
+          "sku": "SDQA19",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Emerald / M"
         },
         {
           "stock_id": "LzA6NCwxOjI",
-          "sku": null,
+          "sku": "SDQA20",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Emerald / L"
         },
         {
           "stock_id": "LzA6NCwxOjM",
-          "sku": null,
+          "sku": "SDQA21",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Emerald / XL"
         },
         {
           "stock_id": "LzA6NCwxOjQ",
-          "sku": null,
+          "sku": "SDQA22",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Emerald / Size 1"
         },
         {
           "stock_id": "LzA6NCwxOjU",
-          "sku": null,
+          "sku": "SDQA23",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Emerald / Size 2"
         },
         {
           "stock_id": "LzA6NCwxOjY",
-          "sku": null,
+          "sku": "SDQA24",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Emerald / Size 3"
         },
         {
           "stock_id": "LzA6NSwxOjE",
-          "sku": null,
+          "sku": "SDQA25",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Caramel / M"
         },
         {
           "stock_id": "LzA6NSwxOjI",
-          "sku": null,
+          "sku": "SDQA26",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Caramel / L"
         },
         {
           "stock_id": "LzA6NSwxOjM",
-          "sku": null,
+          "sku": "SDQA27",
           "stock": 6,
           "warehouse_id": null,
           "variation_text": "Caramel / XL"
         },
         {
           "stock_id": "LzA6NSwxOjQ",
-          "sku": null,
+          "sku": "SDQA28",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Caramel / Size 1"
         },
         {
           "stock_id": "LzA6NSwxOjU",
-          "sku": null,
+          "sku": "SDQA29",
           "stock": 6,
           "warehouse_id": null,
           "variation_text": "Caramel / Size 2"
         },
         {
           "stock_id": "LzA6NSwxOjY",
-          "sku": null,
+          "sku": "SDQA30",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Caramel / Size 3"
         },
         {
           "stock_id": "LzA6NiwxOjE",
-          "sku": null,
+          "sku": "SDQA31",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Black / M"
         },
         {
           "stock_id": "LzA6NiwxOjI",
-          "sku": null,
+          "sku": "SDQA32",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black / L"
         },
         {
           "stock_id": "LzA6NiwxOjM",
-          "sku": null,
+          "sku": "SDQA33",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Black / XL"
         },
         {
           "stock_id": "LzA6NiwxOjQ",
-          "sku": null,
+          "sku": "SDQA34",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Black / Size 1"
         },
         {
           "stock_id": "LzA6NiwxOjU",
-          "sku": null,
+          "sku": "SDQA35",
           "stock": 5,
           "warehouse_id": null,
           "variation_text": "Black / Size 2"
         },
         {
           "stock_id": "LzA6NiwxOjY",
-          "sku": null,
+          "sku": "SDQA36",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Black / Size 3"
@@ -11319,252 +11319,252 @@
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
-          "sku": null,
+          "sku": "SYML1",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Navy / M"
         },
         {
           "stock_id": "LzA6MSwxOjI",
-          "sku": null,
+          "sku": "SYML2",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Navy / L"
         },
         {
           "stock_id": "LzA6MSwxOjM",
-          "sku": null,
+          "sku": "SYML3",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Navy / XL"
         },
         {
           "stock_id": "LzA6MSwxOjQ",
-          "sku": null,
+          "sku": "SYML4",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Navy / Size 1"
         },
         {
           "stock_id": "LzA6MSwxOjU",
-          "sku": null,
+          "sku": "SYML5",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Navy / Size 2"
         },
         {
           "stock_id": "LzA6MSwxOjY",
-          "sku": null,
+          "sku": "SYML6",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Navy / Size 3"
         },
         {
           "stock_id": "LzA6MiwxOjE",
-          "sku": null,
+          "sku": "SYML7",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Crock Cery / M"
         },
         {
           "stock_id": "LzA6MiwxOjI",
-          "sku": null,
+          "sku": "SYML8",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / L"
         },
         {
           "stock_id": "LzA6MiwxOjM",
-          "sku": null,
+          "sku": "SYML9",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / XL"
         },
         {
           "stock_id": "LzA6MiwxOjQ",
-          "sku": null,
+          "sku": "SYML10",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / Size 1"
         },
         {
           "stock_id": "LzA6MiwxOjU",
-          "sku": null,
+          "sku": "SYML11",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Crock Cery / Size 2"
         },
         {
           "stock_id": "LzA6MiwxOjY",
-          "sku": null,
+          "sku": "SYML12",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Crock Cery / Size 3"
         },
         {
           "stock_id": "LzA6MywxOjE",
-          "sku": null,
+          "sku": "SYML13",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Sage / M"
         },
         {
           "stock_id": "LzA6MywxOjI",
-          "sku": null,
+          "sku": "SYML14",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Sage / L"
         },
         {
           "stock_id": "LzA6MywxOjM",
-          "sku": null,
+          "sku": "SYML15",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Sage / XL"
         },
         {
           "stock_id": "LzA6MywxOjQ",
-          "sku": null,
+          "sku": "SYML16",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Sage / Size 1"
         },
         {
           "stock_id": "LzA6MywxOjU",
-          "sku": null,
+          "sku": "SYML17",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Sage / Size 2"
         },
         {
           "stock_id": "LzA6MywxOjY",
-          "sku": null,
+          "sku": "SYML18",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Sage / Size 3"
         },
         {
           "stock_id": "LzA6NCwxOjE",
-          "sku": null,
+          "sku": "SYML19",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Emerald / M"
         },
         {
           "stock_id": "LzA6NCwxOjI",
-          "sku": null,
+          "sku": "SYML20",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Emerald / L"
         },
         {
           "stock_id": "LzA6NCwxOjM",
-          "sku": null,
+          "sku": "SYML21",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Emerald / XL"
         },
         {
           "stock_id": "LzA6NCwxOjQ",
-          "sku": null,
+          "sku": "SYML22",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Emerald / Size 1"
         },
         {
           "stock_id": "LzA6NCwxOjU",
-          "sku": null,
+          "sku": "SYML23",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Emerald / Size 2"
         },
         {
           "stock_id": "LzA6NCwxOjY",
-          "sku": null,
+          "sku": "SYML24",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Emerald / Size 3"
         },
         {
           "stock_id": "LzA6NSwxOjE",
-          "sku": null,
+          "sku": "SYML25",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Caramel / M"
         },
         {
           "stock_id": "LzA6NSwxOjI",
-          "sku": null,
+          "sku": "SYML26",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Caramel / L"
         },
         {
           "stock_id": "LzA6NSwxOjM",
-          "sku": null,
+          "sku": "SYML27",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Caramel / XL"
         },
         {
           "stock_id": "LzA6NSwxOjQ",
-          "sku": null,
+          "sku": "SYML28",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Caramel / Size 1"
         },
         {
           "stock_id": "LzA6NSwxOjU",
-          "sku": null,
+          "sku": "SYML29",
           "stock": 5,
           "warehouse_id": null,
           "variation_text": "Caramel / Size 2"
         },
         {
           "stock_id": "LzA6NSwxOjY",
-          "sku": null,
+          "sku": "SYML30",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Caramel / Size 3"
         },
         {
           "stock_id": "LzA6NiwxOjE",
-          "sku": null,
+          "sku": "SYML31",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Black / M"
         },
         {
           "stock_id": "LzA6NiwxOjI",
-          "sku": null,
+          "sku": "SYML32",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Black / L"
         },
         {
           "stock_id": "LzA6NiwxOjM",
-          "sku": null,
+          "sku": "SYML33",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Black / XL"
         },
         {
           "stock_id": "LzA6NiwxOjQ",
-          "sku": null,
+          "sku": "SYML34",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Black / Size 1"
         },
         {
           "stock_id": "LzA6NiwxOjU",
-          "sku": null,
+          "sku": "SYML35",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Black / Size 2"
         },
         {
           "stock_id": "LzA6NiwxOjY",
-          "sku": null,
+          "sku": "SYML36",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Black / Size 3"
