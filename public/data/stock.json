@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T06:49:33.638719+00:00",
+  "generated_at": "2026-04-19T08:09:18.293811+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 115,
     "stock_rows": 1444,
-    "stock_amount": 21816.0
+    "stock_amount": 21810.0
   },
   "products": [
     {
@@ -6953,7 +6953,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 74.0,
+      "total_stock": 73.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6972,7 +6972,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "CHRM3",
-          "stock": 37,
+          "stock": 36,
           "warehouse_id": null,
           "variation_text": "Champagne Gold"
         },
@@ -7763,12 +7763,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 73.0,
+      "total_stock": 70.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NMSG1",
-          "stock": 53,
+          "stock": 52,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -7782,7 +7782,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "NMSG4",
-          "stock": 20,
+          "stock": 18,
           "warehouse_id": null,
           "variation_text": "Tan"
         },
@@ -7996,12 +7996,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 129.0,
+      "total_stock": 127.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SYPC1",
-          "stock": 47,
+          "stock": 46,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -8022,7 +8022,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "SYPC4",
-          "stock": 10,
+          "stock": 9,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         }
