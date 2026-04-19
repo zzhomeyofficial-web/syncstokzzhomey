@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T14:46:33.248947+00:00",
+  "generated_at": "2026-04-19T04:17:24.510987+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 115,
     "stock_rows": 1444,
-    "stock_amount": 21834.0
+    "stock_amount": 21816.0
   },
   "products": [
     {
@@ -5479,19 +5479,19 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
-      "total_stock": 530.0,
+      "total_stock": 526.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "LRAB2",
-          "stock": 90,
+          "stock": 88,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "LRAB3",
-          "stock": 91,
+          "stock": 90,
           "warehouse_id": null,
           "variation_text": "Kopi"
         },
@@ -5512,7 +5512,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LRAB5",
-          "stock": 134,
+          "stock": 133,
           "warehouse_id": null,
           "variation_text": "Navy"
         }
@@ -5985,7 +5985,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 178.0,
+      "total_stock": 175.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5997,7 +5997,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "QMRB4",
-          "stock": 9,
+          "stock": 8,
           "warehouse_id": null,
           "variation_text": "Dove"
         },
@@ -6018,7 +6018,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "QMRB5",
-          "stock": 13,
+          "stock": 12,
           "warehouse_id": null,
           "variation_text": "Beige"
         },
@@ -6088,7 +6088,7 @@
         {
           "stock_id": "LzA6MTU",
           "sku": "QMRB2",
-          "stock": 15,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "Tanah"
         },
@@ -6110,7 +6110,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
-      "total_stock": 356.0,
+      "total_stock": 352.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6129,14 +6129,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "RWHJ2",
-          "stock": 28,
+          "stock": 27,
           "warehouse_id": null,
           "variation_text": "Kopi"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "RWHJ1",
-          "stock": 36,
+          "stock": 35,
           "warehouse_id": null,
           "variation_text": "Army"
         },
@@ -6157,7 +6157,7 @@
         {
           "stock_id": "LzA6Nw",
           "sku": "RWHJ5",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Plum"
         },
@@ -6171,7 +6171,7 @@
         {
           "stock_id": "LzA6OQ",
           "sku": "RWHJ6",
-          "stock": 32,
+          "stock": 31,
           "warehouse_id": null,
           "variation_text": "Salem"
         },
@@ -7351,12 +7351,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 307.0,
+      "total_stock": 304.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "DYSB2",
-          "stock": 11,
+          "stock": 10,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -7377,14 +7377,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "DYSB5",
-          "stock": 99,
+          "stock": 98,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "DYSB1",
-          "stock": 28,
+          "stock": 27,
           "warehouse_id": null,
           "variation_text": "Pink"
         }
@@ -7454,7 +7454,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 347.0,
+      "total_stock": 345.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7466,14 +7466,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "KFIA4",
-          "stock": 54,
+          "stock": 53,
           "warehouse_id": null,
           "variation_text": "Army"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "KFIA2",
-          "stock": 51,
+          "stock": 50,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -7509,7 +7509,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 653.0,
+      "total_stock": 652.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7542,7 +7542,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LXPC5",
-          "stock": 99,
+          "stock": 98,
           "warehouse_id": null,
           "variation_text": "Coksu"
         },
@@ -7729,12 +7729,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 3,
-      "total_stock": 408.0,
+      "total_stock": 407.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MISC1",
-          "stock": 219,
+          "stock": 218,
           "warehouse_id": null,
           "variation_text": "PURPLE"
         },
