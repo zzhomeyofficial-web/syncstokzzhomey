@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T07:20:22.505010+00:00",
+  "generated_at": "2026-04-20T10:04:21.269942+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 115,
     "stock_rows": 1444,
-    "stock_amount": 21540.0
+    "stock_amount": 21453.0
   },
   "products": [
     {
@@ -270,7 +270,7 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
-      "total_stock": 19.0,
+      "total_stock": 17.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -289,14 +289,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "HYFA3",
-          "stock": 4,
+          "stock": 3,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "HYFA2",
-          "stock": 15,
+          "stock": 14,
           "warehouse_id": null,
           "variation_text": "Milo"
         },
@@ -1603,7 +1603,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 361.0,
+      "total_stock": 360.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1615,7 +1615,7 @@
         {
           "stock_id": "LzE6Mg",
           "sku": "LKPC3",
-          "stock": 138,
+          "stock": 137,
           "warehouse_id": null,
           "variation_text": "Choco"
         },
@@ -1637,12 +1637,12 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 13,
-      "total_stock": 778.0,
+      "total_stock": 772.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "LYPC6",
-          "stock": 145,
+          "stock": 144,
           "warehouse_id": null,
           "variation_text": "Hitam"
         },
@@ -1670,7 +1670,7 @@
         {
           "stock_id": "LzE6NQ",
           "sku": "LYPC3",
-          "stock": 58,
+          "stock": 57,
           "warehouse_id": null,
           "variation_text": "Hijau Tua"
         },
@@ -1691,21 +1691,21 @@
         {
           "stock_id": "LzE6OA",
           "sku": "LYPC10",
-          "stock": 71,
+          "stock": 69,
           "warehouse_id": null,
           "variation_text": "Purple"
         },
         {
           "stock_id": "LzE6OQ",
           "sku": "LYPC9",
-          "stock": 45,
+          "stock": 44,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
         {
           "stock_id": "LzE6MTA",
           "sku": "LYPC12",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Kuning"
         },
@@ -1775,7 +1775,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 12,
-      "total_stock": 493.0,
+      "total_stock": 487.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1794,7 +1794,7 @@
         {
           "stock_id": "LzE6Mw",
           "sku": "YRPO7",
-          "stock": 105,
+          "stock": 102,
           "warehouse_id": null,
           "variation_text": "Cokelat Tua"
         },
@@ -1836,7 +1836,7 @@
         {
           "stock_id": "LzE6OQ",
           "sku": "YRPO12",
-          "stock": 48,
+          "stock": 46,
           "warehouse_id": null,
           "variation_text": "Purple"
         },
@@ -1857,7 +1857,7 @@
         {
           "stock_id": "LzE6MTI",
           "sku": "YRPO9",
-          "stock": 62,
+          "stock": 61,
           "warehouse_id": null,
           "variation_text": "Moss"
         }
@@ -1930,7 +1930,7 @@
       "product_name": "[READY] ARUMI SKIRT New",
       "product_slug": "ready-arumi-skirt-95780-71993-4211",
       "product_link": "https://zzhomey.com/product/ready-arumi-skirt-95780-71993-4211",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L8BFy9IBfTY6kVL8BluWRiBx32QgmQS6bGfrYggDJAA.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/L8BFy9IBfTY6kVL8BluWRiBx32QgmQS6bGfrYggDJAA.jpg",
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 7,
@@ -3104,7 +3104,7 @@
       "product_name": "[READY] AVILA ONESET NEW",
       "product_slug": "ready-avila-oneset-12921-53795-45536",
       "product_link": "https://zzhomey.com/product/ready-avila-oneset-12921-53795-45536",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C7jN6IUuOt5kH8HC7jlaYpROFKoVzVREqJn04wpjwczQ.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C7jN6IUuOt5kH8HC7jlaYpROFKoVzVREqJn04wpjwczQ.jpg",
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 150,
@@ -3112,1050 +3112,1050 @@
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjEsMjox",
-          "sku": null,
+          "sku": "AVLS1",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Black / XS"
         },
         {
           "stock_id": "LzA6MSwxOjEsMjoy",
-          "sku": null,
+          "sku": "AVLS2",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Black / S"
         },
         {
           "stock_id": "LzA6MSwxOjEsMjoz",
-          "sku": null,
+          "sku": "AVLS3",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Black / M"
         },
         {
           "stock_id": "LzA6MSwxOjEsMjo0",
-          "sku": null,
+          "sku": "AVLS4",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Black / L"
         },
         {
           "stock_id": "LzA6MSwxOjEsMjo1",
-          "sku": null,
+          "sku": "AVLS5",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Black / XL"
         },
         {
           "stock_id": "LzA6MSwxOjEsMjo2",
-          "sku": null,
+          "sku": "AVLS6",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Black / XXL"
         },
         {
           "stock_id": "LzA6MSwxOjIsMjox",
-          "sku": null,
+          "sku": "AVLS13",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Dusty Pink / XS"
         },
         {
           "stock_id": "LzA6MSwxOjIsMjoy",
-          "sku": null,
+          "sku": "AVLS14",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Dusty Pink / S"
         },
         {
           "stock_id": "LzA6MSwxOjIsMjoz",
-          "sku": null,
+          "sku": "AVLS15",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Dusty Pink / M"
         },
         {
           "stock_id": "LzA6MSwxOjIsMjo0",
-          "sku": null,
+          "sku": "AVLS16",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Dusty Pink / L"
         },
         {
           "stock_id": "LzA6MSwxOjIsMjo1",
-          "sku": null,
+          "sku": "AVLS17",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Dusty Pink / XL"
         },
         {
           "stock_id": "LzA6MSwxOjIsMjo2",
-          "sku": null,
+          "sku": "AVLS18",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Dusty Pink / XXL"
         },
         {
           "stock_id": "LzA6MSwxOjMsMjox",
-          "sku": null,
+          "sku": "AVLS25",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Lavender / XS"
         },
         {
           "stock_id": "LzA6MSwxOjMsMjoy",
-          "sku": null,
+          "sku": "AVLS26",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Lavender / S"
         },
         {
           "stock_id": "LzA6MSwxOjMsMjoz",
-          "sku": null,
+          "sku": "AVLS27",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Lavender / M"
         },
         {
           "stock_id": "LzA6MSwxOjMsMjo0",
-          "sku": null,
+          "sku": "AVLS28",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Lavender / L"
         },
         {
           "stock_id": "LzA6MSwxOjMsMjo1",
-          "sku": null,
+          "sku": "AVLS29",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Lavender / XL"
         },
         {
           "stock_id": "LzA6MSwxOjMsMjo2",
-          "sku": null,
+          "sku": "AVLS30",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Lavender / XXL"
         },
         {
           "stock_id": "LzA6MSwxOjQsMjox",
-          "sku": null,
+          "sku": "AVLS19",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Brownie / XS"
         },
         {
           "stock_id": "LzA6MSwxOjQsMjoy",
-          "sku": null,
+          "sku": "AVLS20",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Brownie / S"
         },
         {
           "stock_id": "LzA6MSwxOjQsMjoz",
-          "sku": null,
+          "sku": "AVLS21",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Brownie / M"
         },
         {
           "stock_id": "LzA6MSwxOjQsMjo0",
-          "sku": null,
+          "sku": "AVLS22",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Brownie / L"
         },
         {
           "stock_id": "LzA6MSwxOjQsMjo1",
-          "sku": null,
+          "sku": "AVLS23",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Brownie / XL"
         },
         {
           "stock_id": "LzA6MSwxOjQsMjo2",
-          "sku": null,
+          "sku": "AVLS24",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Brownie / XXL"
         },
         {
           "stock_id": "LzA6MSwxOjUsMjox",
-          "sku": null,
+          "sku": "AVLS7",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Sage / XS"
         },
         {
           "stock_id": "LzA6MSwxOjUsMjoy",
-          "sku": null,
+          "sku": "AVLS8",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Sage / S"
         },
         {
           "stock_id": "LzA6MSwxOjUsMjoz",
-          "sku": null,
+          "sku": "AVLS9",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Sage / M"
         },
         {
           "stock_id": "LzA6MSwxOjUsMjo0",
-          "sku": null,
+          "sku": "AVLS10",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Sage / L"
         },
         {
           "stock_id": "LzA6MSwxOjUsMjo1",
-          "sku": null,
+          "sku": "AVLS11",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Sage / XL"
         },
         {
           "stock_id": "LzA6MSwxOjUsMjo2",
-          "sku": null,
+          "sku": "AVLS12",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Skirt / Sage / XXL"
         },
         {
           "stock_id": "LzA6MiwxOjEsMjox",
-          "sku": null,
+          "sku": "AVLS31",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Black / XS"
         },
         {
           "stock_id": "LzA6MiwxOjEsMjoy",
-          "sku": null,
+          "sku": "AVLS32",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Black / S"
         },
         {
           "stock_id": "LzA6MiwxOjEsMjoz",
-          "sku": null,
+          "sku": "AVLS33",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Black / M"
         },
         {
           "stock_id": "LzA6MiwxOjEsMjo0",
-          "sku": null,
+          "sku": "AVLS34",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Black / L"
         },
         {
           "stock_id": "LzA6MiwxOjEsMjo1",
-          "sku": null,
+          "sku": "AVLS35",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Black / XL"
         },
         {
           "stock_id": "LzA6MiwxOjEsMjo2",
-          "sku": null,
+          "sku": "AVLS36",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Black / XXL"
         },
         {
           "stock_id": "LzA6MiwxOjIsMjox",
-          "sku": null,
+          "sku": "AVLS43",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Dusty Pink / XS"
         },
         {
           "stock_id": "LzA6MiwxOjIsMjoy",
-          "sku": null,
+          "sku": "AVLS44",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Dusty Pink / S"
         },
         {
           "stock_id": "LzA6MiwxOjIsMjoz",
-          "sku": null,
+          "sku": "AVLS45",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Dusty Pink / M"
         },
         {
           "stock_id": "LzA6MiwxOjIsMjo0",
-          "sku": null,
+          "sku": "AVLS46",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Dusty Pink / L"
         },
         {
           "stock_id": "LzA6MiwxOjIsMjo1",
-          "sku": null,
+          "sku": "AVLS47",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Dusty Pink / XL"
         },
         {
           "stock_id": "LzA6MiwxOjIsMjo2",
-          "sku": null,
+          "sku": "AVLS48",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Dusty Pink / XXL"
         },
         {
           "stock_id": "LzA6MiwxOjMsMjox",
-          "sku": null,
+          "sku": "AVLS55",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Lavender / XS"
         },
         {
           "stock_id": "LzA6MiwxOjMsMjoy",
-          "sku": null,
+          "sku": "AVLS56",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Lavender / S"
         },
         {
           "stock_id": "LzA6MiwxOjMsMjoz",
-          "sku": null,
+          "sku": "AVLS57",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Lavender / M"
         },
         {
           "stock_id": "LzA6MiwxOjMsMjo0",
-          "sku": null,
+          "sku": "AVLS58",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Lavender / L"
         },
         {
           "stock_id": "LzA6MiwxOjMsMjo1",
-          "sku": null,
+          "sku": "AVLS59",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Lavender / XL"
         },
         {
           "stock_id": "LzA6MiwxOjMsMjo2",
-          "sku": null,
+          "sku": "AVLS60",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Lavender / XXL"
         },
         {
           "stock_id": "LzA6MiwxOjQsMjox",
-          "sku": null,
+          "sku": "AVLS49",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Brownie / XS"
         },
         {
           "stock_id": "LzA6MiwxOjQsMjoy",
-          "sku": null,
+          "sku": "AVLS50",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Brownie / S"
         },
         {
           "stock_id": "LzA6MiwxOjQsMjoz",
-          "sku": null,
+          "sku": "AVLS51",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Brownie / M"
         },
         {
           "stock_id": "LzA6MiwxOjQsMjo0",
-          "sku": null,
+          "sku": "AVLS52",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Brownie / L"
         },
         {
           "stock_id": "LzA6MiwxOjQsMjo1",
-          "sku": null,
+          "sku": "AVLS53",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Brownie / XL"
         },
         {
           "stock_id": "LzA6MiwxOjQsMjo2",
-          "sku": null,
+          "sku": "AVLS54",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Brownie / XXL"
         },
         {
           "stock_id": "LzA6MiwxOjUsMjox",
-          "sku": null,
+          "sku": "AVLS37",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Sage / XS"
         },
         {
           "stock_id": "LzA6MiwxOjUsMjoy",
-          "sku": null,
+          "sku": "AVLS38",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Sage / S"
         },
         {
           "stock_id": "LzA6MiwxOjUsMjoz",
-          "sku": null,
+          "sku": "AVLS39",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Sage / M"
         },
         {
           "stock_id": "LzA6MiwxOjUsMjo0",
-          "sku": null,
+          "sku": "AVLS40",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Sage / L"
         },
         {
           "stock_id": "LzA6MiwxOjUsMjo1",
-          "sku": null,
+          "sku": "AVLS41",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Sage / XL"
         },
         {
           "stock_id": "LzA6MiwxOjUsMjo2",
-          "sku": null,
+          "sku": "AVLS42",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Set Cullote / Sage / XXL"
         },
         {
           "stock_id": "LzA6MywxOjEsMjox",
-          "sku": null,
+          "sku": "AVLS121",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Black / XS"
         },
         {
           "stock_id": "LzA6MywxOjEsMjoy",
-          "sku": null,
+          "sku": "AVLS122",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Black / S"
         },
         {
           "stock_id": "LzA6MywxOjEsMjoz",
-          "sku": null,
+          "sku": "AVLS123",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Black / M"
         },
         {
           "stock_id": "LzA6MywxOjEsMjo0",
-          "sku": null,
+          "sku": "AVLS124",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Black / L"
         },
         {
           "stock_id": "LzA6MywxOjEsMjo1",
-          "sku": null,
+          "sku": "AVLS125",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Black / XL"
         },
         {
           "stock_id": "LzA6MywxOjEsMjo2",
-          "sku": null,
+          "sku": "AVLS126",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Black / XXL"
         },
         {
           "stock_id": "LzA6MywxOjIsMjox",
-          "sku": null,
+          "sku": "AVLS133",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Dusty Pink / XS"
         },
         {
           "stock_id": "LzA6MywxOjIsMjoy",
-          "sku": null,
+          "sku": "AVLS134",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Dusty Pink / S"
         },
         {
           "stock_id": "LzA6MywxOjIsMjoz",
-          "sku": null,
+          "sku": "AVLS135",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Dusty Pink / M"
         },
         {
           "stock_id": "LzA6MywxOjIsMjo0",
-          "sku": null,
+          "sku": "AVLS136",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Dusty Pink / L"
         },
         {
           "stock_id": "LzA6MywxOjIsMjo1",
-          "sku": null,
+          "sku": "AVLS137",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Dusty Pink / XL"
         },
         {
           "stock_id": "LzA6MywxOjIsMjo2",
-          "sku": null,
+          "sku": "AVLS138",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Dusty Pink / XXL"
         },
         {
           "stock_id": "LzA6MywxOjMsMjox",
-          "sku": null,
+          "sku": "AVLS145",
           "stock": 4,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Lavender / XS"
         },
         {
           "stock_id": "LzA6MywxOjMsMjoy",
-          "sku": null,
+          "sku": "AVLS146",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Lavender / S"
         },
         {
           "stock_id": "LzA6MywxOjMsMjoz",
-          "sku": null,
+          "sku": "AVLS147",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Lavender / M"
         },
         {
           "stock_id": "LzA6MywxOjMsMjo0",
-          "sku": null,
+          "sku": "AVLS148",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Lavender / L"
         },
         {
           "stock_id": "LzA6MywxOjMsMjo1",
-          "sku": null,
+          "sku": "AVLS149",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Lavender / XL"
         },
         {
           "stock_id": "LzA6MywxOjMsMjo2",
-          "sku": null,
+          "sku": "AVLS150",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Lavender / XXL"
         },
         {
           "stock_id": "LzA6MywxOjQsMjox",
-          "sku": null,
+          "sku": "AVLS139",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Brownie / XS"
         },
         {
           "stock_id": "LzA6MywxOjQsMjoy",
-          "sku": null,
+          "sku": "AVLS140",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Brownie / S"
         },
         {
           "stock_id": "LzA6MywxOjQsMjoz",
-          "sku": null,
+          "sku": "AVLS141",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Brownie / M"
         },
         {
           "stock_id": "LzA6MywxOjQsMjo0",
-          "sku": null,
+          "sku": "AVLS142",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Brownie / L"
         },
         {
           "stock_id": "LzA6MywxOjQsMjo1",
-          "sku": null,
+          "sku": "AVLS143",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Brownie / XL"
         },
         {
           "stock_id": "LzA6MywxOjQsMjo2",
-          "sku": null,
+          "sku": "AVLS144",
           "stock": 6,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Brownie / XXL"
         },
         {
           "stock_id": "LzA6MywxOjUsMjox",
-          "sku": null,
+          "sku": "AVLS127",
           "stock": 6,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Sage / XS"
         },
         {
           "stock_id": "LzA6MywxOjUsMjoy",
-          "sku": null,
+          "sku": "AVLS128",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Sage / S"
         },
         {
           "stock_id": "LzA6MywxOjUsMjoz",
-          "sku": null,
+          "sku": "AVLS129",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Sage / M"
         },
         {
           "stock_id": "LzA6MywxOjUsMjo0",
-          "sku": null,
+          "sku": "AVLS130",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Sage / L"
         },
         {
           "stock_id": "LzA6MywxOjUsMjo1",
-          "sku": null,
+          "sku": "AVLS131",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Sage / XL"
         },
         {
           "stock_id": "LzA6MywxOjUsMjo2",
-          "sku": null,
+          "sku": "AVLS132",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Tunic Only / Sage / XXL"
         },
         {
           "stock_id": "LzA6NCwxOjEsMjox",
-          "sku": null,
+          "sku": "AVLS91",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Black / XS"
         },
         {
           "stock_id": "LzA6NCwxOjEsMjoy",
-          "sku": null,
+          "sku": "AVLS92",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Black / S"
         },
         {
           "stock_id": "LzA6NCwxOjEsMjoz",
-          "sku": null,
+          "sku": "AVLS93",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Black / M"
         },
         {
           "stock_id": "LzA6NCwxOjEsMjo0",
-          "sku": null,
+          "sku": "AVLS94",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Black / L"
         },
         {
           "stock_id": "LzA6NCwxOjEsMjo1",
-          "sku": null,
+          "sku": "AVLS95",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Black / XL"
         },
         {
           "stock_id": "LzA6NCwxOjEsMjo2",
-          "sku": null,
+          "sku": "AVLS96",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Black / XXL"
         },
         {
           "stock_id": "LzA6NCwxOjIsMjox",
-          "sku": null,
+          "sku": "AVLS103",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Dusty Pink / XS"
         },
         {
           "stock_id": "LzA6NCwxOjIsMjoy",
-          "sku": null,
+          "sku": "AVLS104",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Dusty Pink / S"
         },
         {
           "stock_id": "LzA6NCwxOjIsMjoz",
-          "sku": null,
+          "sku": "AVLS105",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Dusty Pink / M"
         },
         {
           "stock_id": "LzA6NCwxOjIsMjo0",
-          "sku": null,
+          "sku": "AVLS106",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Dusty Pink / L"
         },
         {
           "stock_id": "LzA6NCwxOjIsMjo1",
-          "sku": null,
+          "sku": "AVLS107",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Dusty Pink / XL"
         },
         {
           "stock_id": "LzA6NCwxOjIsMjo2",
-          "sku": null,
+          "sku": "AVLS108",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Dusty Pink / XXL"
         },
         {
           "stock_id": "LzA6NCwxOjMsMjox",
-          "sku": null,
+          "sku": "AVLS115",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Lavender / XS"
         },
         {
           "stock_id": "LzA6NCwxOjMsMjoy",
-          "sku": null,
+          "sku": "AVLS116",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Lavender / S"
         },
         {
           "stock_id": "LzA6NCwxOjMsMjoz",
-          "sku": null,
+          "sku": "AVLS117",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Lavender / M"
         },
         {
           "stock_id": "LzA6NCwxOjMsMjo0",
-          "sku": null,
+          "sku": "AVLS118",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Lavender / L"
         },
         {
           "stock_id": "LzA6NCwxOjMsMjo1",
-          "sku": null,
+          "sku": "AVLS119",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Lavender / XL"
         },
         {
           "stock_id": "LzA6NCwxOjMsMjo2",
-          "sku": null,
+          "sku": "AVLS120",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Lavender / XXL"
         },
         {
           "stock_id": "LzA6NCwxOjQsMjox",
-          "sku": null,
+          "sku": "AVLS109",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Brownie / XS"
         },
         {
           "stock_id": "LzA6NCwxOjQsMjoy",
-          "sku": null,
+          "sku": "AVLS110",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Brownie / S"
         },
         {
           "stock_id": "LzA6NCwxOjQsMjoz",
-          "sku": null,
+          "sku": "AVLS111",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Brownie / M"
         },
         {
           "stock_id": "LzA6NCwxOjQsMjo0",
-          "sku": null,
+          "sku": "AVLS112",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Brownie / L"
         },
         {
           "stock_id": "LzA6NCwxOjQsMjo1",
-          "sku": null,
+          "sku": "AVLS113",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Brownie / XL"
         },
         {
           "stock_id": "LzA6NCwxOjQsMjo2",
-          "sku": null,
+          "sku": "AVLS114",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Brownie / XXL"
         },
         {
           "stock_id": "LzA6NCwxOjUsMjox",
-          "sku": null,
+          "sku": "AVLS97",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Sage / XS"
         },
         {
           "stock_id": "LzA6NCwxOjUsMjoy",
-          "sku": null,
+          "sku": "AVLS98",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Sage / S"
         },
         {
           "stock_id": "LzA6NCwxOjUsMjoz",
-          "sku": null,
+          "sku": "AVLS99",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Sage / M"
         },
         {
           "stock_id": "LzA6NCwxOjUsMjo0",
-          "sku": null,
+          "sku": "AVLS100",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Sage / L"
         },
         {
           "stock_id": "LzA6NCwxOjUsMjo1",
-          "sku": null,
+          "sku": "AVLS101",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Sage / XL"
         },
         {
           "stock_id": "LzA6NCwxOjUsMjo2",
-          "sku": null,
+          "sku": "AVLS102",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Skirt Only / Sage / XXL"
         },
         {
           "stock_id": "LzA6NSwxOjEsMjox",
-          "sku": null,
+          "sku": "AVLS61",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Black / XS"
         },
         {
           "stock_id": "LzA6NSwxOjEsMjoy",
-          "sku": null,
+          "sku": "AVLS62",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Black / S"
         },
         {
           "stock_id": "LzA6NSwxOjEsMjoz",
-          "sku": null,
+          "sku": "AVLS63",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Black / M"
         },
         {
           "stock_id": "LzA6NSwxOjEsMjo0",
-          "sku": null,
+          "sku": "AVLS64",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Black / L"
         },
         {
           "stock_id": "LzA6NSwxOjEsMjo1",
-          "sku": null,
+          "sku": "AVLS65",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Black / XL"
         },
         {
           "stock_id": "LzA6NSwxOjEsMjo2",
-          "sku": null,
+          "sku": "AVLS66",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Black / XXL"
         },
         {
           "stock_id": "LzA6NSwxOjIsMjox",
-          "sku": null,
+          "sku": "AVLS73",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Dusty Pink / XS"
         },
         {
           "stock_id": "LzA6NSwxOjIsMjoy",
-          "sku": null,
+          "sku": "AVLS74",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Dusty Pink / S"
         },
         {
           "stock_id": "LzA6NSwxOjIsMjoz",
-          "sku": null,
+          "sku": "AVLS75",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Dusty Pink / M"
         },
         {
           "stock_id": "LzA6NSwxOjIsMjo0",
-          "sku": null,
+          "sku": "AVLS76",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Dusty Pink / L"
         },
         {
           "stock_id": "LzA6NSwxOjIsMjo1",
-          "sku": null,
+          "sku": "AVLS77",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Dusty Pink / XL"
         },
         {
           "stock_id": "LzA6NSwxOjIsMjo2",
-          "sku": null,
+          "sku": "AVLS78",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Dusty Pink / XXL"
         },
         {
           "stock_id": "LzA6NSwxOjMsMjox",
-          "sku": null,
+          "sku": "AVLS85",
           "stock": 3,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Lavender / XS"
         },
         {
           "stock_id": "LzA6NSwxOjMsMjoy",
-          "sku": null,
+          "sku": "AVLS86",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Lavender / S"
         },
         {
           "stock_id": "LzA6NSwxOjMsMjoz",
-          "sku": null,
+          "sku": "AVLS87",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Lavender / M"
         },
         {
           "stock_id": "LzA6NSwxOjMsMjo0",
-          "sku": null,
+          "sku": "AVLS88",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Lavender / L"
         },
         {
           "stock_id": "LzA6NSwxOjMsMjo1",
-          "sku": null,
+          "sku": "AVLS89",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Lavender / XL"
         },
         {
           "stock_id": "LzA6NSwxOjMsMjo2",
-          "sku": null,
+          "sku": "AVLS90",
           "stock": 1,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Lavender / XXL"
         },
         {
           "stock_id": "LzA6NSwxOjQsMjox",
-          "sku": null,
+          "sku": "AVLS79",
           "stock": 2,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Brownie / XS"
         },
         {
           "stock_id": "LzA6NSwxOjQsMjoy",
-          "sku": null,
+          "sku": "AVLS80",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Brownie / S"
         },
         {
           "stock_id": "LzA6NSwxOjQsMjoz",
-          "sku": null,
+          "sku": "AVLS81",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Brownie / M"
         },
         {
           "stock_id": "LzA6NSwxOjQsMjo0",
-          "sku": null,
+          "sku": "AVLS82",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Brownie / L"
         },
         {
           "stock_id": "LzA6NSwxOjQsMjo1",
-          "sku": null,
+          "sku": "AVLS83",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Brownie / XL"
         },
         {
           "stock_id": "LzA6NSwxOjQsMjo2",
-          "sku": null,
+          "sku": "AVLS84",
           "stock": 7,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Brownie / XXL"
         },
         {
           "stock_id": "LzA6NSwxOjUsMjox",
-          "sku": null,
+          "sku": "AVLS67",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Sage / XS"
         },
         {
           "stock_id": "LzA6NSwxOjUsMjoy",
-          "sku": null,
+          "sku": "AVLS68",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Sage / S"
         },
         {
           "stock_id": "LzA6NSwxOjUsMjoz",
-          "sku": null,
+          "sku": "AVLS69",
           "stock": 10,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Sage / M"
         },
         {
           "stock_id": "LzA6NSwxOjUsMjo0",
-          "sku": null,
+          "sku": "AVLS70",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Sage / L"
         },
         {
           "stock_id": "LzA6NSwxOjUsMjo1",
-          "sku": null,
+          "sku": "AVLS71",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Sage / XL"
         },
         {
           "stock_id": "LzA6NSwxOjUsMjo2",
-          "sku": null,
+          "sku": "AVLS72",
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Cullote Only / Sage / XXL"
@@ -5427,7 +5427,7 @@
       "product_name": "[READY] KHAIRA PASHMINA New",
       "product_slug": "ready-khaira-pashmina-64592-86973-48128",
       "product_link": "https://zzhomey.com/product/ready-khaira-pashmina-64592-86973-48128",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Ls9com8RSIDsfg3Ls99yUIzCKUtsARaWtdTowgvoRIw.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/Ls9com8RSIDsfg3Ls99yUIzCKUtsARaWtdTowgvoRIw.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
@@ -5475,7 +5475,7 @@
       "product_name": "[READY] LAURA BERGO New",
       "product_slug": "ready-laura-bergo-2724-97273-79212",
       "product_link": "https://zzhomey.com/product/ready-laura-bergo-2724-97273-79212",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L7JgY71LY7gRf9mL7Y0kClwK6v4s9QeOuES1T8ANA.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/L7JgY71LY7gRf9mL7Y0kClwK6v4s9QeOuES1T8ANA.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
@@ -5981,11 +5981,11 @@
       "product_name": "[READY] QAMIRA BERGO VOL 2 New",
       "product_slug": "ready-qamira-bergo-vol-2-92656-34698-28576",
       "product_link": "https://zzhomey.com/product/ready-qamira-bergo-vol-2-92656-34698-28576",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L7CU7hi73O08ii3L7LqdKMihEGBxIxTo2yTMZwCvFzA.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/L7CU7hi73O08ii3L7LqdKMihEGBxIxTo2yTMZwCvFzA.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 174.0,
+      "total_stock": 173.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6088,7 +6088,7 @@
         {
           "stock_id": "LzA6MTU",
           "sku": "QMRB2",
-          "stock": 14,
+          "stock": 13,
           "warehouse_id": null,
           "variation_text": "Tanah"
         },
@@ -6110,7 +6110,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
-      "total_stock": 350.0,
+      "total_stock": 349.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6150,7 +6150,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "RJWA1",
-          "stock": 14,
+          "stock": 13,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -6891,19 +6891,19 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 492.0,
+      "total_stock": 482.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "BNPC1",
-          "stock": 66,
+          "stock": 64,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "BNPC2",
-          "stock": 44,
+          "stock": 39,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -6917,14 +6917,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "BNPC3",
-          "stock": 89,
+          "stock": 87,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "BNPC6",
-          "stock": 64,
+          "stock": 63,
           "warehouse_id": null,
           "variation_text": "Cream"
         },
@@ -6949,7 +6949,7 @@
       "product_name": "[READY] CHARMIA TOTEBAG New",
       "product_slug": "pre-order-charmia-totebag-48805-6281-27326-7767-13255",
       "product_link": "https://zzhomey.com/product/pre-order-charmia-totebag-48805-6281-27326-7767-13255",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CG9FGTOGCyMmh5bCG9nUwk4yEtrw3mQPijCxDL1uIAw.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CG9FGTOGCyMmh5bCG9nUwk4yEtrw3mQPijCxDL1uIAw.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
@@ -7282,61 +7282,61 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 729.0,
+      "total_stock": 684.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 88,
+          "stock": 77,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "FURP2",
-          "stock": 148,
+          "stock": 137,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "FURP3",
-          "stock": 228,
+          "stock": 219,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "FURP4",
-          "stock": 87,
+          "stock": 86,
           "warehouse_id": null,
           "variation_text": "Lilac"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "FURP5",
-          "stock": 108,
+          "stock": 103,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "FURP7",
-          "stock": 20,
+          "stock": 16,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
         {
           "stock_id": "LzA6Nw",
           "sku": "FURP8",
-          "stock": 7,
+          "stock": 5,
           "warehouse_id": null,
           "variation_text": "Moss"
         },
         {
           "stock_id": "LzA6OA",
           "sku": "FURP6",
-          "stock": 43,
+          "stock": 41,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -7351,12 +7351,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 266.0,
+      "total_stock": 262.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "DYSB2",
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -7377,14 +7377,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "DYSB5",
-          "stock": 92,
+          "stock": 90,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "DYSB1",
-          "stock": 22,
+          "stock": 21,
           "warehouse_id": null,
           "variation_text": "Pink"
         }
@@ -7509,12 +7509,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 617.0,
+      "total_stock": 616.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "LXPC1",
-          "stock": 73,
+          "stock": 72,
           "warehouse_id": null,
           "variation_text": "Ijo Botol"
         },
@@ -7564,7 +7564,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 601.0,
+      "total_stock": 600.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7583,7 +7583,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "LNVA3",
-          "stock": 76,
+          "stock": 75,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -7612,7 +7612,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 4149.0,
+      "total_stock": 4147.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7624,7 +7624,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "LYTA10",
-          "stock": 418,
+          "stock": 416,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
@@ -7729,7 +7729,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 3,
-      "total_stock": 399.0,
+      "total_stock": 398.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7748,7 +7748,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "MISC3",
-          "stock": 116,
+          "stock": 115,
           "warehouse_id": null,
           "variation_text": "BLACK"
         }
@@ -7759,16 +7759,16 @@
       "product_name": "[READY] NAOMI BAG VOL 2",
       "product_slug": "ready-naomi-bag-vol-2",
       "product_link": "https://zzhomey.com/product/ready-naomi-bag-vol-2",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LTpYPNJITHbDsBmLTNIhNtQpH0bCfRSKdR94sLp3PsQ.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LTpYPNJITHbDsBmLTNIhNtQpH0bCfRSKdR94sLp3PsQ.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 58.0,
+      "total_stock": 55.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NMSG1",
-          "stock": 49,
+          "stock": 48,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -7782,7 +7782,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "NMSG4",
-          "stock": 9,
+          "stock": 7,
           "warehouse_id": null,
           "variation_text": "Tan"
         },
@@ -7804,7 +7804,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 113.0,
+      "total_stock": 112.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7823,7 +7823,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "QLAB3",
-          "stock": 41,
+          "stock": 40,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
@@ -8302,7 +8302,7 @@
       "product_name": "[READY] AMARA ONESET New",
       "product_slug": "ready-amara-oneset-8739-82842-17805",
       "product_link": "https://zzhomey.com/product/ready-amara-oneset-8739-82842-17805",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C98Sy9kQRwjELCjC904SKaxPDipQHpR2m1R6CfmD7IA.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C98Sy9kQRwjELCjC904SKaxPDipQHpR2m1R6CfmD7IA.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 20,
@@ -9025,7 +9025,7 @@
       "product_name": "[READY] ARVINO KAOS Kids New",
       "product_slug": "ready-roselia-dress-56607-75033-30109-13659-61602-56517-69732",
       "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-75033-30109-13659-61602-56517-69732",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CBa1TKS63NuML32CBUPl0VukS9Oj5Ti5BcdUL0f4A.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CBa1TKS63NuML32CBUPl0VukS9Oj5Ti5BcdUL0f4A.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 45,
@@ -10881,7 +10881,7 @@
       "product_name": "[READY] SHANUM HIJAB New",
       "product_slug": "ready-shanum-hijab-95875-88460-31283",
       "product_link": "https://zzhomey.com/product/ready-shanum-hijab-95875-88460-31283",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L8W57If0fN2aP0ZTL83CkQbrhULoRfgSXm8J6XDmaO6Q.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/L8W57If0fN2aP0ZTL83CkQbrhULoRfgSXm8J6XDmaO6Q.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 8,
@@ -11215,7 +11215,7 @@
       "product_name": "[READY] SYAAMIL KOKO New",
       "product_slug": "ready-syaamil-koko-96796-51704-23444",
       "product_link": "https://zzhomey.com/product/ready-syaamil-koko-96796-51704-23444",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Lf1KkLrYkvnqh84Lf1SQ5kw5XhsGqSBq2miVEgSoiw.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/Lf1KkLrYkvnqh84Lf1SQ5kw5XhsGqSBq2miVEgSoiw.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 36,
@@ -11484,7 +11484,7 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 18,
-      "total_stock": 9.0,
+      "total_stock": 7.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -11496,7 +11496,7 @@
         {
           "stock_id": "LzA6MSwxOjI",
           "sku": "VERN2",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Black / Size 2"
         },
@@ -11608,7 +11608,7 @@
         {
           "stock_id": "LzA6OSwxOjI",
           "sku": "VERN18",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Salem / Size 2"
         }
