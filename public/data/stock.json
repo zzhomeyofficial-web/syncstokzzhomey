@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T10:23:16.899881+00:00",
+  "generated_at": "2026-04-27T12:22:49.741782+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 119,
     "stock_rows": 1590,
-    "stock_amount": 21548.0
+    "stock_amount": 21546.0
   },
   "products": [
     {
@@ -270,7 +270,7 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
-      "total_stock": 16.0,
+      "total_stock": 14.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -289,14 +289,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "HYFA3",
-          "stock": 3,
+          "stock": 2,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "HYFA2",
-          "stock": 13,
+          "stock": 12,
           "warehouse_id": null,
           "variation_text": "Milo"
         },
@@ -7868,7 +7868,7 @@
       "product_name": "[READY] CLOE BAG New",
       "product_slug": "ready-cloe-bag-43808",
       "product_link": "https://zzhomey.com/product/ready-cloe-bag-43808",
-      "product_image": "https://img.bdjkt.com/img/_/bw5d48ohbw5h0svjb8_3/Lj1wUn8Y7W8bCkgLj2Qa0LlQWHF40RSlOGz0CdZKeUtQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Lj1wUn8Y7W8bCkgLj2Qa0LlQWHF40RSlOGz0CdZKeUtQ.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
