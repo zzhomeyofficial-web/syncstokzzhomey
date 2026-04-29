@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T04:33:44.354501+00:00",
+  "generated_at": "2026-04-29T07:28:00.902279+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 122,
     "stock_rows": 1639,
-    "stock_amount": 21292.0
+    "stock_amount": 21257.0
   },
   "products": [
     {
@@ -43,7 +43,7 @@
       "product_name": "[READY] ALIDA PIN 3 & 15 NEW",
       "product_slug": "ready-alida-pin-3-15-65194-99585",
       "product_link": "https://zzhomey.com/product/ready-alida-pin-3-15-65194-99585",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CdxlVVSSz1ilsCECdn7gAJ30ZT0zWRISDLp2KghwCNg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CdxlVVSSz1ilsCECdn7gAJ30ZT0zWRISDLp2KghwCNg.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 2,
@@ -90,7 +90,7 @@
       "product_name": "[READY] AVA GOLD BROOCH new",
       "product_slug": "ready-bella-silver-brooch-25183-80697-37653-67693-12575-62998-48374",
       "product_link": "https://zzhomey.com/product/ready-bella-silver-brooch-25183-80697-37653-67693-12575-62998-48374",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CyFhvq5fWhjE0TjCyFsExJilUMz1qFREObPMHwrSuvgg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CyFhvq5fWhjE0TjCyFsExJilUMz1qFREObPMHwrSuvgg.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
@@ -150,7 +150,7 @@
       "product_name": "[READY] CHERYL BROOCH New",
       "product_slug": "ready-stock-cheryl-brooch-93034-60555-36470-89061-77957-89616-42502-95017",
       "product_link": "https://zzhomey.com/product/ready-stock-cheryl-brooch-93034-60555-36470-89061-77957-89616-42502-95017",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C4n5ZU1BlcDLfSgC4oXSazVFBxzvFjRf28zoa44bziw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C4n5ZU1BlcDLfSgC4oXSazVFBxzvFjRf28zoa44bziw.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
@@ -266,7 +266,7 @@
       "product_name": "[READY] HAYFA HANDSHOCK NEW",
       "product_slug": "ready-hayfa-handshock-155-50467-28334-30860-37861-60794",
       "product_link": "https://zzhomey.com/product/ready-hayfa-handshock-155-50467-28334-30860-37861-60794",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/Lh2cetiejVMMxfLhFAWotplS8ojhmRw2EhsbEgnQIQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Lh2cetiejVMMxfLhFAWotplS8ojhmRw2EhsbEgnQIQ.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
@@ -338,12 +338,12 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 4,
-      "total_stock": 74.0,
+      "total_stock": 73.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SAFR1",
-          "stock": 22,
+          "stock": 21,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -375,7 +375,7 @@
       "product_name": "[READY] SAYLA KAOS KAKI EMBOSS New",
       "product_slug": "ready-sayla-kaos-kaki-emboss-47306-40089-4979",
       "product_link": "https://zzhomey.com/product/ready-sayla-kaos-kaki-emboss-47306-40089-4979",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C5Wnnx2g8XNciIhC53FA92EFeh2JGSfu2gNbyC1kgw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C5Wnnx2g8XNciIhC53FA92EFeh2JGSfu2gNbyC1kgw.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
@@ -423,7 +423,7 @@
       "product_name": "[READY] SCARLA CIPUT RAJUT VOL 2 New",
       "product_slug": "ready-scarla-ciput-rajut-new-22410-64973-99574",
       "product_link": "https://zzhomey.com/product/ready-scarla-ciput-rajut-new-22410-64973-99574",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/L7q7nbNi2d8jLhPL7JbiXOMGNN9hwcQhiGbnZnKiNx8w.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L7q7nbNi2d8jLhPL7JbiXOMGNN9hwcQhiGbnZnKiNx8w.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 8,
@@ -492,7 +492,7 @@
       "product_name": "[READY] ARVINO KAOS Dad New",
       "product_slug": "ready-roselia-dress-56607-75033-30109-13659-61602-56517",
       "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-75033-30109-13659-61602-56517",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CBU1JpF003y7RLU6CBUPZNgCgtNyg2UTA2xBz7DCNaoTw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CBU1JpF003y7RLU6CBUPZNgCgtNyg2UTA2xBz7DCNaoTw.jpg",
       "category_id": "M-1754450203186",
       "category_name": "Atasan",
       "stock_count": 36,
@@ -1077,7 +1077,7 @@
       "product_name": "[READY] LYRA BLOUSE New",
       "product_slug": "ready-roselia-dress-56607-3096-52563-57162-16541",
       "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-3096-52563-57162-16541",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CERiVhxuRyrFiGiCERdDxfJEbrfSxeRq82m8RHYYkmw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CERiVhxuRyrFiGiCERdDxfJEbrfSxeRq82m8RHYYkmw.jpg",
       "category_id": "M-1754450203186",
       "category_name": "Atasan",
       "stock_count": 30,
@@ -1860,7 +1860,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 13,
-      "total_stock": 825.0,
+      "total_stock": 824.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1872,7 +1872,7 @@
         {
           "stock_id": "LzE6Mg",
           "sku": "LYPC2",
-          "stock": 178,
+          "stock": 177,
           "warehouse_id": null,
           "variation_text": "Cokelat Tua"
         },
@@ -2095,12 +2095,12 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 7,
-      "total_stock": 81.0,
+      "total_stock": 80.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "ZDPO7",
-          "stock": 12,
+          "stock": 11,
           "warehouse_id": null,
           "variation_text": "Hitam"
         },
@@ -2620,7 +2620,7 @@
       "product_name": "[READY] DENNIS New",
       "product_slug": "pre-order-dennis-55333-58906-5487-14575-91713",
       "product_link": "https://zzhomey.com/product/pre-order-dennis-55333-58906-5487-14575-91713",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C4ubsLO2jkhoCMfC4Ds50rEOuzxmfbTKqVWjJEm3XEg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C4ubsLO2jkhoCMfC4Ds50rEOuzxmfbTKqVWjJEm3XEg.jpg",
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 30,
@@ -5975,7 +5975,7 @@
       "product_name": "[READY] ADZILA BERGO TALI NON PED",
       "product_slug": "pre-order-adzila-bergo-55952-49555-12937-92683",
       "product_link": "https://zzhomey.com/product/pre-order-adzila-bergo-55952-49555-12937-92683",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C3bOuRh08PUIgLIaC3bOq4ELHwvipglTbaKWP59pJ3r0A.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C3bOuRh08PUIgLIaC3bOq4ELHwvipglTbaKWP59pJ3r0A.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
@@ -6252,7 +6252,7 @@
       "product_name": "[READY] DESSIA JILBAB SPORTY SYAR'I New",
       "product_slug": "ready-nazla-bergo-12225-76225-38339-88193-55-85813-19881-5793-79969-96786-99758-95187-1417-73870-35765-53857-56775-35207-86751",
       "product_link": "https://zzhomey.com/product/ready-nazla-bergo-12225-76225-38339-88193-55-85813-19881-5793-79969-96786-99758-95187-1417-73870-35765-53857-56775-35207-86751",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CzrXI6GqbRxvhKaCzr11iL93uiCuxpQXiT1zvIYdCgUg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CzrXI6GqbRxvhKaCzr11iL93uiCuxpQXiT1zvIYdCgUg.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 10,
@@ -6335,7 +6335,7 @@
       "product_name": "[READY] HAWRA BERGO SYAR'I New",
       "product_slug": "ready-hawra-bergo-syar-i-84256-25401-88",
       "product_link": "https://zzhomey.com/product/ready-hawra-bergo-syar-i-84256-25401-88",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CblmJjEsKZRPha8CbltrgFDdBa4N2QSMW7BANYe9Cqag.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CblmJjEsKZRPha8CbltrgFDdBa4N2QSMW7BANYe9Cqag.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 6,
@@ -6610,23 +6610,23 @@
       "product_name": "[READY] LAVINA BASIC SQUARE",
       "product_slug": "ready-lavina-basic-square",
       "product_link": "https://zzhomey.com/product/ready-lavina-basic-square",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LkZf1aazqaD5CUULklSNgdd9VitWgzSVWjbcLPGWKvkg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LkZf1aazqaD5CUULklSNgdd9VitWgzSVWjbcLPGWKvkg.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 18,
-      "total_stock": 318.0,
+      "total_stock": 311.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "LAVN15",
-          "stock": 40,
+          "stock": 38,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "LAVN14",
-          "stock": 21,
+          "stock": 20,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
@@ -6668,7 +6668,7 @@
         {
           "stock_id": "LzA6OA",
           "sku": "LAVN11",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Hazelnut"
         },
@@ -6682,7 +6682,7 @@
         {
           "stock_id": "LzA6MTA",
           "sku": "LAVN8",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Peach Beige"
         },
@@ -6696,14 +6696,14 @@
         {
           "stock_id": "LzA6MTI",
           "sku": "LAVN18",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
         {
           "stock_id": "LzA6MTM",
           "sku": "LAVN12",
-          "stock": 19,
+          "stock": 18,
           "warehouse_id": null,
           "variation_text": "Magenta"
         },
@@ -6846,7 +6846,7 @@
       "product_name": "[READY] NACITA SQUARE",
       "product_slug": "ready-nacita-square-60757-6797",
       "product_link": "https://zzhomey.com/product/ready-nacita-square-60757-6797",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CdxOa4F6zoTOh3dCdxepLwMsPgVoJDRXihI9mBQy1tUQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CdxOa4F6zoTOh3dCdxepLwMsPgVoJDRXihI9mBQy1tUQ.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
@@ -6947,7 +6947,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 756.0,
+      "total_stock": 754.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6973,14 +6973,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "NAZL34",
-          "stock": 96,
+          "stock": 95,
           "warehouse_id": null,
           "variation_text": "NAVY"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "NAZL33",
-          "stock": 85,
+          "stock": 84,
           "warehouse_id": null,
           "variation_text": "MOCCA"
         },
@@ -7044,7 +7044,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 22,
-      "total_stock": 136.0,
+      "total_stock": 135.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -7070,7 +7070,7 @@
         {
           "stock_id": "LzA6MiwxOjI",
           "sku": "NAZL20",
-          "stock": 18,
+          "stock": 17,
           "warehouse_id": null,
           "variation_text": "LIGHT GREY / L"
         },
@@ -7211,7 +7211,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 171.0,
+      "total_stock": 170.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7286,7 +7286,7 @@
         {
           "stock_id": "LzA6MTE",
           "sku": "QRBG6",
-          "stock": 7,
+          "stock": 6,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
@@ -7494,6 +7494,145 @@
       ]
     },
     {
+      "product_id": "P-Z1UA35G",
+      "product_name": "[READY] SCARF ZZHOMEY",
+      "product_slug": "bazarz-scarf-zzhomey",
+      "product_link": "https://zzhomey.com/product/bazarz-scarf-zzhomey",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Cx0od9qQ7sQ0CACCx0J4nfcrx7vmz4QgmLbXjuSmOpwg.jpg",
+      "category_id": "M-1698639318748",
+      "category_name": "Jilbab",
+      "stock_count": 18,
+      "total_stock": 4.0,
+      "stocks": [
+        {
+          "stock_id": "LzA6MQ",
+          "sku": "ARSC3",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR01 130"
+        },
+        {
+          "stock_id": "LzA6Mg",
+          "sku": "ARSC12",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR03 140"
+        },
+        {
+          "stock_id": "LzA6Mw",
+          "sku": "ARSC15",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR04 130"
+        },
+        {
+          "stock_id": "LzA6NA",
+          "sku": "ARSC17",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR05 115"
+        },
+        {
+          "stock_id": "LzA6NQ",
+          "sku": "ARSC18",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR05 120"
+        },
+        {
+          "stock_id": "LzA6Ng",
+          "sku": "ARSC21",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Aira AR06 115"
+        },
+        {
+          "stock_id": "LzA6Nw",
+          "sku": "ARSC23",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aira AR06 130"
+        },
+        {
+          "stock_id": "LzA6OA",
+          "sku": "AULS14",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL4 120"
+        },
+        {
+          "stock_id": "LzA6OQ",
+          "sku": "AULS18",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL5 120"
+        },
+        {
+          "stock_id": "LzA6MTA",
+          "sku": "AULS20",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL5 140"
+        },
+        {
+          "stock_id": "LzA6MTE",
+          "sku": "EMLY5",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Emmelaya EM2 115"
+        },
+        {
+          "stock_id": "LzA6MTI",
+          "sku": "FROSC50",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Fiore F9 110"
+        },
+        {
+          "stock_id": "LzA6MTM",
+          "sku": "FROSC49",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Fiore F9 90"
+        },
+        {
+          "stock_id": "LzA6MTQ",
+          "sku": "RHMS120",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Ruhama RH03 120"
+        },
+        {
+          "stock_id": "LzA6MTU",
+          "sku": "AULS16",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL4 140"
+        },
+        {
+          "stock_id": "LzA6MTY",
+          "sku": "AULS4",
+          "stock": 1,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL1 140"
+        },
+        {
+          "stock_id": "LzA6MTc",
+          "sku": "AULS6",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Aurella AL2 140"
+        },
+        {
+          "stock_id": "LzA6MTg",
+          "sku": "AYRS12",
+          "stock": 0,
+          "warehouse_id": null,
+          "variation_text": "Ayara AY3 140"
+        }
+      ]
+    },
+    {
       "product_id": "P-ZHFICk",
       "product_name": "[READY] SCARF ZZHOMEY",
       "product_slug": "bazarz-scarf-zzhomey-26959",
@@ -7636,145 +7775,6 @@
           "stock": 0,
           "warehouse_id": null,
           "variation_text": "Luga LG02 140"
-        }
-      ]
-    },
-    {
-      "product_id": "P-Z1UA35G",
-      "product_name": "[READY] SCARF ZZHOMEY",
-      "product_slug": "bazarz-scarf-zzhomey",
-      "product_link": "https://zzhomey.com/product/bazarz-scarf-zzhomey",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Cx0od9qQ7sQ0CACCx0J4nfcrx7vmz4QgmLbXjuSmOpwg.jpg",
-      "category_id": "M-1698639318748",
-      "category_name": "Jilbab",
-      "stock_count": 18,
-      "total_stock": 4.0,
-      "stocks": [
-        {
-          "stock_id": "LzA6MQ",
-          "sku": "ARSC3",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR01 130"
-        },
-        {
-          "stock_id": "LzA6Mg",
-          "sku": "ARSC12",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR03 140"
-        },
-        {
-          "stock_id": "LzA6Mw",
-          "sku": "ARSC15",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR04 130"
-        },
-        {
-          "stock_id": "LzA6NA",
-          "sku": "ARSC17",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR05 115"
-        },
-        {
-          "stock_id": "LzA6NQ",
-          "sku": "ARSC18",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR05 120"
-        },
-        {
-          "stock_id": "LzA6Ng",
-          "sku": "ARSC21",
-          "stock": 1,
-          "warehouse_id": null,
-          "variation_text": "Aira AR06 115"
-        },
-        {
-          "stock_id": "LzA6Nw",
-          "sku": "ARSC23",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aira AR06 130"
-        },
-        {
-          "stock_id": "LzA6OA",
-          "sku": "AULS14",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL4 120"
-        },
-        {
-          "stock_id": "LzA6OQ",
-          "sku": "AULS18",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL5 120"
-        },
-        {
-          "stock_id": "LzA6MTA",
-          "sku": "AULS20",
-          "stock": 1,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL5 140"
-        },
-        {
-          "stock_id": "LzA6MTE",
-          "sku": "EMLY5",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Emmelaya EM2 115"
-        },
-        {
-          "stock_id": "LzA6MTI",
-          "sku": "FROSC50",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Fiore F9 110"
-        },
-        {
-          "stock_id": "LzA6MTM",
-          "sku": "FROSC49",
-          "stock": 1,
-          "warehouse_id": null,
-          "variation_text": "Fiore F9 90"
-        },
-        {
-          "stock_id": "LzA6MTQ",
-          "sku": "RHMS120",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Ruhama RH03 120"
-        },
-        {
-          "stock_id": "LzA6MTU",
-          "sku": "AULS16",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL4 140"
-        },
-        {
-          "stock_id": "LzA6MTY",
-          "sku": "AULS4",
-          "stock": 1,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL1 140"
-        },
-        {
-          "stock_id": "LzA6MTc",
-          "sku": "AULS6",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Aurella AL2 140"
-        },
-        {
-          "stock_id": "LzA6MTg",
-          "sku": "AYRS12",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_text": "Ayara AY3 140"
         }
       ]
     },
@@ -7935,7 +7935,7 @@
       "product_name": "[READY] AGATHA BAG New",
       "product_slug": "ready-agatha-bag-73186-83589-44364",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CgkIDP0Zc7gVf12CgkmDglu6dx6znR5aubKcg0plww.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CgkIDP0Zc7gVf12CgkmDglu6dx6znR5aubKcg0plww.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
@@ -7976,7 +7976,7 @@
       "product_name": "[READY] AURIKA SHOULDERBAG New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541-68281-20669-13637-6761-41140-61913-32034-72261-58066-62389-82175-16769-89509-45828-12385-67514",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541-68281-20669-13637-6761-41140-61913-32034-72261-58066-62389-82175-16769-89509-45828-12385-67514",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C6MeUfLZKUm10luC6Q7ZBs4Ey746TyTCKbAPD0jc10w.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C6MeUfLZKUm10luC6Q7ZBs4Ey746TyTCKbAPD0jc10w.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
@@ -8065,7 +8065,7 @@
       "product_name": "[READY] AZURE BAG New",
       "product_slug": "ready-azure-bag-28985-66631-16499",
       "product_link": "https://zzhomey.com/product/ready-azure-bag-28985-66631-16499",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LiYm9pmtmcvTsZ6LiYnt8jh2bjfNy3Tz6cgBvp6j1Oow.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LiYm9pmtmcvTsZ6LiYnt8jh2bjfNy3Tz6cgBvp6j1Oow.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
@@ -8175,11 +8175,11 @@
       "product_name": "[READY] CHARMIA TOTEBAG New",
       "product_slug": "pre-order-charmia-totebag-48805-6281-27326-7767-13255",
       "product_link": "https://zzhomey.com/product/pre-order-charmia-totebag-48805-6281-27326-7767-13255",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CG9FGTOGCyMmh5bCG9nUwk4yEtrw3mQPijCxDL1uIAw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CG9FGTOGCyMmh5bCG9nUwk4yEtrw3mQPijCxDL1uIAw.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 70.0,
+      "total_stock": 69.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8198,7 +8198,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "CHRM3",
-          "stock": 36,
+          "stock": 35,
           "warehouse_id": null,
           "variation_text": "Champagne Gold"
         },
@@ -8216,11 +8216,11 @@
       "product_name": "[READY] CLOE BAG New",
       "product_slug": "ready-cloe-bag-43808",
       "product_link": "https://zzhomey.com/product/ready-cloe-bag-43808",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/Lj1wUn8Y7W8bCkgLj2Qa0LlQWHF40RSlOGz0CdZKeUtQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Lj1wUn8Y7W8bCkgLj2Qa0LlQWHF40RSlOGz0CdZKeUtQ.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 13.0,
+      "total_stock": 12.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8232,7 +8232,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "CEBG4",
-          "stock": 3,
+          "stock": 2,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
@@ -8415,7 +8415,7 @@
       "product_name": "[READY] ENZI TAS SOLUTIF New",
       "product_slug": "ready-gwena-slingbag-82527-13615-5242-40940-26802-79042-72296",
       "product_link": "https://zzhomey.com/product/ready-gwena-slingbag-82527-13615-5242-40940-26802-79042-72296",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/ClCzroCEuW9RswwClLR8qkQPPbJ9mNSAS4q6jFCtWtQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/ClCzroCEuW9RswwClLR8qkQPPbJ9mNSAS4q6jFCtWtQ.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
@@ -8522,26 +8522,26 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 554.0,
+      "total_stock": 538.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 118,
+          "stock": 110,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "FURP2",
-          "stock": 137,
+          "stock": 136,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "FURP3",
-          "stock": 123,
+          "stock": 118,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
@@ -8562,7 +8562,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "FURP7",
-          "stock": 5,
+          "stock": 4,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
@@ -8576,7 +8576,7 @@
         {
           "stock_id": "LzA6OA",
           "sku": "FURP6",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -8724,7 +8724,7 @@
       "product_name": "[READY] KAFIA CLUTHBAG",
       "product_slug": "pre-order-24891-78548",
       "product_link": "https://zzhomey.com/product/pre-order-24891-78548",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CQFneb0FyXi6fJSCQwHX7ncFOnbSA4RumpAoJGMBXLA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CQFneb0FyXi6fJSCQwHX7ncFOnbSA4RumpAoJGMBXLA.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
@@ -8779,11 +8779,11 @@
       "product_name": "[READY] LEXI POUCH New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541-68281-20669-13637-6761-41140-61913-32034-72261-58066-91851-80729-2230",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541-68281-20669-13637-6761-41140-61913-32034-72261-58066-91851-80729-2230",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C6MEu5n0hB6Nk0qgC6Q7kZSkwvae2yFQ26MhpOUk4oQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C6MEu5n0hB6Nk0qgC6Q7kZSkwvae2yFQ26MhpOUk4oQ.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 576.0,
+      "total_stock": 573.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8823,7 +8823,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "LXPC6",
-          "stock": 51,
+          "stock": 48,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -8882,7 +8882,7 @@
       "product_name": "[READY] LOLYTA DOMPET KOIN New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-98992-77108-11099-88121",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364-51076-98992-77108-11099-88121",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CwGqrrDv6GjUfgPCwe3JrnKno3DrxRNiVKU1OiwqeA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CwGqrrDv6GjUfgPCwe3JrnKno3DrxRNiVKU1OiwqeA.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
@@ -8944,7 +8944,7 @@
       "product_name": "[READY] MILLY WALLET New",
       "product_slug": "ready-milly-wallet-15496-58164-85360-26632",
       "product_link": "https://zzhomey.com/product/ready-milly-wallet-15496-58164-85360-26632",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CtHENNMNOabW0CuCtH13uBlRsKpU1QY2yJ4VWWKzgUg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CtHENNMNOabW0CuCtH13uBlRsKpU1QY2yJ4VWWKzgUg.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
@@ -8999,7 +8999,7 @@
       "product_name": "[READY] MISCA COIN",
       "product_slug": "ready-elora-pouch-90751-36758-20284-31525-58536-86058-68957",
       "product_link": "https://zzhomey.com/product/ready-elora-pouch-90751-36758-20284-31525-58536-86058-68957",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CvXWK1gtSCjmCDTCvXplZ5U6r2lbMKSE25sM5SaLkDrw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CvXWK1gtSCjmCDTCvXplZ5U6r2lbMKSE25sM5SaLkDrw.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 3,
@@ -9170,7 +9170,7 @@
       "product_name": "[READY] SELINA PHONEBAG New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364-51076-87645-16489-48541",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CwtNdXP00YX6mH8ZCwtnAzhKMqF6H6ShamW5rwZfZA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CwtNdXP00YX6mH8ZCwtnAzhKMqF6H6ShamW5rwZfZA.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
@@ -9396,7 +9396,7 @@
       "product_name": "[READY] ALICE TUNIC BY ZAMAKIDS NEW",
       "product_slug": "pre-order-alice-elsie-by-zamakids-25850-50417-64091",
       "product_link": "https://zzhomey.com/product/pre-order-alice-elsie-by-zamakids-25850-50417-64091",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CWSHmGnWkZGiLKbCWSK5msuEaUuajUReCigeLTgKFRg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CWSHmGnWkZGiLKbCWSK5msuEaUuajUReCigeLTgKFRg.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 18,
@@ -9980,7 +9980,7 @@
       "product_name": "[READY] AMORA CELAMIS LOSE",
       "product_slug": "pre-order-amora-celamis-kids-by-zamakids-92181-14065",
       "product_link": "https://zzhomey.com/product/pre-order-amora-celamis-kids-by-zamakids-92181-14065",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/ChnxFYzPau1CCffChojRc4c0kgxKjdQ4iqBjrx4ZQZw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/ChnxFYzPau1CCffChojRc4c0kgxKjdQ4iqBjrx4ZQZw.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 18,
@@ -10683,7 +10683,7 @@
       "product_name": "[READY] BRIANA CULLOTE",
       "product_slug": "briana-skirt-cullote-91722-70078",
       "product_link": "https://zzhomey.com/product/briana-skirt-cullote-91722-70078",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C0ZVSesFvkU40BkC0Zy2Ys4pwWrIc6SfmQj6MUSI5A8A.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C0ZVSesFvkU40BkC0Zy2Ys4pwWrIc6SfmQj6MUSI5A8A.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 12,
@@ -11287,7 +11287,7 @@
       "product_name": "[READY] JASMIN WHITE SERIES New",
       "product_slug": "ready-jasmin-white-series-10016-69971-29928-63488-42847",
       "product_link": "https://zzhomey.com/product/ready-jasmin-white-series-10016-69971-29928-63488-42847",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/Ckk74zGlBJePhJNCkktjItB4X6EM4DQSettIby9ayiQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Ckk74zGlBJePhJNCkktjItB4X6EM4DQSettIby9ayiQ.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 9,
@@ -11363,7 +11363,7 @@
       "product_name": "[READY] KOKO YAFIQ",
       "product_slug": "pre-order-koko-yafiq-88567",
       "product_link": "https://zzhomey.com/product/pre-order-koko-yafiq-88567",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CFKZojvQqnFah9lCF7OMMVIg7dhhZNRzmAxtLrRcyxw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CFKZojvQqnFah9lCF7OMMVIg7dhhZNRzmAxtLrRcyxw.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 20,
@@ -12219,7 +12219,7 @@
       "product_name": "[READY] SAQIB SARKOCI",
       "product_slug": "pre-order-saqib-sarkoci-77500",
       "product_link": "https://zzhomey.com/product/pre-order-saqib-sarkoci-77500",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CF7IFDEaj9RoseXCF7j4dJvNoiW0B1SJe0ZPftFGhrzw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CF7IFDEaj9RoseXCF7j4dJvNoiW0B1SJe0ZPftFGhrzw.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 15,
