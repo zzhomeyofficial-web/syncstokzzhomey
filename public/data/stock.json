@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T12:20:38.428215+00:00",
+  "generated_at": "2026-04-29T15:21:35.846325+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 122,
     "stock_rows": 1639,
-    "stock_amount": 21226.0
+    "stock_amount": 21218.0
   },
   "products": [
     {
@@ -6947,12 +6947,12 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 753.0,
+      "total_stock": 745.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NAZL25",
-          "stock": 130,
+          "stock": 128,
           "warehouse_id": null,
           "variation_text": "BLACK"
         },
@@ -6973,21 +6973,21 @@
         {
           "stock_id": "LzA6NA",
           "sku": "NAZL34",
-          "stock": 95,
+          "stock": 94,
           "warehouse_id": null,
           "variation_text": "NAVY"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "NAZL33",
-          "stock": 83,
+          "stock": 82,
           "warehouse_id": null,
           "variation_text": "MOCCA"
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "NAZL31",
-          "stock": 119,
+          "stock": 117,
           "warehouse_id": null,
           "variation_text": "MAROON"
         },
@@ -7001,7 +7001,7 @@
         {
           "stock_id": "LzA6OA",
           "sku": "NAZL36",
-          "stock": 33,
+          "stock": 31,
           "warehouse_id": null,
           "variation_text": "TERRA"
         },
@@ -8264,7 +8264,7 @@
       "product_name": "[READY] DOMI by @zzhomey New",
       "product_slug": "ready-domi-by-zzhomey-67474-10095-84176",
       "product_link": "https://zzhomey.com/product/ready-domi-by-zzhomey-67474-10095-84176",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CUGQCXuTFiAtC6PCUe0DCaq0hTr2niRGVWsBdtyMc5g.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CUGQCXuTFiAtC6PCUe0DCaq0hTr2niRGVWsBdtyMc5g.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
