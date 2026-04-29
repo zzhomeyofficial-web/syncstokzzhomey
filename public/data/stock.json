@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T10:11:45.245413+00:00",
+  "generated_at": "2026-04-29T12:20:38.428215+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 122,
     "stock_rows": 1639,
-    "stock_amount": 21235.0
+    "stock_amount": 21226.0
   },
   "products": [
     {
@@ -1998,7 +1998,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 12,
-      "total_stock": 909.0,
+      "total_stock": 906.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -2052,14 +2052,14 @@
         {
           "stock_id": "LzE6OA",
           "sku": "YRPO11",
-          "stock": 74,
+          "stock": 73,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
         {
           "stock_id": "LzE6OQ",
           "sku": "YRPO12",
-          "stock": 97,
+          "stock": 96,
           "warehouse_id": null,
           "variation_text": "Purple"
         },
@@ -2073,7 +2073,7 @@
         {
           "stock_id": "LzE6MTE",
           "sku": "YRPO10",
-          "stock": 32,
+          "stock": 31,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
@@ -6614,7 +6614,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 18,
-      "total_stock": 304.0,
+      "total_stock": 302.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6626,7 +6626,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "LAVN14",
-          "stock": 19,
+          "stock": 18,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
@@ -6675,7 +6675,7 @@
         {
           "stock_id": "LzA6OQ",
           "sku": "LAVN17",
-          "stock": 26,
+          "stock": 25,
           "warehouse_id": null,
           "variation_text": "Putih"
         },
@@ -7044,7 +7044,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 22,
-      "total_stock": 135.0,
+      "total_stock": 134.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -7168,7 +7168,7 @@
         {
           "stock_id": "LzA6OSwxOjI",
           "sku": "NAZL48",
-          "stock": 12,
+          "stock": 11,
           "warehouse_id": null,
           "variation_text": "OLIVE / L"
         },
@@ -8625,12 +8625,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 216.0,
+      "total_stock": 215.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "DYSB2",
-          "stock": 52,
+          "stock": 51,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -9304,12 +9304,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 11.0,
+      "total_stock": 9.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SYSB1",
-          "stock": 5,
+          "stock": 4,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -9330,7 +9330,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "SYSB4",
-          "stock": 3,
+          "stock": 2,
           "warehouse_id": null,
           "variation_text": "Terra"
         }
