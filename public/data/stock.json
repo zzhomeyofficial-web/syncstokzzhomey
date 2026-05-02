@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T13:23:44.328945+00:00",
+  "generated_at": "2026-05-02T14:54:54.948301+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 124,
     "stock_rows": 1650,
-    "stock_amount": 21648.0
+    "stock_amount": 21645.0
   },
   "products": [
     {
@@ -6614,7 +6614,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 18,
-      "total_stock": 266.0,
+      "total_stock": 265.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6640,7 +6640,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "LAVN2",
-          "stock": 21,
+          "stock": 20,
           "warehouse_id": null,
           "variation_text": "Soft Latte"
         },
@@ -8625,7 +8625,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 191.0,
+      "total_stock": 189.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8644,14 +8644,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "DYSB3",
-          "stock": 52,
+          "stock": 51,
           "warehouse_id": null,
           "variation_text": "Coffee"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "DYSB5",
-          "stock": 48,
+          "stock": 47,
           "warehouse_id": null,
           "variation_text": "Black"
         },
