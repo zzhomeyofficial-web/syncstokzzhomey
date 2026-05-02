@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T04:21:24.315841+00:00",
+  "generated_at": "2026-05-02T07:03:32.983401+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 124,
     "stock_rows": 1650,
-    "stock_amount": 21754.0
+    "stock_amount": 21721.0
   },
   "products": [
     {
@@ -6173,7 +6173,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 10,
-      "total_stock": 8.0,
+      "total_stock": 6.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6199,7 +6199,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "DHYS4",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Khaky"
         },
@@ -6220,7 +6220,7 @@
         {
           "stock_id": "LzA6Nw",
           "sku": "DHYS7",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "Creamy"
         },
@@ -6566,7 +6566,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
-      "total_stock": 469.0,
+      "total_stock": 467.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6578,7 +6578,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "LRAB3",
-          "stock": 79,
+          "stock": 78,
           "warehouse_id": null,
           "variation_text": "Kopi"
         },
@@ -6592,7 +6592,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "LRAB1",
-          "stock": 112,
+          "stock": 111,
           "warehouse_id": null,
           "variation_text": "Abu Tua"
         },
@@ -6947,26 +6947,26 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 731.0,
+      "total_stock": 727.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NAZL25",
-          "stock": 126,
+          "stock": 125,
           "warehouse_id": null,
           "variation_text": "BLACK"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "NAZL28",
-          "stock": 48,
+          "stock": 47,
           "warehouse_id": null,
           "variation_text": "EGGPLANT"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "NAZL26",
-          "stock": 72,
+          "stock": 71,
           "warehouse_id": null,
           "variation_text": "DARK GREY"
         },
@@ -7008,7 +7008,7 @@
         {
           "stock_id": "LzA6OQ",
           "sku": "NAZL27",
-          "stock": 32,
+          "stock": 31,
           "warehouse_id": null,
           "variation_text": "DUSTY PINK"
         },
@@ -7211,7 +7211,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 146.0,
+      "total_stock": 140.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7244,7 +7244,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "QMRB5",
-          "stock": 9,
+          "stock": 8,
           "warehouse_id": null,
           "variation_text": "Beige"
         },
@@ -7272,14 +7272,14 @@
         {
           "stock_id": "LzA6OQ",
           "sku": "QRBG4",
-          "stock": 9,
+          "stock": 8,
           "warehouse_id": null,
           "variation_text": "Coklat Pasta"
         },
         {
           "stock_id": "LzA6MTA",
           "sku": "QRBG3",
-          "stock": 27,
+          "stock": 26,
           "warehouse_id": null,
           "variation_text": "Army"
         },
@@ -7307,14 +7307,14 @@
         {
           "stock_id": "LzA6MTQ",
           "sku": "QMRB3",
-          "stock": 10,
+          "stock": 8,
           "warehouse_id": null,
           "variation_text": "Vanhouten"
         },
         {
           "stock_id": "LzA6MTU",
           "sku": "QMRB2",
-          "stock": 11,
+          "stock": 10,
           "warehouse_id": null,
           "variation_text": "Tanah"
         },
@@ -7336,7 +7336,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
-      "total_stock": 336.0,
+      "total_stock": 335.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7376,7 +7376,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "RJWA1",
-          "stock": 10,
+          "stock": 9,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -8522,12 +8522,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 529.0,
+      "total_stock": 526.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 95,
+          "stock": 93,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -8562,7 +8562,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "FURP7",
-          "stock": 3,
+          "stock": 2,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
@@ -9003,7 +9003,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 123.0,
+      "total_stock": 108.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -9015,14 +9015,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "MRRA5",
-          "stock": 46,
+          "stock": 41,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "MRRA2",
-          "stock": 77,
+          "stock": 67,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
