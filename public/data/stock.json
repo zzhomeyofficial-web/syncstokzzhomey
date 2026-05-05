@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T07:21:27.054401+00:00",
+  "generated_at": "2026-05-05T10:08:15.932309+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 121,
     "stock_rows": 1623,
-    "stock_amount": 21034.0
+    "stock_amount": 20994.0
   },
   "products": [
     {
@@ -1860,7 +1860,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 13,
-      "total_stock": 818.0,
+      "total_stock": 808.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1872,7 +1872,7 @@
         {
           "stock_id": "LzE6Mg",
           "sku": "LYPC2",
-          "stock": 195,
+          "stock": 189,
           "warehouse_id": null,
           "variation_text": "Cokelat Tua"
         },
@@ -1900,7 +1900,7 @@
         {
           "stock_id": "LzE6Ng",
           "sku": "LYPC1",
-          "stock": 59,
+          "stock": 58,
           "warehouse_id": null,
           "variation_text": "Cokelat Muda"
         },
@@ -1914,14 +1914,14 @@
         {
           "stock_id": "LzE6OA",
           "sku": "LYPC10",
-          "stock": 62,
+          "stock": 61,
           "warehouse_id": null,
           "variation_text": "Purple"
         },
         {
           "stock_id": "LzE6OQ",
           "sku": "LYPC9",
-          "stock": 42,
+          "stock": 41,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
@@ -1942,7 +1942,7 @@
         {
           "stock_id": "LzE6MTI",
           "sku": "LYPC11",
-          "stock": 55,
+          "stock": 54,
           "warehouse_id": null,
           "variation_text": "Moss"
         },
@@ -1998,12 +1998,12 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 12,
-      "total_stock": 1028.0,
+      "total_stock": 1017.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "YRPO5",
-          "stock": 145,
+          "stock": 141,
           "warehouse_id": null,
           "variation_text": "Hitam"
         },
@@ -2017,7 +2017,7 @@
         {
           "stock_id": "LzE6Mw",
           "sku": "YRPO7",
-          "stock": 233,
+          "stock": 228,
           "warehouse_id": null,
           "variation_text": "Cokelat Tua"
         },
@@ -2059,7 +2059,7 @@
         {
           "stock_id": "LzE6OQ",
           "sku": "YRPO12",
-          "stock": 143,
+          "stock": 142,
           "warehouse_id": null,
           "variation_text": "Purple"
         },
@@ -2080,7 +2080,7 @@
         {
           "stock_id": "LzE6MTI",
           "sku": "YRPO9",
-          "stock": 51,
+          "stock": 50,
           "warehouse_id": null,
           "variation_text": "Moss"
         }
@@ -7937,7 +7937,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 444.0,
+      "total_stock": 441.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7949,7 +7949,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "BNPC2",
-          "stock": 102,
+          "stock": 100,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
@@ -7977,7 +7977,7 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "BNPC5",
-          "stock": 57,
+          "stock": 56,
           "warehouse_id": null,
           "variation_text": "Ijo Botol"
         },
@@ -8294,26 +8294,26 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 428.0,
+      "total_stock": 420.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 55,
+          "stock": 54,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "FURP2",
-          "stock": 102,
+          "stock": 101,
           "warehouse_id": null,
           "variation_text": "Brown"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "FURP3",
-          "stock": 78,
+          "stock": 75,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
@@ -8348,7 +8348,7 @@
         {
           "stock_id": "LzA6OA",
           "sku": "FURP6",
-          "stock": 10,
+          "stock": 7,
           "warehouse_id": null,
           "variation_text": "Purple"
         }
@@ -8555,7 +8555,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 549.0,
+      "total_stock": 547.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8574,7 +8574,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "LXPC3",
-          "stock": 150,
+          "stock": 148,
           "warehouse_id": null,
           "variation_text": "Moss"
         },
@@ -8658,7 +8658,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 4090.0,
+      "total_stock": 4087.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8670,7 +8670,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "LYTA10",
-          "stock": 405,
+          "stock": 403,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
@@ -8691,7 +8691,7 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LYTA1",
-          "stock": 317,
+          "stock": 316,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -8775,7 +8775,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 21.0,
+      "total_stock": 18.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8794,7 +8794,7 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "MRRA2",
-          "stock": 21,
+          "stock": 18,
           "warehouse_id": null,
           "variation_text": "Mocca"
         },
