@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T13:00:43.532881+00:00",
+  "generated_at": "2026-05-07T15:31:59.092909+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 114,
     "stock_rows": 1586,
-    "stock_amount": 20706.0
+    "stock_amount": 20632.0
   },
   "products": [
     {
@@ -1826,26 +1826,26 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 336.0,
+      "total_stock": 333.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "LKPC1",
-          "stock": 99,
+          "stock": 98,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzE6Mg",
           "sku": "LKPC3",
-          "stock": 130,
+          "stock": 129,
           "warehouse_id": null,
           "variation_text": "Choco"
         },
         {
           "stock_id": "LzE6Mw",
           "sku": "LKPC2",
-          "stock": 107,
+          "stock": 106,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         }
@@ -1964,26 +1964,26 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 363.0,
+      "total_stock": 357.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "RNPC1",
-          "stock": 100,
+          "stock": 98,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzE6Mg",
           "sku": "RNPC3",
-          "stock": 97,
+          "stock": 95,
           "warehouse_id": null,
           "variation_text": "Choco"
         },
         {
           "stock_id": "LzE6Mw",
           "sku": "RNPC2",
-          "stock": 166,
+          "stock": 164,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         }
@@ -6804,7 +6804,7 @@
       "product_name": "[READY] NAZLA BERGO SPORTY New",
       "product_slug": "ready-nazla-bergo-12225-76225-38339-88193-55-85813-69792-78592",
       "product_link": "https://zzhomey.com/product/ready-nazla-bergo-12225-76225-38339-88193-55-85813-69792-78592",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CGa9RyRh0UxAhG4CGUkWACDCUAyFK3Q6aLVr4IyYyCQ.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CGa9RyRh0UxAhG4CGUkWACDCUAyFK3Q6aLVr4IyYyCQ.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
@@ -8308,47 +8308,47 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 314.0,
+      "total_stock": 249.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "KFIA3",
-          "stock": 78,
+          "stock": 65,
           "warehouse_id": null,
           "variation_text": "Navy"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "KFIA4",
-          "stock": 50,
+          "stock": 40,
           "warehouse_id": null,
           "variation_text": "Army"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "KFIA2",
-          "stock": 39,
+          "stock": 28,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "KFIA1",
-          "stock": 48,
+          "stock": 38,
           "warehouse_id": null,
           "variation_text": "Dark Grey"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "KFIA6",
-          "stock": 52,
+          "stock": 41,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "KFIA5",
-          "stock": 47,
+          "stock": 37,
           "warehouse_id": null,
           "variation_text": "Terra"
         }
@@ -8702,7 +8702,7 @@
       "product_name": "[READY] RHEA BAG New",
       "product_slug": "ready-rhea-bag-96022-8611-27593",
       "product_link": "https://zzhomey.com/product/ready-rhea-bag-96022-8611-27593",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LHAPhUNThLq0LruLHK4T3ubeYxWgb1QxussWoARYrw.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LHAPhUNThLq0LruLHK4T3ubeYxWgb1QxussWoARYrw.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
@@ -8873,7 +8873,7 @@
       "product_name": "[READY] ZUMRA BAG",
       "product_slug": "ready-zumra-bag",
       "product_link": "https://zzhomey.com/product/ready-zumra-bag",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LRwezaMDf0W8T4LRPhopV0BRVirUZSzJx8RWJDt1Ug.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LRwezaMDf0W8T4LRPhopV0BRVirUZSzJx8RWJDt1Ug.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
