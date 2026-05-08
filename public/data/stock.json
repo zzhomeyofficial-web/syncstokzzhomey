@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T12:12:22.064437+00:00",
+  "generated_at": "2026-05-08T14:56:29.696770+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 112,
     "stock_rows": 1549,
-    "stock_amount": 20393.0
+    "stock_amount": 20386.0
   },
   "products": [
     {
@@ -1860,7 +1860,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 13,
-      "total_stock": 755.0,
+      "total_stock": 754.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1914,7 +1914,7 @@
         {
           "stock_id": "LzE6OA",
           "sku": "LYPC10",
-          "stock": 59,
+          "stock": 58,
           "warehouse_id": null,
           "variation_text": "Purple"
         },
@@ -6614,7 +6614,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 37.0,
+      "total_stock": 32.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -6626,14 +6626,14 @@
         {
           "stock_id": "LzA6MSwxOjI",
           "sku": "MHYA2",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "PED / BLACK"
         },
         {
           "stock_id": "LzA6MSwxOjM",
           "sku": "MHYA3",
-          "stock": 19,
+          "stock": 17,
           "warehouse_id": null,
           "variation_text": "PED / MOCCA"
         },
@@ -6647,7 +6647,7 @@
         {
           "stock_id": "LzA6MSwxOjU",
           "sku": "MHYA5",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "PED / ABU MUDA"
         },
@@ -6689,7 +6689,7 @@
         {
           "stock_id": "LzA6MiwxOjU",
           "sku": "MHYA11",
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_text": "NON PED / ABU MUDA"
         },
@@ -7301,7 +7301,7 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 7,
-      "total_stock": 33.0,
+      "total_stock": 32.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -7313,7 +7313,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "SVLK2",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_text": "BLACK"
         },
