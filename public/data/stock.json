@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T14:57:53.311003+00:00",
+  "generated_at": "2026-05-10T04:49:13.093570+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 112,
     "stock_rows": 1549,
-    "stock_amount": 21235.0
+    "stock_amount": 21230.0
   },
   "products": [
     {
@@ -338,7 +338,7 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 4,
-      "total_stock": 71.0,
+      "total_stock": 70.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -350,7 +350,7 @@
         {
           "stock_id": "LzA6NA",
           "sku": "SAFR4",
-          "stock": 46,
+          "stock": 45,
           "warehouse_id": null,
           "variation_text": "Abu Muda"
         },
@@ -379,12 +379,12 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 5,
-      "total_stock": 194.0,
+      "total_stock": 191.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SYLA1",
-          "stock": 119,
+          "stock": 118,
           "warehouse_id": null,
           "variation_text": "Black"
         },
@@ -405,14 +405,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "SYLA3",
-          "stock": 51,
+          "stock": 50,
           "warehouse_id": null,
           "variation_text": "Abu Muda"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "SYLA4",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_text": "Abu Tua"
         }
@@ -8592,7 +8592,7 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 252.0,
+      "total_stock": 251.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -8604,7 +8604,7 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "ZMRA2",
-          "stock": 52,
+          "stock": 51,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         },
