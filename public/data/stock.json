@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T11:03:43.783557+00:00",
+  "generated_at": "2026-05-10T13:40:32.620702+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 112,
     "stock_rows": 1549,
-    "stock_amount": 21221.0
+    "stock_amount": 21211.0
   },
   "products": [
     {
@@ -2095,7 +2095,7 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 7,
-      "total_stock": 432.0,
+      "total_stock": 429.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -2121,14 +2121,14 @@
         {
           "stock_id": "LzE6NA",
           "sku": "ZDPO1",
-          "stock": 69,
+          "stock": 67,
           "warehouse_id": null,
           "variation_text": "Hijau Tua"
         },
         {
           "stock_id": "LzE6NQ",
           "sku": "ZDPO3",
-          "stock": 60,
+          "stock": 59,
           "warehouse_id": null,
           "variation_text": "Cokelat Muda"
         },
@@ -8592,12 +8592,12 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 250.0,
+      "total_stock": 243.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ZMRA1",
-          "stock": 49,
+          "stock": 47,
           "warehouse_id": null,
           "variation_text": "Choco"
         },
@@ -8611,21 +8611,21 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "ZMRA3",
-          "stock": 53,
+          "stock": 51,
           "warehouse_id": null,
           "variation_text": "Ivory"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "ZMRA4",
-          "stock": 48,
+          "stock": 47,
           "warehouse_id": null,
           "variation_text": "Coffe"
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "ZMRA5",
-          "stock": 49,
+          "stock": 47,
           "warehouse_id": null,
           "variation_text": "Black"
         }
