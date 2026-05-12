@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T10:37:33.372809+00:00",
+  "generated_at": "2026-05-12T13:08:29.131268+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,7 +8,7 @@
   "totals": {
     "products": 113,
     "stock_rows": 1559,
-    "stock_amount": 21019.0
+    "stock_amount": 20967.0
   },
   "products": [
     {
@@ -1737,26 +1737,26 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 504.0,
+      "total_stock": 490.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "EVPC1",
-          "stock": 254,
+          "stock": 251,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzE6Mg",
           "sku": "EVPC3",
-          "stock": 96,
+          "stock": 90,
           "warehouse_id": null,
           "variation_text": "Choco"
         },
         {
           "stock_id": "LzE6Mw",
           "sku": "EVPC2",
-          "stock": 154,
+          "stock": 149,
           "warehouse_id": null,
           "variation_text": "Cinaamon"
         }
@@ -1826,26 +1826,26 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 267.0,
+      "total_stock": 259.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "LKPC1",
-          "stock": 76,
+          "stock": 74,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzE6Mg",
           "sku": "LKPC3",
-          "stock": 105,
+          "stock": 100,
           "warehouse_id": null,
           "variation_text": "Choco"
         },
         {
           "stock_id": "LzE6Mw",
           "sku": "LKPC2",
-          "stock": 86,
+          "stock": 85,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         }
@@ -1964,26 +1964,26 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 221.0,
+      "total_stock": 196.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "RNPC1",
-          "stock": 54,
+          "stock": 49,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzE6Mg",
           "sku": "RNPC3",
-          "stock": 39,
+          "stock": 25,
           "warehouse_id": null,
           "variation_text": "Choco"
         },
         {
           "stock_id": "LzE6Mw",
           "sku": "RNPC2",
-          "stock": 128,
+          "stock": 122,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         }
@@ -8600,33 +8600,33 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 201.0,
+      "total_stock": 196.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SYPC1",
-          "stock": 26,
+          "stock": 25,
           "warehouse_id": null,
           "variation_text": "Black"
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "SYPC2",
-          "stock": 53,
+          "stock": 51,
           "warehouse_id": null,
           "variation_text": "Burgundy Brown"
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "SYPC3",
-          "stock": 65,
+          "stock": 64,
           "warehouse_id": null,
           "variation_text": "Maroon"
         },
         {
           "stock_id": "LzA6NA",
           "sku": "SYPC4",
-          "stock": 57,
+          "stock": 56,
           "warehouse_id": null,
           "variation_text": "Cinnamon"
         }
