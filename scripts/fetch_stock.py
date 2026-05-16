@@ -34,6 +34,14 @@ def optional_env(name: str, default: str) -> str:
     return value if value else default
 
 
+def has_ready_keyword(product_name: str, ready_keyword: str) -> bool:
+    name = str(product_name or "").lower()
+    keyword = str(ready_keyword or "").strip().lower()
+    if not keyword:
+        return True
+    return keyword in name
+
+
 def build_authorization(app_id: str, app_secret: str, timestamp: int | None = None) -> str:
     ts = int(timestamp or time.time())
     message = f"{app_id}:{ts}:{app_secret}".encode("utf-8")
@@ -58,6 +66,37 @@ def parse_number(value: Any) -> float | int | None:
         except ValueError:
             return None
     return None
+
+
+def extract_modal_value(payload: dict[str, Any], default: float | int | None = None) -> float | int | None:
+    return extract_first_number(
+        payload,
+        (
+            "modal",
+            "cost",
+            "cost_price",
+            "cogs_price",
+            "cogs",
+            "purchase_price",
+            "buy_price",
+            "capital_price",
+            "hpp",
+            "unit_cost",
+            "base_cost",
+        ),
+        default=default,
+    )
+
+
+def extract_first_number(
+    payload: dict[str, Any], keys: tuple[str, ...], default: float | int | None = None
+) -> float | int | None:
+    for key in keys:
+        if key in payload:
+            number = parse_number(payload.get(key))
+            if number is not None:
+                return number
+    return default
 
 
 def extract_list(payload: Any, keys: tuple[str, ...]) -> list[dict[str, Any]]:
@@ -162,6 +201,18 @@ class BerduClient:
             return extract_list(payload, ("list", "variations", "data", "items"))
         return []
 
+    def get_product_prices(self, user_id: str, product_id: str) -> list[dict[str, Any]]:
+        """Best-effort fetch; returns empty list when endpoint is unavailable."""
+        try:
+            payload = self.request("/product/prices", params={"user_id": user_id, "product_id": product_id})
+        except RuntimeError:
+            return []
+        if isinstance(payload, list):
+            return [item for item in payload if isinstance(item, dict)]
+        if isinstance(payload, dict):
+            return extract_list(payload, ("list", "prices", "data", "items"))
+        return []
+
 
 def product_id_from(product: dict[str, Any]) -> str:
     for key in ("id", "product_id", "productId"):
@@ -177,10 +228,6 @@ def product_name_from(product: dict[str, Any]) -> str:
         if isinstance(value, str) and value.strip():
             return value.strip()
     return "Tanpa Nama"
-
-
-def is_ready_product_name(name: str) -> bool:
-    return name.lstrip().lower().startswith("[ready]")
 
 
 def normalize_tag_texts(raw_tags: Any) -> list[str]:
@@ -391,6 +438,127 @@ def resolve_variations(
     return resolved
 
 
+def normalize_variation_map(raw_variations: Any) -> dict[str, str]:
+    mapping: dict[str, str] = {}
+    if isinstance(raw_variations, dict):
+        for key, value in raw_variations.items():
+            key_text = str(key).strip()
+            value_text = str(value).strip()
+            if key_text and value_text:
+                mapping[key_text] = value_text
+    elif isinstance(raw_variations, list):
+        for item in raw_variations:
+            if not isinstance(item, dict):
+                continue
+            var_id = str(item.get("id") or item.get("variation_id") or "").strip()
+            option_id = str(item.get("option_id") or item.get("value") or item.get("id_value") or "").strip()
+            if var_id and option_id:
+                mapping[var_id] = option_id
+    return mapping
+
+
+def variation_sort_key(value: str) -> tuple[int, int | str]:
+    text = str(value).strip()
+    if text.isdigit():
+        return (0, int(text))
+    return (1, text)
+
+
+def variation_id_from_map(mapping: dict[str, str]) -> str:
+    if not mapping:
+        return ""
+    parts: list[str] = []
+    for var_id in sorted(mapping.keys(), key=variation_sort_key):
+        option_id = str(mapping.get(var_id, "")).strip()
+        if not option_id:
+            continue
+        parts.append(f"{var_id}:{option_id}")
+    return ",".join(parts)
+
+
+def price_match_score(
+    stock_variations: dict[str, str],
+    price_variations: dict[str, str],
+) -> tuple[int, int] | None:
+    """Returns (exact_match_count, wildcard_count) when matching, otherwise None."""
+    exact_match = 0
+    wildcard_count = 0
+
+    for var_id, raw_price_value in price_variations.items():
+        price_value = str(raw_price_value).strip()
+        if not price_value:
+            continue
+
+        if price_value == "*":
+            wildcard_count += 1
+            continue
+
+        stock_value = stock_variations.get(var_id)
+        if stock_value is None or str(stock_value).strip() != price_value:
+            return None
+        exact_match += 1
+
+    return exact_match, wildcard_count
+
+
+def build_price_candidates(price_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    candidates: list[dict[str, Any]] = []
+    for row in price_rows:
+        if not isinstance(row, dict):
+            continue
+        modal_number = extract_modal_value(row)
+        if modal_number is None:
+            continue
+
+        variations = normalize_variation_map(row.get("variations"))
+        wildcard_count = sum(1 for value in variations.values() if value == "*")
+        specific_count = len(variations) - wildcard_count
+        has_reseller = isinstance(row.get("reseller_id"), str) and bool(row.get("reseller_id").strip())
+
+        candidates.append(
+            {
+                "price": modal_number,
+                "variations": variations,
+                "specific_count": specific_count,
+                "wildcard_count": wildcard_count,
+                "no_reseller_bonus": 0 if has_reseller else 1,
+            }
+        )
+    return candidates
+
+
+def choose_price_for_stock(
+    stock_row: dict[str, Any],
+    price_candidates: list[dict[str, Any]],
+    default_price: float | int | None,
+) -> float | int | None:
+    stock_variations = normalize_variation_map(stock_row.get("variations"))
+    best_price = default_price
+    best_score: tuple[int, int, int, int] | None = None
+
+    for candidate in price_candidates:
+        candidate_variations = candidate.get("variations")
+        if not isinstance(candidate_variations, dict):
+            continue
+
+        match_score = price_match_score(stock_variations, candidate_variations)
+        if match_score is None:
+            continue
+
+        exact_match, wildcard_count = match_score
+        candidate_score = (
+            exact_match,
+            candidate.get("specific_count", 0),
+            -wildcard_count,
+            candidate.get("no_reseller_bonus", 0),
+        )
+        if best_score is None or candidate_score > best_score:
+            best_score = candidate_score
+            best_price = candidate.get("price")
+
+    return best_price
+
+
 def variation_text_from_resolved(variations: list[dict[str, str]]) -> str:
     if not variations:
         return ""
@@ -486,6 +654,7 @@ def build_product_snapshot(
     client: BerduClient,
     user_id: str,
     website_name: str,
+    ready_keyword: str,
     product: dict[str, Any],
 ) -> dict[str, Any] | None:
     p_id = product_id_from(product)
@@ -493,7 +662,7 @@ def build_product_snapshot(
         return None
 
     p_name = product_name_from(product)
-    if not is_ready_product_name(p_name):
+    if not has_ready_keyword(p_name, ready_keyword):
         return None
     if is_hidden_from_list_item(product):
         return None
@@ -508,26 +677,75 @@ def build_product_snapshot(
     product_link = build_product_link(website_name, p_id, detail)
     product_image = extract_product_image(detail, variation_defs)
     category_id, category_name = resolve_category(detail)
+    detail_modal = extract_modal_value(detail)
+    detail_quantity = extract_first_number(
+        detail,
+        (
+            "quantity",
+            "qty",
+            "unit_qty",
+            "unit_quantity",
+            "amount",
+        ),
+        default=1,
+    )
+    price_rows = client.get_product_prices(user_id=user_id, product_id=p_id)
+    price_candidates = build_price_candidates(price_rows)
 
     stocks = client.get_product_stocks(user_id=user_id, product_id=p_id)
     normalized_stocks: list[dict[str, Any]] = []
     total_per_product = 0.0
+    total_asset_per_product = 0.0
+    has_asset_value = False
 
     for row in stocks:
+        row_variation_map = normalize_variation_map(row.get("variations"))
+        variation_id = variation_id_from_map(row_variation_map)
         resolved_variations = resolve_variations(row.get("variations"), variation_lookup)
         variation_text = variation_text_from_resolved(resolved_variations) or variation_label(
             resolved_variations
         )
         stock_number = parse_number(row.get("stock"))
+        row_modal = extract_modal_value(
+            row,
+            default=detail_modal,
+        )
+        modal_number = choose_price_for_stock(
+            stock_row=row,
+            price_candidates=price_candidates,
+            default_price=row_modal,
+        )
+        quantity_number = extract_first_number(
+            row,
+            (
+                "quantity",
+                "qty",
+                "unit_qty",
+                "unit_quantity",
+                "amount",
+            ),
+            default=detail_quantity,
+        )
+        asset_number: float | None = None
+
         if stock_number is not None:
             total_per_product += float(stock_number)
+            if modal_number is not None and quantity_number is not None:
+                asset_number = float(modal_number) * float(quantity_number) * float(stock_number)
+                total_asset_per_product += asset_number
+                has_asset_value = True
 
         stock_record = {
             "stock_id": row.get("id") or row.get("stock_id"),
             "sku": row.get("sku"),
             "stock": stock_number,
             "warehouse_id": row.get("warehouse_id"),
+            "variation_id": variation_id,
             "variation_text": variation_text,
+            "price": modal_number,
+            "modal": modal_number,
+            "quantity": quantity_number,
+            "asset": asset_number,
         }
         normalized_stocks.append(stock_record)
 
@@ -541,16 +759,20 @@ def build_product_snapshot(
         "category_name": category_name,
         "stock_count": len(normalized_stocks),
         "total_stock": total_per_product,
+        "total_asset": total_asset_per_product if has_asset_value else None,
         "stocks": normalized_stocks,
     }
 
 
-def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict[str, Any]:
+def build_snapshot(
+    client: BerduClient, user_id: str, website_name: str, ready_keyword: str
+) -> dict[str, Any]:
     products = client.iter_product_list(user_id)
     candidate_products = [
         product
         for product in products
-        if is_ready_product_name(product_name_from(product)) and not is_hidden_from_list_item(product)
+        if not is_hidden_from_list_item(product)
+        and has_ready_keyword(product_name_from(product), ready_keyword)
     ]
 
     max_workers_raw = optional_env("BERDU_MAX_WORKERS", "6")
@@ -562,7 +784,7 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
     snapshots: list[dict[str, Any]] = []
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {
-            executor.submit(build_product_snapshot, client, user_id, website_name, product): product
+            executor.submit(build_product_snapshot, client, user_id, website_name, ready_keyword, product): product
             for product in candidate_products
         }
         for future in as_completed(futures):
@@ -622,6 +844,12 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
 
     stock_rows = sum(int(p.get("stock_count") or 0) for p in snapshots)
     stock_total = float(sum(float(p.get("total_stock") or 0) for p in snapshots))
+    asset_values = [
+        float(product["total_asset"])
+        for product in snapshots
+        if isinstance(product.get("total_asset"), (int, float))
+    ]
+    asset_total = float(sum(asset_values)) if asset_values else None
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -629,11 +857,14 @@ def build_snapshot(client: BerduClient, user_id: str, website_name: str) -> dict
             "website": website_name,
             "api_base_url": client.base_url,
             "reference": "https://dev.berdu.id/docs/reference",
+            "ready_keyword_filter": ready_keyword,
+            "asset_price_basis": "modal",
         },
         "totals": {
             "products": len(snapshots),
             "stock_rows": stock_rows,
             "stock_amount": stock_total,
+            "asset_total": asset_total,
         },
         "products": snapshots,
     }
@@ -670,6 +901,7 @@ def main() -> int:
     website_name = optional_env("WEBSITE_NAME", "zzhomey.com")
     timeout_raw = optional_env("BERDU_TIMEOUT_SECONDS", "30")
     timeout_seconds = int(timeout_raw) if timeout_raw.isdigit() else 30
+    ready_keyword = optional_env("READY_KEYWORD", "[ready]")
 
     client = BerduClient(
         base_url=base_url,
@@ -679,7 +911,12 @@ def main() -> int:
     )
 
     try:
-        snapshot = build_snapshot(client, user_id=user_id, website_name=website_name)
+        snapshot = build_snapshot(
+            client,
+            user_id=user_id,
+            website_name=website_name,
+            ready_keyword=ready_keyword,
+        )
     except Exception as exc:  # noqa: BLE001
         print(f"[error] failed to fetch stock: {exc}", file=sys.stderr)
         return 1

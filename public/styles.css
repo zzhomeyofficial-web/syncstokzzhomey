@@ -102,6 +102,24 @@ h1 {
   color: var(--muted);
 }
 
+.internal-link-btn {
+  display: inline-block;
+  margin-top: 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.28rem 0.72rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.internal-link-btn:hover {
+  border-color: var(--brand-2);
+  color: var(--brand-2);
+}
+
 .panel {
   overflow: hidden;
 }
@@ -111,6 +129,11 @@ h1 {
   gap: 0.65rem;
   padding: 0.9rem;
   border-bottom: 1px solid var(--line);
+}
+
+.panel-head input {
+  flex: 1 1 auto;
+  min-width: 220px;
 }
 
 .category-tabs {
@@ -138,7 +161,8 @@ h1 {
 }
 
 input,
-button {
+button,
+select {
   font: inherit;
 }
 
@@ -148,6 +172,15 @@ input {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 11px;
   padding: 0.7rem 0.8rem;
+}
+
+select {
+  min-width: 180px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 11px;
+  padding: 0.7rem 0.8rem;
+  color: var(--ink);
 }
 
 button {
@@ -218,9 +251,36 @@ button {
   font-weight: 600;
 }
 
+.product-head-text .stock-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 0;
+  margin-top: 0.34rem;
+  padding: 0.12rem 0.5rem !important;
+  border-radius: 999px !important;
+  border: 1px solid var(--line) !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+  color: var(--ink) !important;
+  font-size: 0.68rem !important;
+  line-height: 1.1 !important;
+  font-weight: 700;
+  box-shadow: none !important;
+}
+
+.product-head-text .stock-toggle-btn:hover {
+  border-color: var(--brand-2);
+  color: var(--brand-2);
+}
+
 .stock-lines {
   display: grid;
   gap: 0.32rem;
+}
+
+.stock-lines.is-collapsed {
+  display: none;
 }
 
 .stock-line {
@@ -270,6 +330,19 @@ button {
 @media (max-width: 900px) {
   .summary {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .panel-head {
+    flex-wrap: wrap;
+  }
+
+  .panel-head input {
+    flex-basis: 100%;
+  }
+
+  .panel-head select,
+  .panel-head button {
+    flex: 1 1 160px;
   }
 
   .page {

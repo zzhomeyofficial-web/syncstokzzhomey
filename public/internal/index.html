@@ -3,26 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZZHomey Stock Monitor</title>
+    <title>ZZHomey Stock Internal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
   </head>
-  <body data-dashboard="public" data-data-url="/data/stock.json">
+  <body data-dashboard="internal" data-data-url="/data/stock.json">
     <main class="page">
       <section class="hero">
-        <p class="eyebrow">ZZHOMEY LIVE STOCK</p>
-        <h1>Stok Ready Gudang ZZhomey</h1>
+        <p class="eyebrow">ZZHOMEY INTERNAL STOCK</p>
+        <h1>Stok Ready Gudang ZZhomey (Internal)</h1>
         <p id="statusText" class="status">Memuat data...</p>
         <p class="status">Update Terakhir</p>
         <p id="generatedDate" class="status">-</p>
         <p id="generatedTime" class="update-time">-</p>
         <p id="nextUpdate" class="next-update">update selanjutnya -</p>
-        <a class="internal-link-btn" href="/internal/">Masuk Stok Internal</a>
+        <a class="internal-link-btn" href="/">Buka Halaman Publik</a>
+      </section>
+
+      <section class="summary">
+        <article>
+          <p>Total Produk</p>
+          <h2 id="totalProducts">0</h2>
+        </article>
+        <article>
+          <p>Total Stok</p>
+          <h2 id="totalStock">0</h2>
+        </article>
+        <article>
+          <p>Nilai Aset</p>
+          <h2 id="totalAssetText">-</h2>
+        </article>
       </section>
 
       <section class="panel">
@@ -31,6 +46,8 @@
           <select id="sortSelect" aria-label="Urutkan produk">
             <option value="stock_desc">Stok Terbanyak</option>
             <option value="stock_asc">Stok Tersedikit</option>
+            <option value="asset_desc">Aset Tertinggi</option>
+            <option value="asset_asc">Aset Terendah</option>
           </select>
           <select id="sizeSelect" aria-label="Filter size">
             <option value="__all__">Semua Size</option>
@@ -53,6 +70,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260516-1"></script>
+    <script src="../app.js?v=20260516-1"></script>
   </body>
 </html>

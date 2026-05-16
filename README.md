@@ -1,74 +1,91 @@
-# ZZHomey Stock Bot + Cloudflare Pages
+# ZZHomey Stock Bot (GitHub + Cloudflare Pages)
 
-Bot ini mengambil stok dari API Berdu (referensi: `https://dev.berdu.id/docs/reference`), menyimpan hasilnya ke `public/data/stock.json`, lalu HTML statis menampilkannya.
+Bot ini:
 
-## 1. Setup Environment
+1. Ambil data stok dari API Berdu.
+2. Generate file `public/data/stock.json`.
+3. Tampilkan stok di website statis Cloudflare Pages (`public/index.html`).
+4. Update otomatis via GitHub Actions setiap 15 menit (24 jam).
+
+Halaman yang tersedia:
+
+1. Publik: `/`
+2. Internal: `/internal/`
+
+Perhitungan aset menggunakan **harga modal** (bukan harga jual).
+
+---
+
+## 1) Setup Environment
 
 Salin `.env.example` menjadi `.env`, lalu isi:
 
-- `BERDU_APP_ID`
-- `BERDU_APP_SECRET`
-- `BERDU_USER_ID`
-- `BERDU_API_BASE_URL` (default docs: `https://api.berdu.id/v0.0`)
+1. `BERDU_APP_ID`
+2. `BERDU_APP_SECRET`
+3. `BERDU_USER_ID`
+4. `BERDU_API_BASE_URL` (default: `https://api.berdu.id/v0.0`)
+5. `WEBSITE_NAME` (default: `zzhomey.com`)
+6. `READY_KEYWORD` (default: `[ready]`)
 
-## 2. Jalankan Bot Lokal
+---
+
+## 2) Jalankan Bot Lokal
 
 ```bash
 python -m pip install -r requirements.txt
 python scripts/fetch_stock.py
 ```
 
-Output akan ditulis ke `public/data/stock.json`.
+Output ditulis ke `public/data/stock.json`.
 
-## 3. Deploy ke GitHub + Cloudflare Pages
+---
+
+## 3) Deploy ke GitHub + Cloudflare Pages
 
 ### GitHub Secrets
 
 Tambahkan secret berikut di repo:
 
-- `BERDU_API_BASE_URL`
-- `BERDU_APP_ID`
-- `BERDU_APP_SECRET`
-- `BERDU_USER_ID`
+1. `BERDU_API_BASE_URL`
+2. `BERDU_APP_ID`
+3. `BERDU_APP_SECRET`
+4. `BERDU_USER_ID`
 
-Workflow yang sudah disiapkan: `.github/workflows/update-stock.yml`
+Workflow: `.github/workflows/update-stock.yml`
 
-- berjalan tiap 30 menit
-- generate `public/data/stock.json`
-- commit perubahan otomatis ke repo
+1. Jadwal: setiap 15 menit (`*/15 * * * *`)
+2. Generate `public/data/stock.json`
+3. Commit otomatis bila ada perubahan data
 
 ### Cloudflare Pages
 
-Connect repo ini ke Cloudflare Pages:
+Connect repo ini ke Cloudflare Pages dengan setting:
 
-- Framework preset: `None`
-- Build command: kosongkan
-- Output directory: `public`
+1. Framework preset: `None`
+2. Build command: kosongkan
+3. Output directory: `public`
+4. Production branch: `main`
 
-Cloudflare Pages akan serve:
+---
 
-- `index.html`
-- `styles.css`
-- `app.js`
-- `data/stock.json`
-- `berdu-form-snippet.html`
+## 4) Endpoint API yang Dipakai
 
-## 4. Endpoint yang dipakai bot
+1. `GET /product/list` (pagination cursor)
+2. `GET /product/stocks`
+3. `GET /product/detail`
+4. `GET /product/variations`
+5. `GET /product/prices` (best effort, untuk modal/aset)
 
-- `GET /product/list` (pakai pagination cursor)
-- `GET /product/stocks`
+---
 
-Keduanya membutuhkan parameter `user_id`, sesuai docs reference Berdu.
+## 5) Jika Berdu Hanya Support Form HTML
 
-## 5. Jika Berdu hanya support Form HTML
+Gunakan snippet:
 
-Jika di Berdu kamu hanya bisa pasang HTML form (tanpa JS custom), gunakan snippet:
-
-- `public/berdu-form-snippet.html`
+1. `public/berdu-form-snippet.html`
 
 Cara pakai:
 
-1. Ganti `https://YOUR-PAGES-DOMAIN.pages.dev/` dengan domain Cloudflare Pages kamu.
-2. Paste HTML form tersebut ke area custom HTML di Berdu.
-3. Form akan membuka halaman stock monitor di tab baru.
-4. Query input form dikirim sebagai `?q=...` dan otomatis dipakai untuk filter di dashboard stok.
+1. Ganti `https://YOUR-PAGES-DOMAIN.pages.dev/` dengan URL Pages kamu.
+2. Paste ke area custom HTML Berdu.
+3. Form buka dashboard stok di tab baru.
