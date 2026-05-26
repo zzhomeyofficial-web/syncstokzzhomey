@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T13:57:16.816991+00:00",
+  "generated_at": "2026-05-26T17:29:47.723551+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 115,
     "stock_rows": 1592,
-    "stock_amount": 21168.0,
-    "asset_total": 534606232.0
+    "stock_amount": 21166.0,
+    "asset_total": 534565232.0
   },
   "products": [
     {
@@ -13031,20 +13031,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 1202.0,
-      "total_asset": 22838000.0,
+      "total_stock": 1201.0,
+      "total_asset": 22819000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ERPC3",
-          "stock": 151,
+          "stock": 150,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 2869000.0
+          "asset": 2850000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -14027,20 +14027,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 350.0,
-      "total_asset": 7700000.0,
+      "total_stock": 349.0,
+      "total_asset": 7678000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NREN3",
-          "stock": 42,
+          "stock": 41,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Ivory",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 924000.0
+          "asset": 902000.0
         },
         {
           "stock_id": "LzA6Mg",
