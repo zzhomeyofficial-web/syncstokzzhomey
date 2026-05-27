@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T17:29:47.723551+00:00",
+  "generated_at": "2026-05-27T05:22:17.714820+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 115,
     "stock_rows": 1592,
-    "stock_amount": 21166.0,
-    "asset_total": 534565232.0
+    "stock_amount": 21157.0,
+    "asset_total": 534357732.0
   },
   "products": [
     {
@@ -12895,8 +12895,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 150.0,
-      "total_asset": 5175000.0,
+      "total_stock": 149.0,
+      "total_asset": 5140500.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -12925,14 +12925,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "CHRM3",
-          "stock": 28,
+          "stock": 27,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Champagne Gold",
           "price": 34500,
           "modal": 34500,
           "quantity": 1,
-          "asset": 966000.0
+          "asset": 931500.0
         },
         {
           "stock_id": "LzA6NA",
@@ -13031,20 +13031,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 1201.0,
-      "total_asset": 22819000.0,
+      "total_stock": 1200.0,
+      "total_asset": 22800000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ERPC3",
-          "stock": 150,
+          "stock": 149,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 2850000.0
+          "asset": 2831000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -14027,92 +14027,92 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 349.0,
-      "total_asset": 7678000.0,
+      "total_stock": 342.0,
+      "total_asset": 7524000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NREN3",
-          "stock": 41,
+          "stock": 40,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Ivory",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 902000.0
+          "asset": 880000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "NREN1",
-          "stock": 44,
+          "stock": 43,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Black",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 968000.0
+          "asset": 946000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "NREN5",
-          "stock": 48,
+          "stock": 47,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Burgundy",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 1056000.0
+          "asset": 1034000.0
         },
         {
           "stock_id": "LzA6NA",
           "sku": "NREN2",
-          "stock": 39,
+          "stock": 38,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Dark Choco",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 858000.0
+          "asset": 836000.0
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "NREN7",
-          "stock": 59,
+          "stock": 58,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Terra",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 1298000.0
+          "asset": 1276000.0
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "NREN4",
-          "stock": 59,
+          "stock": 58,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Taupe",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 1298000.0
+          "asset": 1276000.0
         },
         {
           "stock_id": "LzA6Nw",
           "sku": "NREN6",
-          "stock": 59,
+          "stock": 58,
           "warehouse_id": null,
           "variation_id": "0:7",
           "variation_text": "Mocca",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 1298000.0
+          "asset": 1276000.0
         }
       ]
     },
