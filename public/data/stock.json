@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T10:46:32.918851+00:00",
+  "generated_at": "2026-06-02T14:58:42.666781+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 115,
     "stock_rows": 1580,
-    "stock_amount": 20817.0,
-    "asset_total": 530319582.0
+    "stock_amount": 20809.0,
+    "asset_total": 530115582.0
   },
   "products": [
     {
@@ -11309,20 +11309,20 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 12,
-      "total_stock": 657.0,
-      "total_asset": 11826000.0,
+      "total_stock": 655.0,
+      "total_asset": 11790000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NAZL25",
-          "stock": 102,
+          "stock": 101,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "BLACK",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 1836000.0
+          "asset": 1818000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -11363,14 +11363,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "NAZL33",
-          "stock": 66,
+          "stock": 65,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "MOCCA",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 1188000.0
+          "asset": 1170000.0
         },
         {
           "stock_id": "LzA6Ng",
@@ -13277,8 +13277,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 317.0,
-      "total_asset": 5706000.0,
+      "total_stock": 314.0,
+      "total_asset": 5652000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -13295,14 +13295,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "FURP2",
-          "stock": 5,
+          "stock": 2,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Brown",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 90000.0
+          "asset": 36000.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -14137,20 +14137,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 297.0,
-      "total_asset": 11286000.0,
+      "total_stock": 294.0,
+      "total_asset": 11172000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NOVR1",
-          "stock": 60,
+          "stock": 58,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 38000,
           "modal": 38000,
           "quantity": 1,
-          "asset": 2280000.0
+          "asset": 2204000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -14191,14 +14191,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "NOVR4",
-          "stock": 60,
+          "stock": 59,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Burgundy",
           "price": 38000,
           "modal": 38000,
           "quantity": 1,
-          "asset": 2280000.0
+          "asset": 2242000.0
         }
       ]
     },
@@ -19467,7 +19467,7 @@
       "product_name": "[READY] SHIDQIA GAMIS New",
       "product_slug": "ready-shidqia-gamis-60624-85684-61909",
       "product_link": "https://zzhomey.com/product/ready-shidqia-gamis-60624-85684-61909",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/Lf1KGdhlFdkcLx9Lf1ScITyz3sRVMQuK8eRpmqXMwwg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Lf1KGdhlFdkcLx9Lf1ScITyz3sRVMQuK8eRpmqXMwwg.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 36,
