@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T05:27:35.019429+00:00",
+  "generated_at": "2026-06-07T09:23:24.154919+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 115,
     "stock_rows": 1590,
-    "stock_amount": 20561.0,
-    "asset_total": 520389132.0
+    "stock_amount": 20558.0,
+    "asset_total": 520289632.0
   },
   "products": [
     {
@@ -12219,8 +12219,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 9,
-      "total_stock": 2.0,
-      "total_asset": 61000.0,
+      "total_stock": 1.0,
+      "total_asset": 30500.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -12237,14 +12237,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "SHDS2",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Navy",
           "price": 30500,
           "modal": 30500,
           "quantity": 1,
-          "asset": 30500.0
+          "asset": 0.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -12463,8 +12463,8 @@
       "category_id": "M-1753849462816",
       "category_name": "READY STOCK",
       "stock_count": 5,
-      "total_stock": 56.0,
-      "total_asset": 2072000.0,
+      "total_stock": 55.0,
+      "total_asset": 2035000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -12481,14 +12481,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "CRRY2",
-          "stock": 9,
+          "stock": 8,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Ivory",
           "price": 37000,
           "modal": 37000,
           "quantity": 1,
-          "asset": 333000.0
+          "asset": 296000.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -12537,8 +12537,8 @@
       "category_id": "M-1753849462816",
       "category_name": "READY STOCK",
       "stock_count": 5,
-      "total_stock": 126.0,
-      "total_asset": 4032000.0,
+      "total_stock": 125.0,
+      "total_asset": 4000000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -12555,14 +12555,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "CEBG4",
-          "stock": 33,
+          "stock": 32,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Coffe",
           "price": 32000,
           "modal": 32000,
           "quantity": 1,
-          "asset": 1056000.0
+          "asset": 1024000.0
         },
         {
           "stock_id": "LzA6Mw",
