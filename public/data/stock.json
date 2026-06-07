@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T09:23:24.154919+00:00",
+  "generated_at": "2026-06-07T11:53:52.294494+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 115,
     "stock_rows": 1590,
-    "stock_amount": 20558.0,
-    "asset_total": 520289632.0
+    "stock_amount": 20557.0,
+    "asset_total": 520257632.0
   },
   "products": [
     {
@@ -12915,8 +12915,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 162.0,
-      "total_asset": 5184000.0,
+      "total_stock": 161.0,
+      "total_asset": 5152000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -12969,14 +12969,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "AMLT2",
-          "stock": 43,
+          "stock": 42,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Soil",
           "price": 32000,
           "modal": 32000,
           "quantity": 1,
-          "asset": 1376000.0
+          "asset": 1344000.0
         }
       ]
     },
