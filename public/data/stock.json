@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T11:53:52.294494+00:00",
+  "generated_at": "2026-06-07T14:05:45.370079+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 115,
     "stock_rows": 1590,
-    "stock_amount": 20557.0,
-    "asset_total": 520257632.0
+    "stock_amount": 20552.0,
+    "asset_total": 520084632.0
   },
   "products": [
     {
@@ -12463,8 +12463,8 @@
       "category_id": "M-1753849462816",
       "category_name": "READY STOCK",
       "stock_count": 5,
-      "total_stock": 55.0,
-      "total_asset": 2035000.0,
+      "total_stock": 53.0,
+      "total_asset": 1961000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -12481,14 +12481,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "CRRY2",
-          "stock": 8,
+          "stock": 6,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Ivory",
           "price": 37000,
           "modal": 37000,
           "quantity": 1,
-          "asset": 296000.0
+          "asset": 222000.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -12853,44 +12853,44 @@
       "category_id": "M-1753849462816",
       "category_name": "READY STOCK",
       "stock_count": 4,
-      "total_stock": 152.0,
-      "total_asset": 5016000.0,
+      "total_stock": 149.0,
+      "total_asset": 4917000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NMSG1",
-          "stock": 49,
+          "stock": 48,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 33000,
           "modal": 33000,
           "quantity": 1,
-          "asset": 1617000.0
+          "asset": 1584000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "NMSG6",
-          "stock": 8,
+          "stock": 7,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Ivory",
           "price": 33000,
           "modal": 33000,
           "quantity": 1,
-          "asset": 264000.0
+          "asset": 231000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "NMSG4",
-          "stock": 70,
+          "stock": 69,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Tan",
           "price": 33000,
           "modal": 33000,
           "quantity": 1,
-          "asset": 2310000.0
+          "asset": 2277000.0
         },
         {
           "stock_id": "LzA6NA",
