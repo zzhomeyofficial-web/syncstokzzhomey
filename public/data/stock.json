@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T05:54:05.118662+00:00",
+  "generated_at": "2026-06-12T10:22:58.314481+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 118,
     "stock_rows": 1603,
-    "stock_amount": 20253.0,
-    "asset_total": 516582432.0
+    "stock_amount": 20189.0,
+    "asset_total": 514912932.0
   },
   "products": [
     {
@@ -61,20 +61,20 @@
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
-      "total_stock": 165.0,
-      "total_asset": 1237500.0,
+      "total_stock": 163.0,
+      "total_asset": 1222500.0,
       "stocks": [
         {
           "stock_id": "Lw",
           "sku": "ANBR1",
-          "stock": 165,
+          "stock": 163,
           "warehouse_id": null,
           "variation_id": "",
           "variation_text": "",
           "price": 7500,
           "modal": 7500,
           "quantity": 1,
-          "asset": 1237500.0
+          "asset": 1222500.0
         }
       ]
     },
@@ -357,7 +357,7 @@
       "product_name": "[READY] JAMILA BROOCH NEW",
       "product_slug": "ready-jamila-brooch-8643-94498-48684-90575-73802",
       "product_link": "https://zzhomey.com/product/ready-jamila-brooch-8643-94498-48684-90575-73802",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CdjfpgOQ2EZoCgPCdjLcKeEpompJaRFKoUpVO97FGFg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CdjfpgOQ2EZoCgPCdjLcKeEpompJaRFKoUpVO97FGFg.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
@@ -3283,8 +3283,8 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 7,
-      "total_stock": 364.0,
-      "total_asset": 6916000.0,
+      "total_stock": 363.0,
+      "total_asset": 6897000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -3361,14 +3361,14 @@
         {
           "stock_id": "LzE6Nw",
           "sku": "ZDPO4",
-          "stock": 59,
+          "stock": 58,
           "warehouse_id": null,
           "variation_id": "1:7",
           "variation_text": "Abu-abu Muda",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 1121000.0
+          "asset": 1102000.0
         }
       ]
     },
@@ -10209,32 +10209,32 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 6,
-      "total_stock": 20.0,
-      "total_asset": 600000.0,
+      "total_stock": 17.0,
+      "total_asset": 510000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "CMLA1",
-          "stock": 6,
+          "stock": 5,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Camelia 01",
           "price": 30000,
           "modal": 30000,
           "quantity": 1,
-          "asset": 180000.0
+          "asset": 150000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "CMLA2",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Camelia 02",
           "price": 30000,
           "modal": 30000,
           "quantity": 1,
-          "asset": 30000.0
+          "asset": 0.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -10275,14 +10275,14 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "CMLA6",
-          "stock": 3,
+          "stock": 2,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Camelia 06",
           "price": 30000,
           "modal": 30000,
           "quantity": 1,
-          "asset": 90000.0
+          "asset": 60000.0
         }
       ]
     },
@@ -10767,7 +10767,7 @@
       "product_name": "[READY] HURIYYA SCARF 01 NEW",
       "product_slug": "ready-stock-huriyya-scarf-01-39166-54631",
       "product_link": "https://zzhomey.com/product/ready-stock-huriyya-scarf-01-39166-54631",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CuNcapC08VyeVhzhCu1L7OFTsBSj7ATKCdxs1Jf3nA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CuNcapC08VyeVhzhCu1L7OFTsBSj7ATKCdxs1Jf3nA.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
@@ -12463,20 +12463,20 @@
       "category_id": "M-1753849462816",
       "category_name": "READY STOCK",
       "stock_count": 5,
-      "total_stock": 19.0,
-      "total_asset": 703000.0,
+      "total_stock": 15.0,
+      "total_asset": 555000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "CRRY1",
-          "stock": 19,
+          "stock": 15,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 37000,
           "modal": 37000,
           "quantity": 1,
-          "asset": 703000.0
+          "asset": 555000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -12853,8 +12853,8 @@
       "category_id": "M-1753849462816",
       "category_name": "READY STOCK",
       "stock_count": 4,
-      "total_stock": 102.0,
-      "total_asset": 3366000.0,
+      "total_stock": 101.0,
+      "total_asset": 3333000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -12895,14 +12895,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "NMSG5",
-          "stock": 8,
+          "stock": 7,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Misty Mauve",
           "price": 33000,
           "modal": 33000,
           "quantity": 1,
-          "asset": 264000.0
+          "asset": 231000.0
         }
       ]
     },
@@ -12915,8 +12915,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 131.0,
-      "total_asset": 4192000.0,
+      "total_stock": 130.0,
+      "total_asset": 4160000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -12957,14 +12957,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "AMLT1",
-          "stock": 30,
+          "stock": 29,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Coffe",
           "price": 32000,
           "modal": 32000,
           "quantity": 1,
-          "asset": 960000.0
+          "asset": 928000.0
         },
         {
           "stock_id": "LzA6NQ",
@@ -13195,7 +13195,7 @@
       "product_name": "[READY] BERINA POUCH",
       "product_slug": "ready-berina-pouch-57002-76155",
       "product_link": "https://zzhomey.com/product/ready-berina-pouch-57002-76155",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CuZoY5x3ZeEafETCuZ6kdDkxQgizXtTnaE4LNJjiuRQw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CuZoY5x3ZeEafETCuZ6kdDkxQgizXtTnaE4LNJjiuRQw.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
@@ -13297,20 +13297,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 121.0,
-      "total_asset": 4174500.0,
+      "total_stock": 118.0,
+      "total_asset": 4071000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "CHRM1",
-          "stock": 55,
+          "stock": 54,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Cinnamon",
           "price": 34500,
           "modal": 34500,
           "quantity": 1,
-          "asset": 1897500.0
+          "asset": 1863000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -13339,14 +13339,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "CHRM4",
-          "stock": 27,
+          "stock": 25,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Burgundy Brown",
           "price": 34500,
           "modal": 34500,
           "quantity": 1,
-          "asset": 931500.0
+          "asset": 862500.0
         }
       ]
     },
@@ -14207,8 +14207,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 119.0,
-      "total_asset": 2737000.0,
+      "total_stock": 78.0,
+      "total_asset": 1794000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -14225,50 +14225,50 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "MRRA5",
-          "stock": 22,
+          "stock": 7,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Dark Grey",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 506000.0
+          "asset": 161000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "MRRA2",
-          "stock": 29,
+          "stock": 22,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Mocca",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 667000.0
+          "asset": 506000.0
         },
         {
           "stock_id": "LzA6NA",
           "sku": "MRRA3",
-          "stock": 54,
+          "stock": 42,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Black",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 1242000.0
+          "asset": 966000.0
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "MRRA1",
-          "stock": 14,
+          "stock": 7,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Soil",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 322000.0
+          "asset": 161000.0
         }
       ]
     },
@@ -14281,8 +14281,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 3,
-      "total_stock": 349.0,
-      "total_asset": 5584000.0,
+      "total_stock": 347.0,
+      "total_asset": 5552000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -14311,14 +14311,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "MISC3",
-          "stock": 95,
+          "stock": 93,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "BLACK",
           "price": 16000,
           "modal": 16000,
           "quantity": 1,
-          "asset": 1520000.0
+          "asset": 1488000.0
         }
       ]
     },
@@ -14331,8 +14331,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 75.0,
-      "total_asset": 2850000.0,
+      "total_stock": 74.0,
+      "total_asset": 2812000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -14349,14 +14349,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "NOVR2",
-          "stock": 15,
+          "stock": 14,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Ivory",
           "price": 38000,
           "modal": 38000,
           "quantity": 1,
-          "asset": 570000.0
+          "asset": 532000.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -14405,56 +14405,56 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 164.0,
-      "total_asset": 4920000.0,
+      "total_stock": 160.0,
+      "total_asset": 4800000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "QLAB1",
-          "stock": 52,
+          "stock": 51,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Mocca",
           "price": 30000,
           "modal": 30000,
           "quantity": 1,
-          "asset": 1560000.0
+          "asset": 1530000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "QLAB2",
-          "stock": 28,
+          "stock": 27,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Black",
           "price": 30000,
           "modal": 30000,
           "quantity": 1,
-          "asset": 840000.0
+          "asset": 810000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "QLAB3",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Coffee",
           "price": 30000,
           "modal": 30000,
           "quantity": 1,
-          "asset": 720000.0
+          "asset": 690000.0
         },
         {
           "stock_id": "LzA6NA",
           "sku": "QLAB4",
-          "stock": 60,
+          "stock": 59,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Brown",
           "price": 30000,
           "modal": 30000,
           "quantity": 1,
-          "asset": 1800000.0
+          "asset": 1770000.0
         }
       ]
     },
@@ -14847,7 +14847,7 @@
       "product_name": "[READY] ALICE TUNIC BY ZAMAKIDS NEW",
       "product_slug": "pre-order-alice-elsie-by-zamakids-25850-50417-64091",
       "product_link": "https://zzhomey.com/product/pre-order-alice-elsie-by-zamakids-25850-50417-64091",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CWSHmGnWkZGiLKbCWSK5msuEaUuajUReCigeLTgKFRg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CWSHmGnWkZGiLKbCWSK5msuEaUuajUReCigeLTgKFRg.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 18,
@@ -16781,7 +16781,7 @@
       "product_name": "[READY] AZHAR SIRWAL",
       "product_slug": "pre-order-azhar-sirwal-4519",
       "product_link": "https://zzhomey.com/product/pre-order-azhar-sirwal-4519",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CBQgKE1K8krRfOECBQnuDNT4JC7BPVTX216nr5R1Oycg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CBQgKE1K8krRfOECBQnuDNT4JC7BPVTX216nr5R1Oycg.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 12,
@@ -17255,7 +17255,7 @@
       "product_name": "[READY] DAISY GAMIS & TUNIC",
       "product_slug": "pre-order-daisy-gamis-tunic-20075",
       "product_link": "https://zzhomey.com/product/pre-order-daisy-gamis-tunic-20075",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/CujVs2irFq1QHHkCujGZV0Jt59WbSxTLGrDw6H84t79g.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CujVs2irFq1QHHkCujGZV0Jt59WbSxTLGrDw6H84t79g.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 23,
@@ -17937,8 +17937,8 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 9,
-      "total_stock": 77.0,
-      "total_asset": 8128000.0,
+      "total_stock": 76.0,
+      "total_asset": 8032000.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -18027,14 +18027,14 @@
         {
           "stock_id": "LzA6MiwxOjM",
           "sku": "JSMN8",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_id": "0:2,1:3",
           "variation_text": "ONESET CELANA / XL",
           "price": 96000,
           "modal": 96000,
           "quantity": 1,
-          "asset": 96000.0
+          "asset": 0.0
         },
         {
           "stock_id": "LzA6MiwxOjQ",
