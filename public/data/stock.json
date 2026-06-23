@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T12:38:46.861899+00:00",
+  "generated_at": "2026-06-23T15:55:25.912274+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 111,
     "stock_rows": 1565,
-    "stock_amount": 17692.0,
-    "asset_total": 464956494.0
+    "stock_amount": 17634.0,
+    "asset_total": 463995494.0
   },
   "products": [
     {
@@ -5221,8 +5221,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 5,
-      "total_stock": 5.0,
-      "total_asset": 90000.0,
+      "total_stock": 2.0,
+      "total_asset": 36000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5251,14 +5251,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "AYDK3",
-          "stock": 5,
+          "stock": 2,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "IJO BOTOL",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 90000.0
+          "asset": 36000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -5295,8 +5295,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 6,
-      "total_stock": 626.0,
-      "total_asset": 11894000.0,
+      "total_stock": 618.0,
+      "total_asset": 11742000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5325,14 +5325,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "ERPC6",
-          "stock": 246,
+          "stock": 243,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Pink",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 4674000.0
+          "asset": 4617000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -5361,14 +5361,14 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "ERPC1",
-          "stock": 380,
+          "stock": 375,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Milo",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 7220000.0
+          "asset": 7125000.0
         }
       ]
     },
@@ -5381,8 +5381,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 5,
-      "total_stock": 127.0,
-      "total_asset": 2413000.0,
+      "total_stock": 112.0,
+      "total_asset": 2128000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5435,14 +5435,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LNVA5",
-          "stock": 127,
+          "stock": 112,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Terra",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 2413000.0
+          "asset": 2128000.0
         }
       ]
     },
@@ -5455,8 +5455,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 7,
-      "total_stock": 3565.0,
-      "total_asset": 49910000.0,
+      "total_stock": 3544.0,
+      "total_asset": 49616000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5473,26 +5473,26 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "LYTA10",
-          "stock": 271,
+          "stock": 268,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Maroon",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 3794000.0
+          "asset": 3752000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "LYTA2",
-          "stock": 428,
+          "stock": 425,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Brown",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 5992000.0
+          "asset": 5950000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -5509,38 +5509,38 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LYTA1",
-          "stock": 204,
+          "stock": 196,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Black",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 2856000.0
+          "asset": 2744000.0
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "LYTA8",
-          "stock": 629,
+          "stock": 625,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Dark Grey",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 8806000.0
+          "asset": 8750000.0
         },
         {
           "stock_id": "LzA6Nw",
           "sku": "LYTA4",
-          "stock": 638,
+          "stock": 635,
           "warehouse_id": null,
           "variation_id": "0:7",
           "variation_text": "Peach",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 8932000.0
+          "asset": 8890000.0
         }
       ]
     },
@@ -5553,20 +5553,20 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 3,
-      "total_stock": 55.0,
-      "total_asset": 880000.0,
+      "total_stock": 44.0,
+      "total_asset": 704000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MISC1",
-          "stock": 55,
+          "stock": 44,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "PURPLE",
           "price": 16000,
           "modal": 16000,
           "quantity": 1,
-          "asset": 880000.0
+          "asset": 704000.0
         },
         {
           "stock_id": "LzA6Mg",
