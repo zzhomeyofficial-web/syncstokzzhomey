@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T09:32:00.171999+00:00",
+  "generated_at": "2026-06-25T12:27:16.783371+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 108,
     "stock_rows": 1552,
-    "stock_amount": 17031.0,
-    "asset_total": 453218494.0
+    "stock_amount": 17023.0,
+    "asset_total": 453102494.0
   },
   "products": [
     {
@@ -5217,7 +5217,7 @@
       "product_name": "[🔥 CUCI GUDANG] [READY] ELORA POUCH",
       "product_slug": "ready-elora-pouch-4047-37331-28405",
       "product_link": "https://zzhomey.com/product/ready-elora-pouch-4047-37331-28405",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L4lDGfojgxugi0yL4lBZCv1TOoLzDRRHKrQiHsAJxu9w.jpg",
+      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/L4lDGfojgxugi0yL4lBZCv1TOoLzDRRHKrQiHsAJxu9w.jpg",
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 6,
@@ -5303,48 +5303,48 @@
       "product_name": "[🔥 CUCI GUDANG] [READY] LOLYTA DOMPET KOIN New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-98992-77108-11099-88121-53085",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364-51076-98992-77108-11099-88121-53085",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L4lrq5e2q2jLLRyL4lSurx3swU73hESCmFlhe0QGGvwg.jpg",
+      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/L4lrq5e2q2jLLRyL4lSurx3swU73hESCmFlhe0QGGvwg.jpg",
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 7,
-      "total_stock": 3342.0,
-      "total_asset": 46788000.0,
+      "total_stock": 3335.0,
+      "total_asset": 46690000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "LYTA9",
-          "stock": 705,
+          "stock": 704,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Terra",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 9870000.0
+          "asset": 9856000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "LYTA10",
-          "stock": 226,
+          "stock": 225,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Maroon",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 3164000.0
+          "asset": 3150000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "LYTA2",
-          "stock": 381,
+          "stock": 379,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Brown",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 5334000.0
+          "asset": 5306000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -5361,26 +5361,26 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LYTA1",
-          "stock": 166,
+          "stock": 165,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Black",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 2324000.0
+          "asset": 2310000.0
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "LYTA8",
-          "stock": 604,
+          "stock": 602,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Dark Grey",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 8456000.0
+          "asset": 8428000.0
         },
         {
           "stock_id": "LzA6Nw",
@@ -13261,20 +13261,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 600.0,
-      "total_asset": 10800000.0,
+      "total_stock": 599.0,
+      "total_asset": 10782000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 83,
+          "stock": 82,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 1494000.0
+          "asset": 1476000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -14021,7 +14021,7 @@
       "product_name": "[READY] ZUMRA BAG NEW",
       "product_slug": "ready-zumra-bag-76733-77430-56638",
       "product_link": "https://zzhomey.com/product/ready-zumra-bag-76733-77430-56638",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LRwezaMDf0W8T4LRPhopV0BRVirUZSzJx8RWJDt1Ug.jpg",
+      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/LRwezaMDf0W8T4LRPhopV0BRVirUZSzJx8RWJDt1Ug.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
