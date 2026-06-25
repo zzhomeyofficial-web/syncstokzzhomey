@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T12:27:16.783371+00:00",
+  "generated_at": "2026-06-25T15:44:22.379023+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 108,
     "stock_rows": 1552,
-    "stock_amount": 17023.0,
-    "asset_total": 453102494.0
+    "stock_amount": 17021.0,
+    "asset_total": 453069494.0
   },
   "products": [
     {
@@ -5217,12 +5217,12 @@
       "product_name": "[🔥 CUCI GUDANG] [READY] ELORA POUCH",
       "product_slug": "ready-elora-pouch-4047-37331-28405",
       "product_link": "https://zzhomey.com/product/ready-elora-pouch-4047-37331-28405",
-      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/L4lDGfojgxugi0yL4lBZCv1TOoLzDRRHKrQiHsAJxu9w.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L4lDGfojgxugi0yL4lBZCv1TOoLzDRRHKrQiHsAJxu9w.jpg",
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 6,
-      "total_stock": 543.0,
-      "total_asset": 10317000.0,
+      "total_stock": 542.0,
+      "total_asset": 10298000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5251,14 +5251,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "ERPC6",
-          "stock": 225,
+          "stock": 224,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Pink",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 4275000.0
+          "asset": 4256000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -5307,8 +5307,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 7,
-      "total_stock": 3335.0,
-      "total_asset": 46690000.0,
+      "total_stock": 3334.0,
+      "total_asset": 46676000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5361,14 +5361,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LYTA1",
-          "stock": 165,
+          "stock": 164,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Black",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 2310000.0
+          "asset": 2296000.0
         },
         {
           "stock_id": "LzA6Ng",
@@ -10255,7 +10255,7 @@
       "product_name": "[READY] AURAYA OVAL",
       "product_slug": "pre-order-auraya-oval-16565-45882",
       "product_link": "https://zzhomey.com/product/pre-order-auraya-oval-16565-45882",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LmbBRBXRk0MRCtrLmcrpZv07CzM134TvGos5DQfIA5Sg.jpg",
+      "product_image": "https://img.brdcdn.com/img/_/bw5d48ohbw5h0svjb8_3/LmbBRBXRk0MRCtrLmcrpZv07CzM134TvGos5DQfIA5Sg.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 10,
