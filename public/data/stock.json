@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T12:16:23.328420+00:00",
+  "generated_at": "2026-06-26T15:27:00.446912+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 108,
     "stock_rows": 1552,
-    "stock_amount": 17445.0,
-    "asset_total": 459676494.0
+    "stock_amount": 17433.0,
+    "asset_total": 459501994.0
   },
   "products": [
     {
@@ -19,7 +19,7 @@
       "product_name": "[READY] ALIDA PIN 3 & 15 NEW",
       "product_slug": "ready-alida-pin-3-15-65194-99585",
       "product_link": "https://zzhomey.com/product/ready-alida-pin-3-15-65194-99585",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CdxlVVSSz1ilsCECdn7gAJ30ZT0zWRISDLp2KghwCNg.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CdxlVVSSz1ilsCECdn7gAJ30ZT0zWRISDLp2KghwCNg.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 2,
@@ -83,24 +83,24 @@
       "product_name": "[READY] AVIVA PENITI NEW",
       "product_slug": "ready-aviva-peniti-78664-68460",
       "product_link": "https://zzhomey.com/product/ready-aviva-peniti-78664-68460",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C5KVOWHmjz9dhSpC57r8yAA8oYRBg5Sh6FrAaygJ1Jw.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C5KVOWHmjz9dhSpC57r8yAA8oYRBg5Sh6FrAaygJ1Jw.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
-      "total_stock": 82.0,
-      "total_asset": 1271000.0,
+      "total_stock": 81.0,
+      "total_asset": 1255500.0,
       "stocks": [
         {
           "stock_id": "Lw",
           "sku": "VIPN1",
-          "stock": 82,
+          "stock": 81,
           "warehouse_id": null,
           "variation_id": "",
           "variation_text": "",
           "price": 15500,
           "modal": 15500,
           "quantity": 1,
-          "asset": 1271000.0
+          "asset": 1255500.0
         }
       ]
     },
@@ -3377,7 +3377,7 @@
       "product_name": "[READY] DEA CELAMIS JOGGER",
       "product_slug": "pre-order-dea-deva-derin-82287-44148-39598-24836-86231-88494-65824",
       "product_link": "https://zzhomey.com/product/pre-order-dea-deva-derin-82287-44148-39598-24836-86231-88494-65824",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CIYeGbltBFo1i1pCI6LNI7qEoEmYkMRJe457F3gzPmsw.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CIYeGbltBFo1i1pCI6LNI7qEoEmYkMRJe457F3gzPmsw.jpg",
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 18,
@@ -5221,8 +5221,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 6,
-      "total_stock": 485.0,
-      "total_asset": 9215000.0,
+      "total_stock": 484.0,
+      "total_asset": 9196000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5287,14 +5287,14 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "ERPC1",
-          "stock": 277,
+          "stock": 276,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Milo",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 5263000.0
+          "asset": 5244000.0
         }
       ]
     },
@@ -5307,44 +5307,44 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 7,
-      "total_stock": 3202.0,
-      "total_asset": 44828000.0,
+      "total_stock": 3192.0,
+      "total_asset": 44688000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "LYTA9",
-          "stock": 693,
+          "stock": 691,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Terra",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 9702000.0
+          "asset": 9674000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "LYTA10",
-          "stock": 197,
+          "stock": 195,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Maroon",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 2758000.0
+          "asset": 2730000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "LYTA2",
-          "stock": 355,
+          "stock": 354,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Brown",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 4970000.0
+          "asset": 4956000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -5361,38 +5361,38 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LYTA1",
-          "stock": 134,
+          "stock": 131,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Black",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 1876000.0
+          "asset": 1834000.0
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "LYTA8",
-          "stock": 589,
+          "stock": 588,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Dark Grey",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 8246000.0
+          "asset": 8232000.0
         },
         {
           "stock_id": "LzA6Nw",
           "sku": "LYTA4",
-          "stock": 596,
+          "stock": 595,
           "warehouse_id": null,
           "variation_id": "0:7",
           "variation_text": "Peach",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 8344000.0
+          "asset": 8330000.0
         }
       ]
     },
@@ -12751,7 +12751,7 @@
       "product_name": "[READY] NAOMI BAG VOL 2 new",
       "product_slug": "ready-naomi-bag-vol-2-45220-46000-64248",
       "product_link": "https://zzhomey.com/product/ready-naomi-bag-vol-2-45220-46000-64248",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LW3nZQi0mrkWshkLW398Zau98B5qCoTKytKUK7mWYWw.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/LW3nZQi0mrkWshkLW398Zau98B5qCoTKytKUK7mWYWw.jpg",
       "category_id": "M-1753849462816",
       "category_name": "READY STOCK",
       "stock_count": 4,
@@ -14021,7 +14021,7 @@
       "product_name": "[READY] ZUMRA BAG NEW",
       "product_slug": "ready-zumra-bag-76733-77430-56638",
       "product_link": "https://zzhomey.com/product/ready-zumra-bag-76733-77430-56638",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LRwezaMDf0W8T4LRPhopV0BRVirUZSzJx8RWJDt1Ug.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/LRwezaMDf0W8T4LRPhopV0BRVirUZSzJx8RWJDt1Ug.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
@@ -16345,7 +16345,7 @@
       "product_name": "[READY] BRIANA SKIRT",
       "product_slug": "briana-skirt-cullote-91722",
       "product_link": "https://zzhomey.com/product/briana-skirt-cullote-91722",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/hc66cEy0Co34cskVhcaLjPXMCYaJxKdS5aDWeQ1dmRQ.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/hc66cEy0Co34cskVhcaLjPXMCYaJxKdS5aDWeQ1dmRQ.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 12,
