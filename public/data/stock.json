@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T12:12:18.836606+00:00",
+  "generated_at": "2026-06-27T14:46:56.598018+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 108,
     "stock_rows": 1552,
-    "stock_amount": 17257.0,
-    "asset_total": 456201494.0
+    "stock_amount": 17253.0,
+    "asset_total": 456140494.0
   },
   "products": [
     {
@@ -5221,8 +5221,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 6,
-      "total_stock": 464.0,
-      "total_asset": 8816000.0,
+      "total_stock": 463.0,
+      "total_asset": 8797000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5251,14 +5251,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "ERPC6",
-          "stock": 202,
+          "stock": 201,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Pink",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 3838000.0
+          "asset": 3819000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -5307,8 +5307,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 7,
-      "total_stock": 3109.0,
-      "total_asset": 43526000.0,
+      "total_stock": 3106.0,
+      "total_asset": 43484000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5325,14 +5325,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "LYTA10",
-          "stock": 180,
+          "stock": 179,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Maroon",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 2520000.0
+          "asset": 2506000.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -5361,14 +5361,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LYTA1",
-          "stock": 111,
+          "stock": 109,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Black",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 1554000.0
+          "asset": 1526000.0
         },
         {
           "stock_id": "LzA6Ng",
