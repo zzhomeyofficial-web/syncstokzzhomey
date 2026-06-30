@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T12:15:08.710823+00:00",
+  "generated_at": "2026-06-30T15:34:15.020691+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 110,
     "stock_rows": 1567,
-    "stock_amount": 17291.0,
-    "asset_total": 459692344.0
+    "stock_amount": 17260.0,
+    "asset_total": 459044344.0
   },
   "products": [
     {
@@ -4767,7 +4767,7 @@
       "product_name": "[READY] SORA SKIRT New",
       "product_slug": "ready-sora-skirt-79776-37682-93521",
       "product_link": "https://zzhomey.com/product/ready-sora-skirt-79776-37682-93521",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LHUUfqYBs45OgLLHbtbvOBg2rwceTnyD4Ui30QUxLQ.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/LHUUfqYBs45OgLLHbtbvOBg2rwceTnyD4Ui30QUxLQ.jpg",
       "category_id": "M-1698639570866",
       "category_name": "Bawahan",
       "stock_count": 8,
@@ -5221,8 +5221,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 6,
-      "total_stock": 410.0,
-      "total_asset": 7790000.0,
+      "total_stock": 395.0,
+      "total_asset": 7505000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5251,14 +5251,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "ERPC6",
-          "stock": 183,
+          "stock": 177,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Pink",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 3477000.0
+          "asset": 3363000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -5287,14 +5287,14 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "ERPC1",
-          "stock": 227,
+          "stock": 218,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Milo",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 4313000.0
+          "asset": 4142000.0
         }
       ]
     },
@@ -5307,8 +5307,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 7,
-      "total_stock": 2940.0,
-      "total_asset": 41160000.0,
+      "total_stock": 2934.0,
+      "total_asset": 41076000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5325,14 +5325,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "LYTA10",
-          "stock": 154,
+          "stock": 153,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Maroon",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 2156000.0
+          "asset": 2142000.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -5361,38 +5361,38 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "LYTA1",
-          "stock": 57,
+          "stock": 54,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Black",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 798000.0
+          "asset": 756000.0
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "LYTA8",
-          "stock": 560,
+          "stock": 559,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Dark Grey",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 7840000.0
+          "asset": 7826000.0
         },
         {
           "stock_id": "LzA6Nw",
           "sku": "LYTA4",
-          "stock": 568,
+          "stock": 567,
           "warehouse_id": null,
           "variation_id": "0:7",
           "variation_text": "Peach",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 7952000.0
+          "asset": 7938000.0
         }
       ]
     },
@@ -8713,7 +8713,7 @@
       "product_name": "[READY] MAYZURA",
       "product_slug": "pre-order-mayzura-1296-53194",
       "product_link": "https://zzhomey.com/product/pre-order-mayzura-1296-53194",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C35qUcIDWsfg0ENC3qIxKXQ3ejB4dVReumtaxHIX8pDg.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/C35qUcIDWsfg0ENC3qIxKXQ3ejB4dVReumtaxHIX8pDg.jpg",
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 6,
@@ -9815,7 +9815,7 @@
       "product_name": "[READY] ZAILA ABAYA",
       "product_slug": "zaila-90114",
       "product_link": "https://zzhomey.com/product/zaila-90114",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C3b7cJWfRtGdsqNC3bji2XAORPJzL1QOmnZ5eFPG1A.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/C3b7cJWfRtGdsqNC3bji2XAORPJzL1QOmnZ5eFPG1A.jpg",
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 4,
@@ -10259,8 +10259,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 10,
-      "total_stock": 105.0,
-      "total_asset": 2730000.0,
+      "total_stock": 103.0,
+      "total_asset": 2678000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -10349,26 +10349,26 @@
         {
           "stock_id": "LzA6OA",
           "sku": null,
-          "stock": 14,
+          "stock": 13,
           "warehouse_id": null,
           "variation_id": "0:8",
           "variation_text": "Nude Pink",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 364000.0
+          "asset": 338000.0
         },
         {
           "stock_id": "LzA6OQ",
           "sku": null,
-          "stock": 33,
+          "stock": 32,
           "warehouse_id": null,
           "variation_id": "0:9",
           "variation_text": "Peach Pearl",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 858000.0
+          "asset": 832000.0
         },
         {
           "stock_id": "LzA6MTA",
@@ -10939,7 +10939,7 @@
       "product_name": "[READY] KHAIRA PASHMINA New",
       "product_slug": "ready-khaira-pashmina-64592-86973-48128",
       "product_link": "https://zzhomey.com/product/ready-khaira-pashmina-64592-86973-48128",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Ls9com8RSIDsfg3Ls99yUIzCKUtsARaWtdTowgvoRIw.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/Ls9com8RSIDsfg3Ls99yUIzCKUtsARaWtdTowgvoRIw.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 5,
@@ -12891,8 +12891,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 76.0,
-      "total_asset": 2584000.0,
+      "total_stock": 72.0,
+      "total_asset": 2448000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -12909,26 +12909,26 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "ANSS2",
-          "stock": 40,
+          "stock": 37,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Black",
           "price": 34000,
           "modal": 34000,
           "quantity": 1,
-          "asset": 1360000.0
+          "asset": 1258000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "ANSS3",
-          "stock": 7,
+          "stock": 6,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Brown",
           "price": 34000,
           "modal": 34000,
           "quantity": 1,
-          "asset": 238000.0
+          "asset": 204000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -13863,20 +13863,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 211.0,
-      "total_asset": 4642000.0,
+      "total_stock": 210.0,
+      "total_asset": 4620000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NREN3",
-          "stock": 27,
+          "stock": 26,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Ivory",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 594000.0
+          "asset": 572000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -15501,7 +15501,7 @@
       "product_name": "[READY] ARVINO KAOS Kids New",
       "product_slug": "ready-roselia-dress-56607-75033-30109-13659-61602-56517-69732",
       "product_link": "https://zzhomey.com/product/ready-roselia-dress-56607-75033-30109-13659-61602-56517-69732",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CBa1TKS63NuML32CBUPl0VukS9Oj5Ti5BcdUL0f4A.jpg",
+      "product_image": "https://img.bdhigh.com/img/_/bw5d48ohbw5h0svjb8_3/CBa1TKS63NuML32CBUPl0VukS9Oj5Ti5BcdUL0f4A.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 45,
@@ -16059,8 +16059,8 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 14,
-      "total_stock": 814.0,
-      "total_asset": 17896000.0,
+      "total_stock": 811.0,
+      "total_asset": 17827000.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -16101,14 +16101,14 @@
         {
           "stock_id": "LzA6MiwxOjI",
           "sku": "ASHB8",
-          "stock": 30,
+          "stock": 29,
           "warehouse_id": null,
           "variation_id": "0:2,1:2",
           "variation_text": "Hitam / Size 2",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 690000.0
+          "asset": 667000.0
         },
         {
           "stock_id": "LzA6MywxOjE",
@@ -16149,14 +16149,14 @@
         {
           "stock_id": "LzA6NCwxOjI",
           "sku": "ASHB14",
-          "stock": 76,
+          "stock": 75,
           "warehouse_id": null,
           "variation_id": "0:4,1:2",
           "variation_text": "Khaky Muda / Size 2",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 1748000.0
+          "asset": 1725000.0
         },
         {
           "stock_id": "LzA6NSwxOjE",
@@ -16197,14 +16197,14 @@
         {
           "stock_id": "LzA6NiwxOjI",
           "sku": "ASHB2",
-          "stock": 55,
+          "stock": 54,
           "warehouse_id": null,
           "variation_id": "0:6,1:2",
           "variation_text": "Broken White / Size 2",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 1265000.0
+          "asset": 1242000.0
         },
         {
           "stock_id": "LzA6NywxOjE",
