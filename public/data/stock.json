@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T12:42:32.700421+00:00",
+  "generated_at": "2026-07-01T15:47:36.188316+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 108,
     "stock_rows": 1554,
-    "stock_amount": 13863.0,
-    "asset_total": 409456044.0
+    "stock_amount": 13861.0,
+    "asset_total": 409420044.0
   },
   "products": [
     {
@@ -14011,8 +14011,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 432.0,
-      "total_asset": 7776000.0,
+      "total_stock": 431.0,
+      "total_asset": 7758000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -14041,14 +14041,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "FURP3",
-          "stock": 22,
+          "stock": 21,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Coffe",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 396000.0
+          "asset": 378000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -14859,8 +14859,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 88.0,
-      "total_asset": 1584000.0,
+      "total_stock": 87.0,
+      "total_asset": 1566000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -14877,14 +14877,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "SYPC2",
-          "stock": 9,
+          "stock": 8,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Burgundy Brown",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 162000.0
+          "asset": 144000.0
         },
         {
           "stock_id": "LzA6Mw",
