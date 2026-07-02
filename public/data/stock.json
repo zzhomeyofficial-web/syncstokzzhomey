@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T09:21:46.542757+00:00",
+  "generated_at": "2026-07-02T12:12:54.225043+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 113,
     "stock_rows": 1582,
-    "stock_amount": 17564.0,
-    "asset_total": 465218044.0
+    "stock_amount": 17562.0,
+    "asset_total": 465152544.0
   },
   "products": [
     {
@@ -5983,8 +5983,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 8,
-      "total_stock": 38.0,
-      "total_asset": 1142000.0,
+      "total_stock": 37.0,
+      "total_asset": 1110500.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -6049,14 +6049,14 @@
         {
           "stock_id": "LzA6MywxOjI",
           "sku": "SHNM8",
-          "stock": 7,
+          "stock": 6,
           "warehouse_id": null,
           "variation_id": "0:3,1:2",
           "variation_text": "White x Red / L",
           "price": 31500,
           "modal": 31500,
           "quantity": 1,
-          "asset": 220500.0
+          "asset": 189000.0
         },
         {
           "stock_id": "LzA6NCwxOjE",
@@ -13579,8 +13579,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 41.0,
-      "total_asset": 1394000.0,
+      "total_stock": 40.0,
+      "total_asset": 1360000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -13621,14 +13621,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "ANSS4",
-          "stock": 5,
+          "stock": 4,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Burgundy",
           "price": 34000,
           "modal": 34000,
           "quantity": 1,
-          "asset": 170000.0
+          "asset": 136000.0
         }
       ]
     },
@@ -16365,7 +16365,7 @@
       "product_name": "[READY] AMORA SHORT",
       "product_slug": "pre-order-amora-celamis-kids-by-zamakids-8970",
       "product_link": "https://zzhomey.com/product/pre-order-amora-celamis-kids-by-zamakids-8970",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CfXI5WTT5M5jLGFCfXeWMM7pwW35CRRuCRewz1PRPfFg.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CfXI5WTT5M5jLGFCfXeWMM7pwW35CRRuCRewz1PRPfFg.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 18,
@@ -17489,7 +17489,7 @@
       "product_name": "[READY] BRIANA CULLOTE",
       "product_slug": "briana-skirt-cullote-91722-70078",
       "product_link": "https://zzhomey.com/product/briana-skirt-cullote-91722-70078",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/C0ZVSesFvkU40BkC0Zy2Ys4pwWrIc6SfmQj6MUSI5A8A.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/C0ZVSesFvkU40BkC0Zy2Ys4pwWrIc6SfmQj6MUSI5A8A.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 12,
@@ -17647,7 +17647,7 @@
       "product_name": "[READY] BRIANA SKIRT",
       "product_slug": "briana-skirt-cullote-91722",
       "product_link": "https://zzhomey.com/product/briana-skirt-cullote-91722",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/hc66cEy0Co34cskVhcaLjPXMCYaJxKdS5aDWeQ1dmRQ.jpg",
+      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/hc66cEy0Co34cskVhcaLjPXMCYaJxKdS5aDWeQ1dmRQ.jpg",
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 12,
