@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T10:17:11.353785+00:00",
+  "generated_at": "2026-07-04T12:10:46.795666+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 115,
     "stock_rows": 1590,
-    "stock_amount": 17622.0,
-    "asset_total": 466850144.0
+    "stock_amount": 17615.0,
+    "asset_total": 466644644.0
   },
   "products": [
     {
@@ -5379,8 +5379,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 21,
-      "total_stock": 24.0,
-      "total_asset": 701500.0,
+      "total_stock": 22.0,
+      "total_asset": 643500.0,
       "stocks": [
         {
           "stock_id": "LzE6MSwyOjE",
@@ -5541,14 +5541,14 @@
         {
           "stock_id": "LzE6NSwyOjI",
           "sku": "LTHJ14",
-          "stock": 2,
+          "stock": 0,
           "warehouse_id": null,
           "variation_id": "1:5,2:2",
           "variation_text": "Grey / M",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 58000.0
+          "asset": 0.0
         },
         {
           "stock_id": "LzE6NSwyOjM",
@@ -5645,8 +5645,8 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 27,
-      "total_stock": 10.0,
-      "total_asset": 299000.0,
+      "total_stock": 9.0,
+      "total_asset": 267500.0,
       "stocks": [
         {
           "stock_id": "LzE6MiwyOjE",
@@ -5675,14 +5675,14 @@
         {
           "stock_id": "LzE6MiwyOjM",
           "sku": "LLSR15",
-          "stock": 6,
+          "stock": 5,
           "warehouse_id": null,
           "variation_id": "1:2,2:3",
           "variation_text": "Chocolate / L",
           "price": 31500,
           "modal": 31500,
           "quantity": 1,
-          "asset": 189000.0
+          "asset": 157500.0
         },
         {
           "stock_id": "LzE6MywyOjE",
@@ -5983,20 +5983,20 @@
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 8,
-      "total_stock": 11.0,
-      "total_asset": 321500.0,
+      "total_stock": 10.0,
+      "total_asset": 292500.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
           "sku": "SHNM3",
-          "stock": 10,
+          "stock": 9,
           "warehouse_id": null,
           "variation_id": "0:1,1:1",
           "variation_text": "White x Navy / M",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 290000.0
+          "asset": 261000.0
         },
         {
           "stock_id": "LzA6MSwxOjI",
@@ -15413,32 +15413,32 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 2,
-      "total_stock": 74.0,
-      "total_asset": 2146000.0,
+      "total_stock": 71.0,
+      "total_asset": 2059000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SRLE1",
-          "stock": 34,
+          "stock": 33,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 986000.0
+          "asset": 957000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "SRLE2",
-          "stock": 40,
+          "stock": 38,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Mocca",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 1160000.0
+          "asset": 1102000.0
         }
       ]
     },
