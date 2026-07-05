@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T08:11:41.132639+00:00",
+  "generated_at": "2026-07-05T11:08:08.253630+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 115,
     "stock_rows": 1590,
-    "stock_amount": 17558.0,
-    "asset_total": 465330644.0
+    "stock_amount": 17533.0,
+    "asset_total": 464604144.0
   },
   "products": [
     {
@@ -5375,12 +5375,12 @@
       "product_name": "[CUCI GUDANG 🔥] [READY] LIETA Hijab Zamakids New",
       "product_slug": "ready-lili-lieta-hijab-zamakids-35238-13076-29665-67740-57034-78866-62235-37028",
       "product_link": "https://zzhomey.com/product/ready-lili-lieta-hijab-zamakids-35238-13076-29665-67740-57034-78866-62235-37028",
-      "product_image": "https://bdsingapore.com/img/_/bw5d48ohbw5h0svjb8_3/Lu6QvgXlNsNyfLwLu6bGG8h7CvHPh7T7qwwRkwmtmRw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Lu6QvgXlNsNyfLwLu6bGG8h7CvHPh7T7qwwRkwmtmRw.jpg",
       "category_id": "M-1753861285526",
       "category_name": "FLASH SALE",
       "stock_count": 21,
-      "total_stock": 22.0,
-      "total_asset": 643500.0,
+      "total_stock": 21.0,
+      "total_asset": 612000.0,
       "stocks": [
         {
           "stock_id": "LzE6MSwyOjE",
@@ -5445,14 +5445,14 @@
         {
           "stock_id": "LzE6MiwyOjM",
           "sku": "LTHJ6",
-          "stock": 4,
+          "stock": 3,
           "warehouse_id": null,
           "variation_id": "1:2,2:3",
           "variation_text": "Chocolate / L",
           "price": 31500,
           "modal": 31500,
           "quantity": 1,
-          "asset": 126000.0
+          "asset": 94500.0
         },
         {
           "stock_id": "LzE6MywyOjE",
@@ -7903,7 +7903,7 @@
       "product_name": "[READY] GYA TUNIC",
       "product_slug": "zizi-bag-by-zzhomey-37711-29424",
       "product_link": "https://zzhomey.com/product/zizi-bag-by-zzhomey-37711-29424",
-      "product_image": "https://img.bdjkt.com/img/_/bw5d48ohbw5h0svjb8_3/hgOnpN7h1al19RhgjQfKJ9dxjuJ7WRZq7pPPriRMRWg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/hgOnpN7h1al19RhgjQfKJ9dxjuJ7WRZq7pPPriRMRWg.jpg",
       "category_id": "M-1698639316431",
       "category_name": "Gamis",
       "stock_count": 35,
@@ -12733,7 +12733,7 @@
       "product_name": "[READY] RAYA SCARF",
       "product_slug": "ready-raya-scarf",
       "product_link": "https://zzhomey.com/product/ready-raya-scarf",
-      "product_image": "https://bdsingapore.com/img/_/bw5d48ohbw5h0svjb8_3/LDCXrCXAXkDshujLDC2kCfyGt234CvTSiCh3Jvean9eQ.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LDCXrCXAXkDshujLDC2kCfyGt234CvTSiCh3Jvean9eQ.jpg",
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 6,
@@ -13665,32 +13665,32 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 29.0,
-      "total_asset": 986000.0,
+      "total_stock": 27.0,
+      "total_asset": 918000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ANSS1",
-          "stock": 4,
+          "stock": 3,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Broken White",
           "price": 34000,
           "modal": 34000,
           "quantity": 1,
-          "asset": 136000.0
+          "asset": 102000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "ANSS2",
-          "stock": 25,
+          "stock": 24,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Black",
           "price": 34000,
           "modal": 34000,
           "quantity": 1,
-          "asset": 850000.0
+          "asset": 816000.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -13789,8 +13789,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 8.0,
-      "total_asset": 144000.0,
+      "total_stock": 7.0,
+      "total_asset": 126000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -13819,14 +13819,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "AYDK3",
-          "stock": 8,
+          "stock": 7,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "IJO BOTOL",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 144000.0
+          "asset": 126000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -14757,7 +14757,7 @@
       "product_name": "[READY] LOLYTA DOMPET KOIN New",
       "product_slug": "ready-agatha-bag-73186-83589-44364-51076-98992-77108-11099-88121-53085",
       "product_link": "https://zzhomey.com/product/ready-agatha-bag-73186-83589-44364-51076-98992-77108-11099-88121-53085",
-      "product_image": "https://bdsingapore.com/img/_/bw5d48ohbw5h0svjb8_3/CwGqrrDv6GjUfgPCwe3JrnKno3DrxRNiVKU1OiwqeA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CwGqrrDv6GjUfgPCwe3JrnKno3DrxRNiVKU1OiwqeA.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
@@ -15039,7 +15039,7 @@
       "product_name": "[READY] NAREEN MINIATURE BAG NEW",
       "product_slug": "ready-nareen-miniature-bag-88648-70304-51616",
       "product_link": "https://zzhomey.com/product/ready-nareen-miniature-bag-88648-70304-51616",
-      "product_image": "https://bdsingapore.com/img/_/bw5d48ohbw5h0svjb8_3/LWLZr0oVyooinTLWiKQ8RAO1XbAN8QT6TgfpV0LqiWA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LWLZr0oVyooinTLWiKQ8RAO1XbAN8QT6TgfpV0LqiWA.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
@@ -15409,36 +15409,36 @@
       "product_name": "[READY] SERELLE TOTE",
       "product_slug": "ready-serelle-tote",
       "product_link": "https://zzhomey.com/product/ready-serelle-tote",
-      "product_image": "https://bdsingapore.com/img/_/bw5d48ohbw5h0svjb8_3/LDCjb2J0f0Y7n0B2LDC2LOFJE073MLvRte3JaHqeHAw.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LDCjb2J0f0Y7n0B2LDC2LOFJE073MLvRte3JaHqeHAw.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 2,
-      "total_stock": 63.0,
-      "total_asset": 1827000.0,
+      "total_stock": 42.0,
+      "total_asset": 1218000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SRLE1",
-          "stock": 30,
+          "stock": 19,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 870000.0
+          "asset": 551000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "SRLE2",
-          "stock": 33,
+          "stock": 23,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Mocca",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 957000.0
+          "asset": 667000.0
         }
       ]
     },
