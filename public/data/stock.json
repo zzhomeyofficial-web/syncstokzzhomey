@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T11:57:29.143228+00:00",
+  "generated_at": "2026-07-10T14:41:24.291480+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 116,
     "stock_rows": 1599,
-    "stock_amount": 17898.0,
-    "asset_total": 471350394.0
+    "stock_amount": 17895.0,
+    "asset_total": 471284394.0
   },
   "products": [
     {
@@ -15129,20 +15129,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 133.0,
-      "total_asset": 2926000.0,
+      "total_stock": 130.0,
+      "total_asset": 2860000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NREN3",
-          "stock": 10,
+          "stock": 7,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Ivory",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 220000.0
+          "asset": 154000.0
         },
         {
           "stock_id": "LzA6Mg",
