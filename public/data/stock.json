@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T09:55:42.994525+00:00",
+  "generated_at": "2026-07-12T11:16:26.772411+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 115,
     "stock_rows": 1587,
-    "stock_amount": 17835.0,
-    "asset_total": 464417744.0
+    "stock_amount": 17834.0,
+    "asset_total": 464393744.0
   },
   "products": [
     {
@@ -14923,8 +14923,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 224.0,
-      "total_asset": 5376000.0,
+      "total_stock": 223.0,
+      "total_asset": 5352000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -14965,14 +14965,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "DYSB5",
-          "stock": 76,
+          "stock": 75,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Black",
           "price": 24000,
           "modal": 24000,
           "quantity": 1,
-          "asset": 1824000.0
+          "asset": 1800000.0
         },
         {
           "stock_id": "LzA6NQ",
