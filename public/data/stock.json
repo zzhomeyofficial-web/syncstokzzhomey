@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T15:00:12.423500+00:00",
+  "generated_at": "2026-07-19T04:25:05.858047+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 98,
     "stock_rows": 1040,
-    "stock_amount": 18252.0,
-    "asset_total": 433838444.0
+    "stock_amount": 18230.0,
+    "asset_total": 433445444.0
   },
   "products": [
     {
@@ -633,20 +633,20 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 365.0,
-      "total_asset": 4745000.0,
+      "total_stock": 363.0,
+      "total_asset": 4719000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "EVPC1",
-          "stock": 237,
+          "stock": 236,
           "warehouse_id": null,
           "variation_id": "1:1",
           "variation_text": "Black",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 3081000.0
+          "asset": 3068000.0
         },
         {
           "stock_id": "LzE6Mg",
@@ -663,14 +663,14 @@
         {
           "stock_id": "LzE6Mw",
           "sku": "EVPC2",
-          "stock": 128,
+          "stock": 127,
           "warehouse_id": null,
           "variation_id": "1:3",
           "variation_text": "Cinaamon",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 1664000.0
+          "asset": 1651000.0
         }
       ]
     },
@@ -769,8 +769,8 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 320.0,
-      "total_asset": 4160000.0,
+      "total_stock": 318.0,
+      "total_asset": 4134000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -787,14 +787,14 @@
         {
           "stock_id": "LzE6Mg",
           "sku": "LKPC3",
-          "stock": 77,
+          "stock": 75,
           "warehouse_id": null,
           "variation_id": "1:2",
           "variation_text": "Choco",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 1001000.0
+          "asset": 975000.0
         },
         {
           "stock_id": "LzE6Mw",
@@ -989,8 +989,8 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 8,
-      "total_stock": 2166.0,
-      "total_asset": 49818000.0,
+      "total_stock": 2164.0,
+      "total_asset": 49772000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -1031,26 +1031,26 @@
         {
           "stock_id": "LzA6NA",
           "sku": "MVAB4",
-          "stock": 269,
+          "stock": 268,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Mocca",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 6187000.0
+          "asset": 6164000.0
         },
         {
           "stock_id": "LzA6NQ",
           "sku": "MVAB5",
-          "stock": 272,
+          "stock": 271,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Maroon",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 6256000.0
+          "asset": 6233000.0
         },
         {
           "stock_id": "LzA6Ng",
@@ -1099,32 +1099,32 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 177.0,
-      "total_asset": 3186000.0,
+      "total_stock": 168.0,
+      "total_asset": 3024000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "RNPC1",
-          "stock": 47,
+          "stock": 46,
           "warehouse_id": null,
           "variation_id": "1:1",
           "variation_text": "Black",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 846000.0
+          "asset": 828000.0
         },
         {
           "stock_id": "LzE6Mg",
           "sku": "RNPC3",
-          "stock": 57,
+          "stock": 49,
           "warehouse_id": null,
           "variation_id": "1:2",
           "variation_text": "Choco",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 1026000.0
+          "asset": 882000.0
         },
         {
           "stock_id": "LzE6Mw",
@@ -1149,20 +1149,20 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 12,
-      "total_stock": 692.0,
-      "total_asset": 13148000.0,
+      "total_stock": 687.0,
+      "total_asset": 13053000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "YRPO5",
-          "stock": 134,
+          "stock": 131,
           "warehouse_id": null,
           "variation_id": "1:1",
           "variation_text": "Hitam",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 2546000.0
+          "asset": 2489000.0
         },
         {
           "stock_id": "LzE6Mg",
@@ -1179,14 +1179,14 @@
         {
           "stock_id": "LzE6Mw",
           "sku": "YRPO7",
-          "stock": 88,
+          "stock": 87,
           "warehouse_id": null,
           "variation_id": "1:3",
           "variation_text": "Cokelat Tua",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 1672000.0
+          "asset": 1653000.0
         },
         {
           "stock_id": "LzE6NA",
@@ -1275,14 +1275,14 @@
         {
           "stock_id": "LzE6MTE",
           "sku": "YRPO10",
-          "stock": 66,
+          "stock": 65,
           "warehouse_id": null,
           "variation_id": "1:11",
           "variation_text": "Navy",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 1254000.0
+          "asset": 1235000.0
         },
         {
           "stock_id": "LzE6MTI",
@@ -1307,8 +1307,8 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 7,
-      "total_stock": 337.0,
-      "total_asset": 6403000.0,
+      "total_stock": 335.0,
+      "total_asset": 6365000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1349,14 +1349,14 @@
         {
           "stock_id": "LzE6NA",
           "sku": "ZDPO1",
-          "stock": 55,
+          "stock": 53,
           "warehouse_id": null,
           "variation_id": "1:4",
           "variation_text": "Hijau Tua",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 1045000.0
+          "asset": 1007000.0
         },
         {
           "stock_id": "LzE6NQ",
