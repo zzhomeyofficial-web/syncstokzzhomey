@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T10:02:11.838068+00:00",
+  "generated_at": "2026-08-02T12:06:27.540340+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 94,
     "stock_rows": 886,
-    "stock_amount": 16247.0,
-    "asset_total": 376783342.0
+    "stock_amount": 16246.0,
+    "asset_total": 376760342.0
   },
   "products": [
     {
@@ -6375,8 +6375,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 34.0,
-      "total_asset": 782000.0,
+      "total_stock": 33.0,
+      "total_asset": 759000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -6393,14 +6393,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "MRRA5",
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Dark Grey",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 46000.0
+          "asset": 23000.0
         },
         {
           "stock_id": "LzA6Mw",
