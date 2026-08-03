@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T12:31:33.023952+00:00",
+  "generated_at": "2026-08-03T15:48:04.035270+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 93,
     "stock_rows": 876,
-    "stock_amount": 15983.0,
-    "asset_total": 370423792.0
+    "stock_amount": 15979.0,
+    "asset_total": 370331792.0
   },
   "products": [
     {
@@ -5761,20 +5761,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 8.0,
-      "total_asset": 192000.0,
+      "total_stock": 6.0,
+      "total_asset": 144000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "DYSB2",
-          "stock": 6,
+          "stock": 5,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Brown",
           "price": 24000,
           "modal": 24000,
           "quantity": 1,
-          "asset": 144000.0
+          "asset": 120000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -5791,14 +5791,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "DYSB3",
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Coffee",
           "price": 24000,
           "modal": 24000,
           "quantity": 1,
-          "asset": 48000.0
+          "asset": 24000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -6787,20 +6787,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 68.0,
-      "total_asset": 1496000.0,
+      "total_stock": 66.0,
+      "total_asset": 1452000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ZNRH2",
-          "stock": 31,
+          "stock": 30,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Maroon",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 682000.0
+          "asset": 660000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -6817,14 +6817,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "ZNRH1",
-          "stock": 18,
+          "stock": 17,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Black",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 396000.0
+          "asset": 374000.0
         },
         {
           "stock_id": "LzA6NA",
