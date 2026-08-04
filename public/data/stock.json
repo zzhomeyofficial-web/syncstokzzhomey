@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T10:45:22.094591+00:00",
+  "generated_at": "2026-08-04T13:06:33.849870+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 93,
     "stock_rows": 876,
-    "stock_amount": 15837.0,
-    "asset_total": 367331792.0
+    "stock_amount": 15825.0,
+    "asset_total": 367075792.0
   },
   "products": [
     {
@@ -5909,8 +5909,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 166.0,
-      "total_asset": 3818000.0,
+      "total_stock": 165.0,
+      "total_asset": 3795000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5963,14 +5963,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "KFIA6",
-          "stock": 37,
+          "stock": 36,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Maroon",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 851000.0
+          "asset": 828000.0
         },
         {
           "stock_id": "LzA6Ng",
@@ -6253,8 +6253,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 121.0,
-      "total_asset": 1573000.0,
+      "total_stock": 120.0,
+      "total_asset": 1560000.0,
       "stocks": [
         {
           "stock_id": "LzA6Mg",
@@ -6271,14 +6271,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "MARZ3",
-          "stock": 25,
+          "stock": 24,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Coffee",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 325000.0
+          "asset": 312000.0
         },
         {
           "stock_id": "LzA6MQ",
@@ -6787,20 +6787,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 43.0,
-      "total_asset": 946000.0,
+      "total_stock": 33.0,
+      "total_asset": 726000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ZNRH2",
-          "stock": 24,
+          "stock": 19,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Maroon",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 528000.0
+          "asset": 418000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -6817,14 +6817,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "ZNRH1",
-          "stock": 9,
+          "stock": 4,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Black",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 198000.0
+          "asset": 88000.0
         },
         {
           "stock_id": "LzA6NA",
