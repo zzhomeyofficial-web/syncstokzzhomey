@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:05:33.997595+00:00",
+  "generated_at": "2026-08-07T10:58:05.070605+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 91,
     "stock_rows": 833,
-    "stock_amount": 15533.0,
-    "asset_total": 362503658.0
+    "stock_amount": 15526.0,
+    "asset_total": 362335658.0
   },
   "products": [
     {
@@ -633,20 +633,20 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 262.0,
-      "total_asset": 3406000.0,
+      "total_stock": 260.0,
+      "total_asset": 3380000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "EVPC1",
-          "stock": 158,
+          "stock": 157,
           "warehouse_id": null,
           "variation_id": "1:1",
           "variation_text": "Black",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 2054000.0
+          "asset": 2041000.0
         },
         {
           "stock_id": "LzE6Mg",
@@ -663,14 +663,14 @@
         {
           "stock_id": "LzE6Mw",
           "sku": "EVPC2",
-          "stock": 49,
+          "stock": 48,
           "warehouse_id": null,
           "variation_id": "1:3",
           "variation_text": "Cinaamon",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 637000.0
+          "asset": 624000.0
         }
       ]
     },
@@ -683,32 +683,32 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 188.0,
-      "total_asset": 2444000.0,
+      "total_stock": 186.0,
+      "total_asset": 2418000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
           "sku": "LKPC1",
-          "stock": 89,
+          "stock": 88,
           "warehouse_id": null,
           "variation_id": "1:1",
           "variation_text": "Black",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 1157000.0
+          "asset": 1144000.0
         },
         {
           "stock_id": "LzE6Mg",
           "sku": "LKPC3",
-          "stock": 20,
+          "stock": 19,
           "warehouse_id": null,
           "variation_id": "1:2",
           "variation_text": "Choco",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 260000.0
+          "asset": 247000.0
         },
         {
           "stock_id": "LzE6Mw",
@@ -3751,8 +3751,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 73.0,
-      "total_asset": 2117000.0,
+      "total_stock": 72.0,
+      "total_asset": 2088000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3841,14 +3841,14 @@
         {
           "stock_id": "LzA6OA",
           "sku": "QRBG1",
-          "stock": 9,
+          "stock": 8,
           "warehouse_id": null,
           "variation_id": "0:8",
           "variation_text": "Abu Muda",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 261000.0
+          "asset": 232000.0
         },
         {
           "stock_id": "LzA6OQ",
@@ -4591,8 +4591,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 125.0,
-      "total_asset": 4000000.0,
+      "total_stock": 124.0,
+      "total_asset": 3968000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4633,14 +4633,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "AMLT1",
-          "stock": 47,
+          "stock": 46,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Coffe",
           "price": 32000,
           "modal": 32000,
           "quantity": 1,
-          "asset": 1504000.0
+          "asset": 1472000.0
         },
         {
           "stock_id": "LzA6NQ",
@@ -9757,8 +9757,8 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 15,
-      "total_stock": 14.0,
-      "total_asset": 770000.0,
+      "total_stock": 13.0,
+      "total_asset": 715000.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -9859,14 +9859,14 @@
         {
           "stock_id": "LzA6MywxOjM",
           "sku": "RLYN6",
-          "stock": 3,
+          "stock": 2,
           "warehouse_id": null,
           "variation_id": "0:3,1:3",
           "variation_text": "LILAC / L",
           "price": 55000,
           "modal": 55000,
           "quantity": 1,
-          "asset": 165000.0
+          "asset": 110000.0
         },
         {
           "stock_id": "LzA6NCwxOjE",
