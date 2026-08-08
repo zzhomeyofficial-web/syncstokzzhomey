@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T10:39:24.477451+00:00",
+  "generated_at": "2026-08-08T11:34:02.406259+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 81,
     "stock_rows": 751,
-    "stock_amount": 15370.0,
-    "asset_total": 339004658.0
+    "stock_amount": 15367.0,
+    "asset_total": 338876658.0
   },
   "products": [
     {
@@ -1967,8 +1967,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 6,
-      "total_stock": 10.0,
-      "total_asset": 400000.0,
+      "total_stock": 9.0,
+      "total_asset": 360000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -2021,14 +2021,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "HWRA5",
-          "stock": 10,
+          "stock": 9,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Cream",
           "price": 40000,
           "modal": 40000,
           "quantity": 1,
-          "asset": 400000.0
+          "asset": 360000.0
         },
         {
           "stock_id": "LzA6Ng",
@@ -3161,8 +3161,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
-      "total_stock": 286.0,
-      "total_asset": 12584000.0,
+      "total_stock": 284.0,
+      "total_asset": 12496000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3251,14 +3251,14 @@
         {
           "stock_id": "LzA6OA",
           "sku": "RJWA4",
-          "stock": 16,
+          "stock": 15,
           "warehouse_id": null,
           "variation_id": "0:8",
           "variation_text": "Navy",
           "price": 44000,
           "modal": 44000,
           "quantity": 1,
-          "asset": 704000.0
+          "asset": 660000.0
         },
         {
           "stock_id": "LzA6OQ",
@@ -3275,14 +3275,14 @@
         {
           "stock_id": "LzA6MTA",
           "sku": "RJWA3",
-          "stock": 24,
+          "stock": 23,
           "warehouse_id": null,
           "variation_id": "0:10",
           "variation_text": "Dove",
           "price": 44000,
           "modal": 44000,
           "quantity": 1,
-          "asset": 1056000.0
+          "asset": 1012000.0
         },
         {
           "stock_id": "LzA6MTE",
