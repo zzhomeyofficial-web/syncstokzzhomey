@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T13:00:10.857741+00:00",
+  "generated_at": "2026-08-09T13:55:37.543682+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 81,
     "stock_rows": 751,
-    "stock_amount": 15344.0,
-    "asset_total": 338380758.0
+    "stock_amount": 15342.0,
+    "asset_total": 338328758.0
   },
   "products": [
     {
@@ -1673,8 +1673,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 10,
-      "total_stock": 88.0,
-      "total_asset": 2288000.0,
+      "total_stock": 86.0,
+      "total_asset": 2236000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -1703,14 +1703,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 5,
+          "stock": 4,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Ash Grey",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 130000.0
+          "asset": 104000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -1775,14 +1775,14 @@
         {
           "stock_id": "LzA6OQ",
           "sku": null,
-          "stock": 30,
+          "stock": 29,
           "warehouse_id": null,
           "variation_id": "0:9",
           "variation_text": "Peach Pearl",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 780000.0
+          "asset": 754000.0
         },
         {
           "stock_id": "LzA6MTA",
