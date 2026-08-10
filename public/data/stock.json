@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T13:19:04.377637+00:00",
+  "generated_at": "2026-08-10T15:03:53.342781+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 80,
     "stock_rows": 747,
-    "stock_amount": 15184.0,
-    "asset_total": 335321708.0
+    "stock_amount": 15182.0,
+    "asset_total": 335271708.0
   },
   "products": [
     {
@@ -357,7 +357,7 @@
       "product_name": "[READY] JAMILA BROOCH NEW",
       "product_slug": "ready-jamila-brooch-8643-94498-48684-90575-73802",
       "product_link": "https://zzhomey.com/product/ready-jamila-brooch-8643-94498-48684-90575-73802",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CdjfpgOQ2EZoCgPCdjLcKeEpompJaRFKoUpVO97FGFg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CdjfpgOQ2EZoCgPCdjLcKeEpompJaRFKoUpVO97FGFg.jpg",
       "category_id": "M-1698639319525",
       "category_name": "Aksessoris",
       "stock_count": 1,
@@ -2457,20 +2457,20 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 10,
-      "total_stock": 591.0,
-      "total_asset": 10638000.0,
+      "total_stock": 590.0,
+      "total_asset": 10620000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "NAZL25",
-          "stock": 80,
+          "stock": 79,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "BLACK",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 1440000.0
+          "asset": 1422000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -3393,8 +3393,8 @@
       "category_id": "M-1753849462816",
       "category_name": "READY STOCK",
       "stock_count": 5,
-      "total_stock": 28.0,
-      "total_asset": 896000.0,
+      "total_stock": 27.0,
+      "total_asset": 864000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3447,14 +3447,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "CEBG5",
-          "stock": 6,
+          "stock": 5,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Ivory",
           "price": 32000,
           "modal": 32000,
           "quantity": 1,
-          "asset": 192000.0
+          "asset": 160000.0
         }
       ]
     },
