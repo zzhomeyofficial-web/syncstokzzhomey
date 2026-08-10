@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T05:38:22.121457+00:00",
+  "generated_at": "2026-08-10T07:49:59.679935+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 81,
     "stock_rows": 751,
-    "stock_amount": 15302.0,
-    "asset_total": 337497208.0
+    "stock_amount": 15286.0,
+    "asset_total": 337061708.0
   },
   "products": [
     {
@@ -1673,8 +1673,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 10,
-      "total_stock": 84.0,
-      "total_asset": 2184000.0,
+      "total_stock": 83.0,
+      "total_asset": 2158000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -1727,14 +1727,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": null,
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Maroon",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 52000.0
+          "asset": 26000.0
         },
         {
           "stock_id": "LzA6Ng",
@@ -2869,8 +2869,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 16,
-      "total_stock": 63.0,
-      "total_asset": 1827000.0,
+      "total_stock": 61.0,
+      "total_asset": 1769000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -2899,14 +2899,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "QRBG5",
-          "stock": 10,
+          "stock": 9,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Coklat Tua",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 290000.0
+          "asset": 261000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -3031,14 +3031,14 @@
         {
           "stock_id": "LzA6MTQ",
           "sku": "QMRB3",
-          "stock": 4,
+          "stock": 3,
           "warehouse_id": null,
           "variation_id": "0:14",
           "variation_text": "Vanhouten",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 116000.0
+          "asset": 87000.0
         },
         {
           "stock_id": "LzA6MTU",
@@ -3161,8 +3161,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 13,
-      "total_stock": 283.0,
-      "total_asset": 12452000.0,
+      "total_stock": 280.0,
+      "total_asset": 12320000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3203,14 +3203,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "RWHJ1",
-          "stock": 34,
+          "stock": 33,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Army",
           "price": 44000,
           "modal": 44000,
           "quantity": 1,
-          "asset": 1496000.0
+          "asset": 1452000.0
         },
         {
           "stock_id": "LzA6NQ",
@@ -3251,14 +3251,14 @@
         {
           "stock_id": "LzA6OA",
           "sku": "RJWA4",
-          "stock": 15,
+          "stock": 13,
           "warehouse_id": null,
           "variation_id": "0:8",
           "variation_text": "Navy",
           "price": 44000,
           "modal": 44000,
           "quantity": 1,
-          "asset": 660000.0
+          "asset": 572000.0
         },
         {
           "stock_id": "LzA6OQ",
@@ -3787,8 +3787,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 52.0,
-      "total_asset": 1794000.0,
+      "total_stock": 51.0,
+      "total_asset": 1759500.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3817,14 +3817,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "CHRM3",
-          "stock": 9,
+          "stock": 8,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Champagne Gold",
           "price": 34500,
           "modal": 34500,
           "quantity": 1,
-          "asset": 310500.0
+          "asset": 276000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -4463,8 +4463,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 49.0,
-      "total_asset": 637000.0,
+      "total_stock": 45.0,
+      "total_asset": 585000.0,
       "stocks": [
         {
           "stock_id": "LzA6Mg",
@@ -4481,38 +4481,38 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "MARZ3",
-          "stock": 1,
+          "stock": 0,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Coffee",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 13000.0
+          "asset": 0.0
         },
         {
           "stock_id": "LzA6MQ",
           "sku": "MARZ1",
-          "stock": 11,
+          "stock": 9,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 143000.0
+          "asset": 117000.0
         },
         {
           "stock_id": "LzA6NA",
           "sku": "MARZ4",
-          "stock": 10,
+          "stock": 9,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Champagne Gold",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 130000.0
+          "asset": 117000.0
         }
       ]
     },
@@ -4723,8 +4723,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 17.0,
-      "total_asset": 510000.0,
+      "total_stock": 15.0,
+      "total_asset": 450000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4765,14 +4765,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "QLAB4",
-          "stock": 7,
+          "stock": 5,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Brown",
           "price": 30000,
           "modal": 30000,
           "quantity": 1,
-          "asset": 210000.0
+          "asset": 150000.0
         }
       ]
     },
@@ -4959,20 +4959,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 2,
-      "total_stock": 83.0,
-      "total_asset": 2407000.0,
+      "total_stock": 82.0,
+      "total_asset": 2378000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "SRLE1",
-          "stock": 52,
+          "stock": 51,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 29000,
           "modal": 29000,
           "quantity": 1,
-          "asset": 1508000.0
+          "asset": 1479000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -4997,20 +4997,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 4.0,
-      "total_asset": 88000.0,
+      "total_stock": 2.0,
+      "total_asset": 44000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "ZNRH2",
-          "stock": 4,
+          "stock": 2,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Maroon",
           "price": 22000,
           "modal": 22000,
           "quantity": 1,
-          "asset": 88000.0
+          "asset": 44000.0
         },
         {
           "stock_id": "LzA6Mg",
