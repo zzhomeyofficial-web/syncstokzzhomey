@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T11:48:45.175578+00:00",
+  "generated_at": "2026-08-11T13:16:36.581719+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 81,
     "stock_rows": 750,
-    "stock_amount": 15543.0,
-    "asset_total": 348699558.0
+    "stock_amount": 15524.0,
+    "asset_total": 348205558.0
   },
   "products": [
     {
@@ -899,7 +899,7 @@
       "product_name": "[READY] MEVA Mini Bag by BERLIN",
       "product_slug": "ready-meva-mini-bag-by-berlin",
       "product_link": "https://zzhomey.com/product/ready-meva-mini-bag-by-berlin",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/Lr3Fa3MvkPCYLgZLr3eLNHLEDRZGLZS2yNmZMaO1slSA.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/Lr3Fa3MvkPCYLgZLr3eLNHLEDRZGLZS2yNmZMaO1slSA.jpg",
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 8,
@@ -3845,7 +3845,7 @@
       "product_name": "[READY] DOMI by @zzhomey New",
       "product_slug": "ready-domi-by-zzhomey-67474-10095-84176-80275",
       "product_link": "https://zzhomey.com/product/ready-domi-by-zzhomey-67474-10095-84176-80275",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/CUGQCXuTFiAtC6PCUe0DCaq0hTr2niRGVWsBdtyMc5g.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/CUGQCXuTFiAtC6PCUe0DCaq0hTr2niRGVWsBdtyMc5g.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
@@ -4385,7 +4385,7 @@
       "product_name": "[READY] MAURIZ POUCH",
       "product_slug": "ready-mauriz-pouch",
       "product_link": "https://zzhomey.com/product/ready-mauriz-pouch",
-      "product_image": "https://img.berdu.pw/img/_/bw5d48ohbw5h0svjb8_3/LBoJjYMdqfRMHvGLBo9TFU9LGUkXqTSLuHSvkKccHezg.jpg",
+      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/LBoJjYMdqfRMHvGLBo9TFU9LGUkXqTSLuHSvkKccHezg.jpg",
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
@@ -4451,56 +4451,56 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 210.0,
-      "total_asset": 5460000.0,
+      "total_stock": 191.0,
+      "total_asset": 4966000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MZYA1",
-          "stock": 50,
+          "stock": 43,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Coffe",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1300000.0
+          "asset": 1118000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "MZYA2",
-          "stock": 54,
+          "stock": 51,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Mocca",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1404000.0
+          "asset": 1326000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "MZYA3",
-          "stock": 54,
+          "stock": 49,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Soil",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1404000.0
+          "asset": 1274000.0
         },
         {
           "stock_id": "LzA6NA",
           "sku": "MZYA4",
-          "stock": 52,
+          "stock": 48,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Terra",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1352000.0
+          "asset": 1248000.0
         }
       ]
     },
