@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T09:16:39.665560+00:00",
+  "generated_at": "2026-08-12T11:03:55.261981+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 81,
     "stock_rows": 750,
-    "stock_amount": 15428.0,
-    "asset_total": 345530558.0
+    "stock_amount": 15416.0,
+    "asset_total": 345224558.0
   },
   "products": [
     {
@@ -4451,56 +4451,56 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 152.0,
-      "total_asset": 3952000.0,
+      "total_stock": 142.0,
+      "total_asset": 3692000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MZYA1",
-          "stock": 27,
+          "stock": 24,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Coffe",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 702000.0
+          "asset": 624000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "MZYA2",
-          "stock": 46,
+          "stock": 45,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Mocca",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1196000.0
+          "asset": 1170000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "MZYA3",
-          "stock": 40,
+          "stock": 37,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Soil",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1040000.0
+          "asset": 962000.0
         },
         {
           "stock_id": "LzA6NA",
           "sku": "MZYA4",
-          "stock": 39,
+          "stock": 36,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Terra",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1014000.0
+          "asset": 936000.0
         }
       ]
     },
@@ -6319,8 +6319,8 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 14,
-      "total_stock": 802.0,
-      "total_asset": 17630000.0,
+      "total_stock": 800.0,
+      "total_asset": 17584000.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -6361,14 +6361,14 @@
         {
           "stock_id": "LzA6MiwxOjI",
           "sku": "ASHB8",
-          "stock": 27,
+          "stock": 26,
           "warehouse_id": null,
           "variation_id": "0:2,1:2",
           "variation_text": "Hitam / Size 2",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 621000.0
+          "asset": 598000.0
         },
         {
           "stock_id": "LzA6MywxOjE",
@@ -6409,14 +6409,14 @@
         {
           "stock_id": "LzA6NCwxOjI",
           "sku": "ASHB14",
-          "stock": 75,
+          "stock": 74,
           "warehouse_id": null,
           "variation_id": "0:4,1:2",
           "variation_text": "Khaky Muda / Size 2",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 1725000.0
+          "asset": 1702000.0
         },
         {
           "stock_id": "LzA6NSwxOjE",
