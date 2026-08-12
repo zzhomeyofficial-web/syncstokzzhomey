@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T05:41:31.090092+00:00",
+  "generated_at": "2026-08-12T07:40:02.365131+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 81,
     "stock_rows": 750,
-    "stock_amount": 15463.0,
-    "asset_total": 346528558.0
+    "stock_amount": 15443.0,
+    "asset_total": 345950558.0
   },
   "products": [
     {
@@ -1673,8 +1673,8 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 10,
-      "total_stock": 68.0,
-      "total_asset": 1768000.0,
+      "total_stock": 67.0,
+      "total_asset": 1742000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -1703,14 +1703,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": null,
-          "stock": 2,
+          "stock": 1,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Ash Grey",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 52000.0
+          "asset": 26000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -1833,20 +1833,20 @@
       "category_id": "M-1698639318748",
       "category_name": "Jilbab",
       "stock_count": 10,
-      "total_stock": 150.0,
-      "total_asset": 8710000.0,
+      "total_stock": 148.0,
+      "total_asset": 8600000.0,
       "stocks": [
         {
           "stock_id": "LzA6NCwxOjE",
           "sku": "DSSA1",
-          "stock": 11,
+          "stock": 10,
           "warehouse_id": null,
           "variation_id": "0:4,1:1",
           "variation_text": "BLACK / Standar L",
           "price": 55000,
           "modal": 55000,
           "quantity": 1,
-          "asset": 605000.0
+          "asset": 550000.0
         },
         {
           "stock_id": "LzA6NCwxOjI",
@@ -1887,14 +1887,14 @@
         {
           "stock_id": "LzA6MywxOjE",
           "sku": "DSSA3",
-          "stock": 18,
+          "stock": 17,
           "warehouse_id": null,
           "variation_id": "0:3,1:1",
           "variation_text": "NAVY / Standar L",
           "price": 55000,
           "modal": 55000,
           "quantity": 1,
-          "asset": 990000.0
+          "asset": 935000.0
         },
         {
           "stock_id": "LzA6MywxOjI",
@@ -4451,56 +4451,56 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 173.0,
-      "total_asset": 4498000.0,
+      "total_stock": 156.0,
+      "total_asset": 4056000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MZYA1",
-          "stock": 37,
+          "stock": 30,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Coffe",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 962000.0
+          "asset": 780000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "MZYA2",
-          "stock": 49,
+          "stock": 46,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Mocca",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1274000.0
+          "asset": 1196000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "MZYA3",
-          "stock": 46,
+          "stock": 42,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Soil",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1196000.0
+          "asset": 1092000.0
         },
         {
           "stock_id": "LzA6NA",
           "sku": "MZYA4",
-          "stock": 41,
+          "stock": 38,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Terra",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1066000.0
+          "asset": 988000.0
         }
       ]
     },
