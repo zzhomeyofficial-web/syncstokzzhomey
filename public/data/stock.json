@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T13:20:34.540493+00:00",
+  "generated_at": "2026-08-12T15:02:09.731601+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 81,
     "stock_rows": 750,
-    "stock_amount": 15412.0,
-    "asset_total": 345141558.0
+    "stock_amount": 15402.0,
+    "asset_total": 344830558.0
   },
   "products": [
     {
@@ -4451,20 +4451,20 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 140.0,
-      "total_asset": 3640000.0,
+      "total_stock": 132.0,
+      "total_asset": 3432000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MZYA1",
-          "stock": 23,
+          "stock": 16,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Coffe",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 598000.0
+          "asset": 416000.0
         },
         {
           "stock_id": "LzA6Mg",
@@ -4481,14 +4481,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "MZYA3",
-          "stock": 37,
+          "stock": 36,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Soil",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 962000.0
+          "asset": 936000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -4985,8 +4985,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 287.0,
-      "total_asset": 10619000.0,
+      "total_stock": 286.0,
+      "total_asset": 10582000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -5027,14 +5027,14 @@
         {
           "stock_id": "LzA6NA",
           "sku": "VLVE4",
-          "stock": 54,
+          "stock": 53,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Ivory",
           "price": 37000,
           "modal": 37000,
           "quantity": 1,
-          "asset": 1998000.0
+          "asset": 1961000.0
         }
       ]
     },
@@ -7727,8 +7727,8 @@
       "category_id": "M-1699929662907",
       "category_name": "ZAMA KIDS",
       "stock_count": 20,
-      "total_stock": 123.0,
-      "total_asset": 7628000.0,
+      "total_stock": 122.0,
+      "total_asset": 7562000.0,
       "stocks": [
         {
           "stock_id": "LzA6MSwxOjE",
@@ -7781,14 +7781,14 @@
         {
           "stock_id": "LzA6MSwxOjU",
           "sku": "KYFQ5",
-          "stock": 7,
+          "stock": 6,
           "warehouse_id": null,
           "variation_id": "0:1,1:5",
           "variation_text": "White / XXL",
           "price": 66000,
           "modal": 66000,
           "quantity": 1,
-          "asset": 462000.0
+          "asset": 396000.0
         },
         {
           "stock_id": "LzA6MiwxOjE",
