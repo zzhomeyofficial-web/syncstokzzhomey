@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T03:29:27.748663+00:00",
+  "generated_at": "2026-08-13T05:44:52.562686+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -10,8 +10,8 @@
   "totals": {
     "products": 81,
     "stock_rows": 750,
-    "stock_amount": 15364.0,
-    "asset_total": 343855558.0
+    "stock_amount": 15334.0,
+    "asset_total": 343216558.0
   },
   "products": [
     {
@@ -633,8 +633,8 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 3,
-      "total_stock": 255.0,
-      "total_asset": 3315000.0,
+      "total_stock": 250.0,
+      "total_asset": 3250000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -651,14 +651,14 @@
         {
           "stock_id": "LzE6Mg",
           "sku": "EVPC3",
-          "stock": 52,
+          "stock": 47,
           "warehouse_id": null,
           "variation_id": "1:2",
           "variation_text": "Choco",
           "price": 13000,
           "modal": 13000,
           "quantity": 1,
-          "asset": 676000.0
+          "asset": 611000.0
         },
         {
           "stock_id": "LzE6Mw",
@@ -733,8 +733,8 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 13,
-      "total_stock": 433.0,
-      "total_asset": 6062000.0,
+      "total_stock": 432.0,
+      "total_asset": 6048000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -787,14 +787,14 @@
         {
           "stock_id": "LzE6NQ",
           "sku": "LYPC3",
-          "stock": 92,
+          "stock": 91,
           "warehouse_id": null,
           "variation_id": "1:5",
           "variation_text": "Hijau Tua",
           "price": 14000,
           "modal": 14000,
           "quantity": 1,
-          "asset": 1288000.0
+          "asset": 1274000.0
         },
         {
           "stock_id": "LzE6Ng",
@@ -1063,8 +1063,8 @@
       "category_id": "M-1769840810589",
       "category_name": "BERLIN BAG",
       "stock_count": 12,
-      "total_stock": 440.0,
-      "total_asset": 8360000.0,
+      "total_stock": 439.0,
+      "total_asset": 8341000.0,
       "stocks": [
         {
           "stock_id": "LzE6MQ",
@@ -1153,14 +1153,14 @@
         {
           "stock_id": "LzE6OA",
           "sku": "YRPO11",
-          "stock": 25,
+          "stock": 24,
           "warehouse_id": null,
           "variation_id": "1:8",
           "variation_text": "Maroon",
           "price": 19000,
           "modal": 19000,
           "quantity": 1,
-          "asset": 475000.0
+          "asset": 456000.0
         },
         {
           "stock_id": "LzE6OQ",
@@ -3689,8 +3689,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 7,
-      "total_stock": 433.0,
-      "total_asset": 7794000.0,
+      "total_stock": 432.0,
+      "total_asset": 7776000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3755,14 +3755,14 @@
         {
           "stock_id": "LzA6Ng",
           "sku": "BNPC5",
-          "stock": 91,
+          "stock": 90,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Ijo Botol",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 1638000.0
+          "asset": 1620000.0
         },
         {
           "stock_id": "LzA6Nw",
@@ -3849,8 +3849,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 5,
-      "total_stock": 9.0,
-      "total_asset": 144000.0,
+      "total_stock": 8.0,
+      "total_asset": 128000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -3903,14 +3903,14 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "DMID5",
-          "stock": 3,
+          "stock": 2,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Terra",
           "price": 16000,
           "modal": 16000,
           "quantity": 1,
-          "asset": 48000.0
+          "asset": 32000.0
         }
       ]
     },
@@ -4009,32 +4009,32 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 8,
-      "total_stock": 557.0,
-      "total_asset": 10026000.0,
+      "total_stock": 551.0,
+      "total_asset": 9918000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "FURP1",
-          "stock": 123,
+          "stock": 122,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Black",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 2214000.0
+          "asset": 2196000.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "FURP2",
-          "stock": 163,
+          "stock": 160,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Brown",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 2934000.0
+          "asset": 2880000.0
         },
         {
           "stock_id": "LzA6Mw",
@@ -4063,26 +4063,26 @@
         {
           "stock_id": "LzA6NQ",
           "sku": "FURP5",
-          "stock": 37,
+          "stock": 36,
           "warehouse_id": null,
           "variation_id": "0:5",
           "variation_text": "Mocca",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 666000.0
+          "asset": 648000.0
         },
         {
           "stock_id": "LzA6Ng",
           "sku": "FURP7",
-          "stock": 4,
+          "stock": 3,
           "warehouse_id": null,
           "variation_id": "0:6",
           "variation_text": "Maroon",
           "price": 18000,
           "modal": 18000,
           "quantity": 1,
-          "asset": 72000.0
+          "asset": 54000.0
         },
         {
           "stock_id": "LzA6Nw",
@@ -4451,56 +4451,56 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 101.0,
-      "total_asset": 2626000.0,
+      "total_stock": 88.0,
+      "total_asset": 2288000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
           "sku": "MZYA1",
-          "stock": 2,
+          "stock": 0,
           "warehouse_id": null,
           "variation_id": "0:1",
           "variation_text": "Coffe",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 52000.0
+          "asset": 0.0
         },
         {
           "stock_id": "LzA6Mg",
           "sku": "MZYA2",
-          "stock": 39,
+          "stock": 35,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Mocca",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 1014000.0
+          "asset": 910000.0
         },
         {
           "stock_id": "LzA6Mw",
           "sku": "MZYA3",
-          "stock": 28,
+          "stock": 22,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Soil",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 728000.0
+          "asset": 572000.0
         },
         {
           "stock_id": "LzA6NA",
           "sku": "MZYA4",
-          "stock": 32,
+          "stock": 31,
           "warehouse_id": null,
           "variation_id": "0:4",
           "variation_text": "Terra",
           "price": 26000,
           "modal": 26000,
           "quantity": 1,
-          "asset": 832000.0
+          "asset": 806000.0
         }
       ]
     },
@@ -4513,8 +4513,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 6,
-      "total_stock": 60.0,
-      "total_asset": 1380000.0,
+      "total_stock": 59.0,
+      "total_asset": 1357000.0,
       "stocks": [
         {
           "stock_id": "LzA6Mg",
@@ -4531,14 +4531,14 @@
         {
           "stock_id": "LzA6Mw",
           "sku": "NNIA5",
-          "stock": 8,
+          "stock": 7,
           "warehouse_id": null,
           "variation_id": "0:3",
           "variation_text": "Burgundy",
           "price": 23000,
           "modal": 23000,
           "quantity": 1,
-          "asset": 184000.0
+          "asset": 161000.0
         },
         {
           "stock_id": "LzA6NA",
@@ -4649,8 +4649,8 @@
       "category_id": "M-1698639319157",
       "category_name": "Tas Dompet",
       "stock_count": 4,
-      "total_stock": 42.0,
-      "total_asset": 1596000.0,
+      "total_stock": 41.0,
+      "total_asset": 1558000.0,
       "stocks": [
         {
           "stock_id": "LzA6MQ",
@@ -4667,14 +4667,14 @@
         {
           "stock_id": "LzA6Mg",
           "sku": "NOVR2",
-          "stock": 5,
+          "stock": 4,
           "warehouse_id": null,
           "variation_id": "0:2",
           "variation_text": "Ivory",
           "price": 38000,
           "modal": 38000,
           "quantity": 1,
-          "asset": 190000.0
+          "asset": 152000.0
         },
         {
           "stock_id": "LzA6NA",
