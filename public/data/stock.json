@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:39:03.477409+00:00",
+  "generated_at": "2026-08-26T06:57:35.816471+00:00",
   "source": {
     "website": "zzhomey.com",
     "api_base_url": "https://api.berdu.id/v0.0",
@@ -8,10 +8,10 @@
     "asset_price_basis": "modal"
   },
   "totals": {
-    "products": 82,
-    "stock_rows": 754,
-    "stock_amount": 15254.0,
-    "asset_total": 341845058.0
+    "products": 81,
+    "stock_rows": 750,
+    "stock_amount": 15217.0,
+    "asset_total": 341564450.0
   },
   "products": [
     {
@@ -375,68 +375,6 @@
           "modal": 5000,
           "quantity": 1,
           "asset": 415000.0
-        }
-      ]
-    },
-    {
-      "product_id": "P-1kGOL1",
-      "product_name": "[READY] SAFIRA SOCKS NEW",
-      "product_slug": "ready-safira-socks-73487-92050-94451-14373-33172-29074",
-      "product_link": "https://zzhomey.com/product/ready-safira-socks-73487-92050-94451-14373-33172-29074",
-      "product_image": "https://img.berduflare.com/img/_/bw5d48ohbw5h0svjb8_3/L0TR2hCSWh6BfAaL0TcT3w5xlpR2NlTousmuxFnBueKg.jpg",
-      "category_id": "M-1698639319525",
-      "category_name": "Aksessoris",
-      "stock_count": 4,
-      "total_stock": 37.0,
-      "total_asset": 280608.0,
-      "stocks": [
-        {
-          "stock_id": "LzA6MQ",
-          "sku": "SAFR1",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_id": "0:1",
-          "variation_text": "Black",
-          "price": 7584,
-          "modal": 7584,
-          "quantity": 1,
-          "asset": 0.0
-        },
-        {
-          "stock_id": "LzA6NA",
-          "sku": "SAFR4",
-          "stock": 37,
-          "warehouse_id": null,
-          "variation_id": "0:4",
-          "variation_text": "Abu Muda",
-          "price": 7584,
-          "modal": 7584,
-          "quantity": 1,
-          "asset": 280608.0
-        },
-        {
-          "stock_id": "LzA6Mg",
-          "sku": "SAFR2",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_id": "0:2",
-          "variation_text": "Coksu",
-          "price": 7584,
-          "modal": 7584,
-          "quantity": 1,
-          "asset": 0.0
-        },
-        {
-          "stock_id": "LzA6Mw",
-          "sku": "SAFR3",
-          "stock": 0,
-          "warehouse_id": null,
-          "variation_id": "0:3",
-          "variation_text": "Putih",
-          "price": 7584,
-          "modal": 7584,
-          "quantity": 1,
-          "asset": 0.0
         }
       ]
     },
